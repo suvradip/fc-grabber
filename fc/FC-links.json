@@ -1,99 +1,128 @@
 [
     {
-        "name": "FusionCharts XT",
         "attr": [
             {
                 "name": "Column & Bar Charts",
                 "url": "http://www.fusioncharts.com/charts/column-bar-charts/",
                 "subAttr": [
                     {
+                        "name": "2D Column Chart",
                         "url": "http://www.fusioncharts.com/charts/column2d_6/"
                     },
                     {
+                        "name": "2D Column Chart with custom transparency for columns",
                         "url": "http://www.fusioncharts.com/charts/column2d_10/"
                     },
                     {
+                        "name": "2D Column Chart with drill-down",
                         "url": "http://www.fusioncharts.com/charts/column2d_9/"
                     },
                     {
+                        "name": "2D Round-Edged Column Chart",
                         "url": "http://www.fusioncharts.com/charts/column2d_5/"
                     },
                     {
+                        "name": "3D Column Chart",
                         "url": "http://www.fusioncharts.com/charts/column3d_7/"
                     },
                     {
+                        "name": "3D Column Chart with zero plane",
                         "url": "http://www.fusioncharts.com/charts/column3d_2/"
                     },
                     {
+                        "name": "2D Column Chart with trendlines",
                         "url": "http://www.fusioncharts.com/charts/column2d_3/"
                     },
                     {
+                        "name": "2D Column Chart with slanted x-axis labels",
                         "url": "http://www.fusioncharts.com/charts/column2d_8/"
                     },
                     {
+                        "name": "2D Bar Chart with highlighted data points",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_5/"
                     },
                     {
+                        "name": "2D Column Chart with custom number scale",
                         "url": "http://www.fusioncharts.com/charts/column2d_7/"
                     },
                     {
+                        "name": "2D Column Chart with trendzones",
                         "url": "http://www.fusioncharts.com/charts/column2d_4/"
                     },
                     {
+                        "name": "3D Column Chart with canvas hidden from view",
                         "url": "http://www.fusioncharts.com/charts/column3d_8/"
                     },
                     {
+                        "name": "3D Column Chart with zero plane",
                         "url": "http://www.fusioncharts.com/charts/column3d_4/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_7/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart with hidden data series",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_6/"
                     },
                     {
+                        "name": "3D Multi-Series Column Chart",
                         "url": "http://www.fusioncharts.com/charts/mscolumn3d_3/"
                     },
                     {
+                        "name": "3D Multi-Series Column Chart",
                         "url": "http://www.fusioncharts.com/charts/mscolumn3d_2/"
                     },
                     {
+                        "name": "3D Column Chart with no spacing between columns",
                         "url": "http://www.fusioncharts.com/charts/column3d_6/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart with trendzone",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_1/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart with data values inside columns",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_2/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart",
                         "url": "http://www.fusioncharts.com/charts/mscolumn2d_3/"
                     },
                     {
+                        "name": "2D Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/bar2d_4/"
                     },
                     {
+                        "name": "2D Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/bar2d_5/"
                     },
                     {
+                        "name": "2D Bar Chart with a lot of data sets",
                         "url": "http://www.fusioncharts.com/charts/bar2d_2/"
                     },
                     {
+                        "name": "2D Bar Chart with custom annotation",
                         "url": "http://www.fusioncharts.com/charts/column2d_2/"
                     },
                     {
+                        "name": "3D Bar Chart with image as background",
                         "url": "http://www.fusioncharts.com/charts/msbar3d_2/"
                     },
                     {
+                        "name": "2D Multi-Series Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/msbar2d_3/"
                     },
                     {
+                        "name": "2D Round-Edged Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/bar2d_3/"
                     },
                     {
+                        "name": "2D Multi-Series Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/msbar2d_2/"
                     },
                     {
+                        "name": "3D Multi-Series Bar Chart",
                         "url": "http://www.fusioncharts.com/charts/msbar3d_1/"
                     }
                 ]
@@ -103,42 +132,55 @@
                 "url": "http://www.fusioncharts.com/charts/line-area-charts/",
                 "subAttr": [
                     {
+                        "name": "Multi-Series Line Chart",
                         "url": "http://www.fusioncharts.com/charts/msline_6/"
                     },
                     {
+                        "name": "Multi-Series Line Chart",
                         "url": "http://www.fusioncharts.com/charts/msline_7/"
                     },
                     {
+                        "name": "Line Chart with trend-lines",
                         "url": "http://www.fusioncharts.com/charts/line_5/"
                     },
                     {
+                        "name": "Line Chart with a highlighted data point",
                         "url": "http://www.fusioncharts.com/charts/line_4/"
                     },
                     {
+                        "name": "Line Chart with rotated data values",
                         "url": "http://www.fusioncharts.com/charts/line_1/"
                     },
                     {
+                        "name": "Line Chart with custom background",
                         "url": "http://www.fusioncharts.com/charts/line_3/"
                     },
                     {
+                        "name": "Line Chart with missing data",
                         "url": "http://www.fusioncharts.com/charts/msline_4/"
                     },
                     {
+                        "name": "Line Chart with trendzones",
                         "url": "http://www.fusioncharts.com/charts/line_6/"
                     },
                     {
+                        "name": "Multi-Series Line Chart with slanted x-axis labels",
                         "url": "http://www.fusioncharts.com/charts/msline_1/"
                     },
                     {
+                        "name": "Multi-Series Line Chart with chart legend on right",
                         "url": "http://www.fusioncharts.com/charts/msline_2/"
                     },
                     {
+                        "name": "Area Chart with a vertical line as annotation",
                         "url": "http://www.fusioncharts.com/charts/area_4/"
                     },
                     {
+                        "name": "Area Chart with custom labels to indicate special events",
                         "url": "http://www.fusioncharts.com/charts/area2d_3/"
                     },
                     {
+                        "name": "Area Chart with no canvas behind it",
                         "url": "http://www.fusioncharts.com/charts/area2d_1/"
                     }
                 ]
@@ -148,36 +190,47 @@
                 "url": "http://www.fusioncharts.com/charts/pie-doughnut-charts/",
                 "subAttr": [
                     {
+                        "name": "2D Pie Chart with slicing and rotation",
                         "url": "http://www.fusioncharts.com/charts/pie2d_5/"
                     },
                     {
+                        "name": "2D Pie Chart with one slice out",
                         "url": "http://www.fusioncharts.com/charts/pie2d_4/"
                     },
                     {
+                        "name": "3D Pie Chart",
                         "url": "http://www.fusioncharts.com/charts/pie3d_5/"
                     },
                     {
+                        "name": "3D Pie Chart with 2 slices out",
                         "url": "http://www.fusioncharts.com/charts/pie3d_1/"
                     },
                     {
+                        "name": "3D Pie Chart with smart labels",
                         "url": "http://www.fusioncharts.com/charts/pie3d_3/"
                     },
                     {
+                        "name": "2D Pie Chart",
                         "url": "http://www.fusioncharts.com/charts/pie2d_6/"
                     },
                     {
+                        "name": "3D Pie Chart",
                         "url": "http://www.fusioncharts.com/charts/pie3d_6/"
                     },
                     {
+                        "name": "2D Pie Chart with bevel",
                         "url": "http://www.fusioncharts.com/charts/pie2d_1/"
                     },
                     {
+                        "name": "2D Doughnut Chart",
                         "url": "http://www.fusioncharts.com/charts/doughnut2d_1/"
                     },
                     {
+                        "name": "2D Doughnut Chart with smart labels",
                         "url": "http://www.fusioncharts.com/charts/doughnut2d_2/"
                     },
                     {
+                        "name": "3D Doughnut Chart with custom y-angle",
                         "url": "http://www.fusioncharts.com/charts/doughnut3d_2/"
                     }
                 ]
@@ -187,33 +240,43 @@
                 "url": "http://www.fusioncharts.com/charts/zoom-scroll-charts/",
                 "subAttr": [
                     {
+                        "name": "Zoom Line Chart",
                         "url": "http://www.fusioncharts.com/charts/zoomline_5/"
                     },
                     {
+                        "name": "Multi-Series Zoom Line Chart",
                         "url": "http://www.fusioncharts.com/charts/zoomline_1/"
                     },
                     {
+                        "name": "2D Multi-Series Column Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollcolumn2d_4/"
                     },
                     {
+                        "name": "2D Multi-Series Line Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollline2d_4/"
                     },
                     {
+                        "name": "2D Stacked Column Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollstackedcolumn2d_5/"
                     },
                     {
+                        "name": "2D Multi-Series Area Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollarea2d_3/"
                     },
                     {
+                        "name": "2D Multi-Series Round-Edged Column Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollcolumn2d_1/"
                     },
                     {
+                        "name": "2D Round-Edged Stacked Column Chart with scroll",
                         "url": "http://www.fusioncharts.com/charts/scrollstackedcolumn2d_1/"
                     },
                     {
+                        "name": "2D Combination Chart with scroll (Multi-Series Column + Line + Area)",
                         "url": "http://www.fusioncharts.com/charts/scrollcombi2d_1/"
                     },
                     {
+                        "name": "2D Combination Chart with scroll (Column + Line + Area)",
                         "url": "http://www.fusioncharts.com/charts/scrollcombidy2d_1/"
                     }
                 ]
@@ -223,30 +286,39 @@
                 "url": "http://www.fusioncharts.com/charts/combination-charts-single-y/",
                 "subAttr": [
                     {
+                        "name": "2D Column + Area Chart",
                         "url": "http://www.fusioncharts.com/charts/mscombi2d_5/"
                     },
                     {
+                        "name": "3D Multi-Series Column + Multi-Series Line",
                         "url": "http://www.fusioncharts.com/charts/mscolumnline3d_1/"
                     },
                     {
+                        "name": "2D Column + Area Chart",
                         "url": "http://www.fusioncharts.com/charts/mscombi2d_1/"
                     },
                     {
+                        "name": "2D Column + Line Chart",
                         "url": "http://www.fusioncharts.com/charts/mscombi2d_2/"
                     },
                     {
+                        "name": "2D Line + Area Chart",
                         "url": "http://www.fusioncharts.com/charts/mscombi2d_3/"
                     },
                     {
+                        "name": "3D Column + Line Chart",
                         "url": "http://www.fusioncharts.com/charts/mscolumnline3d_2/"
                     },
                     {
+                        "name": "2D Column + Line + Area Chart",
                         "url": "http://www.fusioncharts.com/charts/mscombi2d_4/"
                     },
                     {
+                        "name": "2D Round-Edged Stacked Column + Line Chart",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn2dline_1/"
                     },
                     {
+                        "name": "3D Stacked Column + Line Chart",
                         "url": "http://www.fusioncharts.com/charts/stackedcolum3dline_1/"
                     }
                 ]
@@ -256,36 +328,47 @@
                 "url": "http://www.fusioncharts.com/charts/combination-charts-dual-y/",
                 "subAttr": [
                     {
+                        "name": "2D Column + Line Chart (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_7/"
                     },
                     {
+                        "name": "3D Column + Line (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_1/"
                     },
                     {
+                        "name": "3D Multi-Series Column + Line (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_2/"
                     },
                     {
+                        "name": "3D Column + Multi-Series Line (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_3/"
                     },
                     {
+                        "name": "2D Column + Multi-Series Line (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_1/"
                     },
                     {
+                        "name": "2D Column + Line + Area (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_2/"
                     },
                     {
+                        "name": "2D Multi-Series Line + Area (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_3/"
                     },
                     {
+                        "name": "2D Line Charts (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_4/"
                     },
                     {
+                        "name": "2D Column Charts (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/mscombidy2d_5/"
                     },
                     {
+                        "name": "3D Stacked Column + Line Chart (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn3dlinedy_2/"
                     },
                     {
+                        "name": "2D Multi-Series Stacked Column + Line Chart (Dual Y)",
                         "url": "http://www.fusioncharts.com/charts/msstackedcolumn3dlinedy_1/"
                     }
                 ]
@@ -295,33 +378,43 @@
                 "url": "http://www.fusioncharts.com/charts/stacked-charts/",
                 "subAttr": [
                     {
+                        "name": "3D Stacked Column Chart",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn3d_1/"
                     },
                     {
+                        "name": "2D Stacked Column Chart with sum on top",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_4/"
                     },
                     {
+                        "name": "2D Stacked Area Chart",
                         "url": "http://www.fusioncharts.com/charts/stackedarea2d_4/"
                     },
                     {
+                        "name": "2D Stacked Column Chart (100% Stacked)",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_3/"
                     },
                     {
+                        "name": "3D Stacked Column Chart (100% Stacked)",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn3d_3/"
                     },
                     {
+                        "name": "Stacked Area Chart with rotated x-axis labels",
                         "url": "http://www.fusioncharts.com/charts/stackedarea2d_2/"
                     },
                     {
+                        "name": "2D Round-Edged Stacked Column Chart",
                         "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_1/"
                     },
                     {
+                        "name": "2D Round-Edged Multi-Series Stacked Column Chart",
                         "url": "http://www.fusioncharts.com/charts/msstackedcolumn2d_1/"
                     },
                     {
+                        "name": "2D Stacked Bar Chart with trendline",
                         "url": "http://www.fusioncharts.com/charts/stackedbar2d_1/"
                     },
                     {
+                        "name": "2D Stacked Bar Chart with negative values",
                         "url": "http://www.fusioncharts.com/charts/stackedbar2d_2/"
                     }
                 ]
@@ -331,15 +424,19 @@
                 "url": "http://www.fusioncharts.com/charts/bubble-xy-charts/",
                 "subAttr": [
                     {
+                        "name": "XY Plot Chart",
                         "url": "http://www.fusioncharts.com/charts/scatter_1/"
                     },
                     {
+                        "name": "XY Plot Chart",
                         "url": "http://www.fusioncharts.com/charts/scatter_2/"
                     },
                     {
+                        "name": "Bubble Chart",
                         "url": "http://www.fusioncharts.com/charts/bubble_2/"
                     },
                     {
+                        "name": "Bubble Chart",
                         "url": "http://www.fusioncharts.com/charts/bubble_1/"
                     }
                 ]
@@ -349,15 +446,19 @@
                 "url": "http://www.fusioncharts.com/charts/pareto-charts/",
                 "subAttr": [
                     {
+                        "name": "2D Pareto Chart",
                         "url": "http://www.fusioncharts.com/charts/pareto2d_2/"
                     },
                     {
+                        "name": "2D Pareto Chart",
                         "url": "http://www.fusioncharts.com/charts/pareto2d_1/"
                     },
                     {
+                        "name": "3D Pareto Chart",
                         "url": "http://www.fusioncharts.com/charts/pareto3d_1/"
                     },
                     {
+                        "name": "3D Pareto Chart with dotted line",
                         "url": "http://www.fusioncharts.com/charts/pareto3d_2/"
                     }
                 ]
@@ -367,134 +468,174 @@
                 "url": "http://www.fusioncharts.com/charts/marimekko-charts/",
                 "subAttr": [
                     {
+                        "name": "Marimekko Chart",
                         "url": "http://www.fusioncharts.com/charts/marimekko_1/"
                     },
                     {
+                        "name": "Marimekko Chart",
                         "url": "http://www.fusioncharts.com/charts/marimekko_2/"
                     },
                     {
+                        "name": "Marimekko Chart",
                         "url": "http://www.fusioncharts.com/charts/marimekko_4/"
                     }
                 ]
             }
-        ]
+        ],
+        "name": "FusionCharts XT"
     },
     {
-        "name": "FusionWidgets XT",
         "attr": [
             {
                 "name": "Gauges",
                 "url": "http://www.fusioncharts.com/charts/gauges/",
                 "subAttr": [
                     {
+                        "name": "Angular Gauge (aka Speedometer Chart/Dial Gauge)",
                         "url": "http://www.fusioncharts.com/charts/angulargauge_17/"
                     },
                     {
+                        "name": "Real-Time Angular Gauge ",
                         "url": "http://www.fusioncharts.com/charts/angular_14/"
                     },
                     {
+                        "name": "Custom-designed angular gauge with trendzone",
                         "url": "http://www.fusioncharts.com/charts/angular_16/"
                     },
                     {
+                        "name": "Angular Gauge with steel casing",
                         "url": "http://www.fusioncharts.com/charts/angular_15/"
                     },
                     {
+                        "name": "Angular Gauge as rating meter",
                         "url": "http://www.fusioncharts.com/charts/angular_9/"
                     },
                     {
+                        "name": "Angular Gauge with metallic frame effect",
                         "url": "http://www.fusioncharts.com/charts/angular_10/"
                     },
                     {
+                        "name": "Angular Gauge with customized border",
                         "url": "http://www.fusioncharts.com/charts/angulargauge_18/"
                     },
                     {
+                        "name": "Angular Gauge with 2 dials simulating a clock",
                         "url": "http://www.fusioncharts.com/charts/angular_1/"
                     },
                     {
+                        "name": "Angular Gauge",
                         "url": "http://www.fusioncharts.com/charts/angular_7/"
                     },
                     {
+                        "name": "Angular Gauge as fuel indicator",
                         "url": "http://www.fusioncharts.com/charts/angular_13/"
                     },
                     {
+                        "name": "Angular Gauge as fuel indicator",
                         "url": "http://www.fusioncharts.com/charts/angular_12/"
                     },
                     {
+                        "name": "Angular Gauge with customized background and tick marks",
                         "url": "http://www.fusioncharts.com/charts/angular_17/"
                     },
                     {
+                        "name": "Editable Angular Gauge",
                         "url": "http://www.fusioncharts.com/charts/angular_4/"
                     },
                     {
+                        "name": "Angular Gauge as speedometer",
                         "url": "http://www.fusioncharts.com/charts/angular_6/"
                     },
                     {
+                        "name": "Angular Gauge (360 degree)",
                         "url": "http://www.fusioncharts.com/charts/angular_8/"
                     },
                     {
+                        "name": "Angular Gauge with trend marker",
                         "url": "http://www.fusioncharts.com/charts/angular_5/"
                     },
                     {
+                        "name": "Angular Gauge with custom background and trendzone",
                         "url": "http://www.fusioncharts.com/charts/angular_3/"
                     },
                     {
+                        "name": "Linear Gauge with 3 color ranges",
                         "url": "http://www.fusioncharts.com/charts/linear_1/"
                     },
                     {
+                        "name": "Linear Gauge as Richter Scale",
                         "url": "http://www.fusioncharts.com/charts/linear_4/"
                     },
                     {
+                        "name": "Editable Linear Gauge",
                         "url": "http://www.fusioncharts.com/charts/linear_3/"
                     },
                     {
+                        "name": "Linear Gauge with trend point",
                         "url": "http://www.fusioncharts.com/charts/linear_2/"
                     },
                     {
+                        "name": "Linear Gauge with an arc shaped trendzone",
                         "url": "http://www.fusioncharts.com/charts/linear_5/"
                     },
                     {
+                        "name": "Linear Gauge with customized color ranges",
                         "url": "http://www.fusioncharts.com/charts/linear_6/"
                     },
                     {
+                        "name": "Cylinder Gauge",
                         "url": "http://www.fusioncharts.com/charts/cylinder_9/"
                     },
                     {
+                        "name": "Real-time Cylinder Gauge",
                         "url": "http://www.fusioncharts.com/charts/cylinder_7/"
                     },
                     {
+                        "name": "Cylinder Gauge with annotation",
                         "url": "http://www.fusioncharts.com/charts/cylinder_8/"
                     },
                     {
+                        "name": "LED Gauge",
                         "url": "http://www.fusioncharts.com/charts/led_10/"
                     },
                     {
+                        "name": "LED Gauge with no gaps",
                         "url": "http://www.fusioncharts.com/charts/led_11/"
                     },
                     {
+                        "name": "LED Gauge with customized gaps",
                         "url": "http://www.fusioncharts.com/charts/led_13/"
                     },
                     {
+                        "name": "Real-time LED Gauge",
                         "url": "http://www.fusioncharts.com/charts/led_14/"
                     },
                     {
+                        "name": "Vertical LED Gauge",
                         "url": "http://www.fusioncharts.com/charts/ved_15/"
                     },
                     {
+                        "name": "Vertical LED Gauge with no gaps",
                         "url": "http://www.fusioncharts.com/charts/ved_16/"
                     },
                     {
+                        "name": "Real-time Thermometer Gauge",
                         "url": "http://www.fusioncharts.com/charts/tem_17/"
                     },
                     {
+                        "name": "Thermometer Gauge with customized looks",
                         "url": "http://www.fusioncharts.com/charts/tem_18/"
                     },
                     {
+                        "name": "Thermometer Gauge with customized looks",
                         "url": "http://www.fusioncharts.com/charts/tem_19/"
                     },
                     {
+                        "name": "Real-time 3D Bulb Gauge",
                         "url": "http://www.fusioncharts.com/charts/bulb_20/"
                     },
                     {
+                        "name": "2D Bulb Gauge showing label instead of value",
                         "url": "http://www.fusioncharts.com/charts/bulb_21/"
                     }
                 ]
@@ -504,27 +645,35 @@
                 "url": "http://www.fusioncharts.com/charts/gantt-charts/",
                 "subAttr": [
                     {
+                        "name": "Gantt Chart with connectors, milestones and rounded task bars",
                         "url": "http://www.fusioncharts.com/charts/gantt_1/"
                     },
                     {
+                        "name": "Gantt Chart with both date and time",
                         "url": "http://www.fusioncharts.com/charts/gantt_11/"
                     },
                     {
+                        "name": "Gantt Chart with tasks under groups",
                         "url": "http://www.fusioncharts.com/charts/gantt_6/"
                     },
                     {
+                        "name": "Gantt Chart with scrolling in both panes",
                         "url": "http://www.fusioncharts.com/charts/gantt_7/"
                     },
                     {
+                        "name": "Gantt Chart with customized cosmetics",
                         "url": "http://www.fusioncharts.com/charts/gantt_2/"
                     },
                     {
+                        "name": "Gantt Chart with customized cosmetics",
                         "url": "http://www.fusioncharts.com/charts/gantt_3/"
                     },
                     {
+                        "name": "Gantt Chart with legend to explain color keys",
                         "url": "http://www.fusioncharts.com/charts/gantt_4/"
                     },
                     {
+                        "name": "Gantt Chart with legend to explain color keys",
                         "url": "http://www.fusioncharts.com/charts/gantt_5/"
                     }
                 ]
@@ -534,12 +683,15 @@
                 "url": "http://www.fusioncharts.com/charts/spark-charts/",
                 "subAttr": [
                     {
+                        "name": "Sparklines",
                         "url": "http://www.fusioncharts.com/charts/spark_1/"
                     },
                     {
+                        "name": "Spark Column Charts",
                         "url": "http://www.fusioncharts.com/charts/spark_2/"
                     },
                     {
+                        "name": "Spark Win/Loss Charts",
                         "url": "http://www.fusioncharts.com/charts/spark_3/"
                     }
                 ]
@@ -549,9 +701,11 @@
                 "url": "http://www.fusioncharts.com/charts/bullet-graphs/",
                 "subAttr": [
                     {
+                        "name": "Horizontal Bullet Graph",
                         "url": "http://www.fusioncharts.com/charts/bullet_1/"
                     },
                     {
+                        "name": "Vertical Bullet Graphs",
                         "url": "http://www.fusioncharts.com/charts/bullet_2/"
                     }
                 ]
@@ -561,21 +715,27 @@
                 "url": "http://www.fusioncharts.com/charts/realtime-charts/",
                 "subAttr": [
                     {
+                        "name": "Real-Time Line Chart/Strip Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_1/"
                     },
                     {
+                        "name": "Real-Time Stacked Area Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_2/"
                     },
                     {
+                        "name": "Real-Time (Dual Y) Line Chart/Strip Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_3/"
                     },
                     {
+                        "name": "Real-Time Stacked Column Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_4/"
                     },
                     {
+                        "name": "Real-Time Column Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_5/"
                     },
                     {
+                        "name": "Real-time Area Chart",
                         "url": "http://www.fusioncharts.com/charts/realtime_6/"
                     }
                 ]
@@ -585,18 +745,23 @@
                 "url": "http://www.fusioncharts.com/charts/funnel-charts/",
                 "subAttr": [
                     {
+                        "name": "Funnel Chart",
                         "url": "http://www.fusioncharts.com/charts/funnel_5/"
                     },
                     {
+                        "name": "Funnel Chart with all items sliced out",
                         "url": "http://www.fusioncharts.com/charts/funnel_1/"
                     },
                     {
+                        "name": "Funnel Chart filled from inside",
                         "url": "http://www.fusioncharts.com/charts/funnel_3/"
                     },
                     {
+                        "name": "Funnel Chart with same slant angle for all slices",
                         "url": "http://www.fusioncharts.com/charts/funnel_2/"
                     },
                     {
+                        "name": "2D Funnel Chart",
                         "url": "http://www.fusioncharts.com/charts/funnel_4/"
                     }
                 ]
@@ -606,56 +771,70 @@
                 "url": "http://www.fusioncharts.com/charts/pyramid-charts/",
                 "subAttr": [
                     {
+                        "name": "Pyramid Chart",
                         "url": "http://www.fusioncharts.com/charts/pyramid_5/"
                     },
                     {
+                        "name": "Pyramid Chart with one item sliced out",
                         "url": "http://www.fusioncharts.com/charts/pyramid_1/"
                     },
                     {
+                        "name": "2D Pyramid Chart",
                         "url": "http://www.fusioncharts.com/charts/pyramid_3/"
                     },
                     {
+                        "name": "Pyramid Chart with all items sliced out",
                         "url": "http://www.fusioncharts.com/charts/pyramid_4/"
                     }
                 ]
             }
-        ]
+        ],
+        "name": "FusionWidgets XT"
     },
     {
-        "name": "PowerCharts XT",
         "attr": [
             {
                 "name": "Heat Map Charts",
                 "url": "http://www.fusioncharts.com/charts/heat-map-charts/",
                 "subAttr": [
                     {
+                        "name": "Heat Map Chart: Conversion Rates",
                         "url": "http://www.fusioncharts.com/charts/heatmap_4/"
                     },
                     {
+                        "name": "Heat Map Chart: CPU Utilization Rate",
                         "url": "http://www.fusioncharts.com/charts/heatmap_11/"
                     },
                     {
+                        "name": "Heat Map Chart: Performance Comparison",
                         "url": "http://www.fusioncharts.com/charts/heatmap_9/"
                     },
                     {
+                        "name": "Heat Map Chart: Category-wise Revenue",
                         "url": "http://www.fusioncharts.com/charts/heatmap_5/"
                     },
                     {
+                        "name": "Heat Map Chart: Chemical Periodic table",
                         "url": "http://www.fusioncharts.com/charts/heatmap_2/"
                     },
                     {
+                        "name": "Heat Map Chart: Job Happiness Index",
                         "url": "http://www.fusioncharts.com/charts/heatmap_7/"
                     },
                     {
+                        "name": "Heat Map Chart: Continent-wise Revenue",
                         "url": "http://www.fusioncharts.com/charts/heatmap_8/"
                     },
                     {
+                        "name": "Heat Map Chart: Rating of ice creams",
                         "url": "http://www.fusioncharts.com/charts/heatmap_10/"
                     },
                     {
+                        "name": "Heat Map Chart: Performance Analysis Tool",
                         "url": "http://www.fusioncharts.com/charts/heatmap_1/"
                     },
                     {
+                        "name": "Heat Map Chart: Attendance Report",
                         "url": "http://www.fusioncharts.com/charts/heatmap_3/"
                     }
                 ]
@@ -665,12 +844,15 @@
                 "url": "http://www.fusioncharts.com/charts/radar-spider-charts/",
                 "subAttr": [
                     {
+                        "name": "Radar Chart: Comparison of 2 software vendors",
                         "url": "http://www.fusioncharts.com/charts/radar_4/"
                     },
                     {
+                        "name": "Radar Chart: Variance Analysis",
                         "url": "http://www.fusioncharts.com/charts/radar_3/"
                     },
                     {
+                        "name": "Radar Chart: General Example",
                         "url": "http://www.fusioncharts.com/charts/radar_2/"
                     }
                 ]
@@ -680,12 +862,15 @@
                 "url": "http://www.fusioncharts.com/charts/candlestick-charts/",
                 "subAttr": [
                     {
+                        "name": "Interactive Candlestick Chart: Stock Price Plotting",
                         "url": "http://www.fusioncharts.com/charts/candlestick_1/"
                     },
                     {
+                        "name": "Interactive Candlestick Chart: Stock Price Plotting (using line plot)",
                         "url": "http://www.fusioncharts.com/charts/candlestick_2/"
                     },
                     {
+                        "name": "Interactive Candlestick Chart: Stock Price Plotting (Highlighted Candlestick)",
                         "url": "http://www.fusioncharts.com/charts/candlestick_3/"
                     }
                 ]
@@ -695,18 +880,23 @@
                 "url": "http://www.fusioncharts.com/charts/waterfall-charts/",
                 "subAttr": [
                     {
+                        "name": "Waterfall Chart: Company Profit",
                         "url": "http://www.fusioncharts.com/charts/waterfall_6/"
                     },
                     {
+                        "name": "Waterfall Chart: Inventory Analysis",
                         "url": "http://www.fusioncharts.com/charts/waterfall_4/"
                     },
                     {
+                        "name": "Waterfall Chart: Sales Analysis",
                         "url": "http://www.fusioncharts.com/charts/waterfall_2/"
                     },
                     {
+                        "name": "Waterfall Chart: Product Earnings",
                         "url": "http://www.fusioncharts.com/charts/waterfall_3/"
                     },
                     {
+                        "name": "Waterfall Chart: Cost Sheet",
                         "url": "http://www.fusioncharts.com/charts/waterfall_5/"
                     }
                 ]
@@ -716,15 +906,19 @@
                 "url": "http://www.fusioncharts.com/charts/visually-editable-charts/",
                 "subAttr": [
                     {
+                        "name": "Drag-able Column Chart: Sales Planning",
                         "url": "http://www.fusioncharts.com/charts/dragcolumn2d_5/"
                     },
                     {
+                        "name": "Drag-able Column Chart: Network Re-designing Project",
                         "url": "http://www.fusioncharts.com/charts/editable_2/"
                     },
                     {
+                        "name": "Drag-able Column Chart: Revenue/Profit Simulation Chart",
                         "url": "http://www.fusioncharts.com/charts/editable_3/"
                     },
                     {
+                        "name": "Drag-able Line Chart: Sales Planning",
                         "url": "http://www.fusioncharts.com/charts/dragline_6/"
                     }
                 ]
@@ -734,12 +928,15 @@
                 "url": "http://www.fusioncharts.com/charts/visually-selectable-charts/",
                 "subAttr": [
                     {
+                        "name": "Select Scatter Chart: Investment Analysis Tool",
                         "url": "http://www.fusioncharts.com/charts/selectable_1/"
                     },
                     {
+                        "name": "Select Scatter Chart: Relative Humidity v Temparature",
                         "url": "http://www.fusioncharts.com/charts/selectable_2/"
                     },
                     {
+                        "name": "Select Scatter Chart: General Example",
                         "url": "http://www.fusioncharts.com/charts/selectable_3/"
                     }
                 ]
@@ -749,12 +946,15 @@
                 "url": "http://www.fusioncharts.com/charts/multilevel-pie-charts/",
                 "subAttr": [
                     {
+                        "name": "Multi-Level Pie Chart: PPC Campaign Analysis",
                         "url": "http://www.fusioncharts.com/charts/multilevelpie_5/"
                     },
                     {
+                        "name": "Multi-Level Pie Chart: Organization Chart",
                         "url": "http://www.fusioncharts.com/charts/multilevelpie_6/"
                     },
                     {
+                        "name": "Multi-Level Pie Chart: Friend List",
                         "url": "http://www.fusioncharts.com/charts/mlpie_4/"
                     }
                 ]
@@ -764,15 +964,19 @@
                 "url": "http://www.fusioncharts.com/charts/drag-node-charts/",
                 "subAttr": [
                     {
+                        "name": "Drag Node Chart: Network Administration Diagram",
                         "url": "http://www.fusioncharts.com/charts/dragnode_1/"
                     },
                     {
+                        "name": "Drag Node Chart: Project Planning Diagram",
                         "url": "http://www.fusioncharts.com/charts/dragnode_2/"
                     },
                     {
+                        "name": "Drag Node Chart: Organization Diagram",
                         "url": "http://www.fusioncharts.com/charts/dragnode_3/"
                     },
                     {
+                        "name": "Drag Node Chart: General Example",
                         "url": "http://www.fusioncharts.com/charts/dragnode_4/"
                     }
                 ]
@@ -782,9 +986,11 @@
                 "url": "http://www.fusioncharts.com/charts/multiaxis-line-charts/",
                 "subAttr": [
                     {
+                        "name": "Multi-Axis Line Chart: Engineering (Power Generator)",
                         "url": "http://www.fusioncharts.com/charts/multiaxisline_3/"
                     },
                     {
+                        "name": "Multi-Axis Line Chart: CPU Usage",
                         "url": "http://www.fusioncharts.com/charts/multi_2/"
                     }
                 ]
@@ -794,21 +1000,27 @@
                 "url": "http://www.fusioncharts.com/charts/error-charts/",
                 "subAttr": [
                     {
+                        "name": "Error Bar Chart: Life Span Chart of Appliances",
                         "url": "http://www.fusioncharts.com/charts/error_1/"
                     },
                     {
+                        "name": "Error Bar Chart: Life Span Chart of Appliances",
                         "url": "http://www.fusioncharts.com/charts/error_2/"
                     },
                     {
+                        "name": "Error Bar Chart: Temperature Plotting",
                         "url": "http://www.fusioncharts.com/charts/error_3/"
                     },
                     {
+                        "name": "Error Bar Chart: Employee Tenure",
                         "url": "http://www.fusioncharts.com/charts/error_4/"
                     },
                     {
+                        "name": "Error Line Chart: Temperature Plotting",
                         "url": "http://www.fusioncharts.com/charts/error_5/"
                     },
                     {
+                        "name": "Error Scatter Chart: Rainfall Analysis",
                         "url": "http://www.fusioncharts.com/charts/error_6/"
                     }
                 ]
@@ -818,30 +1030,39 @@
                 "url": "http://www.fusioncharts.com/charts/log-inverse-axis-charts/",
                 "subAttr": [
                     {
+                        "name": "Logarithmic Line Chart: Population Growth",
                         "url": "http://www.fusioncharts.com/charts/logmsline_10/"
                     },
                     {
+                        "name": "Logarithmic Column Chart: Election Results",
                         "url": "http://www.fusioncharts.com/charts/logmscolumn2d_9/"
                     },
                     {
+                        "name": "Logarithmic Column Chart: Sales Comparison",
                         "url": "http://www.fusioncharts.com/charts/inverse_6/"
                     },
                     {
+                        "name": "Logarithmic Line Chart on base of 3 with inverted axes",
                         "url": "http://www.fusioncharts.com/charts/inverse_7/"
                     },
                     {
+                        "name": "Inverse Axis Column Chart: Race Timings",
                         "url": "http://www.fusioncharts.com/charts/inversemscolumn2d_9/"
                     },
                     {
+                        "name": "Inverse Axis Area Chart: Web Analytics (Daily Traffic Trend)",
                         "url": "http://www.fusioncharts.com/charts/inverse_1/"
                     },
                     {
+                        "name": "Inverse Axis Column Chart: Web Analytics (Daily Traffic Trend)",
                         "url": "http://www.fusioncharts.com/charts/inverse_3/"
                     },
                     {
+                        "name": "Inverse Axis Line Chart: Web Analytics (Daily Traffic Trend)",
                         "url": "http://www.fusioncharts.com/charts/inverse_4/"
                     },
                     {
+                        "name": "Logarithmic Column Chart: Business Analysis",
                         "url": "http://www.fusioncharts.com/charts/inverse_8/"
                     }
                 ]
@@ -851,33 +1072,43 @@
                 "url": "http://www.fusioncharts.com/charts/box-whisker-charts/",
                 "subAttr": [
                     {
+                        "name": "Box and Whisker Chart: Website Visits (in 3 years)",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_1/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Test Scores",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_2/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Weekly Temperature",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_3/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Employee Age",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_4/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Clickthrough Rate Comparison",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_5/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Fuel Efficiency Tests",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_6/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Outbound Bandwidth Usage",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_7/"
                     },
                     {
+                        "name": "Box and Whisker Chart: IMDB Ratings (Comparison by director)",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_8/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Yellow Cards in World Cup",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_9/"
                     },
                     {
+                        "name": "Box and Whisker Chart: Connecting mean visits",
                         "url": "http://www.fusioncharts.com/charts/boxwhisker_10/"
                     }
                 ]
@@ -887,12 +1118,15 @@
                 "url": "http://www.fusioncharts.com/charts/spline-spline-areas/",
                 "subAttr": [
                     {
+                        "name": "Spline Chart: Sales Comparison",
                         "url": "http://www.fusioncharts.com/charts/msspline_4/"
                     },
                     {
+                        "name": "Spline Chart: Fruit Production",
                         "url": "http://www.fusioncharts.com/charts/spline_1/"
                     },
                     {
+                        "name": "Spline Chart: Monthly Sales Summary",
                         "url": "http://www.fusioncharts.com/charts/spline_2/"
                     }
                 ]
@@ -902,12 +1136,15 @@
                 "url": "http://www.fusioncharts.com/charts/step-line-charts/",
                 "subAttr": [
                     {
+                        "name": "Step Line Chart: Temperature Monitoring System",
                         "url": "http://www.fusioncharts.com/charts/stepline_1/"
                     },
                     {
+                        "name": "Step Line Chart: Interest Rate Evaluation",
                         "url": "http://www.fusioncharts.com/charts/stepline_2/"
                     },
                     {
+                        "name": "Step Line Chart: Sales Comparison",
                         "url": "http://www.fusioncharts.com/charts/stepline_3/"
                     }
                 ]
@@ -917,17 +1154,19 @@
                 "url": "http://www.fusioncharts.com/charts/kagi-charts/",
                 "subAttr": [
                     {
+                        "name": "Kagi Chart: Equity Trading",
                         "url": "http://www.fusioncharts.com/charts/kagi_1/"
                     },
                     {
+                        "name": "Kagi Chart: Equity Trading",
                         "url": "http://www.fusioncharts.com/charts/kagi_2/"
                     }
                 ]
             }
-        ]
+        ],
+        "name": "PowerCharts XT"
     },
     {
-        "name": "Use Cases",
         "attr": [
             {
                 "name": "US Employment Distribution (drill-down)",
@@ -949,39 +1188,7 @@
                 "name": "US Flight Routes (with markers)",
                 "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=us-flight-routes-map"
             }
-        ]
-    },
-    {
-        "name": "Geo Maps",
-        "attr": [
-            {
-                "name": "World",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=world-map"
-            },
-            {
-                "name": "Europe",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=europe"
-            },
-            {
-                "name": "North America",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=north-america"
-            },
-            {
-                "name": "South America",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=south-america"
-            },
-            {
-                "name": "Asia",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=asia"
-            },
-            {
-                "name": "Oceania",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=oceania"
-            },
-            {
-                "name": "Africa",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=africa"
-            }
-        ]
+        ],
+        "name": "Use Cases"
     }
 ]
