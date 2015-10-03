@@ -1,4 +1,4 @@
-// to run this code use phantomjs fiddle-grabber.js
+// to run this code use phantomjs chartdata.js
 var page, fcResource ={};
 
 fcResource.url = [];

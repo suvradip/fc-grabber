@@ -1,4 +1,4 @@
-// to run this code use phantomjs fiddle-grabber.js
+// to run this code use phantomjs final-grabber.js
 var page;
 var fcLink = "http://www.fusioncharts.com/charts/column-bar-charts/";
 
