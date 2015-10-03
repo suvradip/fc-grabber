@@ -3,7 +3,6 @@ var page, fcResource ={};
 
 fcResource.url = [];
 fcResource.counter = -1;
-fcResource.Flag = false;
 fcResource.hopC = 1;
 
 page = require('webpage').create();
@@ -22,10 +21,6 @@ page.onAlert = (function(msg) {
   console.log("");
 });
 
-
-
-
-console.log('Loading a web page');
 
 var readContents = (function(fcobj){
 
@@ -83,7 +78,7 @@ var opensublink = (function() {
 });
 
 
-var readFilecContent = (function(){
+    (function(){
 
     var fs = require('fs');
     var fileContent = fs.read("FC-links.json");
@@ -108,6 +103,3 @@ var readFilecContent = (function(){
 
     opensublink();
 });
-
-
-readFilecContent();
