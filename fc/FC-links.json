@@ -1165,30 +1165,5 @@
             }
         ],
         "name": "PowerCharts XT"
-    },
-    {
-        "attr": [
-            {
-                "name": "US Employment Distribution (drill-down)",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=us-employment-distribution-map"
-            },
-            {
-                "name": "Europe Sales (continuous data ranges)",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=europe-sales-map"
-            },
-            {
-                "name": "World Population (discrete data ranges)",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=world-populalation-map"
-            },
-            {
-                "name": "Office Locations (with markers)",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=office-location-map"
-            },
-            {
-                "name": "US Flight Routes (with markers)",
-                "url": "http://www.fusioncharts.com/charts/fusionmaps/?map=us-flight-routes-map"
-            }
-        ],
-        "name": "Use Cases"
     }
 ]

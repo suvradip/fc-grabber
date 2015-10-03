@@ -60,10 +60,6 @@ var createSublinks = (function(link) {
         });
      
 
-       //  var jsonobj = JSON.parse(value.resources);
-           var jsonobj = value.resources;
-        //console.log(value.resources);
-
         var fileContent = fs.read("FC-links.json");
         fileContent = JSON.parse(fileContent);
         for(var i=0; i<fileContent.length; i++)
@@ -122,7 +118,7 @@ var opensublinkInterval = (function() {
 });
 
 
-var redFilecContent = (function(){
+var readFilecContent = (function(){
 
     var fs = require('fs');
     var fileContent = fs.read("FC-links.json");
@@ -188,7 +184,7 @@ var createLocalFiles = (function(urlObject) {
         fs.write("FC-links.json", detailsContent, 'w');
         
         console.log("****** File write done ******");
-        redFilecContent();
+        readFilecContent();
     } //end of if
 
 });
