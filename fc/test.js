@@ -1,6 +1,6 @@
 // to run this code use phantomjs fiddle-grabber.js
 var page;
-var fcLink = "http://www.fusioncharts.com/charts/pyramid_3/";
+var fcLink = "http://www.fusioncharts.com/charts/realtime_3/";
 
 //"http://www.fusioncharts.com/charts/"
 
