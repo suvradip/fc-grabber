@@ -49,10 +49,10 @@ var readContents = (function(fcobj){
             {
 
                console.log("Data Format --- > " + data);
-               console.log("saved in : chart-Data/" + fcobj.location + ".json");
+               console.log("saved in : chartdata/" + fcobj.location + ".json");
                var fs = require('fs');
                var detailsContent  = JSON.stringify(data, null, 4);
-               fs.write("chart-Data/" + fcobj.location + ".json", detailsContent, 'w');
+               fs.write("chartdata/" + fcobj.location + ".json", detailsContent, 'w');
                console.log("****** File write done ******");
                console.log("");
                data = {};
@@ -68,11 +68,12 @@ var readContents = (function(fcobj){
 
 
 var opensublink = (function() {
-    console.log("Try --> " + fcResource.hopC ++);
+   
     fcResource.counter += 1;
     if (fcResource.counter >= fcResource.url.length) {
         phantom.exit();
     }
+     console.log("Try --> " + fcResource.hopC ++);
     console.log("******  Openning "+ (fcResource.counter + 1) +" link " + fcResource.url[fcResource.counter].url + " *****");
     page.open(fcResource.url[fcResource.counter].url, function(status) {
         if (status == 'success') {
