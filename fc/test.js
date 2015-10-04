@@ -1,6 +1,6 @@
 // to run this code use phantomjs fiddle-grabber.js
 var page;
-var fcLink = "http://www.fusioncharts.com/charts/realtime_3/";
+var fcLink = "http://www.fusioncharts.com/charts/column2d_6/";
 
 //"http://www.fusioncharts.com/charts/"
 
@@ -29,13 +29,23 @@ page.open(fcLink, function (status) {
   
   if (page.injectJs("jquery.js")) {
 
-        var text = page.evaluate(function() {
-        return  FusionCharts.items["sampleChart"].getChartData("json"); 
+        var chartData = page.evaluate(function() {
+
+            var chartData = {};    
+            var data =  FusionCharts.items["sampleChart"];   
+            chartData.type = data.chartType();
+            chartData.width = "800";
+            chartData.height = "600";
+            chartData.dataFormat = "json"; 
+            chartData.datasource =  data.getChartData("json");  
+
+            return  chartData;
         });
 
+        console.log(chartData);
         var fs = require('fs');
-        var detailsContent  = JSON.stringify(text, null, 4);
-        fs.write("testdata/chartdata1.txt", detailsContent, 'w');
+        var detailsContent  = JSON.stringify(chartData, null, 4);
+        fs.write("testData/chartdata.txt", detailsContent, 'w');
         console.log("****** File write done ******");
 
         phantom.exit();

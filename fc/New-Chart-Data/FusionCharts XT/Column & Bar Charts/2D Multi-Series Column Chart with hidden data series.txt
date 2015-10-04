@@ -1,0 +1,106 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "iPhone"
+                    },
+                    {
+                        "label": "iPad"
+                    },
+                    {
+                        "label": "Mac"
+                    },
+                    {
+                        "label": "iPod & iTunes"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatehgridalpha": "0",
+            "basefontcolor": "#6E98AA",
+            "bgalpha": "0",
+            "bordercolor": "#6E98AA",
+            "canvasborderalpha": "25",
+            "canvasbordercolor": "#6E98AA",
+            "canvasborderthickness": "1",
+            "caption": "Sales of Apple by product",
+            "divlinealpha": "25",
+            "divlinecolor": "#6E98AA",
+            "legendborderalpha": "30",
+            "legendbordercolor": "#6E98AA",
+            "legendshadow": "0",
+            "numberprefix": "$",
+            "numbersuffix": "B",
+            "palettecolors": "#02295B,#FCB63C,#A8B1B8",
+            "plotborderalpha": "0",
+            "plotgradientcolor": "",
+            "plotspacepercent": "50",
+            "showborder": "0",
+            "showvalues": "0",
+            "subcaption": "In Billion $",
+            "tooltipbordercolor": "#6E98AA"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "47.06"
+                    },
+                    {
+                        "value": "20.36"
+                    },
+                    {
+                        "value": "28.27"
+                    },
+                    {
+                        "value": "35.16 "
+                    }
+                ],
+                "seriesname": "2011",
+                "visible": "0"
+            },
+            {
+                "data": [
+                    {
+                        "value": "40.48"
+                    },
+                    {
+                        "value": "32.42"
+                    },
+                    {
+                        "value": "20.36"
+                    },
+                    {
+                        "value": "31.3"
+                    }
+                ],
+                "seriesname": "2012",
+                "visible": "0"
+            },
+            {
+                "data": [
+                    {
+                        "value": "42.36"
+                    },
+                    {
+                        "value": "20.67"
+                    },
+                    {
+                        "value": "25.3"
+                    },
+                    {
+                        "value": "22.5"
+                    }
+                ],
+                "seriesname": "2013"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscolumn2d",
+    "width": "800"
+}

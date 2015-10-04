@@ -5,6 +5,7 @@ fcResource.url = [];
 fcResource.counter = -1; //initial -1, 
 fcResource.hopC = 1;
 
+
 page = require('webpage').create();
 // ignoring all console log of the site
 page.onConsoleMessage = (function(msg) {
@@ -29,18 +30,29 @@ var readContents = (function(fcobj){
 
         data = page.evaluate(function() {
            // var data = document.querySelector('body').innerText;
-           return FusionCharts.items["sampleChart"].getChartData("json"); 
+           //return FusionCharts.items["sampleChart"].getChartData("json"); 
+
+            var chartData = {};    
+            var data =  FusionCharts.items["sampleChart"];   
+            chartData.type = data.chartType();
+            chartData.width = "800";
+            chartData.height = "600";
+            chartData.dataFormat = "json"; 
+            chartData.datasource =  data.getChartData("json");  
+
+            return  chartData;
+
        });
             } //end of IF
 
-            if(data && data !== null)
+            if( (data && data !== null ) &&( data.datasource && data.datasource !== null) )
             {
 
                console.log("Data Format --- > " + data);
-               console.log("saved in : chartdata/" + fcobj.location + ".txt");
+               console.log("saved in : chart-Data/" + fcobj.location + ".json");
                var fs = require('fs');
                var detailsContent  = JSON.stringify(data, null, 4);
-               fs.write("chartdata/" + fcobj.location + ".txt", detailsContent, 'w');
+               fs.write("chart-Data/" + fcobj.location + ".json", detailsContent, 'w');
                console.log("****** File write done ******");
                console.log("");
                data = {};

@@ -678,38 +678,7 @@
                     }
                 ]
             },
-            {
-                "name": "Spark Charts",
-                "url": "http://www.fusioncharts.com/charts/spark-charts/",
-                "subAttr": [
-                    {
-                        "name": "Sparklines",
-                        "url": "http://www.fusioncharts.com/charts/spark_1/"
-                    },
-                    {
-                        "name": "Spark Column Charts",
-                        "url": "http://www.fusioncharts.com/charts/spark_2/"
-                    },
-                    {
-                        "name": "Spark Win/Loss Charts",
-                        "url": "http://www.fusioncharts.com/charts/spark_3/"
-                    }
-                ]
-            },
-            {
-                "name": "Bullet Graphs",
-                "url": "http://www.fusioncharts.com/charts/bullet-graphs/",
-                "subAttr": [
-                    {
-                        "name": "Horizontal Bullet Graph",
-                        "url": "http://www.fusioncharts.com/charts/bullet_1/"
-                    },
-                    {
-                        "name": "Vertical Bullet Graphs",
-                        "url": "http://www.fusioncharts.com/charts/bullet_2/"
-                    }
-                ]
-            },
+            
             {
                 "name": "Real-time charts",
                 "url": "http://www.fusioncharts.com/charts/realtime-charts/",

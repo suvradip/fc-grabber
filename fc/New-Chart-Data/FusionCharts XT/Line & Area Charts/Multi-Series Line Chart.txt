@@ -1,0 +1,213 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatehgridalpha": "100",
+            "alternatehgridcolor": "ffffff",
+            "bgcolor": "FFFFFF",
+            "canvasbgalpha": "5",
+            "canvasbgcolor": "66D6FF",
+            "canvasborderalpha": "20",
+            "canvasborderthickness": "1",
+            "caption": "Weather Report",
+            "divlineisdashed": "1",
+            "legendborderalpha": "0",
+            "legendiconscale": "1.5",
+            "legendshadow": "0",
+            "numbersuffix": "°",
+            "palette": "3",
+            "showborder": "0",
+            "showvalues": "0",
+            "subcaption": "Temperature",
+            "xaxisname": "Month",
+            "yaxisname": "Degree  (in Fahrenheit)"
+        },
+        "dataset": [
+            {
+                "color": "F97D10",
+                "data": [
+                    {
+                        "value": "-6"
+                    },
+                    {
+                        "value": "-15"
+                    },
+                    {
+                        "value": "3"
+                    },
+                    {
+                        "value": "12"
+                    },
+                    {
+                        "value": "32"
+                    },
+                    {
+                        "value": "44"
+                    },
+                    {
+                        "value": "52"
+                    },
+                    {
+                        "value": "50"
+                    },
+                    {
+                        "value": "39"
+                    },
+                    {
+                        "value": "28"
+                    },
+                    {
+                        "value": "5"
+                    },
+                    {
+                        "value": "-13"
+                    }
+                ],
+                "seriesname": "New York"
+            },
+            {
+                "data": [
+                    {
+                        "value": "-27"
+                    },
+                    {
+                        "value": "-19"
+                    },
+                    {
+                        "value": "-8"
+                    },
+                    {
+                        "value": "7"
+                    },
+                    {
+                        "value": "24"
+                    },
+                    {
+                        "value": "36"
+                    },
+                    {
+                        "value": "40"
+                    },
+                    {
+                        "value": "41"
+                    },
+                    {
+                        "value": "28"
+                    },
+                    {
+                        "value": "17"
+                    },
+                    {
+                        "value": "1"
+                    },
+                    {
+                        "value": "-25"
+                    }
+                ],
+                "seriesname": "Chicago"
+            },
+            {
+                "color": "3994F9",
+                "data": [
+                    {
+                        "value": "-44"
+                    },
+                    {
+                        "value": "-43"
+                    },
+                    {
+                        "value": "-31"
+                    },
+                    {
+                        "value": "-12"
+                    },
+                    {
+                        "value": "15"
+                    },
+                    {
+                        "value": "30"
+                    },
+                    {
+                        "value": "35"
+                    },
+                    {
+                        "value": "33"
+                    },
+                    {
+                        "value": "11"
+                    },
+                    {
+                        "value": "-10"
+                    },
+                    {
+                        "value": "-30"
+                    },
+                    {
+                        "value": "-43"
+                    }
+                ],
+                "seriesname": "Bismarck"
+            }
+        ],
+        "styles": {
+            "application": [
+                {
+                    "styles": "captionfont",
+                    "toobject": "caption"
+                }
+            ],
+            "definition": [
+                {
+                    "name": "captionFont",
+                    "size": "15",
+                    "type": "font"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "msline",
+    "width": "800"
+}

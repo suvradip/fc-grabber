@@ -1,0 +1,109 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "animation": "1",
+            "caption": "Delay in Shipping Time",
+            "formatnumberscale": "1",
+            "labeldisplay": "ROTATE",
+            "numbersuffix": " days",
+            "numdivlines": "5",
+            "palette": "2",
+            "showBorder": "0",
+            "showvalues": "0",
+            "slantlabels": "1",
+            "subcaption": "By Country",
+            "xaxisname": "Country",
+            "yaxisname": "Delay {br}(Negative is delivery before date)"
+        },
+        "data": [
+            {
+                "label": "Portugal",
+                "value": "8"
+            },
+            {
+                "label": "Belgium",
+                "value": "7"
+            },
+            {
+                "label": "Poland",
+                "value": "5"
+            },
+            {
+                "label": "Spain",
+                "value": "4"
+            },
+            {
+                "label": "Finland",
+                "value": "2"
+            },
+            {
+                "label": "Venezuela",
+                "value": "2"
+            },
+            {
+                "label": "Italy",
+                "value": "1"
+            },
+            {
+                "label": "Switzerland",
+                "value": "0"
+            },
+            {
+                "label": "France",
+                "value": "0"
+            },
+            {
+                "label": "UK",
+                "value": "0"
+            },
+            {
+                "label": "USA",
+                "value": "0"
+            },
+            {
+                "label": "Austria",
+                "value": "-1"
+            },
+            {
+                "label": "Germany",
+                "value": "-2"
+            },
+            {
+                "label": "Norway",
+                "value": "-3"
+            },
+            {
+                "label": "Argentina",
+                "value": "-3"
+            },
+            {
+                "label": "Denmark",
+                "value": "-4"
+            },
+            {
+                "label": "Sweden",
+                "value": "-4"
+            },
+            {
+                "label": "Brazil",
+                "value": "-5"
+            },
+            {
+                "label": "Canada",
+                "value": "-6"
+            },
+            {
+                "label": "Mexico",
+                "value": "-7"
+            },
+            {
+                "label": "Ireland",
+                "value": "-12"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column3d",
+    "width": "800"
+}
