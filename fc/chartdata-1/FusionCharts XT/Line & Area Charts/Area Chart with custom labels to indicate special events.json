@@ -1,0 +1,82 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Visits by month",
+            "divlinecolor": "CCCCCC",
+            "labeldisplay": "WRAP",
+            "palettecolors": "f8bd19",
+            "plotgradientcolor": "",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showvalues": "0",
+            "subcaption": "",
+            "yaxisvaluespadding": "10"
+        },
+        "data": [
+            {
+                "label": "Jan",
+                "value": "420000"
+            },
+            {
+                "anchoralpha": "100",
+                "anchorradius": "7",
+                "displayvalue": "Techcrunch{br}covered us",
+                "label": "Feb",
+                "showvalue": "1",
+                "value": "460000"
+            },
+            {
+                "label": "Mar",
+                "value": "480000"
+            },
+            {
+                "label": "Apr",
+                "value": "520000"
+            },
+            {
+                "anchoralpha": "100",
+                "anchorradius": "7",
+                "displayvalue": "Google Adwords{br}discontinued",
+                "label": "May",
+                "showvalue": "1",
+                "value": "560000"
+            },
+            {
+                "label": "Jun",
+                "value": "510000"
+            },
+            {
+                "label": "Jul",
+                "value": "470000"
+            },
+            {
+                "label": "Aug",
+                "value": "430000"
+            },
+            {
+                "label": "Sep",
+                "value": "420000"
+            },
+            {
+                "label": "Oct",
+                "value": "370000"
+            },
+            {
+                "label": "Nov",
+                "value": "360000"
+            },
+            {
+                "label": "Dec",
+                "value": "360000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "area2d",
+    "width": "800"
+}

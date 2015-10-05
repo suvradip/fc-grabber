@@ -1,0 +1,148 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "canvasbasecolor": "D9E5F1",
+            "canvasbgcolor": "D9E5F1",
+            "caption": "Total crimes for 2005-06 ",
+            "showBorder": "0",
+            "showvalues": "0"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "720"
+                    },
+                    {
+                        "value": "680"
+                    },
+                    {
+                        "value": "660"
+                    },
+                    {
+                        "value": "700"
+                    },
+                    {
+                        "value": "650"
+                    },
+                    {
+                        "value": "690"
+                    },
+                    {
+                        "value": "710"
+                    },
+                    {
+                        "value": "730"
+                    },
+                    {
+                        "value": "800"
+                    },
+                    {
+                        "value": "760"
+                    },
+                    {
+                        "value": "710"
+                    },
+                    {
+                        "value": "810"
+                    }
+                ],
+                "seriesname": "Crimes Reported"
+            },
+            {
+                "anchorbgcolor": "BBDA00",
+                "anchorbordercolor": "FFFFFF",
+                "anchorborderthickness": "2",
+                "anchorradius": "5",
+                "anchorsides": "4",
+                "color": "BBDA00",
+                "data": [
+                    {
+                        "value": "380"
+                    },
+                    {
+                        "value": "330"
+                    },
+                    {
+                        "value": "350"
+                    },
+                    {
+                        "value": "380"
+                    },
+                    {
+                        "value": "350"
+                    },
+                    {
+                        "value": "330"
+                    },
+                    {
+                        "value": "400"
+                    },
+                    {
+                        "value": "370"
+                    },
+                    {
+                        "value": "400"
+                    },
+                    {
+                        "value": "390"
+                    },
+                    {
+                        "value": "300"
+                    },
+                    {
+                        "value": "490"
+                    }
+                ],
+                "renderas": "Line",
+                "seriesname": "Crimes Detected"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscolumnline3d",
+    "width": "800"
+}

@@ -1,0 +1,173 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatevgridcolor": "e1f5ff",
+            "basefontcolor": "666666",
+            "bgcolor": "E9E9E9",
+            "canvasbordercolor": "666666",
+            "canvasborderthickness": "1",
+            "caption": "Monthly Sales Summary Comparison",
+            "divlinecolor": "e1f5ff",
+            "numberprefix": "$",
+            "numvdivlines": "10",
+            "outcnvbasefontcolor": "666666",
+            "plotfillalpha": "80",
+            "showalternatevgridcolor": "1",
+            "showborder": "0",
+            "showplotborder": "1",
+            "showvalues": "0",
+            "tooltipbgcolor": "F3F3F3",
+            "tooltipbordercolor": "666666",
+            "vdivlinecolor": "e1f5ff",
+            "xaxisname": "Month",
+            "yaxisname": "Sales"
+        },
+        "dataset": [
+            {
+                "color": "B1D1DC",
+                "data": [
+                    {
+                        "value": "27400"
+                    },
+                    {
+                        "value": "29800"
+                    },
+                    {
+                        "value": "25800"
+                    },
+                    {
+                        "value": "26800"
+                    },
+                    {
+                        "value": "29600"
+                    },
+                    {
+                        "value": "32600"
+                    },
+                    {
+                        "value": "31800"
+                    },
+                    {
+                        "value": "36700"
+                    },
+                    {
+                        "value": "29700"
+                    },
+                    {
+                        "value": "31900"
+                    },
+                    {
+                        "value": "32900"
+                    },
+                    {
+                        "value": "34800"
+                    }
+                ],
+                "plotbordercolor": "B1D1DC",
+                "seriesname": "2004"
+            },
+            {
+                "color": "C8A1D1",
+                "data": [
+                    {},
+                    {},
+                    {
+                        "value": "4500"
+                    },
+                    {
+                        "value": "6500"
+                    },
+                    {
+                        "value": "7600"
+                    },
+                    {
+                        "value": "6800"
+                    },
+                    {
+                        "value": "11800"
+                    },
+                    {
+                        "value": "19700"
+                    },
+                    {
+                        "value": "21700"
+                    },
+                    {
+                        "value": "21900"
+                    },
+                    {
+                        "value": "22900"
+                    },
+                    {
+                        "value": "29800"
+                    }
+                ],
+                "plotbordercolor": "C8A1D1",
+                "seriesname": "2003"
+            }
+        ],
+        "trendlines": [
+            {
+                "line": [
+                    {
+                        "alpha": "100",
+                        "color": "999999",
+                        "dashed": "1",
+                        "dashgap": "6",
+                        "displayvalue": "Target",
+                        "endvalue": "58000",
+                        "showontop": "1",
+                        "startvalue": "22000",
+                        "thickness": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "stackedbar2d",
+    "width": "800"
+}

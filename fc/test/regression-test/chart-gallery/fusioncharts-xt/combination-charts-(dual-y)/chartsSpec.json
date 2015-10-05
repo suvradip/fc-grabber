@@ -1,0 +1,1533 @@
+{
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-chart-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Seafood"
+                            },
+                            {
+                                "label": "Beverages"
+                            },
+                            {
+                                "label": "Condiments"
+                            },
+                            {
+                                "label": "Dairy Products"
+                            },
+                            {
+                                "label": "Confections"
+                            },
+                            {
+                                "label": "Meat/Poultry"
+                            },
+                            {
+                                "label": "Grains/Cereals"
+                            },
+                            {
+                                "label": "Produce"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "bgcolor": "FFFFFF",
+                    "canvasborderalpha": "0",
+                    "caption": "Inventory by Product Categories",
+                    "divlinecolor": "CCCCCC",
+                    "labeldisplay": "STAGGER",
+                    "legendborderalpha": "0",
+                    "legendshadow": "0",
+                    "numberprefix": "$",
+                    "plotgradientcolor": "",
+                    "pyaxisname": "Cost of Inventory",
+                    "showalternatehgridcolor": "0",
+                    "showborder": "0",
+                    "showcanvasborder": "0",
+                    "showplotborder": "0",
+                    "showvalues": "0",
+                    "slantlabels": "1",
+                    "syaxisname": "Units in Inventory"
+                },
+                "dataset": [
+                    {
+                        "color": "008ee4",
+                        "data": [
+                            {
+                                "value": "13510"
+                            },
+                            {
+                                "value": "12480"
+                            },
+                            {
+                                "value": "12024"
+                            },
+                            {
+                                "value": "11271"
+                            },
+                            {
+                                "value": "10392"
+                            },
+                            {
+                                "value": "5729"
+                            },
+                            {
+                                "value": "5594"
+                            },
+                            {
+                                "value": "3549"
+                            }
+                        ],
+                        "seriesname": "Cost of Inventory"
+                    },
+                    {
+                        "color": "f8bd19",
+                        "data": [
+                            {
+                                "value": "701"
+                            },
+                            {
+                                "value": "559"
+                            },
+                            {
+                                "value": "507"
+                            },
+                            {
+                                "value": "393"
+                            },
+                            {
+                                "value": "386"
+                            },
+                            {
+                                "value": "165"
+                            },
+                            {
+                                "value": "258"
+                            },
+                            {
+                                "value": "100"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Quantity"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-chart-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-chart-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-line-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "1994"
+                            },
+                            {
+                                "label": "1995"
+                            },
+                            {
+                                "label": "1996"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "animation": "1",
+                    "caption": "Yearly Sales Comparison",
+                    "formatnumberscale": "0",
+                    "numberprefix": "$",
+                    "palette": "1",
+                    "seriesnameintooltip": "0",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "xaxisname": "Year"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "219702"
+                            },
+                            {
+                                "value": "682796"
+                            },
+                            {
+                                "value": "547248"
+                            }
+                        ],
+                        "seriesname": "Revenue"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "7381"
+                            },
+                            {
+                                "value": "25007"
+                            },
+                            {
+                                "value": "18929"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Units Sold"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscolumn3dlinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-line-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-line-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_3d-multi-series-column-+-line-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "March"
+                            },
+                            {
+                                "label": "April"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "June"
+                            },
+                            {
+                                "label": "July"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Sales",
+                    "connectnulldata": "0",
+                    "formatnumberscale": "0",
+                    "numberprefix": "$",
+                    "numdivlines": "4",
+                    "palette": "1",
+                    "pyaxisname": "Revenue",
+                    "showborder": "0",
+                    "showlabels": "1",
+                    "showvalues": "0",
+                    "syaxisname": "Quantity",
+                    "syaxisvaluesdecimals": "2"
+                },
+                "dataset": [
+                    {
+                        "color": "AFD8F8",
+                        "data": [
+                            {
+                                "value": "25601.34"
+                            },
+                            {
+                                "value": "20148.82"
+                            },
+                            {
+                                "value": "17372.76"
+                            },
+                            {
+                                "value": "35407.15"
+                            },
+                            {
+                                "value": "38105.68"
+                            }
+                        ],
+                        "seriesname": "Product A",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "F6BD0F",
+                        "data": [
+                            {
+                                "value": "57401.85"
+                            },
+                            {
+                                "value": "41941.19"
+                            },
+                            {
+                                "value": "45263.37"
+                            },
+                            {
+                                "value": "117320.16"
+                            },
+                            {
+                                "dashed": "1",
+                                "value": "114845.27"
+                            }
+                        ],
+                        "seriesname": "Product B",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "8BBA00",
+                        "data": [
+                            {
+                                "value": "45000"
+                            },
+                            {
+                                "value": "44835"
+                            },
+                            {
+                                "value": "42835"
+                            },
+                            {
+                                "value": "77557"
+                            },
+                            {
+                                "value": "92633"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Total Quantity",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscolumn3dlinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_3d-multi-series-column-+-line-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_3d-multi-series-column-+-line-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-multi-series-line-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Web Statistics",
+                    "palette": "4",
+                    "plotspacepercent": "40",
+                    "pyaxisname": "Views",
+                    "rotatelabels": "1",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "slantlabels": "1",
+                    "snumbersuffix": "%",
+                    "syaxisname": "% of visitors"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "36000"
+                            },
+                            {
+                                "value": "34300"
+                            },
+                            {
+                                "value": "30000"
+                            },
+                            {
+                                "value": "27800"
+                            },
+                            {
+                                "value": "26000"
+                            },
+                            {
+                                "value": "29000"
+                            },
+                            {
+                                "value": "32000"
+                            },
+                            {
+                                "value": "37500"
+                            },
+                            {
+                                "value": "32000"
+                            },
+                            {
+                                "value": "28500"
+                            },
+                            {
+                                "value": "31000"
+                            },
+                            {
+                                "value": "28000"
+                            }
+                        ],
+                        "seriesname": "Page Views"
+                    },
+                    {
+                        "color": "CC3300",
+                        "data": [
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "23"
+                            },
+                            {
+                                "value": "20"
+                            },
+                            {
+                                "value": "18"
+                            },
+                            {
+                                "value": "14"
+                            },
+                            {
+                                "value": "17"
+                            },
+                            {
+                                "value": "21"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "21"
+                            },
+                            {
+                                "value": "20"
+                            },
+                            {
+                                "value": "22"
+                            },
+                            {
+                                "value": "20"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Add to Favorites"
+                    },
+                    {
+                        "color": "FFCC33",
+                        "data": [
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "5"
+                            },
+                            {
+                                "value": "9"
+                            },
+                            {
+                                "value": "11"
+                            },
+                            {
+                                "value": "6"
+                            },
+                            {
+                                "value": "4"
+                            },
+                            {
+                                "value": "7"
+                            },
+                            {
+                                "value": "9"
+                            },
+                            {
+                                "value": "10"
+                            },
+                            {
+                                "value": "12"
+                            },
+                            {
+                                "value": "9"
+                            },
+                            {
+                                "value": "14"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Set as Home page"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscolumn3dlinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-multi-series-line-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_3d-column-+-multi-series-line-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-multi-series-line-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "2000"
+                            },
+                            {
+                                "name": "2001"
+                            },
+                            {
+                                "name": "2002"
+                            },
+                            {
+                                "name": "2003"
+                            },
+                            {
+                                "name": "2004"
+                            },
+                            {
+                                "name": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Population Chart",
+                    "decimals": "3",
+                    "linethickness": "5",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "275562673"
+                            },
+                            {
+                                "value": "278558081"
+                            },
+                            {
+                                "value": "280562489"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "293027112"
+                            }
+                        ],
+                        "seriesname": "Population"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.41"
+                            },
+                            {
+                                "value": "1.414"
+                            },
+                            {
+                                "value": "1.413"
+                            },
+                            {
+                                "value": "1.414"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Birth Rate"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.844"
+                            },
+                            {
+                                "value": "0.834"
+                            },
+                            {
+                                "value": "0.825"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Death Rate"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-multi-series-line-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-multi-series-line-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-+-area-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "2000"
+                            },
+                            {
+                                "name": "2001"
+                            },
+                            {
+                                "name": "2002"
+                            },
+                            {
+                                "name": "2003"
+                            },
+                            {
+                                "name": "2004"
+                            },
+                            {
+                                "name": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Population Chart",
+                    "decimals": "3",
+                    "linethickness": "5",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "275562673"
+                            },
+                            {
+                                "value": "278558081"
+                            },
+                            {
+                                "value": "280562489"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "293027112"
+                            }
+                        ],
+                        "seriesname": "Population"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.41"
+                            },
+                            {
+                                "value": "1.414"
+                            },
+                            {
+                                "value": "1.413"
+                            },
+                            {
+                                "value": "1.414"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Birth Rate"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.844"
+                            },
+                            {
+                                "value": "0.834"
+                            },
+                            {
+                                "value": "0.825"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Area",
+                        "seriesname": "Death Rate"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-+-area-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-column-+-line-+-area-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-line-+-area-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "2000"
+                            },
+                            {
+                                "name": "2001"
+                            },
+                            {
+                                "name": "2002"
+                            },
+                            {
+                                "name": "2003"
+                            },
+                            {
+                                "name": "2004"
+                            },
+                            {
+                                "name": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Population Chart",
+                    "decimals": "3",
+                    "linethickness": "5",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "275562673"
+                            },
+                            {
+                                "value": "278558081"
+                            },
+                            {
+                                "value": "280562489"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "293027112"
+                            }
+                        ],
+                        "parentyaxis": "P",
+                        "renderas": "Area",
+                        "seriesname": "Population"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.41"
+                            },
+                            {
+                                "value": "1.414"
+                            },
+                            {
+                                "value": "1.413"
+                            },
+                            {
+                                "value": "1.414"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Birth Rate"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.844"
+                            },
+                            {
+                                "value": "0.834"
+                            },
+                            {
+                                "value": "0.825"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Death Rate"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-line-+-area-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-line-+-area-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-line-charts-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "2000"
+                            },
+                            {
+                                "name": "2001"
+                            },
+                            {
+                                "name": "2002"
+                            },
+                            {
+                                "name": "2003"
+                            },
+                            {
+                                "name": "2004"
+                            },
+                            {
+                                "name": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Population Chart",
+                    "decimals": "3",
+                    "linethickness": "5",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "275562673"
+                            },
+                            {
+                                "value": "278558081"
+                            },
+                            {
+                                "value": "280562489"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "290342551"
+                            },
+                            {
+                                "value": "293027112"
+                            }
+                        ],
+                        "parentyaxis": "P",
+                        "renderas": "Line",
+                        "seriesname": "Population"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.41"
+                            },
+                            {
+                                "value": "1.414"
+                            },
+                            {
+                                "value": "1.413"
+                            },
+                            {
+                                "value": "1.414"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Birth Rate"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.844"
+                            },
+                            {
+                                "value": "0.834"
+                            },
+                            {
+                                "value": "0.825"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Death Rate"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-line-charts-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-line-charts-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-column-charts-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "2000"
+                            },
+                            {
+                                "name": "2001"
+                            },
+                            {
+                                "name": "2002"
+                            },
+                            {
+                                "name": "2003"
+                            },
+                            {
+                                "name": "2004"
+                            },
+                            {
+                                "name": "2005"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Population Chart",
+                    "decimals": "3",
+                    "linethickness": "5",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.42"
+                            },
+                            {
+                                "value": "1.41"
+                            },
+                            {
+                                "value": "1.414"
+                            },
+                            {
+                                "value": "1.413"
+                            },
+                            {
+                                "value": "1.414"
+                            }
+                        ],
+                        "parentyaxis": "P",
+                        "seriesname": "Birth Rate"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.87"
+                            },
+                            {
+                                "value": "0.844"
+                            },
+                            {
+                                "value": "0.834"
+                            },
+                            {
+                                "value": "0.825"
+                            }
+                        ],
+                        "parentyaxis": "S",
+                        "renderas": "Column",
+                        "seriesname": "Death Rate"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "mscombidy2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-column-charts-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-column-charts-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_3d-stacked-column-+-line-chart-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Visits from search engines",
+                    "showborder": "0",
+                    "showcolumnshadow": "0",
+                    "showvalues": "0",
+                    "snumbersuffix": "%"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "3040"
+                            },
+                            {
+                                "value": "2794"
+                            },
+                            {
+                                "value": "3026"
+                            },
+                            {
+                                "value": "3341"
+                            },
+                            {
+                                "value": "2800"
+                            },
+                            {
+                                "value": "2507"
+                            },
+                            {
+                                "value": "3701"
+                            },
+                            {
+                                "value": "2671"
+                            },
+                            {
+                                "value": "2980"
+                            },
+                            {
+                                "value": "2041"
+                            },
+                            {
+                                "value": "1813"
+                            },
+                            {
+                                "value": "1691"
+                            }
+                        ],
+                        "seriesname": "Google"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "1200"
+                            },
+                            {
+                                "value": "1124"
+                            },
+                            {
+                                "value": "1006"
+                            },
+                            {
+                                "value": "921"
+                            },
+                            {
+                                "value": "1500"
+                            },
+                            {
+                                "value": "1007"
+                            },
+                            {
+                                "value": "921"
+                            },
+                            {
+                                "value": "971"
+                            },
+                            {
+                                "value": "1080"
+                            },
+                            {
+                                "value": "1041"
+                            },
+                            {
+                                "value": "1113"
+                            },
+                            {
+                                "value": "1091"
+                            }
+                        ],
+                        "seriesname": "Yahoo"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "600"
+                            },
+                            {
+                                "value": "724"
+                            },
+                            {
+                                "value": "806"
+                            },
+                            {
+                                "value": "621"
+                            },
+                            {
+                                "value": "700"
+                            },
+                            {
+                                "value": "907"
+                            },
+                            {
+                                "value": "821"
+                            },
+                            {
+                                "value": "671"
+                            },
+                            {
+                                "value": "880"
+                            },
+                            {
+                                "value": "641"
+                            },
+                            {
+                                "value": "913"
+                            },
+                            {
+                                "value": "691"
+                            }
+                        ],
+                        "seriesname": "MSN"
+                    },
+                    {
+                        "color": "993300",
+                        "data": [
+                            {
+                                "value": "96.5"
+                            },
+                            {
+                                "value": "77.1"
+                            },
+                            {
+                                "value": "73.2"
+                            },
+                            {
+                                "value": "61.1"
+                            },
+                            {
+                                "value": "70.0"
+                            },
+                            {
+                                "value": "60.7"
+                            },
+                            {
+                                "value": "62.1"
+                            },
+                            {
+                                "value": "75.1"
+                            },
+                            {
+                                "value": "80.0"
+                            },
+                            {
+                                "value": "54.1"
+                            },
+                            {
+                                "value": "51.3"
+                            },
+                            {
+                                "value": "59.1"
+                            }
+                        ],
+                        "linethickness": "4",
+                        "parentyaxis": "S",
+                        "renderas": "Line",
+                        "seriesname": "Percent of total hits"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "stackedcolumn3dlinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_3d-stacked-column-+-line-chart-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_3d-stacked-column-+-line-chart-(dual-y)"
+    },
+    "fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-stacked-column-+-line-chart-(dual-y)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2001"
+                            },
+                            {
+                                "label": "2002"
+                            },
+                            {
+                                "label": "2003"
+                            },
+                            {
+                                "label": "2004"
+                            },
+                            {
+                                "label": "2005"
+                            }
+                        ],
+                        "font": "Arial",
+                        "fontcolor": "000000",
+                        "fontsize": "12"
+                    }
+                ],
+                "chart": {
+                    "caption": "Annual Revenue",
+                    "decimals": "0",
+                    "numberprefix": "$",
+                    "numbersuffix": "M",
+                    "palette": "2",
+                    "pyaxisname": "Sales in M$",
+                    "setadaptivesymin": "1",
+                    "showborder": "0",
+                    "showplotborder": "1",
+                    "snumbersuffix": "%",
+                    "subcaption": "In Million $",
+                    "syaxisname": "Cost as % of Revenue",
+                    "xaxisname": "Year"
+                },
+                "dataset": [
+                    {
+                        "dataset": [
+                            {
+                                "color": "AFD8F8",
+                                "data": [
+                                    {
+                                        "value": "30"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "29"
+                                    },
+                                    {
+                                        "value": "31"
+                                    },
+                                    {
+                                        "value": "34"
+                                    }
+                                ],
+                                "seriesname": "Product A",
+                                "showvalues": "0"
+                            },
+                            {
+                                "color": "F6BD0F",
+                                "data": [
+                                    {
+                                        "value": "21"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "39"
+                                    },
+                                    {
+                                        "value": "41"
+                                    },
+                                    {
+                                        "value": "24"
+                                    }
+                                ],
+                                "seriesname": "Product B",
+                                "showvalues": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "dataset": [
+                            {
+                                "color": "8BBA00",
+                                "data": [
+                                    {
+                                        "value": "27"
+                                    },
+                                    {
+                                        "value": "25"
+                                    },
+                                    {
+                                        "value": "28"
+                                    },
+                                    {
+                                        "value": "26"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ],
+                                "seriesname": "Service A",
+                                "showvalues": "0"
+                            },
+                            {
+                                "color": "A66EDD",
+                                "data": [
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "18"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "10"
+                                    }
+                                ],
+                                "seriesname": "Service B",
+                                "showvalues": "0"
+                            },
+                            {
+                                "color": "F984A1",
+                                "data": [
+                                    {
+                                        "value": "12"
+                                    },
+                                    {
+                                        "value": "17"
+                                    },
+                                    {
+                                        "value": "16"
+                                    },
+                                    {
+                                        "value": "15"
+                                    },
+                                    {
+                                        "value": "12"
+                                    }
+                                ],
+                                "seriesname": "Service C",
+                                "showvalues": "0"
+                            }
+                        ]
+                    }
+                ],
+                "lineset": [
+                    {
+                        "data": [
+                            {
+                                "value": "57"
+                            },
+                            {
+                                "value": "68"
+                            },
+                            {
+                                "value": "79"
+                            },
+                            {
+                                "value": "73"
+                            },
+                            {
+                                "value": "80"
+                            }
+                        ],
+                        "linethickness": "4",
+                        "seriesname": "Cost as % of Revenue",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "msstackedcolumn2dlinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/combination-charts-(dual-y)/ref-images/fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-stacked-column-+-line-chart-(dual-y).png",
+        "id": "fusioncharts-xt_combination-charts-(dual-y)_2d-multi-series-stacked-column-+-line-chart-(dual-y)"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "name": "A"
+                    },
+                    {
+                        "name": "B"
+                    },
+                    {
+                        "name": "C"
+                    },
+                    {
+                        "name": "D"
+                    },
+                    {
+                        "name": "E"
+                    },
+                    {
+                        "name": "F"
+                    },
+                    {
+                        "name": "G"
+                    },
+                    {
+                        "name": "H"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Half error bars with custom animation & same width as columns",
+            "errorbarwidthpercent": "100",
+            "halferrorbar": "1",
+            "palette": "1",
+            "showborder": "0",
+            "xaxisname": "Formulations",
+            "yaxisname": "Relative to Control"
+        },
+        "dataset": [
+            {
+                "color": "00ff00",
+                "data": [
+                    {
+                        "errorvalue": "0.067802",
+                        "value": "0.211076"
+                    },
+                    {
+                        "errorvalue": "0.042295",
+                        "value": "0.150276"
+                    },
+                    {
+                        "errorvalue": "0.07787",
+                        "value": "0.368874"
+                    },
+                    {
+                        "errorvalue": "0.0438",
+                        "value": "0.545044"
+                    },
+                    {
+                        "errorvalue": "0.026219",
+                        "value": "0.109661"
+                    },
+                    {
+                        "errorvalue": "0.041522",
+                        "value": "0.614319"
+                    },
+                    {
+                        "errorvalue": "0.104881",
+                        "value": "1.039887"
+                    },
+                    {
+                        "errorvalue": "0.041522",
+                        "value": "0.614319"
+                    }
+                ],
+                "errorbarcolor": "000000",
+                "seriesname": "Knockdown",
+                "showvalues": "0"
+            },
+            {
+                "color": "0000ff",
+                "data": [
+                    {
+                        "errorvalue": "0.092655",
+                        "value": "0.413691"
+                    },
+                    {
+                        "errorvalue": "0.12089",
+                        "value": "0.805719"
+                    },
+                    {
+                        "errorvalue": "0.162548",
+                        "value": "1.104506"
+                    },
+                    {
+                        "errorvalue": "0.175192",
+                        "value": "1.364124"
+                    },
+                    {
+                        "errorvalue": "0.008757",
+                        "value": "0.060436"
+                    },
+                    {
+                        "errorvalue": "0.131748",
+                        "value": "1.099421"
+                    },
+                    {
+                        "errorvalue": "0.153635",
+                        "value": "1.607908"
+                    },
+                    {
+                        "errorvalue": "0.138404",
+                        "value": "1.591121"
+                    }
+                ],
+                "errorbaralpha": "100",
+                "errorbarcolor": "000000",
+                "errorbarthickness": "1",
+                "seriesname": "Total Protein",
+                "showvalues": "0"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "errorbar2d",
+    "width": "800"
+}

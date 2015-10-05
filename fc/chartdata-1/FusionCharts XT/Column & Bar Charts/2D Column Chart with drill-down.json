@@ -1,0 +1,301 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "caption": "Global IP Traffic, 2012-2017",
+            "defaultnumberscale": "PB",
+            "divlinecolor": "CCCCCC",
+            "formatnumberscale": "1",
+            "labeldisplay": "WRAP",
+            "numberscaleunit": "PB,EB",
+            "numberscalevalue": "1024,1024",
+            "palettecolors": "34495e ",
+            "plotgradientcolor": " ",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showvalues": "1",
+            "subcaption": "Click on a column to drill-down into type of traffic",
+            "yaxisname": "Total IP traffic (PetaByte per Month)"
+        },
+        "data": [
+            {
+                "color": "34495e",
+                "label": "2012",
+                "link": "newchart-json-2012-type",
+                "value": "43570"
+            },
+            {
+                "color": "34495e",
+                "label": "2013",
+                "link": "newchart-json-2013-type",
+                "value": "55553"
+            },
+            {
+                "color": "#6E98AA",
+                "dashed": "1",
+                "label": " ",
+                "showlabelborder": "0",
+                "vline": "true"
+            },
+            {
+                "color": "34495e",
+                "label": "2014",
+                "link": "newchart-json-2014-type",
+                "value": "68892"
+            },
+            {
+                "color": "34495e",
+                "label": "2015",
+                "link": "newchart-json-2015-type",
+                "value": "83835"
+            },
+            {
+                "color": "34495e",
+                "label": "2016",
+                "link": "newchart-json-2016-type",
+                "value": "101055"
+            },
+            {
+                "color": "34495e",
+                "label": "2016",
+                "link": "newchart-json-2017-type",
+                "value": "120643"
+            }
+        ],
+        "linkeddata": [
+            {
+                "id": "2012-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2012",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "31339"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "11346"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "885"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2013-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2013",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxismaxvalue": "45000",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "39295"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "14679"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "1578"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2014-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2014",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxismaxvalue": "55000",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "47987"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "18107"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "2798"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2015-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2015",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxismaxvalue": "65000",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "57609"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "21523"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "4704"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2016-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2016",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxismaxvalue": "75000",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "68878"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "24740"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "7437"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "2017-type",
+                "linkedchart": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2017",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "By Type (PB per Month)",
+                        "yaxismaxvalue": "85000",
+                        "yaxisname": ""
+                    },
+                    "data": [
+                        {
+                            "label": "Fixed Internet",
+                            "value": "81818"
+                        },
+                        {
+                            "label": "Managed IP",
+                            "value": "27668"
+                        },
+                        {
+                            "label": "Mobile data",
+                            "value": "11157"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column2d",
+    "width": "800"
+}

@@ -1,0 +1,171 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatehgridalpha": "40",
+            "alternatehgridcolor": "FAE4E9",
+            "alternatevgridalpha": "10",
+            "alternatevgridcolor": "CFCFCF",
+            "anchorbgcolor": "FFFFFF",
+            "anchorbordercolor": "6F6F6F",
+            "anchorborderthickness": "2",
+            "anchorradius": "4",
+            "anchorsides": "16",
+            "bgalpha": "45",
+            "bgcolor": "DFDFDF",
+            "borderalpha": "70",
+            "bordercolor": "CDCDCD",
+            "canvasborderalpha": "60",
+            "canvasbordercolor": "CDCDCD",
+            "canvasborderthickness": "1",
+            "caption": "Sales Comparison",
+            "divlinealpha": "5",
+            "legendborderalpha": "40",
+            "legendbordercolor": "6C1121",
+            "legendborderthickness": "2",
+            "linedashgap": "5",
+            "linethickness": "2",
+            "numdivlines": "4",
+            "outcnvbasefont": "Verdana",
+            "outcnvbasefontcolor": "43302E",
+            "outcnvbasefontsize": "12",
+            "showalternatehgridcolor": "1",
+            "showalternatevgridcolor": "1",
+            "showborder": "0",
+            "showvalues": "0",
+            "yaxisname": "Sales"
+        },
+        "dataset": [
+            {
+                "anchorbordercolor": "B50F27",
+                "color": "BB2644",
+                "data": [
+                    {
+                        "value": "27400"
+                    },
+                    {
+                        "value": "29800"
+                    },
+                    {
+                        "value": "25800"
+                    },
+                    {
+                        "value": "26800"
+                    },
+                    {
+                        "value": "29600"
+                    },
+                    {
+                        "value": "32600"
+                    },
+                    {
+                        "value": "31800"
+                    },
+                    {
+                        "value": "36700"
+                    },
+                    {
+                        "value": "29700"
+                    },
+                    {
+                        "value": "31900"
+                    },
+                    {
+                        "value": "34800"
+                    },
+                    {
+                        "value": "33800"
+                    }
+                ],
+                "seriesname": "2007"
+            },
+            {
+                "color": "515151",
+                "data": [
+                    {
+                        "value": "11276"
+                    },
+                    {
+                        "value": "16234"
+                    },
+                    {
+                        "value": "19456"
+                    },
+                    {
+                        "value": "13565"
+                    },
+                    {
+                        "value": "18454"
+                    },
+                    {
+                        "value": "13654"
+                    },
+                    {
+                        "value": "9934"
+                    },
+                    {
+                        "value": "13596"
+                    },
+                    {
+                        "value": "8615"
+                    },
+                    {
+                        "value": "14454"
+                    },
+                    {
+                        "value": "16765"
+                    },
+                    {
+                        "value": "11354"
+                    }
+                ],
+                "seriesname": "2006"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msstepline",
+    "width": "800"
+}

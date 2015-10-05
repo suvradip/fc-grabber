@@ -1,0 +1,411 @@
+{
+    "fusioncharts-xt_bubble-&-xy-charts_xy-plot-chart": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "20",
+                                "showverticalline": "1",
+                                "x": "20"
+                            },
+                            {
+                                "label": "30",
+                                "showverticalline": "1",
+                                "x": "30"
+                            },
+                            {
+                                "label": "40",
+                                "showverticalline": "1",
+                                "x": "40"
+                            },
+                            {
+                                "label": "50",
+                                "showverticalline": "1",
+                                "x": "50"
+                            },
+                            {
+                                "label": "60",
+                                "showverticalline": "1",
+                                "x": "60"
+                            },
+                            {
+                                "label": "70",
+                                "showverticalline": "1",
+                                "x": "70"
+                            },
+                            {
+                                "label": "80",
+                                "showverticalline": "1",
+                                "x": "80"
+                            },
+                            {
+                                "label": "90",
+                                "showverticalline": "1",
+                                "x": "90"
+                            },
+                            {
+                                "label": "100",
+                                "showverticalline": "0",
+                                "x": "100"
+                            }
+                        ],
+                        "verticallinealpha": "0",
+                        "verticallinecolor": "666666",
+                        "verticallinethickness": "0"
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "bgcolor": "FFFFFF",
+                    "canvasborderalpha": "0",
+                    "canvasborderthickness": "0",
+                    "caption": "Server Performance",
+                    "decimals": "1",
+                    "divlinealpha": "20",
+                    "legendborderalpha": "20",
+                    "legendshadow": "0",
+                    "palette": "2",
+                    "showborder": "0",
+                    "xaxismaxvalue": "100",
+                    "xaxisminvalue": "20",
+                    "xaxisname": "Server Load (TPS)",
+                    "yaxismaxvalue": "7",
+                    "yaxisname": "Response Time (sec)"
+                },
+                "dataset": [
+                    {
+                        "anchorbgcolor": "D5FFD5",
+                        "anchorbordercolor": "009900",
+                        "anchorradius": "4",
+                        "anchorsides": "3",
+                        "color": "009900",
+                        "data": [
+                            {
+                                "x": "21",
+                                "y": "2.4"
+                            },
+                            {
+                                "x": "32",
+                                "y": "3.5"
+                            },
+                            {
+                                "x": "43",
+                                "y": "2.5"
+                            },
+                            {
+                                "x": "48",
+                                "y": "4.1"
+                            },
+                            {
+                                "x": "50",
+                                "y": "3.5"
+                            },
+                            {
+                                "x": "56",
+                                "y": "4.6"
+                            },
+                            {
+                                "x": "59",
+                                "y": "4.8"
+                            },
+                            {
+                                "x": "73",
+                                "y": "4.9"
+                            },
+                            {
+                                "x": "89",
+                                "y": "4.6"
+                            },
+                            {
+                                "x": "93",
+                                "y": "4.2"
+                            }
+                        ],
+                        "seriesname": "Server 1"
+                    },
+                    {
+                        "anchorbgcolor": "C6C6FF",
+                        "anchorbordercolor": "0000FF",
+                        "anchorradius": "4",
+                        "anchorsides": "4",
+                        "color": "0000FF",
+                        "data": [
+                            {
+                                "x": "23",
+                                "y": "1.4"
+                            },
+                            {
+                                "x": "29",
+                                "y": "1.5"
+                            },
+                            {
+                                "x": "33",
+                                "y": "1.5"
+                            },
+                            {
+                                "x": "41",
+                                "y": "1.1"
+                            },
+                            {
+                                "x": "47",
+                                "y": "1.5"
+                            },
+                            {
+                                "x": "49",
+                                "y": "1.6"
+                            },
+                            {
+                                "x": "51",
+                                "y": "1.8"
+                            },
+                            {
+                                "x": "53",
+                                "y": "1.9"
+                            },
+                            {
+                                "x": "57",
+                                "y": "1.6"
+                            },
+                            {
+                                "x": "58",
+                                "y": "1.2"
+                            },
+                            {
+                                "x": "61",
+                                "y": "1.9"
+                            },
+                            {
+                                "x": "63",
+                                "y": "1.1"
+                            },
+                            {
+                                "x": "64",
+                                "y": "1.9"
+                            },
+                            {
+                                "x": "71",
+                                "y": "1.7"
+                            },
+                            {
+                                "x": "77",
+                                "y": "1.1"
+                            },
+                            {
+                                "x": "79",
+                                "y": "1.3"
+                            },
+                            {
+                                "x": "83",
+                                "y": "1.7"
+                            },
+                            {
+                                "x": "89",
+                                "y": "1.8"
+                            },
+                            {
+                                "x": "91",
+                                "y": "1.9"
+                            },
+                            {
+                                "x": "93",
+                                "y": "1.0"
+                            }
+                        ],
+                        "seriesname": "Server 2"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "color": "FF0000",
+                                "dashed": "1",
+                                "dashgap": "5",
+                                "displayvalue": "Check",
+                                "linethickness": "2",
+                                "startvalue": "5.2",
+                                "valueonright": "1"
+                            }
+                        ]
+                    }
+                ],
+                "vtrendlines": [
+                    {
+                        "line": [
+                            {
+                                "alpha": "10",
+                                "color": "009900",
+                                "displayvalue": " ",
+                                "endvalue": "65",
+                                "istrendzone": "1",
+                                "startvalue": "20"
+                            },
+                            {
+                                "alpha": "10",
+                                "color": "ff8a00",
+                                "displayvalue": " ",
+                                "endvalue": "75",
+                                "istrendzone": "1",
+                                "startvalue": "65"
+                            },
+                            {
+                                "alpha": "10",
+                                "color": "FF0000",
+                                "displayvalue": " ",
+                                "endvalue": "100",
+                                "istrendzone": "1",
+                                "startvalue": "75"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "scatter",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/bubble-&-xy-charts/ref-images/fusioncharts-xt_bubble-&-xy-charts_xy-plot-chart.png",
+        "id": "fusioncharts-xt_bubble-&-xy-charts_xy-plot-chart"
+    },
+    "fusioncharts-xt_bubble-&-xy-charts_bubble-chart": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "name": "Quarter 1",
+                                "x": "1"
+                            },
+                            {
+                                "name": " ",
+                                "showverticalline": "1",
+                                "x": "1.5"
+                            },
+                            {
+                                "name": "Quarter 2",
+                                "x": "2"
+                            },
+                            {
+                                "name": " ",
+                                "showverticalline": "1",
+                                "x": "2.5"
+                            },
+                            {
+                                "name": "Quarter 3",
+                                "x": "3"
+                            },
+                            {
+                                "name": " ",
+                                "showverticalline": "1",
+                                "x": "3.5"
+                            },
+                            {
+                                "name": "Quarter 4",
+                                "x": "4"
+                            }
+                        ],
+                        "verticallinealpha": "20",
+                        "verticallinecolor": "666666"
+                    }
+                ],
+                "chart": {
+                    "animation": "0",
+                    "bgcolor": "FFFFFF",
+                    "bubblescale": "1.9",
+                    "canvasborderthickness": "1",
+                    "caption": "Cost vs Revenue",
+                    "chartrightmargin": "5",
+                    "decimals": "1",
+                    "legendborderalpha": "0",
+                    "legendshadow": "0",
+                    "numberprefix": "$",
+                    "numdivlines": "0",
+                    "plotfillalpha": "80",
+                    "showborder": "0",
+                    "showlimits": "0",
+                    "showplotborder": "0",
+                    "showtooltip": "0",
+                    "xaxismaxvalue": "4.5",
+                    "xaxisminvalue": "0.5",
+                    "yaxismaxvalue": "2"
+                },
+                "dataset": [
+                    {
+                        "color": "FFCC33",
+                        "data": [
+                            {
+                                "name": "Revenue",
+                                "x": "1",
+                                "y": "1",
+                                "z": "4127654"
+                            },
+                            {
+                                "name": "Revenue",
+                                "x": "2",
+                                "y": "1",
+                                "z": "4226234"
+                            },
+                            {
+                                "name": "Revenue",
+                                "x": "3",
+                                "y": "1",
+                                "z": "5671565"
+                            },
+                            {
+                                "name": "Revenue",
+                                "x": "4",
+                                "y": "1",
+                                "z": "5134454"
+                            }
+                        ],
+                        "seriesname": "Revenue",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "444444",
+                        "data": [
+                            {
+                                "name": "Cost",
+                                "x": "1",
+                                "y": "1",
+                                "z": "2127654"
+                            },
+                            {
+                                "name": "Cost",
+                                "x": "2",
+                                "y": "1",
+                                "z": "2026234"
+                            },
+                            {
+                                "name": "Cost",
+                                "x": "3",
+                                "y": "1",
+                                "z": "2871565"
+                            },
+                            {
+                                "name": "Cost",
+                                "x": "4",
+                                "y": "1",
+                                "z": "1934454"
+                            }
+                        ],
+                        "seriesname": "Cost",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "bubble",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusioncharts-xt/bubble-&-xy-charts/ref-images/fusioncharts-xt_bubble-&-xy-charts_bubble-chart.png",
+        "id": "fusioncharts-xt_bubble-&-xy-charts_bubble-chart"
+    }
+}

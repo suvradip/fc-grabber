@@ -1,0 +1,75 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Item 1"
+                    },
+                    {
+                        "label": "Item 2"
+                    },
+                    {
+                        "label": "Item 3"
+                    },
+                    {
+                        "label": "Item 4"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "base": "3",
+            "canvaspadding": "20",
+            "caption": "Logarithmic Chart on Base of 3 With Inverted y-axis",
+            "decimals": "0",
+            "formatnumberscale": "0",
+            "invertyaxis": "1",
+            "palette": "1",
+            "seriesnameintooltip": "0",
+            "showborder": "0",
+            "showlegend": "0",
+            "showvalues": "0"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "34463"
+                    },
+                    {
+                        "value": "84406"
+                    },
+                    {
+                        "value": "81461"
+                    },
+                    {
+                        "value": "6587"
+                    }
+                ],
+                "seriesname": "DataSet1"
+            },
+            {
+                "data": [
+                    {
+                        "value": "42442"
+                    },
+                    {
+                        "value": "31761"
+                    },
+                    {
+                        "value": "63805"
+                    },
+                    {
+                        "value": "32327"
+                    }
+                ],
+                "seriesname": "DataSet2"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "logmsline",
+    "width": "800"
+}

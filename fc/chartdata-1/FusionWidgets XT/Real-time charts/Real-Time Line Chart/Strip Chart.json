@@ -1,0 +1,78 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Start"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "basefontcolor": "00dd00",
+            "basefontsize": "11",
+            "bgalpha": "100",
+            "bgcolor": "000000",
+            "canvasbgcolor": "000000",
+            "canvasbordercolor": "008040",
+            "canvasborderthickness": "1",
+            "chartleftmargin": "10",
+            "datastreamurl": "/DataProviders/RealTimeLine1.php",
+            "decimals": "0",
+            "divlinealpha": "100",
+            "divlinecolor": "008040",
+            "labeldisplay": "rotate",
+            "legendbgcolor": "000000",
+            "legendbordercolor": "008040",
+            "legendpadding": "35",
+            "manageresize": "1",
+            "numbersuffix": "%",
+            "numdisplaysets": "30",
+            "numdivlines": "9",
+            "numvdivlines": "28",
+            "refreshinterval": "2",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showlabels": "1",
+            "showrealtimevalue": "0",
+            "slantlabels": "1",
+            "tooltipbgcolor": "000000",
+            "tooltipbordercolor": "008040",
+            "vdivlinecolor": "008040",
+            "yaxismaxvalue": "100"
+        },
+        "dataset": [
+            {
+                "alpha": "100",
+                "anchoralpha": "0",
+                "color": "00dd00",
+                "data": [
+                    {
+                        "value": "0"
+                    }
+                ],
+                "linethickness": "2",
+                "seriesname": "Processor A",
+                "showvalues": "0"
+            },
+            {
+                "alpha": "100",
+                "anchoralpha": "0",
+                "color": "ff5904",
+                "data": [
+                    {
+                        "value": "0"
+                    }
+                ],
+                "linethickness": "2",
+                "seriesname": "Processor B",
+                "showvalues": "0"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "realtimeline",
+    "width": "800"
+}

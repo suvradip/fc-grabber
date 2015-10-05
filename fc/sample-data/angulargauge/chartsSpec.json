@@ -1,0 +1,262 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption related changes",
+        "options": {
+            "type": "angulargauge",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "manageresize": "1",
+                    "origw": "320",
+                    "origh": "320",
+                    "tickvaluedistance": "-10",
+                    "upperlimit": "240",
+                    "lowerlimit": "0",
+                    "basefontcolor": "#FFFFFF",
+
+                    "majortmnumber": "9",
+                    "majortmcolor": "#FFFFFF",
+                    "majortmheight": "8",
+                    "majortmthickness": "5",
+                    "minortmnumber": "5",
+                    "minortmcolor": "#FFFFFF",
+                    "minortmheight": "3",
+                    "minortmthickness": "2",
+
+                    "pivotradius": "10",
+                    "pivotbgcolor": "#000000",
+                    "pivotbordercolor": "#FFFFFF",
+                    "pivotborderthickness": "2",
+
+                    "tooltipbordercolor": "#FFFFFF",
+                    "tooltipbgcolor": "#333333",
+                    "gaugeouterradius": "115",
+                    "gaugestartangle": "240",
+                    "gaugeendangle": "-60",
+                    "gaugealpha": "0",
+                    "decimals": "0",
+                    "showcolorrange": "0",
+                    "placevaluesinside": "1",
+
+                    "pivotfillmix": "",
+
+                    "showpivotborder": "1",
+                    "annrenderdelay": "0",
+                    "gaugeoriginx": "160",
+                    "gaugeoriginy": "160",
+                    "animation": "0"
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "65",
+                        "bgcolor": "000000",
+                        "bordercolor": "#FFFFFF",
+                        "borderalpha": "100",
+                        "basewidth": "4",
+                        "topwidth": "4",
+                        "borderthickness": "2",
+                        "valuey": "260"
+                    }]
+                },
+                "annotations": {
+                    "groups": [{
+                        "x": "160",
+                        "y": "160",
+                        "items": [{
+                            "type": "circle",
+                            "radius": "130",
+                            "fillasgradient": "1",
+                            "fillcolor": "#4B4B4B,#AAAAAA",
+                            "fillalpha": "100,100",
+                            "fillratio": "95,5"
+                        }, {
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0",
+                            "radius": "120",
+                            "showborder": "1",
+                            "bordercolor": "cccccc",
+                            "fillasgradient": "1",
+                            "fillcolor": "#ffffff,#000000",
+                            "fillalpha": "50,100",
+                            "fillratio": "1,99"
+                        }]
+                    }, {
+                        "x": "160",
+                        "y": "160",
+                        "showbelow": "0",
+                        "scaletext": "1",
+                        "items": [{
+                            "type": "text",
+                            "y": "100",
+                            "label": "KPH",
+                            "fontcolor": "#FFFFFF",
+                            "fontsize": "14",
+                            "bold": "1"
+                        }]
+                    }]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/angulargauge/ref-images/test_1_angular_gauge-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label, annotations related tests.",
+        "options": {
+            "type": "angulargauge",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Customer Satisfaction Score",
+                    "subcaption": "Los Angeles Topanga",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+                    
+                    "palette": "2",
+                    
+                    "plotToolText": "Current Score: $value",
+                    
+                    "valueBelowPivot":"1",
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "18",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+
+                    "showValuesOnHover": "1",
+                    "chartTopMargin": "30",
+                    "showValue": "1",
+                    "animation": "0"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "4.5",
+                        "code": "#e44a00"
+                    }, {
+                        "minValue": "4.5",
+                        "maxValue": "7.5",
+                        "code": "#f8bd19"
+                    }, {
+                        "minValue": "7.5",
+                        "maxValue": "10",
+                        "code": "#6baa01"
+                    }]
+                },
+                "dials": {
+                    "dial": [{
+                        "value": "8.9"
+                    }]
+                },
+                "trendPoints": {
+                    "point": [{
+                        "startValue": "6.8",
+                        "color": "#0075c2",
+                        "dashed": "1"
+                    }, {
+                        "startValue": "9.5",
+                        "color": "#0075c2",
+                        "dashed": "1"
+                    }, {
+                        "startValue": "6.8",
+                        "endValue": "9.5",
+                        "color": "#0075c2",
+                        "radius": "185",
+                        "innerRadius": "80"
+                    }]
+                },
+                "annotations": {
+                    "origw": "450",
+                    "origh": "300",
+                    "autoscale": "1",
+                    "showBelow": "0",
+                    "groups": [{
+                        "id": "arcs",
+                        "items": [{
+                            "id": "store-cs-bg",
+                            "type": "rectangle",
+                            "x": "$chartCenterX-130",
+                            "y": "$chartStartY + 22",
+                            "tox": "$chartCenterX + 150",
+                            "toy": "$chartStartY + 2",
+                            "fillcolor": "#0075c2"
+                        }, {
+                            "id": "state-cs-text",
+                            "type": "Text",
+                            "color": "#ffffff",
+                            "label": "Store's Customer Satisfaction Range: 6.8 to 9.5",
+                            "fontSize": "12",
+                            "align": "center",
+                            "x": "$chartCenterX + 10",
+                            "y": "$chartStartY +12"
+                        }]
+                    }]
+                }
+            }
+        },
+        "refimage": "./tests/new-smoke-test/angulargauge/ref-images/test_2_angualrgauge-snapshot.png",
+        "id": "test_2"
+    }
+}

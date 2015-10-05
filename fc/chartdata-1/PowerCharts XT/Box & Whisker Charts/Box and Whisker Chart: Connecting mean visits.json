@@ -1,0 +1,70 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "2008"
+                    },
+                    {
+                        "label": "2009"
+                    },
+                    {
+                        "label": "2010"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Yearly Mean Visits",
+            "drawmeanconnector": "1",
+            "meaniconcolor": "F66B27",
+            "meaniconradius": "10",
+            "meaniconsides": "16",
+            "numdivlines": "0",
+            "plotspacepercent": "70",
+            "showborder": "0",
+            "showmean": "1",
+            "showvalues": "0",
+            "subcaption": "(showing rise and fall through connecting line)"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "60,133,35,67,89,137,259"
+                    },
+                    {
+                        "value": "139,197,175,114,39,67,191"
+                    },
+                    {
+                        "value": "200,107,197,239,53,26,97"
+                    }
+                ],
+                "lowerboxcolor": "F6F3EB",
+                "seriesname": "January",
+                "upperboxcolor": "ECF2F7"
+            },
+            {
+                "data": [
+                    {
+                        "value": "160,203,125,137,69,107,39"
+                    },
+                    {
+                        "value": "139,167,255,74,59,187,151"
+                    },
+                    {
+                        "value": "160,137,57,209,153,126,177"
+                    }
+                ],
+                "lowerboxcolor": "FFF7F2",
+                "seriesname": "Febuary",
+                "upperboxcolor": "EBEFDF"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "boxandwhisker2d",
+    "width": "800"
+}

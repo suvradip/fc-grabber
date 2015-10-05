@@ -1,0 +1,55 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "animation": "0",
+            "basefontcolor": "#400D1B",
+            "bgcolor": "#FFFFFF",
+            "canvasbgcolor": "#FFFFFF",
+            "caption": "Social Media Content Distribution Analysis",
+            "divlinealpha": "15",
+            "divlinecolor": "#400D1B",
+            "labeldisplay": "WRAP",
+            "numbersuffix": "%",
+            "palettecolors": "#BE3243,#986667,#BE6F71,#CB999A,#DFC0B1,#E0D0D0",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasbase": "0",
+            "showcanvasbg": "0",
+            "showshadow": "0",
+            "showvalues": "1",
+            "subcaption": "For 2013",
+            "xaxisname": "What % of content distributed on this channel?",
+            "yaxismaxvalue": "100"
+        },
+        "data": [
+            {
+                "label": "Twitter",
+                "value": "78"
+            },
+            {
+                "label": "Facebook",
+                "value": "75"
+            },
+            {
+                "label": "LinkedIn",
+                "value": "30"
+            },
+            {
+                "label": "Wordpress",
+                "value": "22"
+            },
+            {
+                "label": "Flickr",
+                "value": "13"
+            },
+            {
+                "label": "Tumblr",
+                "value": "11"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column3d",
+    "width": "800"
+}

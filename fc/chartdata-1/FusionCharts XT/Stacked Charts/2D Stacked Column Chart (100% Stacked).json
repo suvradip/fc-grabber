@@ -1,0 +1,115 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "1970"
+                    },
+                    {
+                        "label": "1990"
+                    },
+                    {
+                        "label": "2010"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Composition of total global agriculture output",
+            "divlinecolor": "CCCCCC",
+            "formatnumberscale": "0",
+            "legendborderalpha": "0",
+            "legendshadow": "0",
+            "palettecolors": "#FD9927,#FECE2F,#9DCD3F,#CECD42,#64D3D1",
+            "plotfillalpha": "95",
+            "plotgradientcolor": "",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showpercentvalues": "1",
+            "showplotborder": "0",
+            "showvalues": "1",
+            "stack100percent": "1",
+            "yaxisname": "Share in total output(%)"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "37"
+                    },
+                    {
+                        "value": "37"
+                    },
+                    {
+                        "value": "37"
+                    }
+                ],
+                "seriesname": "Livestock"
+            },
+            {
+                "data": [
+                    {
+                        "value": "25"
+                    },
+                    {
+                        "value": "25"
+                    },
+                    {
+                        "value": "21"
+                    }
+                ],
+                "seriesname": "Cereals"
+            },
+            {
+                "data": [
+                    {
+                        "value": "16"
+                    },
+                    {
+                        "value": "17"
+                    },
+                    {
+                        "value": "22"
+                    }
+                ],
+                "seriesname": "Fruits & Vegetables"
+            },
+            {
+                "data": [
+                    {
+                        "value": "6"
+                    },
+                    {
+                        "value": "7"
+                    },
+                    {
+                        "value": "8"
+                    }
+                ],
+                "seriesname": "Oil Crops"
+            },
+            {
+                "data": [
+                    {
+                        "value": "16"
+                    },
+                    {
+                        "value": "14"
+                    },
+                    {
+                        "value": "12"
+                    }
+                ],
+                "seriesname": "Others"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "stackedcolumn2d",
+    "width": "800"
+}

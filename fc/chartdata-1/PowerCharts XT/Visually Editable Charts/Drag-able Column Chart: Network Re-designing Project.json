@@ -1,0 +1,59 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Planning"
+                    },
+                    {
+                        "label": "Un-installing Hardware"
+                    },
+                    {
+                        "label": "Re-installing Hardware"
+                    },
+                    {
+                        "label": "Re-configuring Server"
+                    },
+                    {
+                        "label": "Re-configuring Clients"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Network Redesigning Project",
+            "formaction": "/DataHandlerModified.php",
+            "formtarget": "dragNodeXMLFrame",
+            "numbersuffix": " days",
+            "showborder": "0",
+            "subcaption": "Drag the column to estimate the duration of a task",
+            "submitformusingajax": "0"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "3"
+                    },
+                    {
+                        "value": "5"
+                    },
+                    {
+                        "value": "10"
+                    },
+                    {
+                        "value": "4"
+                    },
+                    {
+                        "value": "15"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "dragcolumn2d",
+    "width": "800"
+}

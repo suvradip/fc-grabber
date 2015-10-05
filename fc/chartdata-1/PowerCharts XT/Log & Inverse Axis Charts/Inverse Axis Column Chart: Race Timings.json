@@ -1,0 +1,97 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Philip"
+                    },
+                    {
+                        "label": "Andrew"
+                    },
+                    {
+                        "label": "Zach"
+                    },
+                    {
+                        "label": "Steve"
+                    },
+                    {
+                        "label": "Joshua"
+                    },
+                    {
+                        "label": "Tom"
+                    },
+                    {
+                        "label": "Adam"
+                    },
+                    {
+                        "label": "Tony"
+                    },
+                    {
+                        "label": "Chris"
+                    },
+                    {
+                        "label": "Andy"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "canvasbordercolor": "CCCCCC",
+            "canvasborderthickness": "1",
+            "caption": "Race Timings - 100m",
+            "divlinecolor": "CCCCCC",
+            "numbersuffix": "s",
+            "plotgradientcolor": "",
+            "setadaptiveymin": "1",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showvalues": "1"
+        },
+        "dataset": [
+            {
+                "color": "008ee4",
+                "data": [
+                    {
+                        "value": "9.40"
+                    },
+                    {
+                        "value": "9.95"
+                    },
+                    {
+                        "value": "10.08"
+                    },
+                    {
+                        "value": "10.30"
+                    },
+                    {
+                        "value": "10.70"
+                    },
+                    {
+                        "value": "11.00"
+                    },
+                    {
+                        "value": "11.60"
+                    },
+                    {
+                        "value": "12.10"
+                    },
+                    {
+                        "value": "12.30"
+                    },
+                    {
+                        "value": "13.85"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "inversemscolumn2d",
+    "width": "800"
+}

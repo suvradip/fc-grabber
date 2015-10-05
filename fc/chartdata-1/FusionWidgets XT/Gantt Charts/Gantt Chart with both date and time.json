@@ -1,0 +1,179 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "end": "7/15/2007 23:59:59",
+                        "label": "Today",
+                        "start": "7/15/2007 00:00:00"
+                    },
+                    {
+                        "end": "7/16/2007 23:59:59",
+                        "label": "Tomorrow",
+                        "start": "7/16/2007 00:00:00"
+                    }
+                ]
+            },
+            {
+                "align": "right",
+                "category": [
+                    {
+                        "end": "7/15/2007 05:59:59",
+                        "label": "6 am",
+                        "start": "7/15/2007 00:00:00"
+                    },
+                    {
+                        "end": "7/15/2007 11:59:59",
+                        "label": "12 pm",
+                        "start": "7/15/2007 06:00:00"
+                    },
+                    {
+                        "end": "7/15/2007 17:59:59",
+                        "label": "6 pm",
+                        "start": "7/15/2007 12:00:00"
+                    },
+                    {
+                        "end": "7/15/2007 23:59:59",
+                        "label": "Midnight",
+                        "start": "7/15/2007 18:00:00"
+                    },
+                    {
+                        "end": "7/16/2007 05:59:59",
+                        "label": "6 am",
+                        "start": "7/16/2007 00:00:00"
+                    },
+                    {
+                        "end": "7/16/2007 11:59:59",
+                        "label": "12 pm",
+                        "start": "7/16/2007 06:00:00"
+                    },
+                    {
+                        "end": "7/16/2007 17:59:59",
+                        "label": "6 pm",
+                        "start": "7/16/2007 12:00:00"
+                    },
+                    {
+                        "end": "7/16/2007 23:59:59",
+                        "label": "Midnight",
+                        "start": "7/16/2007 18:00:00"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Work Schedule",
+            "dateformat": "mm/dd/yyyy",
+            "outputdateformat": "hh:mn",
+            "showborder": "0",
+            "subcaption": "For next 2 days"
+        },
+        "processes": {
+            "align": "left",
+            "fontsize": "12",
+            "headeralign": "left",
+            "headerfontsize": "18",
+            "headertext": "Who?",
+            "headervalign": "bottom",
+            "isbold": "1",
+            "process": [
+                {
+                    "id": "EMP121",
+                    "label": "John.S"
+                },
+                {
+                    "id": "EMP122",
+                    "label": "David.G"
+                },
+                {
+                    "id": "EMP123",
+                    "label": "Mary.P"
+                },
+                {
+                    "id": "EMP124",
+                    "label": "Andrew.H"
+                },
+                {
+                    "id": "EMP125",
+                    "label": "Neil.M"
+                }
+            ]
+        },
+        "tasks": {
+            "showlabels": "1",
+            "showstartdate": "1",
+            "task": [
+                {
+                    "end": "7/15/2007 12:30:00",
+                    "label": "Logo A",
+                    "processid": "EMP121",
+                    "start": "7/15/2007 08:00:00"
+                },
+                {
+                    "end": "7/15/2007 19:30:00",
+                    "label": "Logo B",
+                    "processid": "EMP121",
+                    "start": "7/15/2007 17:00:00"
+                },
+                {
+                    "end": "7/16/2007 19:30:00",
+                    "label": "Website template",
+                    "processid": "EMP121",
+                    "start": "7/16/2007 09:00:00"
+                },
+                {
+                    "end": "7/15/2007 20:30:00",
+                    "label": "PHP Blueprint",
+                    "processid": "EMP122",
+                    "start": "7/15/2007 10:00:00"
+                },
+                {
+                    "end": "7/16/2007 20:30:00",
+                    "label": "PHP Blueprint",
+                    "processid": "EMP122",
+                    "start": "7/16/2007 10:00:00"
+                },
+                {
+                    "end": "7/15/2007 12:00:00",
+                    "label": "Support",
+                    "processid": "EMP123",
+                    "start": "7/15/2007 08:00:00"
+                },
+                {
+                    "end": "7/16/2007 21:30:00",
+                    "label": "Support",
+                    "processid": "EMP123",
+                    "start": "7/16/2007 15:00:00"
+                },
+                {
+                    "end": "7/15/2007 20:30:00",
+                    "label": "Level 2 support",
+                    "processid": "EMP124",
+                    "start": "7/15/2007 08:00:00"
+                },
+                {
+                    "end": "7/16/2007 20:30:00",
+                    "label": "Level 2 support",
+                    "processid": "EMP124",
+                    "start": "7/16/2007 08:00:00"
+                },
+                {
+                    "end": "7/15/2007 14:30:00",
+                    "label": "Network Maintenance",
+                    "processid": "EMP125",
+                    "start": "7/15/2007 10:00:00"
+                },
+                {
+                    "end": "7/16/2007 14:30:00",
+                    "label": "System OS Updates",
+                    "processid": "EMP125",
+                    "start": "7/16/2007 12:00:00"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "gantt",
+    "width": "800"
+}

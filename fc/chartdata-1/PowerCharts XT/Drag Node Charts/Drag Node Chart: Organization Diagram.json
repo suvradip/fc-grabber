@@ -1,0 +1,430 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "bubblescale": "3",
+            "is3d": "1",
+            "numdivlines": "0",
+            "showborder": "0",
+            "showformbtn": "0",
+            "xaxismaxvalue": "100",
+            "xaxisminvalue": "0",
+            "yaxismaxvalue": "100",
+            "yaxisminvalue": "0"
+        },
+        "connectors": [
+            {
+                "color": "000000",
+                "connector": [
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "33ccff",
+                        "from": "CEO",
+                        "strength": "0.55",
+                        "to": "CTO"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "33ccff",
+                        "from": "CEO",
+                        "strength": "0.55",
+                        "to": "CFO"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "33ccff",
+                        "from": "CEO",
+                        "strength": "0.55",
+                        "to": "COO"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "CFO",
+                        "strength": "0.45",
+                        "to": "AM1"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "CFO",
+                        "strength": "0.45",
+                        "to": "AM2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "CTO",
+                        "strength": "0.45",
+                        "to": "GM1"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "CTO",
+                        "strength": "0.45",
+                        "to": "GM2"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "COO",
+                        "strength": "0.45",
+                        "to": "FO1"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FE9191",
+                        "from": "COO",
+                        "strength": "0.45",
+                        "to": "FO2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "GM1",
+                        "strength": "0.35",
+                        "to": "M1"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "GM1",
+                        "strength": "0.35",
+                        "to": "M2"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "1",
+                        "color": "FE9191",
+                        "from": "AM1",
+                        "strength": "0.35",
+                        "to": "AM2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "AM1",
+                        "strength": "0.35",
+                        "to": "AC1"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "AM1",
+                        "strength": "0.35",
+                        "to": "AC2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "AM2",
+                        "strength": "0.35",
+                        "to": "AC1"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "66cc99",
+                        "from": "AC2",
+                        "strength": "0.35",
+                        "to": "AC1"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "M2",
+                        "strength": "0.35",
+                        "to": "TMA"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "M2",
+                        "strength": "0.35",
+                        "to": "TMB"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "M2",
+                        "strength": "0.35",
+                        "to": "TMC"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "FF5904",
+                        "from": "FO2",
+                        "label": "Field Accountant",
+                        "strength": "0.25",
+                        "to": "AC2"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "FO2",
+                        "label": "Mining",
+                        "strength": "0.25",
+                        "to": "GRPA"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "FO2",
+                        "label": "Filtering",
+                        "strength": "0.25",
+                        "to": "GRPB"
+                    },
+                    {
+                        "arrowatend": "1",
+                        "arrowatstart": "0",
+                        "color": "FFBC79",
+                        "from": "FO2",
+                        "label": "Drying",
+                        "strength": "0.25",
+                        "to": "GRPC"
+                    }
+                ],
+                "stdthickness": "8"
+            }
+        ],
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "alpha": "100",
+                        "color": "FFFFFF",
+                        "height": "90",
+                        "id": "CEO",
+                        "imagealign": "bottom",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/CEO.jpg",
+                        "imagewidth": "108",
+                        "name": "Mr. Harry Sawyer, CEO",
+                        "tooltext": "CEO",
+                        "width": "110",
+                        "x": "50",
+                        "y": "90"
+                    },
+                    {
+                        "color": "62D0FE",
+                        "height": "40",
+                        "id": "CTO",
+                        "name": "Name:Tom McQuin <BR>Age: 54yrs <BR>Designation:CTO",
+                        "width": "130",
+                        "x": "20",
+                        "y": "70"
+                    },
+                    {
+                        "color": "62D0FE",
+                        "height": "40",
+                        "id": "CFO",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Name:Jim Kerry <BR>Age: 46yrs <BR>Designation:CFO",
+                        "width": "130",
+                        "x": "51",
+                        "y": "70"
+                    },
+                    {
+                        "color": "62D0FE",
+                        "height": "40",
+                        "id": "COO",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Name:Michelle Saler <BR>Age: 58yrs <BR>Designation:COO",
+                        "width": "130",
+                        "x": "80",
+                        "y": "70"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "GM1",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "GM1",
+                        "width": "60",
+                        "x": "10",
+                        "y": "60"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "GM2",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "GM2",
+                        "width": "60",
+                        "x": "30",
+                        "y": "60"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "AM1",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "AM1",
+                        "width": "60",
+                        "x": "43",
+                        "y": "57"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "AM2",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "AM2",
+                        "width": "60",
+                        "x": "59",
+                        "y": "57"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "FO1",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "FO1",
+                        "width": "60",
+                        "x": "70",
+                        "y": "50"
+                    },
+                    {
+                        "color": "FE9191",
+                        "height": "40",
+                        "id": "FO2",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "FO2",
+                        "width": "60",
+                        "x": "90",
+                        "y": "50"
+                    },
+                    {
+                        "color": "33CC66",
+                        "height": "40",
+                        "id": "M1",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "M1",
+                        "width": "60",
+                        "x": "5",
+                        "y": "47"
+                    },
+                    {
+                        "color": "33CC66",
+                        "height": "40",
+                        "id": "M2",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "M2",
+                        "width": "60",
+                        "x": "15",
+                        "y": "37"
+                    },
+                    {
+                        "color": "33CC66",
+                        "height": "40",
+                        "id": "AC1",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "AC1",
+                        "width": "60",
+                        "x": "53",
+                        "y": "46"
+                    },
+                    {
+                        "color": "33CC66",
+                        "height": "40",
+                        "id": "AC2",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "AC2",
+                        "width": "60",
+                        "x": "42",
+                        "y": "32"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "TMA",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Team A",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "8",
+                        "y": "22"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "TMB",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Team B",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "15.5",
+                        "y": "14"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "TMC",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Team C",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "22",
+                        "y": "22"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "GRPA",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Group A",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "70",
+                        "y": "32"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "GRPB",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Group B",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "80",
+                        "y": "24"
+                    },
+                    {
+                        "color": "FFBC79",
+                        "id": "GRPC",
+                        "link": "n-http://www.InfoSoftGlobal.com",
+                        "name": "Group C",
+                        "radius": "30",
+                        "shape": "circle",
+                        "x": "91",
+                        "y": "32"
+                    }
+                ],
+                "plotborderalpha": "100"
+            }
+        ],
+        "labels": {
+            "label": []
+        }
+    },
+    "height": "600",
+    "type": "dragnode",
+    "width": "800"
+}

@@ -1,0 +1,2881 @@
+
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "caption": "Half Yearly Revenue Analysis",
+                        "numberprefix": "$",
+                        "showborder": "0",
+                        "theme": "fint",
+                        "yaxismaxvalue": "250000",
+                        "yaxisname": "Revenue"
+                    },
+                    "data": [
+                        {
+                            "label": "Jul",
+                            "tooltext": "Occupancy: 67%{br}Revenue:$150k{br}3 conferences hosted!",
+                            "value": "150000"
+                        },
+                        {
+                            "label": "Aug",
+                            "tooltext": "Occupancy: 64%{br}Revenue:$130k{br}Lean summer period!",
+                            "value": "130000"
+                        },
+                        {
+                            "label": "Sep",
+                            "tooltext": "Occupancy: 44%{br}Revenue: $80k{br}Reason: Renovating the Lobby",
+                            "value": "95000"
+                        },
+                        {
+                            "label": "Oct",
+                            "tooltext": "Occupancy: 73%{br}Revenue:$170k{br}Anniversary Discount: 25%",
+                            "value": "170000"
+                        },
+                        {
+                            "label": "Nov",
+                            "tooltext": "Occupancy: 70%{br}Revenue:$155k{br}2 conferences cancelled!",
+                            "value": "155000"
+                        },
+                        {
+                            "label": "Dec",
+                            "tooltext": "Occupancy: 95%{br}Revenue:$230k{br}Crossed last year record!",
+                            "value": "230000"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithcustomtransparencyforcolumns": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "0",
+                        "basefontcolor": "000000",
+                        "bgcolor": "FFFFFF",
+                        "canvasbordercolor": "#CCCCCC",
+                        "canvasborderthickness": "1",
+                        "caption": "Top 10 Most Popular Sports in the World",
+                        "captionpadding": "30",
+                        "divlinecolor": "#CCCCCC",
+                        "labeldisplay": "AUTO",
+                        "labelsepchar": ": ",
+                        "linethickness": "3",
+                        "numberscaleunit": "K,M,B",
+                        "numberscalevalue": "1000,1000,1000",
+                        "palettecolors": "e44a00",
+                        "plotgradientcolor": "",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showshadow": "0",
+                        "showvalues": "1",
+                        "subcaption": "Based on number of viewers",
+                        "yaxisname": "Number of Viewers",
+                        "yaxisvaluespadding": "15"
+                    },
+                    "data": [
+                        {
+                            "alpha": "100",
+                            "label": "Football",
+                            "tooltext": "Popular in: {br}Europe{br}Africa{br}Asia{br}Americas",
+                            "value": "3500000000"
+                        },
+                        {
+                            "alpha": "90",
+                            "label": "Cricket",
+                            "tooltext": "Popular in: {br}India{br}UK{br}Pakistan{br}England{br}Australia",
+                            "value": "3000000000"
+                        },
+                        {
+                            "alpha": "80",
+                            "label": "Field Hockey",
+                            "tooltext": "Popular in: {br}Asia{br}Europe{br}Africa{br}Australia",
+                            "value": "2200000000"
+                        },
+                        {
+                            "alpha": "70",
+                            "label": "Tennis",
+                            "tooltext": "Popular in: {br}Europe{br}Americas{br}Asia",
+                            "value": "1000000000"
+                        },
+                        {
+                            "alpha": "55",
+                            "label": "Volleyball",
+                            "tooltext": "Popular in: {br}Asia{br}Europe{br}Americas{br}Australia",
+                            "value": "900000000"
+                        },
+                        {
+                            "alpha": "55",
+                            "label": "Table Tennis",
+                            "tooltext": "Popular in: {br}Asia{br}Europe{br}Africa{br}Americas",
+                            "value": "900000000"
+                        },
+                        {
+                            "alpha": "40",
+                            "label": "Baseball",
+                            "tooltext": "Popular in: {br}US{br}Japan{br}Cuba{br}Dominican Republic",
+                            "value": "500000000"
+                        },
+                        {
+                            "alpha": "30",
+                            "label": "Golf",
+                            "tooltext": "Popular in: {br}US{br}Canada{br}Europe",
+                            "value": "400000000"
+                        },
+                        {
+                            "alpha": "30",
+                            "label": "Basketball",
+                            "tooltext": "Popular in: {br}US{br}Canada",
+                            "value": "400000000"
+                        },
+                        {
+                            "alpha": "25",
+                            "label": "American Football",
+                            "tooltext": "Popular in: {br}US",
+                            "value": "390000000"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithcustomtransparencyforcolumns.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithcustomtransparencyforcolumns"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithdrill-down": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Global IP Traffic, 2012-2017",
+                        "defaultnumberscale": "PB",
+                        "divlinecolor": "CCCCCC",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "WRAP",
+                        "numberscaleunit": "PB,EB",
+                        "numberscalevalue": "1024,1024",
+                        "palettecolors": "34495e ",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "Click on a column to drill-down into type of traffic",
+                        "yaxisname": "Total IP traffic (PetaByte per Month)"
+                    },
+                    "data": [
+                        {
+                            "color": "34495e",
+                            "label": "2012",
+                            "link": "newchart-json-2012-type",
+                            "value": "43570"
+                        },
+                        {
+                            "color": "34495e",
+                            "label": "2013",
+                            "link": "newchart-json-2013-type",
+                            "value": "55553"
+                        },
+                        {
+                            "color": "#6E98AA",
+                            "dashed": "1",
+                            "label": " ",
+                            "showlabelborder": "0",
+                            "vline": "true"
+                        },
+                        {
+                            "color": "34495e",
+                            "label": "2014",
+                            "link": "newchart-json-2014-type",
+                            "value": "68892"
+                        },
+                        {
+                            "color": "34495e",
+                            "label": "2015",
+                            "link": "newchart-json-2015-type",
+                            "value": "83835"
+                        },
+                        {
+                            "color": "34495e",
+                            "label": "2016",
+                            "link": "newchart-json-2016-type",
+                            "value": "101055"
+                        },
+                        {
+                            "color": "34495e",
+                            "label": "2016",
+                            "link": "newchart-json-2017-type",
+                            "value": "120643"
+                        }
+                    ],
+                    "linkeddata": [
+                        {
+                            "id": "2012-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2012",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "31339"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "11346"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "885"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2013-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2013",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxismaxvalue": "45000",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "39295"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "14679"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "1578"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2014-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2014",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxismaxvalue": "55000",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "47987"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "18107"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "2798"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2015-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2015",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxismaxvalue": "65000",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "57609"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "21523"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "4704"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2016-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2016",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxismaxvalue": "75000",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "68878"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "24740"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "7437"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2017-type",
+                            "linkedchart": {
+                                "chart": {
+                                    "bgcolor": "FFFFFF",
+                                    "caption": "Global IP Traffic, 2017",
+                                    "defaultnumberscale": "PB",
+                                    "divlinecolor": "CCCCCC",
+                                    "formatnumberscale": "1",
+                                    "labeldisplay": "WRAP",
+                                    "numberscaleunit": "PB,EB",
+                                    "numberscalevalue": "1024,1024",
+                                    "palettecolors": "34495e",
+                                    "plotgradientcolor": " ",
+                                    "showalternatehgridcolor": "0",
+                                    "showcanvasborder": "0",
+                                    "showplotborder": "0",
+                                    "showvalues": "1",
+                                    "subcaption": "By Type (PB per Month)",
+                                    "yaxismaxvalue": "85000",
+                                    "yaxisname": ""
+                                },
+                                "data": [
+                                    {
+                                        "label": "Fixed Internet",
+                                        "value": "81818"
+                                    },
+                                    {
+                                        "label": "Managed IP",
+                                        "value": "27668"
+                                    },
+                                    {
+                                        "label": "Mobile data",
+                                        "value": "11157"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithdrill-down.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithdrill-down"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dround-edgedcolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "caption": "Sales by salesperson",
+                        "numberprefix": "$",
+                        "showborder": "0",
+                        "subcaption": "",
+                        "useroundedges": "1",
+                        "yaxisname": "Sales"
+                    },
+                    "data": [
+                        {
+                            "label": "Rita",
+                            "value": "82000"
+                        },
+                        {
+                            "label": "James",
+                            "value": "72000"
+                        },
+                        {
+                            "label": "Jenny",
+                            "value": "60000"
+                        },
+                        {
+                            "label": "Harry",
+                            "value": "55000"
+                        },
+                        {
+                            "label": "Jerry",
+                            "value": "50000"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dround-edgedcolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dround-edgedcolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dcolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "0",
+                        "bgcolor": "#FFFFFF",
+                        "canvasbasecolor": "#CCCCCC",
+                        "canvasbgcolor": "#FFFFFF",
+                        "caption": "Sales by salesperson",
+                        "divlinealpha": "70",
+                        "divlinecolor": "#CCCCCC",
+                        "labeldisplay": "WRAP",
+                        "numberprefix": "$",
+                        "palettecolors": "#008ee4,#6baa01,#f8bd19,#e44a00,#33bdda",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showcanvasbg": "0",
+                        "showvalues": "1",
+                        "useroundedges": "1",
+                        "yaxisname": "Sales"
+                    },
+                    "data": [
+                        {
+                            "label": "Jerry",
+                            "value": "5000"
+                        },
+                        {
+                            "label": "Harry",
+                            "value": "5500"
+                        },
+                        {
+                            "label": "James",
+                            "value": "7000"
+                        },
+                        {
+                            "label": "Rita",
+                            "value": "8200"
+                        },
+                        {
+                            "label": "Jenny",
+                            "value": "6000"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dcolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_3dcolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "1",
+                        "caption": "Delay in Shipping Time",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "ROTATE",
+                        "numbersuffix": " days",
+                        "numdivlines": "5",
+                        "palette": "2",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "slantlabels": "1",
+                        "subcaption": "By Country",
+                        "xaxisname": "Country",
+                        "yaxisname": "Delay {br}(Negative is delivery before date)"
+                    },
+                    "data": [
+                        {
+                            "label": "Portugal",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Belgium",
+                            "value": "7"
+                        },
+                        {
+                            "label": "Poland",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Spain",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Finland",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Venezuela",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Italy",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switzerland",
+                            "value": "0"
+                        },
+                        {
+                            "label": "France",
+                            "value": "0"
+                        },
+                        {
+                            "label": "UK",
+                            "value": "0"
+                        },
+                        {
+                            "label": "USA",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Austria",
+                            "value": "-1"
+                        },
+                        {
+                            "label": "Germany",
+                            "value": "-2"
+                        },
+                        {
+                            "label": "Norway",
+                            "value": "-3"
+                        },
+                        {
+                            "label": "Argentina",
+                            "value": "-3"
+                        },
+                        {
+                            "label": "Denmark",
+                            "value": "-4"
+                        },
+                        {
+                            "label": "Sweden",
+                            "value": "-4"
+                        },
+                        {
+                            "label": "Brazil",
+                            "value": "-5"
+                        },
+                        {
+                            "label": "Canada",
+                            "value": "-6"
+                        },
+                        {
+                            "label": "Mexico",
+                            "value": "-7"
+                        },
+                        {
+                            "label": "Ireland",
+                            "value": "-12"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane.png",
+            "id": "fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithtrendlines": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "#074868",
+                        "bgalpha": "0",
+                        "canvasbgalpha": "0",
+                        "canvasborderalpha": "30",
+                        "canvasbordercolor": "#074868",
+                        "canvasborderthickness": "1",
+                        "caption": "Air Pollution in New York (in AQI)",
+                        "divlinealpha": "10",
+                        "divlinecolor": "#074868",
+                        "numdivlines": "5",
+                        "palettecolors": "#1790E1 ",
+                        "plotborderalpha": "0",
+                        "plotgradientcolor": "",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "1",
+                        "showyaxisvalues": "0",
+                        "subcaption": "23/12/2013 - 29/12/2013",
+                        "tooltipborderalpha": "0",
+                        "yaxismaxvalue": "10",
+                        "yaxisname": "Air Quality Index {br}(AQI)"
+                    },
+                    "data": [
+                        {
+                            "label": "Mon",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Tue",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Wed",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Thu",
+                            "value": "7"
+                        },
+                        {
+                            "label": "Fri",
+                            "value": "6"
+                        },
+                        {
+                            "label": "Sat",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Sun",
+                            "value": "3"
+                        }
+                    ],
+                    "trendlines": [
+                        {
+                            "line": [
+                                {
+                                    "color": "fda813",
+                                    "displayvalue": "High",
+                                    "endvalue": "",
+                                    "istrendzone": "",
+                                    "showontop": "1",
+                                    "startvalue": "7",
+                                    "thickness": "2",
+                                    "valueonright": "1"
+                                },
+                                {
+                                    "color": "f77027",
+                                    "displayvalue": "Very High",
+                                    "endvalue": "",
+                                    "istrendzone": "",
+                                    "showontop": "1",
+                                    "startvalue": "8",
+                                    "thickness": "2",
+                                    "valueonright": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithtrendlines.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithtrendlines"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithslantedx-axislabels": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgalpha": "0",
+                        "canvasbgalpha": "0",
+                        "canvasborderalpha": "0",
+                        "caption": "Top Goal Scorers for FC Barcelona",
+                        "palettecolors": "5167c7",
+                        "plotborderalpha": "0",
+                        "plotgradientcolor": "",
+                        "rotatelabels": "1",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showtooltipshadow": "0",
+                        "showvalues": "0",
+                        "slantlabels": "1",
+                        "subcaption": "2013",
+                        "tooltipbgcolor": "138dd7",
+                        "tooltipbordercolor": "138dd7",
+                        "yaxisname": "No. of Goals"
+                    },
+                    "data": [
+                        {
+                            "color": "1AB7D9",
+                            "label": "Lionel Messi",
+                            "tooltext": "",
+                            "value": "14"
+                        },
+                        {
+                            "color": "1AB7D9",
+                            "label": "Pedro",
+                            "value": "14"
+                        },
+                        {
+                            "label": "Neymar Jr.",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Fabregas",
+                            "value": "9"
+                        },
+                        {
+                            "label": "Alexis",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Xavi",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Dani Alves",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Adriano",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Sergio",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Piqué",
+                            "value": "2"
+                        }
+                    ],
+                    "styles": {
+                        "application": [
+                            {
+                                "styles": "MyFirstFontStyle",
+                                "toobject": "Tooltip"
+                            }
+                        ],
+                        "definition": [
+                            {
+                                "color": "FFFFFF",
+                                "name": "MyFirstFontStyle",
+                                "type": "font"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithslantedx-axislabels.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithslantedx-axislabels"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dbarchartwithhighlighteddatapoints": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "2009"
+                                },
+                                {
+                                    "label": "2010"
+                                },
+                                {
+                                    "label": "2011"
+                                },
+                                {
+                                    "label": "2012"
+                                },
+                                {
+                                    "label": "2013"
+                                },
+                                {
+                                    "label": "2014 (Projected)"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "caption": "Production Report",
+                        "divlinealpha": "30",
+                        "drawanchors": "0",
+                        "labelpadding": "10",
+                        "legendborderalpha": "0",
+                        "numvdivlines": "10",
+                        "palette": "3",
+                        "showborder": "0",
+                        "showvalues": "0",
+                        "useroundedges": "1",
+                        "yaxisname": "Units",
+                        "yaxisvaluespadding": "10"
+                    },
+                    "dataset": [
+                        {
+                            "color": "A66EDD",
+                            "data": [
+                                {
+                                    "value": "35"
+                                },
+                                {
+                                    "value": "42"
+                                },
+                                {
+                                    "value": "31"
+                                },
+                                {
+                                    "value": "28"
+                                },
+                                {
+                                    "value": "34"
+                                },
+                                {
+                                    "dashed": "1",
+                                    "value": "30"
+                                }
+                            ],
+                            "seriesname": "Model A12"
+                        },
+                        {
+                            "color": "F6BD0F",
+                            "data": [
+                                {
+                                    "value": "22"
+                                },
+                                {
+                                    "value": "25"
+                                },
+                                {
+                                    "value": "18"
+                                },
+                                {
+                                    "value": "22"
+                                },
+                                {
+                                    "value": "17"
+                                },
+                                {
+                                    "dashed": "1",
+                                    "value": "16"
+                                }
+                            ],
+                            "seriesname": "Model A15"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dbarchartwithhighlighteddatapoints.png",
+            "id": "fusionchartsxt_column&barcharts_2dbarchartwithhighlighteddatapoints"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithcustomnumberscale": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgalpha": "0",
+                        "canvasbgalpha": "0",
+                        "canvasborderalpha": "0",
+                        "caption": "Most Popular Superhero on Youtube",
+                        "defaultnumberscale": "hrs",
+                        "divlinealpha": "10",
+                        "formatnumberscale": "1",
+                        "numberscaleunit": " days, months, years",
+                        "numberscalevalue": "24,31,12",
+                        "palettecolors": "#008ee4,#9b59b6,#6baa01,#e44a00,#f8bd19,#d35400,#bdc3c7,#95a5a6,#34495e,#1abc9c",
+                        "plotgradientcolor": "",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "0",
+                        "subcaption": "August 2013",
+                        "yaxisname": "Total time spent watching"
+                    },
+                    "data": [
+                        {
+                            "label": "Batman",
+                            "value": "71000"
+                        },
+                        {
+                            "label": "Thor",
+                            "value": "66000"
+                        },
+                        {
+                            "label": "Iron Man",
+                            "value": "20000"
+                        },
+                        {
+                            "label": "Superman",
+                            "value": "14000"
+                        },
+                        {
+                            "label": "Wolverine",
+                            "value": "7800"
+                        },
+                        {
+                            "label": "Spider Man",
+                            "value": "7400"
+                        },
+                        {
+                            "label": "Captain America",
+                            "value": "4900"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithcustomnumberscale.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithcustomnumberscale"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dcolumnchartwithtrendzones": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "canvasborderalpha": "0",
+                        "caption": "Top 5 Salespeople",
+                        "divlinecolor": "CCCCCC",
+                        "labeldisplay": "WRAP",
+                        "numberprefix": "$",
+                        "plotgradientcolor": " ",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "0",
+                        "subcaption": "",
+                        "yaxisname": "Sales"
+                    },
+                    "data": [
+                        {
+                            "color": "ff9a00",
+                            "label": "Gerry",
+                            "value": "11500"
+                        },
+                        {
+                            "color": "ffcf00",
+                            "label": "Harry",
+                            "value": "11000"
+                        },
+                        {
+                            "color": "9ccf31",
+                            "label": "James",
+                            "value": "9000"
+                        },
+                        {
+                            "color": "cecf31",
+                            "label": "Rita",
+                            "value": "7000"
+                        },
+                        {
+                            "color": "5fd3d2",
+                            "label": "Jenny",
+                            "value": "6000"
+                        }
+                    ],
+                    "trendlines": [
+                        {
+                            "line": [
+                                {
+                                    "alpha": "20",
+                                    "displayvalue": "Target{br}Range",
+                                    "endvalue": "10500",
+                                    "istrendzone": "1",
+                                    "startvalue": "9900",
+                                    "tooltext": "Target revenue range",
+                                    "valueonright": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dcolumnchartwithtrendzones.png",
+            "id": "fusionchartsxt_column&barcharts_2dcolumnchartwithtrendzones"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dcolumnchartwithcanvashiddenfromview": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "0",
+                        "basefontcolor": "#400D1B",
+                        "bgcolor": "#FFFFFF",
+                        "canvasbgcolor": "#FFFFFF",
+                        "caption": "Social Media Content Distribution Analysis",
+                        "divlinealpha": "15",
+                        "divlinecolor": "#400D1B",
+                        "labeldisplay": "WRAP",
+                        "numbersuffix": "%",
+                        "palettecolors": "#BE3243,#986667,#BE6F71,#CB999A,#DFC0B1,#E0D0D0",
+                        "showalternatehgridcolor": "0",
+                        "showborder": "0",
+                        "showcanvasbase": "0",
+                        "showcanvasbg": "0",
+                        "showshadow": "0",
+                        "showvalues": "1",
+                        "subcaption": "For 2013",
+                        "xaxisname": "What % of content distributed on this channel?",
+                        "yaxismaxvalue": "100"
+                    },
+                    "data": [
+                        {
+                            "label": "Twitter",
+                            "value": "78"
+                        },
+                        {
+                            "label": "Facebook",
+                            "value": "75"
+                        },
+                        {
+                            "label": "LinkedIn",
+                            "value": "30"
+                        },
+                        {
+                            "label": "Wordpress",
+                            "value": "22"
+                        },
+                        {
+                            "label": "Flickr",
+                            "value": "13"
+                        },
+                        {
+                            "label": "Tumblr",
+                            "value": "11"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dcolumnchartwithcanvashiddenfromview.png",
+            "id": "fusionchartsxt_column&barcharts_3dcolumnchartwithcanvashiddenfromview"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "1",
+                        "caption": "Delay in Shipping Time",
+                        "formatnumberscale": "1",
+                        "labeldisplay": "ROTATE",
+                        "numbersuffix": " days",
+                        "numdivlines": "5",
+                        "palette": "2",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "slantlabels": "1",
+                        "subcaption": "By Country",
+                        "xaxisname": "Country",
+                        "yaxisname": "Delay {br}(Negative is delivery before date)"
+                    },
+                    "data": [
+                        {
+                            "label": "Portugal",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Belgium",
+                            "value": "7"
+                        },
+                        {
+                            "label": "Poland",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Spain",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Finland",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Venezuela",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Italy",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Switzerland",
+                            "value": "0"
+                        },
+                        {
+                            "label": "France",
+                            "value": "0"
+                        },
+                        {
+                            "label": "UK",
+                            "value": "0"
+                        },
+                        {
+                            "label": "USA",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Austria",
+                            "value": "-1"
+                        },
+                        {
+                            "label": "Germany",
+                            "value": "-2"
+                        },
+                        {
+                            "label": "Norway",
+                            "value": "-3"
+                        },
+                        {
+                            "label": "Argentina",
+                            "value": "-3"
+                        },
+                        {
+                            "label": "Denmark",
+                            "value": "-4"
+                        },
+                        {
+                            "label": "Sweden",
+                            "value": "-4"
+                        },
+                        {
+                            "label": "Brazil",
+                            "value": "-5"
+                        },
+                        {
+                            "label": "Canada",
+                            "value": "-6"
+                        },
+                        {
+                            "label": "Mexico",
+                            "value": "-7"
+                        },
+                        {
+                            "label": "Ireland",
+                            "value": "-12"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane.png",
+            "id": "fusionchartsxt_column&barcharts_3dcolumnchartwithzeroplane"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Hardware"
+                                },
+                                {
+                                    "label": "Software"
+                                },
+                                {
+                                    "label": "Service"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "canvasbasecolor": "FEFEFE",
+                        "canvasbgcolor": "FEFEFE",
+                        "caption": "Business Results: 2005",
+                        "divlinecolor": "999999",
+                        "divlinedashgap": "2",
+                        "divlinedashlen": "1",
+                        "divlineisdashed": "1",
+                        "numberprefix": "$",
+                        "numbersuffix": "M",
+                        "showBorder": "0",
+                        "showcolumnshadow": "0",
+                        "tooltipbgcolor": "DEDEBE",
+                        "tooltipborder": "889E6D",
+                        "yaxisname": "Revenue (Millions)"
+                    },
+                    "dataset": [
+                        {
+                            "color": "8EAC41",
+                            "data": [
+                                {
+                                    "value": "84"
+                                },
+                                {
+                                    "value": "207"
+                                },
+                                {
+                                    "value": "116"
+                                }
+                            ],
+                            "seriesname": "Domestic"
+                        },
+                        {
+                            "color": "607142",
+                            "data": [
+                                {
+                                    "value": "116"
+                                },
+                                {
+                                    "value": "237"
+                                },
+                                {
+                                    "value": "83"
+                                }
+                            ],
+                            "seriesname": "International"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithhiddendataseries": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "iPhone"
+                                },
+                                {
+                                    "label": "iPad"
+                                },
+                                {
+                                    "label": "Mac"
+                                },
+                                {
+                                    "label": "iPod & iTunes"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "alternatehgridalpha": "0",
+                        "basefontcolor": "#6E98AA",
+                        "bgalpha": "0",
+                        "bordercolor": "#6E98AA",
+                        "canvasborderalpha": "25",
+                        "canvasbordercolor": "#6E98AA",
+                        "canvasborderthickness": "1",
+                        "caption": "Sales of Apple by product",
+                        "divlinealpha": "25",
+                        "divlinecolor": "#6E98AA",
+                        "legendborderalpha": "30",
+                        "legendbordercolor": "#6E98AA",
+                        "legendshadow": "0",
+                        "numberprefix": "$",
+                        "numbersuffix": "B",
+                        "palettecolors": "#02295B,#FCB63C,#A8B1B8",
+                        "plotborderalpha": "0",
+                        "plotgradientcolor": "",
+                        "plotspacepercent": "50",
+                        "showborder": "0",
+                        "showvalues": "0",
+                        "subcaption": "In Billion $",
+                        "tooltipbordercolor": "#6E98AA"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "value": "47.06"
+                                },
+                                {
+                                    "value": "20.36"
+                                },
+                                {
+                                    "value": "28.27"
+                                },
+                                {
+                                    "value": "35.16 "
+                                }
+                            ],
+                            "seriesname": "2011",
+                            "visible": "0"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "40.48"
+                                },
+                                {
+                                    "value": "32.42"
+                                },
+                                {
+                                    "value": "20.36"
+                                },
+                                {
+                                    "value": "31.3"
+                                }
+                            ],
+                            "seriesname": "2012",
+                            "visible": "0"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "42.36"
+                                },
+                                {
+                                    "value": "20.67"
+                                },
+                                {
+                                    "value": "25.3"
+                                },
+                                {
+                                    "value": "22.5"
+                                }
+                            ],
+                            "seriesname": "2013"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithhiddendataseries.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithhiddendataseries"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "January"
+                                },
+                                {
+                                    "label": "February"
+                                },
+                                {
+                                    "label": "March"
+                                },
+                                {
+                                    "label": "April"
+                                },
+                                {
+                                    "label": "May"
+                                },
+                                {
+                                    "label": "June"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "caption": "Sales by Model - H1, 2013",
+                        "legendbgcolor": "FFFFFF",
+                        "legendborderalpha": "0",
+                        "legendshadow": "0",
+                        "numberprefix": "$",
+                        "palette": "5",
+                        "placevaluesinside": "1",
+                        "rotatevalues": "1",
+                        "showBorder": "0"
+                    },
+                    "dataset": [
+                        {
+                            "color": "F0807F",
+                            "data": [
+                                {
+                                    "value": "8343"
+                                },
+                                {
+                                    "value": "6983"
+                                },
+                                {
+                                    "value": "7658"
+                                },
+                                {
+                                    "value": "8345"
+                                },
+                                {
+                                    "value": "8195"
+                                },
+                                {
+                                    "value": "7684"
+                                }
+                            ],
+                            "seriesname": "Model X12",
+                            "showvalues": "1"
+                        },
+                        {
+                            "color": "F1C7D2",
+                            "data": [
+                                {
+                                    "value": "2446"
+                                },
+                                {
+                                    "value": "3935"
+                                },
+                                {
+                                    "value": "3452"
+                                },
+                                {
+                                    "value": "4424"
+                                },
+                                {
+                                    "value": "4925"
+                                },
+                                {
+                                    "value": "4328"
+                                }
+                            ],
+                            "seriesname": "Model X23",
+                            "showvalues": "1"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "January"
+                                },
+                                {
+                                    "label": "February"
+                                },
+                                {
+                                    "label": "March"
+                                },
+                                {
+                                    "label": "April"
+                                },
+                                {
+                                    "label": "May"
+                                },
+                                {
+                                    "label": "June"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "caption": "Sales by Model - H1, 2013",
+                        "legendbgcolor": "FFFFFF",
+                        "legendborderalpha": "0",
+                        "legendshadow": "0",
+                        "numberprefix": "$",
+                        "palette": "5",
+                        "placevaluesinside": "1",
+                        "rotatevalues": "1",
+                        "showBorder": "0"
+                    },
+                    "dataset": [
+                        {
+                            "color": "F0807F",
+                            "data": [
+                                {
+                                    "value": "8343"
+                                },
+                                {
+                                    "value": "6983"
+                                },
+                                {
+                                    "value": "7658"
+                                },
+                                {
+                                    "value": "8345"
+                                },
+                                {
+                                    "value": "8195"
+                                },
+                                {
+                                    "value": "7684"
+                                }
+                            ],
+                            "seriesname": "Model X12",
+                            "showvalues": "1"
+                        },
+                        {
+                            "color": "F1C7D2",
+                            "data": [
+                                {
+                                    "value": "2446"
+                                },
+                                {
+                                    "value": "3935"
+                                },
+                                {
+                                    "value": "3452"
+                                },
+                                {
+                                    "value": "4424"
+                                },
+                                {
+                                    "value": "4925"
+                                },
+                                {
+                                    "value": "4328"
+                                }
+                            ],
+                            "seriesname": "Model X23",
+                            "showvalues": "1"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_3dmulti-seriescolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dcolumnchartwithnospacingbetweencolumns": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "1",
+                        "caption": "Number of participants",
+                        "formatnumberscale": "0",
+                        "palette": "2",
+                        "plotspacepercent": "0",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "subcaption": "By age",
+                        "xaxisname": "Age group",
+                        "yaxisname": "# Participants"
+                    },
+                    "data": [
+                        {
+                            "label": "25-30",
+                            "value": "45"
+                        },
+                        {
+                            "label": "30-35",
+                            "value": "34"
+                        },
+                        {
+                            "label": "35-40",
+                            "value": "39"
+                        },
+                        {
+                            "label": "40-45",
+                            "value": "21"
+                        },
+                        {
+                            "label": "45-50",
+                            "value": "17"
+                        },
+                        {
+                            "label": "50-55",
+                            "value": "14"
+                        },
+                        {
+                            "label": "55-60",
+                            "value": "11"
+                        },
+                        {
+                            "label": "60+",
+                            "value": "9"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dcolumnchartwithnospacingbetweencolumns.png",
+            "id": "fusionchartsxt_column&barcharts_3dcolumnchartwithnospacingbetweencolumns"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithtrendzone": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "N. America",
+                                    "tooltext": "North America"
+                                },
+                                {
+                                    "label": "Asia"
+                                },
+                                {
+                                    "label": "Europe"
+                                },
+                                {
+                                    "label": "Australia"
+                                },
+                                {
+                                    "label": "Africa"
+                                }
+                            ],
+                            "font": "Arial",
+                            "fontsize": "12"
+                        }
+                    ],
+                    "chart": {
+                        "animation": "1",
+                        "basefont": "Arial",
+                        "basefontsize": "12",
+                        "caption": "Number of reported incidences",
+                        "legendborderalpha": "0",
+                        "palette": "2",
+                        "rotatenames": "0",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "subcaption": "By continent",
+                        "useroundedges": "1",
+                        "yaxisname": "# of reported incidences"
+                    },
+                    "dataset": [
+                        {
+                            "alpha": "90",
+                            "color": "9ACCF6",
+                            "dashed": "0",
+                            "data": [
+                                {
+                                    "value": "30"
+                                },
+                                {
+                                    "value": "26"
+                                },
+                                {
+                                    "value": "29"
+                                },
+                                {
+                                    "value": "31"
+                                },
+                                {
+                                    "value": "34"
+                                }
+                            ],
+                            "seriesname": "2013",
+                            "showvalues": "0"
+                        },
+                        {
+                            "alpha": "90",
+                            "color": "82CF27",
+                            "data": [
+                                {
+                                    "value": "27"
+                                },
+                                {
+                                    "value": "25"
+                                },
+                                {
+                                    "value": "28"
+                                },
+                                {
+                                    "value": "26"
+                                },
+                                {
+                                    "value": "10"
+                                }
+                            ],
+                            "seriesname": "2012",
+                            "showvalues": "0"
+                        }
+                    ],
+                    "trendlines": [
+                        {
+                            "line": [
+                                {
+                                    "alpha": "20",
+                                    "color": "8BBA00",
+                                    "displayvalue": "Acceptable",
+                                    "endvalue": "35",
+                                    "istrendzone": "1",
+                                    "showontop": "0",
+                                    "startvalue": "20",
+                                    "thickness": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithtrendzone.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithtrendzone"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithdatavaluesinsidecolumns": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Austria"
+                                },
+                                {
+                                    "label": "Brazil"
+                                },
+                                {
+                                    "label": "France"
+                                },
+                                {
+                                    "label": "Italy"
+                                },
+                                {
+                                    "label": "USA"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "canvasborderalpha": "50",
+                        "canvasborderthickness": "1",
+                        "caption": "Sales by country",
+                        "decimals": "0",
+                        "legendborderalpha": "50",
+                        "legendshadow": "0",
+                        "numberprefix": "$",
+                        "palettecolors": "#AFD8F8,#F6BD0F,#8BBA00",
+                        "placevaluesinside": "1",
+                        "rotatevalues": "1",
+                        "showBorder": "0",
+                        "showlabels": "1",
+                        "showvalues": "1"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "value": "25601.34"
+                                },
+                                {
+                                    "value": "20148.82"
+                                },
+                                {
+                                    "value": "17372.76"
+                                },
+                                {
+                                    "value": "35407.15"
+                                },
+                                {
+                                    "value": "38105.68"
+                                }
+                            ],
+                            "seriesname": "2011"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "57401.85"
+                                },
+                                {
+                                    "value": "41941.19"
+                                },
+                                {
+                                    "value": "45263.37"
+                                },
+                                {
+                                    "value": "117320.16"
+                                },
+                                {
+                                    "value": "114845.27"
+                                }
+                            ],
+                            "seriesname": "2012"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "45000.65"
+                                },
+                                {
+                                    "value": "44835.76"
+                                },
+                                {
+                                    "value": "18722.18"
+                                },
+                                {
+                                    "value": "77557.31"
+                                },
+                                {
+                                    "value": "92633.68"
+                                }
+                            ],
+                            "seriesname": "2013"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithdatavaluesinsidecolumns.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchartwithdatavaluesinsidecolumns"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Hardware"
+                                },
+                                {
+                                    "label": "Software"
+                                },
+                                {
+                                    "label": "Service"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "canvasbasecolor": "FEFEFE",
+                        "canvasbgcolor": "FEFEFE",
+                        "caption": "Business Results: 2005",
+                        "divlinecolor": "999999",
+                        "divlinedashgap": "2",
+                        "divlinedashlen": "1",
+                        "divlineisdashed": "1",
+                        "numberprefix": "$",
+                        "numbersuffix": "M",
+                        "showBorder": "0",
+                        "showcolumnshadow": "0",
+                        "tooltipbgcolor": "DEDEBE",
+                        "tooltipborder": "889E6D",
+                        "yaxisname": "Revenue (Millions)"
+                    },
+                    "dataset": [
+                        {
+                            "color": "8EAC41",
+                            "data": [
+                                {
+                                    "value": "84"
+                                },
+                                {
+                                    "value": "207"
+                                },
+                                {
+                                    "value": "116"
+                                }
+                            ],
+                            "seriesname": "Domestic"
+                        },
+                        {
+                            "color": "607142",
+                            "data": [
+                                {
+                                    "value": "116"
+                                },
+                                {
+                                    "value": "237"
+                                },
+                                {
+                                    "value": "83"
+                                }
+                            ],
+                            "seriesname": "International"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "mscolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriescolumnchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "alternatevgridalpha": "0",
+                        "basefontcolor": "#194920",
+                        "basefontsize": "12",
+                        "bgcolor": "#FFFFFF",
+                        "canvasborderalpha": "0",
+                        "caption": "Highest Level of Education in U.S",
+                        "divlinealpha": "0",
+                        "numbersuffix": "%",
+                        "palettecolors": "#3A803D",
+                        "plotborderalpha": "0",
+                        "plotgradientcolor": "",
+                        "showborder": "0",
+                        "showvalues": "1",
+                        "showyaxisvalues": "0",
+                        "subcaption": "U.S Bureau of Labor (Survey 2013)",
+                        "yaxisname": "Percent of population"
+                    },
+                    "data": [
+                        {
+                            "label": "Professional degree",
+                            "value": "4.17"
+                        },
+                        {
+                            "label": "Doctoral degree",
+                            "value": "7.16"
+                        },
+                        {
+                            "label": "Masters degree",
+                            "value": "8.95"
+                        },
+                        {
+                            "label": "Bachelors degree",
+                            "value": "10.93"
+                        },
+                        {
+                            "label": "Associates degree",
+                            "value": "12.33"
+                        },
+                        {
+                            "label": "Some college, no degree",
+                            "value": "15.31"
+                        },
+                        {
+                            "label": "High school diploma",
+                            "value": "16.5"
+                        },
+                        {
+                            "label": "Less than a high school diploma",
+                            "value": "24.65"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "bar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dbarchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "alternatevgridalpha": "0",
+                        "basefontcolor": "#194920",
+                        "basefontsize": "12",
+                        "bgcolor": "#FFFFFF",
+                        "canvasborderalpha": "0",
+                        "caption": "Highest Level of Education in U.S",
+                        "divlinealpha": "0",
+                        "numbersuffix": "%",
+                        "palettecolors": "#3A803D",
+                        "plotborderalpha": "0",
+                        "plotgradientcolor": "",
+                        "showborder": "0",
+                        "showvalues": "1",
+                        "showyaxisvalues": "0",
+                        "subcaption": "U.S Bureau of Labor (Survey 2013)",
+                        "yaxisname": "Percent of population"
+                    },
+                    "data": [
+                        {
+                            "label": "Professional degree",
+                            "value": "4.17"
+                        },
+                        {
+                            "label": "Doctoral degree",
+                            "value": "7.16"
+                        },
+                        {
+                            "label": "Masters degree",
+                            "value": "8.95"
+                        },
+                        {
+                            "label": "Bachelors degree",
+                            "value": "10.93"
+                        },
+                        {
+                            "label": "Associates degree",
+                            "value": "12.33"
+                        },
+                        {
+                            "label": "Some college, no degree",
+                            "value": "15.31"
+                        },
+                        {
+                            "label": "High school diploma",
+                            "value": "16.5"
+                        },
+                        {
+                            "label": "Less than a high school diploma",
+                            "value": "24.65"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "bar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dbarchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dbarchartwithalotofdatasets": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "canvasborderalpha": "0",
+                        "caption": "Lead sources",
+                        "divlinecolor": "CCCCCC",
+                        "palettecolors": "008ee4",
+                        "plotgradientcolor": "",
+                        "showBorder": "0",
+                        "showalternatevgridcolor": "0",
+                        "showcanvasborder": "0",
+                        "showplotborder": "0",
+                        "showvalues": "0",
+                        "subcaption": "By industry",
+                        "tooltipbordercolor": "FFFFFF",
+                        "xaxisname": "Industry",
+                        "yaxisname": "Number of Leads"
+                    },
+                    "data": [
+                        {
+                            "label": "Travel & Leisure",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Advertising/Marketing/PR",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Real Estate",
+                            "value": "3"
+                        },
+                        {
+                            "label": "Communications/Cable/Phone",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Construction",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Entertainment",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Staffing Firm/Full Time/Temporary",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Transportation/Logistics",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Utilities",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Aerospace/Defense Products",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Banking/Finance/Securities",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Consumer Products - Non-Durables",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Distribution",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Education",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Health Products & Services",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Hospitality & Hotels",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Non-Business/Residential",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Pharmaceutical",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Printing & Publishing",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Professional Services",
+                            "value": "1"
+                        },
+                        {
+                            "label": "VAR/ISV",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Warranty Administrators",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Conglomerates",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Enery - Oil & Gas",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Government",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Insurance",
+                            "value": "0"
+                        },
+                        {
+                            "label": "ISP/Hotspot Operator",
+                            "value": "0"
+                        },
+                        {
+                            "label": "OEM & Manufacturing",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Point of Sale (POS)/Retail",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Printer Service/Toner/Laser",
+                            "value": "0"
+                        },
+                        {
+                            "label": "REITs",
+                            "value": "0"
+                        },
+                        {
+                            "label": "Vertical Market Software",
+                            "value": "0"
+                        },
+                        {
+                            "label": "White Box Builder",
+                            "value": "0"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "bar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dbarchartwithalotofdatasets.png",
+            "id": "fusionchartsxt_column&barcharts_2dbarchartwithalotofdatasets"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dbarchartwithcustomannotation": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "caption": "Monthly Sales",
+                        "decimals": "0",
+                        "formatnumberscale": "0",
+                        "palette": "2",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "xaxisname": "Month",
+                        "yaxisname": "Units"
+                    },
+                    "data": [
+                        {
+                            "label": "Jan",
+                            "value": "462"
+                        },
+                        {
+                            "label": "Feb",
+                            "value": "857"
+                        },
+                        {
+                            "label": "Mar",
+                            "value": "671"
+                        },
+                        {
+                            "label": "Apr",
+                            "value": "494"
+                        },
+                        {
+                            "label": "May",
+                            "value": "761"
+                        },
+                        {
+                            "label": "Jun",
+                            "value": "860"
+                        },
+                        {
+                            "color": "91AF64",
+                            "dashed": "1",
+                            "dashgap": "2",
+                            "dashlen": "2",
+                            "label": "Print ads stopped",
+                            "thickness": "2",
+                            "vline": "true"
+                        },
+                        {
+                            "label": "Jul",
+                            "value": "629"
+                        },
+                        {
+                            "label": "Aug",
+                            "value": "622"
+                        },
+                        {
+                            "label": "Sep",
+                            "value": "376"
+                        },
+                        {
+                            "label": "Oct",
+                            "value": "494"
+                        },
+                        {
+                            "label": "Nov",
+                            "value": "761"
+                        },
+                        {
+                            "label": "Dec",
+                            "value": "960"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "column2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dbarchartwithcustomannotation.png",
+            "id": "fusionchartsxt_column&barcharts_2dbarchartwithcustomannotation"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dbarchartwithimageasbackground": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "BMW 3 Series Coupe"
+                                },
+                                {
+                                    "label": "BMW 3 Series Tourer"
+                                },
+                                {
+                                    "label": "BMW 5 Series GT"
+                                },
+                                {
+                                    "label": "BMW 5 Series Tourer"
+                                },
+                                {
+                                    "label": "BMW 6 Series Coupe"
+                                },
+                                {
+                                    "label": "BMW 6 Series Gran Coupe"
+                                },
+                                {
+                                    "label": "BMW 7 Series Saloon"
+                                },
+                                {
+                                    "label": "BMW X3"
+                                },
+                                {
+                                    "label": "BMW X5"
+                                },
+                                {
+                                    "label": "BMW X6"
+                                },
+                                {
+                                    "label": "BMW Z4 Roadster"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgimage": "/images/BMW_logo.png",
+                        "bgimagealpha": "10",
+                        "bgimagedisplaymode": "stretch",
+                        "bgimagescale": "45",
+                        "canvasbasecolor": "#C8C8C8",
+                        "canvasbgalpha": "0",
+                        "caption": "BMW Global Sales - By Model",
+                        "divlinealpha": "15",
+                        "logoposition": "TL",
+                        "numberprefix": "",
+                        "palettecolors": "#1559CF",
+                        "showalternatevgridcolor": "0",
+                        "showborder": "0",
+                        "showlegend": "0",
+                        "showvalues": "0",
+                        "subcaption": "For the year 2012",
+                        "xaxisname": "Model",
+                        "yaxisname": "Units Sold"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "value": "29525"
+                                },
+                                {
+                                    "value": "59144"
+                                },
+                                {
+                                    "value": "21087"
+                                },
+                                {
+                                    "value": "57425"
+                                },
+                                {
+                                    "value": "8480"
+                                },
+                                {
+                                    "value": "6833"
+                                },
+                                {
+                                    "value": "59184"
+                                },
+                                {
+                                    "value": "149853"
+                                },
+                                {
+                                    "value": "147776"
+                                },
+                                {
+                                    "value": "43689"
+                                },
+                                {
+                                    "value": "15249"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "msbar3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dbarchartwithimageasbackground.png",
+            "id": "fusionchartsxt_column&barcharts_3dbarchartwithimageasbackground"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriesbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Hardware"
+                                },
+                                {
+                                    "label": "Software"
+                                },
+                                {
+                                    "label": "Service"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "canvasbasecolor": "FEFEFE",
+                        "canvasbgcolor": "FEFEFE",
+                        "caption": "Business Results: 2005",
+                        "chartrightmargin": "30",
+                        "divlinecolor": "999999",
+                        "divlinedashgap": "2",
+                        "divlinedashlen": "1",
+                        "divlineisdashed": "1",
+                        "numberprefix": "$",
+                        "numbersuffix": "M",
+                        "showborder": "0",
+                        "showcolumnshadow": "0",
+                        "tooltipbgcolor": "DEDEBE",
+                        "tooltipborder": "889E6D",
+                        "yaxisname": "Revenue (Millions)"
+                    },
+                    "dataset": [
+                        {
+                            "color": "8EAC41",
+                            "data": [
+                                {
+                                    "value": "84"
+                                },
+                                {
+                                    "value": "207"
+                                },
+                                {
+                                    "value": "116"
+                                }
+                            ],
+                            "seriesname": "Domestic"
+                        },
+                        {
+                            "color": "607142",
+                            "data": [
+                                {
+                                    "value": "116"
+                                },
+                                {
+                                    "value": "237"
+                                },
+                                {
+                                    "value": "83"
+                                }
+                            ],
+                            "seriesname": "International"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "msbar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriesbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriesbarchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dround-edgedbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "alternatevgridcolor": "AFD8F8",
+                        "basefontcolor": "114B78",
+                        "bgcolor": "FFFFFF",
+                        "caption": "Fruit Production for March",
+                        "numbersuffix": "M",
+                        "palettecolors": "#AFD8F8,#F6BD0F,#8BBA00,#A66EDD,#F984A1",
+                        "showborder": "0",
+                        "subcaption": "(in Millions)",
+                        "tooltipbgcolor": "E7EFF6",
+                        "tooltipbordercolor": "114B78",
+                        "useroundedges": "1",
+                        "xaxisname": "Fruit",
+                        "yaxisname": "Quantity"
+                    },
+                    "data": [
+                        {
+                            "label": "Orange",
+                            "value": "23"
+                        },
+                        {
+                            "label": "Apple",
+                            "value": "12"
+                        },
+                        {
+                            "label": "Banana",
+                            "value": "17"
+                        },
+                        {
+                            "label": "Mango",
+                            "value": "14"
+                        },
+                        {
+                            "label": "Litchi",
+                            "value": "12"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "bar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dround-edgedbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dround-edgedbarchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_2dmulti-seriesbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Hardware"
+                                },
+                                {
+                                    "label": "Software"
+                                },
+                                {
+                                    "label": "Service"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "canvasbasecolor": "FEFEFE",
+                        "canvasbgcolor": "FEFEFE",
+                        "caption": "Business Results: 2005",
+                        "chartrightmargin": "30",
+                        "divlinecolor": "999999",
+                        "divlinedashgap": "2",
+                        "divlinedashlen": "1",
+                        "divlineisdashed": "1",
+                        "numberprefix": "$",
+                        "numbersuffix": "M",
+                        "showborder": "0",
+                        "showcolumnshadow": "0",
+                        "tooltipbgcolor": "DEDEBE",
+                        "tooltipborder": "889E6D",
+                        "yaxisname": "Revenue (Millions)"
+                    },
+                    "dataset": [
+                        {
+                            "color": "8EAC41",
+                            "data": [
+                                {
+                                    "value": "84"
+                                },
+                                {
+                                    "value": "207"
+                                },
+                                {
+                                    "value": "116"
+                                }
+                            ],
+                            "seriesname": "Domestic"
+                        },
+                        {
+                            "color": "607142",
+                            "data": [
+                                {
+                                    "value": "116"
+                                },
+                                {
+                                    "value": "237"
+                                },
+                                {
+                                    "value": "83"
+                                }
+                            ],
+                            "seriesname": "International"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "msbar2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_2dmulti-seriesbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_2dmulti-seriesbarchart"
+        }
+    },
+    {
+        "fusionchartsxt_column&barcharts_3dmulti-seriesbarchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "label": "Austria"
+                                },
+                                {
+                                    "label": "Brazil"
+                                },
+                                {
+                                    "label": "France"
+                                },
+                                {
+                                    "label": "Germany"
+                                },
+                                {
+                                    "label": "USA"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "caption": "Sales by country",
+                        "decimals": "0",
+                        "legendborderalpha": "50",
+                        "legendshadow": "0",
+                        "numberprefix": "$",
+                        "palette": "2",
+                        "palettecolors": "#AFD8F8,#F6BD0F,#8BBA00",
+                        "showBorder": "0",
+                        "showlabels": "1",
+                        "showvalues": "0"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "value": "25601.34"
+                                },
+                                {
+                                    "value": "20148.82"
+                                },
+                                {
+                                    "value": "17372.76"
+                                },
+                                {
+                                    "value": "35407.15"
+                                },
+                                {
+                                    "value": "38105.68"
+                                }
+                            ],
+                            "seriesname": "2011"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "57401.85"
+                                },
+                                {
+                                    "value": "41941.19"
+                                },
+                                {
+                                    "value": "45263.37"
+                                },
+                                {
+                                    "value": "117320.16"
+                                },
+                                {
+                                    "value": "114845.27"
+                                }
+                            ],
+                            "seriesname": "2012"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "value": "45000.65"
+                                },
+                                {
+                                    "value": "44835.76"
+                                },
+                                {
+                                    "value": "18722.18"
+                                },
+                                {
+                                    "value": "77557.31"
+                                },
+                                {
+                                    "value": "92633.68"
+                                }
+                            ],
+                            "seriesname": "2013"
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "msbar3d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionCharts XT/Column & Bar Charts/refimage/fusionchartsxt_column&barcharts_3dmulti-seriesbarchart.png",
+            "id": "fusionchartsxt_column&barcharts_3dmulti-seriesbarchart"
+        }
+    }

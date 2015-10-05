@@ -1,0 +1,3221 @@
+
+    {
+        "fusionwidgetsxt_gauges_real-timeangulargauge ": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "2C6BB2",
+                                        "fillcolor": "000000,2C6BB2, 135FAB",
+                                        "fillratio": "80,15, 5",
+                                        "radius": "200",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "bordercolor": "2C6BB2",
+                                        "fillcolor": "FFFFFF, D4D4D4",
+                                        "fillratio": "20,80",
+                                        "radius": "180",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "bordercolor": "51884F",
+                                        "endangle": "240",
+                                        "fillalpha": "50",
+                                        "fillcolor": "51884F",
+                                        "innerradius": "170",
+                                        "radius": "180",
+                                        "startangle": "-60",
+                                        "type": "arc",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "210",
+                                "y": "210"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "0",
+                        "autoaligntickvalues": "1",
+                        "basefontcolor": "646F8F",
+                        "bgcolor": "FFFFFF",
+                        "datastreamurl": "/DataProviders/MPSMeter.php",
+                        "gaugealpha": "50",
+                        "gaugeendangle": "-50",
+                        "gaugefillmix": "",
+                        "gaugeinnerradius": "135",
+                        "gaugeoriginx": "210",
+                        "gaugeoriginy": "210",
+                        "gaugeouterradius": "150",
+                        "gaugestartangle": "230",
+                        "lowerlimit": "0",
+                        "majortmcolor": "646F8F",
+                        "majortmheight": "9",
+                        "majortmnumber": "11",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "minortmcolor": "646F8F",
+                        "minortmheight": "3",
+                        "minortmnumber": "5",
+                        "numbersuffix": "/s",
+                        "origh": "415",
+                        "origw": "415",
+                        "pivotbordercolor": "bebcb0",
+                        "pivotfillmix": "{A1A0FF},{6A6FA6}",
+                        "pivotfillratio": "70,30",
+                        "pivotradius": "14",
+                        "placevaluesinside": "1",
+                        "refreshinterval": "6",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showshadow": "0",
+                        "tickvaluedistance": "1",
+                        "tooltipbgcolor": "F2F2FF",
+                        "tooltipbordercolor": "6A6FA6",
+                        "upperlimit": "5000"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "A1A0FF",
+                                "maxvalue": "4999",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "A1A0FF",
+                                "maxvalue": "5000",
+                                "minvalue": "4999"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "5",
+                                "bgcolor": "6A6FA6,A1A0FF",
+                                "borderalpha": "0",
+                                "topwidth": "4",
+                                "value": "2265"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_real-timeangulargauge .png",
+            "id": "fusionwidgetsxt_gauges_real-timeangulargauge "
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_custom-designedangulargaugewithtrendzone": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "bebcb0",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "f0efea, bebcb0",
+                                        "fillratio": "85,15",
+                                        "radius": "150",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "fillcolor": "bebcb0, f0efea",
+                                        "fillratio": "85,15",
+                                        "radius": "120",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "bordercolor": "f0efea",
+                                        "color": "FFFFFF",
+                                        "radius": "100",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "x": "170",
+                                "y": "170"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "basefontcolor": "666666",
+                        "bgcolor": "FFFFFF",
+                        "gaugeendangle": "-70",
+                        "gaugefillmix": "",
+                        "gaugeinnerradius": "90",
+                        "gaugeoriginx": "170",
+                        "gaugeoriginy": "170",
+                        "gaugeouterradius": "100",
+                        "gaugestartangle": "250",
+                        "lowerlimit": "0",
+                        "majortmcolor": "666666",
+                        "majortmheight": "8",
+                        "majortmnumber": "11",
+                        "manageresize": "1",
+                        "minortmcolor": "666666",
+                        "minortmheight": "3",
+                        "minortmnumber": "5",
+                        "origh": "340",
+                        "origw": "340",
+                        "pivotbordercolor": "BEBCB0",
+                        "pivotfillmix": "{F0EFEA}, {BEBCB0}",
+                        "pivotfillratio": "80,20",
+                        "pivotradius": "20",
+                        "placevaluesinside": "1",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showlimits": "1",
+                        "showshadow": "0",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "alpha": "0",
+                                "code": "00FF00",
+                                "maxvalue": "80",
+                                "minvalue": "0"
+                            },
+                            {
+                                "alpha": "50",
+                                "code": "FF0000",
+                                "maxvalue": "100",
+                                "minvalue": "80"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "10",
+                                "bgcolor": "bebcb0, f0efea, bebcb0",
+                                "borderalpha": "0",
+                                "bordercolor": "FFFFFF",
+                                "topwidth": "3",
+                                "value": "65"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_custom-designedangulargaugewithtrendzone.png",
+            "id": "fusionwidgetsxt_gauges_custom-designedangulargaugewithtrendzone"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithsteelcasing": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "fillalpha": "100,100",
+                                        "fillangle": "-45",
+                                        "fillcolor": "CCCCCC,111111",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "145",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "fillalpha": "100,100",
+                                        "fillangle": "-45",
+                                        "fillcolor": "111111,cccccc",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "120",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "666666",
+                                        "radius": "110",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "150",
+                                "y": "150"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "0",
+                        "basefontcolor": "FFFFFF",
+                        "bgcolor": "FFFFFF",
+                        "gaugeendangle": "-45",
+                        "gaugefillmix": "",
+                        "gaugeinnerradius": "80%",
+                        "gaugeoriginx": "150",
+                        "gaugeoriginy": "150",
+                        "gaugeouterradius": "100",
+                        "gaugestartangle": "225",
+                        "lowerlimit": "0",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "8",
+                        "majortmnumber": "11",
+                        "manageresize": "1",
+                        "minortmcolor": "FFFFFF",
+                        "minortmheight": "3",
+                        "minortmnumber": "5",
+                        "origh": "300",
+                        "origw": "300",
+                        "pivotfillmix": "{CCCCCC},{333333}",
+                        "pivotfillratio": "50,50",
+                        "pivotradius": "10",
+                        "placevaluesinside": "1",
+                        "showborder": "0",
+                        "showpivotborder": "0",
+                        "showshadow": "0",
+                        "tooltipbgcolor": "333333",
+                        "tooltipbordercolor": "FFFFFF",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "alpha": "40",
+                                "code": "C1E1C1",
+                                "maxvalue": "50",
+                                "minvalue": "0"
+                            },
+                            {
+                                "alpha": "40",
+                                "code": "F6F164",
+                                "maxvalue": "85",
+                                "minvalue": "50"
+                            },
+                            {
+                                "alpha": "40",
+                                "code": "F70118",
+                                "maxvalue": "120",
+                                "minvalue": "85"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "10",
+                                "bgcolor": "000000,CCCCCC,000000",
+                                "borderalpha": "0",
+                                "bordercolor": "FFFFFF",
+                                "value": "65"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithsteelcasing.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithsteelcasing"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugeasratingmeter": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "alpha": "15",
+                                        "color": "FFFFFF",
+                                        "radius": "7",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "8"
+                                    }
+                                ],
+                                "showbelow": "0",
+                                "x": "$chartCenterX",
+                                "xscale": "200",
+                                "y": "$chartCenterY",
+                                "yscale": "120"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "0",
+                        "basefont": "Impact",
+                        "basefontcolor": "F48900",
+                        "basefontsize": "30",
+                        "bgalpha": "100",
+                        "bgcolor": "000000",
+                        "gaugeendangle": "-55",
+                        "gaugeinnerradius": "85%",
+                        "gaugeouterradius": "140",
+                        "gaugestartangle": "235",
+                        "lowerlimit": "0",
+                        "majortmcolor": "F48900",
+                        "majortmheight": "15",
+                        "majortmnumber": "11",
+                        "majortmthickness": "5",
+                        "manageresize": "1",
+                        "minortmcolor": "FFFFFF",
+                        "minortmheight": "13",
+                        "minortmnumber": "4",
+                        "minortmthickness": "2",
+                        "origh": "300",
+                        "origw": "330",
+                        "pivotfillangle": "240",
+                        "pivotfillcolor": "000000,383836",
+                        "pivotfillratio": "50,50",
+                        "pivotfilltype": "linear",
+                        "pivotradius": "20",
+                        "placevaluesinside": "1",
+                        "showborder": "0",
+                        "showshadow": "0",
+                        "upperlimit": "10"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "25",
+                                "bordercolor": "E70E00",
+                                "color": "E70E00",
+                                "radius": "85",
+                                "topwidth": "1",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "alpha": "35",
+                                "color": "F48900",
+                                "displayvalue": " ",
+                                "endvalue": "10",
+                                "innerradius": "0",
+                                "radius": "140",
+                                "showborder": "0",
+                                "startvalue": "8"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugeasratingmeter.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugeasratingmeter"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithmetallicframeeffect": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "color": "1C1C1C,AAAAAA,1C1C1C",
+                                        "fillpattern": "linear",
+                                        "radius": "127",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "color": "9E9E9E,ECECEC",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "radius": "117",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "color": "000000,6C6C6C",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "radius": "115",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "150",
+                                "y": "150"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "0",
+                        "basefontcolor": "FFFFFF",
+                        "bgalpha": "100",
+                        "bgcolor": "FFFFFF",
+                        "decimals": "0",
+                        "gaugeendangle": "-45",
+                        "gaugefillmix": "",
+                        "gaugeinnerradius": "100",
+                        "gaugeoriginx": "150",
+                        "gaugeoriginy": "150",
+                        "gaugeouterradius": "110",
+                        "gaugestartangle": "225",
+                        "lowerlimit": "0",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "7",
+                        "majortmnumber": "8",
+                        "majortmthickness": "3",
+                        "manageresize": "1",
+                        "minortmnumber": "0",
+                        "origh": "300",
+                        "origw": "300",
+                        "pivotbordercolor": "999999",
+                        "pivotborderthickness": "2",
+                        "pivotfillangle": "240",
+                        "pivotfillcolor": "000000,383836",
+                        "pivotfillratio": "50,50",
+                        "pivotfilltype": "linear",
+                        "pivotradius": "20",
+                        "placevaluesinside": "1",
+                        "showpivotborder": "1",
+                        "showshadow": "0",
+                        "upperlimit": "180"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "alpha": "100",
+                                "basewidth": "3",
+                                "color": "FFFFFF,999999",
+                                "radius": "100",
+                                "showborder": "0",
+                                "topwidth": "3",
+                                "value": "50"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithmetallicframeeffect.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithmetallicframeeffect"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithcustomizedborder": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "444444",
+                                        "borderthickness": "2",
+                                        "endangle": "180",
+                                        "fillalpha": "100,100",
+                                        "fillangle": "0",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "dddddd,666666",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "150",
+                                        "showborder": "1",
+                                        "startangle": "0",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "2.5"
+                                    },
+                                    {
+                                        "endangle": "180",
+                                        "fillalpha": "100,100",
+                                        "fillangle": "0",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "666666,ffffff",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "145",
+                                        "startangle": "0",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "x": "205",
+                                "y": "207.5"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "autoaligntickvalues": "1",
+                        "bgcolor": "FFFFFF",
+                        "caption": "Revenue - 2013",
+                        "decmials": "2",
+                        "fillangle": "45",
+                        "formatnumberscale": "1",
+                        "gaugeinnerradius": "2",
+                        "gaugeoriginx": "205",
+                        "gaugeoriginy": "206",
+                        "gaugeouterradius": "140",
+                        "lowerlimit": "1600000",
+                        "majortmheight": "8",
+                        "majortmnumber": "10",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "numberprefix": "$",
+                        "origh": "250",
+                        "origw": "400",
+                        "pivotbordercolor": "000000",
+                        "pivotborderthickness": "10",
+                        "pivotfillmix": "666666",
+                        "pivotradius": "10",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showpivotborder": "1",
+                        "showvalue": "1",
+                        "tickmarkdecimals": "1",
+                        "tickvaluedistance": "10",
+                        "upperlimit": "2500000",
+                        "valuebelowpivot": "1"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "e44a00",
+                                "maxvalue": "1930000",
+                                "minvalue": "1600000"
+                            },
+                            {
+                                "code": "f8bd19",
+                                "maxvalue": "2170000",
+                                "minvalue": "1930000"
+                            },
+                            {
+                                "code": "6baa01",
+                                "maxvalue": "2500000",
+                                "minvalue": "2170000"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "20",
+                                "bgcolor": "000000",
+                                "borderalpha": "0",
+                                "radius": "130",
+                                "topwidth": "1",
+                                "value": "2100000"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithcustomizedborder.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithcustomizedborder"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewith2dialssimulatingaclock": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "color": "EBF0F4,85898C,484C4F,C5C6C8",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "fillratio": "30,30,30,10",
+                                        "radius": "120",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "color": "8E8E8E,83878A,E7E7E7",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "radius": "105",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "color": "07476D,19669E,186AA6,D2EAF6",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "fillratio": "5,45,40,10",
+                                        "radius": "103",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "color": "07476D,19669E,07476D",
+                                        "fillangle": "270",
+                                        "fillpattern": "linear",
+                                        "fillratio": "5,90,5",
+                                        "radius": "100",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "135",
+                                "y": "135"
+                            },
+                            {
+                                "id": "Grp2",
+                                "items": [
+                                    {
+                                        "color": "012A46",
+                                        "radius": "12",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "135",
+                                "y": "135"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "animation": "0",
+                        "annrenderdelay": "0",
+                        "autoaligntickvalues": "1",
+                        "basefont": "Times New Roman",
+                        "basefontcolor": "FFFFFF",
+                        "basefontsize": "18",
+                        "bgalpha": "100",
+                        "bgcolor": "333333",
+                        "gaugeendangle": "-270",
+                        "gaugeinnerradius": "95",
+                        "gaugeoriginx": "135",
+                        "gaugeoriginy": "135",
+                        "gaugeouterradius": "95",
+                        "gaugestartangle": "90",
+                        "lowerlimit": "0",
+                        "lowerlimitdisplay": " ",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "7",
+                        "majortmnumber": "12",
+                        "majortmthickness": "3",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "minortmcolor": "FFFFFF",
+                        "minortmheight": "4",
+                        "minortmnumber": "4",
+                        "origh": "270",
+                        "origw": "270",
+                        "pivotfillcolor": "FFFFFF",
+                        "pivotradius": "6",
+                        "placevaluesinside": "1",
+                        "showshadow": "0",
+                        "showtooltip": "0",
+                        "tickvaluedistance": "10",
+                        "tickvaluestep": "3",
+                        "upperlimit": "12",
+                        "upperlimitdisplay": ""
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "3",
+                                "color": "FFFFFF",
+                                "id": "hrs",
+                                "radius": "50",
+                                "rearextension": "12",
+                                "topwidth": "1",
+                                "value": "7.5"
+                            },
+                            {
+                                "basewidth": "3",
+                                "color": "FFFFFF",
+                                "id": "min",
+                                "radius": "70",
+                                "rearextension": "12",
+                                "topwidth": "1",
+                                "value": "4.3"
+                            },
+                            {
+                                "alpha": "100",
+                                "basewidth": "1",
+                                "borderalpha": "0",
+                                "color": "FF0000",
+                                "id": "sec",
+                                "radius": "86",
+                                "rearextension": "20",
+                                "topwidth": "1",
+                                "value": "3"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewith2dialssimulatingaclock.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewith2dialssimulatingaclock"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "444444",
+                                        "borderthickness": "2",
+                                        "endangle": "180",
+                                        "fillalpha": "100,100",
+                                        "fillangle": "0",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "dddddd,666666",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "150",
+                                        "showborder": "1",
+                                        "startangle": "0",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "2.5"
+                                    },
+                                    {
+                                        "endangle": "180",
+                                        "fillalpha": "100,100",
+                                        "fillangle": "0",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "666666,ffffff",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "radius": "145",
+                                        "startangle": "0",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "x": "205",
+                                "y": "207.5"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "autoaligntickvalues": "1",
+                        "bgcolor": "AEC0CA,FFFFFF",
+                        "decmials": "2",
+                        "fillangle": "45",
+                        "formatnumberscale": "1",
+                        "gaugeinnerradius": "2",
+                        "gaugeoriginx": "205",
+                        "gaugeoriginy": "206",
+                        "gaugeouterradius": "140",
+                        "lowerlimit": "1600000",
+                        "majortmheight": "8",
+                        "majortmnumber": "10",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "numberprefix": "$",
+                        "origh": "250",
+                        "origw": "400",
+                        "pivotbordercolor": "000000",
+                        "pivotborderthickness": "5",
+                        "pivotfillmix": "FFFFFF,000000",
+                        "pivotradius": "17",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showpivotborder": "1",
+                        "tickmarkdecimals": "1",
+                        "tickvaluedistance": "10",
+                        "upperlimit": "2500000"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "399E38",
+                                "maxvalue": "1930000",
+                                "minvalue": "1600000"
+                            },
+                            {
+                                "code": "E48739",
+                                "maxvalue": "2170000",
+                                "minvalue": "1930000"
+                            },
+                            {
+                                "code": "B41527",
+                                "maxvalue": "2500000",
+                                "minvalue": "2170000"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "28",
+                                "bgcolor": "000000",
+                                "borderalpha": "0",
+                                "radius": "130",
+                                "topwidth": "1",
+                                "value": "2100000"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargauge.png",
+            "id": "fusionwidgetsxt_gauges_angulargauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugeasfuelindicator": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "bordercolor": "FFFFFF",
+                                        "borderthickness": "2",
+                                        "color": "606417, 000000",
+                                        "endangle": "180",
+                                        "fillangle": "90",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "innerradius": "0",
+                                        "radius": "106",
+                                        "startangle": "0",
+                                        "type": "arc"
+                                    },
+                                    {
+                                        "borderalpha": "60",
+                                        "bordercolor": "FFFFFF",
+                                        "borderthickness": "2",
+                                        "fillalpha": "0",
+                                        "radius": "21",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "165",
+                                "y": "130"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "animation": "1",
+                        "basefontcolor": "FFFFFF",
+                        "bgalpha": "100",
+                        "bgcolor": "000000",
+                        "gaugeendangle": "0",
+                        "gaugeinnerradius": "90%",
+                        "gaugeoriginx": "165",
+                        "gaugeoriginy": "130",
+                        "gaugeouterradius": "100",
+                        "gaugestartangle": "180",
+                        "lowerlimit": "0",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "15",
+                        "majortmnumber": "2",
+                        "majortmthickness": "2",
+                        "manageresize": "1",
+                        "minortmcolor": "EE0000",
+                        "minortmheight": "15",
+                        "minortmnumber": "19",
+                        "minortmthickness": "2",
+                        "origh": "170",
+                        "origw": "330",
+                        "pivotbordercolor": "CCCCCC",
+                        "pivotborderthickness": "40",
+                        "pivotfillmix": "414340, 272727",
+                        "pivotfillratio": "50,50",
+                        "pivotradius": "20",
+                        "placevaluesinside": "1",
+                        "showshadow": "0",
+                        "showtickvalues": "0",
+                        "tooltipbgcolor": "000000",
+                        "upperlimit": "20"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "12",
+                                "bordercolor": "FFFFFF",
+                                "color": "FF8F02,FFFFFF",
+                                "fillratio": "90, 10",
+                                "radius": "120",
+                                "topwidth": "1",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "alpha": "1",
+                                "color": "FFFFFF",
+                                "displayvalue": "E",
+                                "innerradius": "70",
+                                "radius": "80",
+                                "startvalue": "3"
+                            },
+                            {
+                                "alpha": "1",
+                                "color": "FFFFFF",
+                                "displayvalue": "F",
+                                "innerradius": "70",
+                                "radius": "80",
+                                "startvalue": "17"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugeasfuelindicator.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugeasfuelindicator"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugeasfuelindicator": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "bordercolor": "FFFFFF",
+                                        "borderthickness": "2",
+                                        "color": "606417, 000000",
+                                        "endangle": "180",
+                                        "fillangle": "90",
+                                        "fillpattern": "linear",
+                                        "fillratio": "50,50",
+                                        "innerradius": "0",
+                                        "radius": "106",
+                                        "startangle": "0",
+                                        "type": "arc"
+                                    },
+                                    {
+                                        "borderalpha": "60",
+                                        "bordercolor": "FFFFFF",
+                                        "borderthickness": "2",
+                                        "fillalpha": "0",
+                                        "radius": "21",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "165",
+                                "y": "130"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "animation": "1",
+                        "basefontcolor": "FFFFFF",
+                        "bgalpha": "100",
+                        "bgcolor": "000000",
+                        "gaugeendangle": "0",
+                        "gaugeinnerradius": "90%",
+                        "gaugeoriginx": "165",
+                        "gaugeoriginy": "130",
+                        "gaugeouterradius": "100",
+                        "gaugestartangle": "180",
+                        "lowerlimit": "0",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "15",
+                        "majortmnumber": "2",
+                        "majortmthickness": "2",
+                        "manageresize": "1",
+                        "minortmcolor": "EE0000",
+                        "minortmheight": "15",
+                        "minortmnumber": "19",
+                        "minortmthickness": "2",
+                        "origh": "170",
+                        "origw": "330",
+                        "pivotbordercolor": "CCCCCC",
+                        "pivotborderthickness": "40",
+                        "pivotfillmix": "414340, 272727",
+                        "pivotfillratio": "50,50",
+                        "pivotradius": "20",
+                        "placevaluesinside": "1",
+                        "showshadow": "0",
+                        "showtickvalues": "0",
+                        "tooltipbgcolor": "000000",
+                        "upperlimit": "20"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "12",
+                                "bordercolor": "FFFFFF",
+                                "color": "FF8F02,FFFFFF",
+                                "fillratio": "90, 10",
+                                "radius": "120",
+                                "topwidth": "1",
+                                "value": "7"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "alpha": "1",
+                                "color": "FFFFFF",
+                                "displayvalue": "E",
+                                "innerradius": "70",
+                                "radius": "80",
+                                "startvalue": "3"
+                            },
+                            {
+                                "alpha": "1",
+                                "color": "FFFFFF",
+                                "displayvalue": "F",
+                                "innerradius": "70",
+                                "radius": "80",
+                                "startvalue": "17"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugeasfuelindicator.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugeasfuelindicator"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithcustomizedbackgroundandtickmarks": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "444444",
+                                        "borderthickness": "1",
+                                        "fillangle": "270",
+                                        "fillcolor": "eeeeee,ebce05,eeeeee",
+                                        "fillpattern": "linear",
+                                        "fillratio": "0,100,0",
+                                        "radius": "110",
+                                        "showborder": "1",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "fillalpha": "100,10,100",
+                                        "fillangle": "270",
+                                        "fillcolor": "ffffff,ebce05,eeeeee",
+                                        "fillpattern": "linear",
+                                        "fillratio": "5,83,12",
+                                        "radius": "100",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "x": "140",
+                                "y": "140"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "gaugeendangle": "-50",
+                        "gaugeinnerradius": "90",
+                        "gaugeoriginx": "140",
+                        "gaugeoriginy": "140",
+                        "gaugeouterradius": "100",
+                        "gaugestartangle": "230",
+                        "lowerlimit": "0",
+                        "majortmcolor": "AF9A03",
+                        "majortmheight": "8",
+                        "majortmnumber": "7",
+                        "majortmthickness": "8",
+                        "manageresize": "1",
+                        "minortmnumber": "0",
+                        "origh": "280",
+                        "origw": "280",
+                        "pivotbordercolor": "AF9A03",
+                        "pivotborderthickness": "2",
+                        "pivotfillmix": "{AF9A03},{ffffff}",
+                        "pivotfillratio": "50,50",
+                        "pivotfilltype": "linear",
+                        "pivotradius": "12",
+                        "placevaluesinside": "1",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showpivotborder": "1",
+                        "showshadow": "0",
+                        "tickvaluedistance": "17",
+                        "upperlimit": "180"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "4",
+                                "bgcolor": "6A6FA6,AF9A03",
+                                "borderalpha": "0",
+                                "radius": "93",
+                                "topwidth": "4",
+                                "value": "25"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithcustomizedbackgroundandtickmarks.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithcustomizedbackgroundandtickmarks"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_editableangulargauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "FFFFFF",
+                        "bgalpha": "100",
+                        "bgcolor": "333333, 453269",
+                        "decimals": "1",
+                        "gaugeendangle": "-60",
+                        "gaugefillmix": "{light-10},{light-30},{light-20},{dark-5},{color},{light-30},{light-20},{dark-10}",
+                        "gaugefillratio": "",
+                        "gaugeinnerradius": "60%",
+                        "gaugeoriginx": "150",
+                        "gaugeoriginy": "150",
+                        "gaugeouterradius": "120",
+                        "gaugestartangle": "240",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "origh": "300",
+                        "origw": "300",
+                        "palette": "3",
+                        "showborder": "0",
+                        "tooltipbgcolor": "333333",
+                        "tooltipbordercolor": "333333",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "maxvalue": "50",
+                                "minvalue": "30"
+                            },
+                            {
+                                "maxvalue": "80",
+                                "minvalue": "50"
+                            },
+                            {
+                                "maxvalue": "100",
+                                "minvalue": "80"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "6",
+                                "editmode": "1",
+                                "id": "Dial1",
+                                "rearextension": "10",
+                                "showvalue": "1",
+                                "topwidth": "1",
+                                "value": "60.2",
+                                "valuey": "270"
+                            },
+                            {
+                                "basewidth": "6",
+                                "editmode": "1",
+                                "id": "Dial2",
+                                "rearextension": "10",
+                                "showvalue": "1",
+                                "topwidth": "1",
+                                "value": "50.3",
+                                "valuey": "250"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_editableangulargauge.png",
+            "id": "fusionwidgetsxt_gauges_editableangulargauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugeasspeedometer": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "fillalpha": "100,100",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "4B4B4B,AAAAAA",
+                                        "fillratio": "95,5",
+                                        "radius": "150",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "bordercolor": "cccccc",
+                                        "fillalpha": "50,100",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "ffffff,000000",
+                                        "fillratio": "1,99",
+                                        "radius": "140",
+                                        "showborder": "1",
+                                        "type": "circle",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "x": "160",
+                                "y": "160"
+                            },
+                            {
+                                "items": [
+                                    {
+                                        "bold": "1",
+                                        "fontcolor": "FFFFFF",
+                                        "fontsize": "14",
+                                        "label": "KPH",
+                                        "type": "text",
+                                        "y": "120"
+                                    }
+                                ],
+                                "scaletext": "1",
+                                "showbelow": "0",
+                                "x": "160",
+                                "y": "160"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "0",
+                        "basefontcolor": "FFFFFF",
+                        "bgcolor": "FFFFFF",
+                        "datastreamurl": "/DataProviders/KPHMeter.php",
+                        "decimals": "0",
+                        "gaugealpha": "0",
+                        "gaugeendangle": "-60",
+                        "gaugeoriginx": "160",
+                        "gaugeoriginy": "160",
+                        "gaugeouterradius": "135",
+                        "gaugestartangle": "240",
+                        "lowerlimit": "0",
+                        "majortmcolor": "FFFFFF",
+                        "majortmheight": "8",
+                        "majortmnumber": "9",
+                        "majortmthickness": "5",
+                        "manageresize": "1",
+                        "minortmcolor": "FFFFFF",
+                        "minortmheight": "3",
+                        "minortmnumber": "5",
+                        "minortmthickness": "2",
+                        "origh": "320",
+                        "origw": "320",
+                        "pivotbgcolor": "000000",
+                        "pivotbordercolor": "FFFFFF",
+                        "pivotborderthickness": "2",
+                        "pivotfillmix": "",
+                        "pivotradius": "10",
+                        "placevaluesinside": "1",
+                        "refreshinterval": "5",
+                        "showborder": "0",
+                        "showcolorrange": "0",
+                        "showpivotborder": "1",
+                        "tickvaluedistance": "-10",
+                        "tooltipbgcolor": "333333",
+                        "tooltipbordercolor": "FFFFFF",
+                        "upperlimit": "240"
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "4",
+                                "bgcolor": "000000",
+                                "borderalpha": "100",
+                                "bordercolor": "FFFFFF",
+                                "borderthickness": "2",
+                                "topwidth": "4",
+                                "value": "65",
+                                "valuey": "260"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugeasspeedometer.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugeasspeedometer"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargauge(360degree)": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "bordercolor": "333333",
+                                        "borderthickness": "2",
+                                        "fillcolor": "333333",
+                                        "radius": "15",
+                                        "showborder": "1",
+                                        "tox": "$chartEndX-1",
+                                        "toy": "$chartEndY-1",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+1",
+                                        "y": "$chartStartY+1"
+                                    },
+                                    {
+                                        "bordercolor": "333333",
+                                        "fillalpha": "100,100,100",
+                                        "fillangle": "45",
+                                        "fillcolor": "FFFFFF,009999,FFFFFF",
+                                        "radius": "15",
+                                        "showborder": "1",
+                                        "tox": "$chartEndX-8",
+                                        "toy": "$chartEndY-8",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+8",
+                                        "y": "$chartStartY+8"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "autoaligntickvalues": "1",
+                        "basefontcolor": "333333",
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "0",
+                        "chartleftmargin": "0",
+                        "chartrightmargin": "0",
+                        "charttopmargin": "0",
+                        "decimals": "0",
+                        "gaugeendangle": "-180",
+                        "gaugeinnerradius": "0",
+                        "gaugeoriginx": "135",
+                        "gaugeoriginy": "135",
+                        "gaugeouterradius": "85",
+                        "gaugestartangle": "180",
+                        "lowerlimit": "0",
+                        "lowerlimitdisplay": "Start",
+                        "majortmheight": "9",
+                        "majortmnumber": "12",
+                        "majortmthickness": "2",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "minortmcolor": "000000",
+                        "minortmheight": "3",
+                        "minortmnumber": "5",
+                        "origh": "270",
+                        "origw": "270",
+                        "showborder": "0",
+                        "tickvaluedistance": "5",
+                        "upperlimit": "360",
+                        "upperlimitdisplay": " "
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "bordercolor": "00B900",
+                                "code": "00B900",
+                                "maxvalue": "120",
+                                "minvalue": "0"
+                            },
+                            {
+                                "bordercolor": "FDC12E",
+                                "code": "FDC12E",
+                                "maxvalue": "240",
+                                "minvalue": "120"
+                            },
+                            {
+                                "bordercolor": "E95D0F",
+                                "code": "E95D0F",
+                                "maxvalue": "360",
+                                "minvalue": "240"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "radius": "85",
+                                "value": "160"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargauge(360degree).png",
+            "id": "fusionwidgetsxt_gauges_angulargauge(360degree)"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithtrendmarker": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "fillcolor": "009999,333333",
+                                        "radius": "10",
+                                        "showborder": "0",
+                                        "tox": "$chartEndX-5",
+                                        "toy": "$chartEndY-5",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+5",
+                                        "y": "$chartStartY+5"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "showshadow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "autoaligntickvalues": "1",
+                        "basefontcolor": "FFFFDD",
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "5",
+                        "charttopmargin": "5",
+                        "gaugefillmix": "{dark-10},{light-70},{dark-10}",
+                        "gaugefillratio": "3",
+                        "gaugeinnerradius": "70%",
+                        "gaugeoriginx": "175",
+                        "gaugeoriginy": "170",
+                        "gaugeouterradius": "120",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "managevalueoverlapping": "1",
+                        "numbersuffix": "%",
+                        "origh": "200",
+                        "origw": "350",
+                        "palette": "2",
+                        "pivotradius": "8",
+                        "showborder": "0",
+                        "tickvaluedistance": "3",
+                        "tooltipbgcolor": "009999",
+                        "trendvaluedistance": "5",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "FF654F",
+                                "maxvalue": "45",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "F6BD0F",
+                                "maxvalue": "80",
+                                "minvalue": "45"
+                            },
+                            {
+                                "code": "8BBA00",
+                                "maxvalue": "100",
+                                "minvalue": "80"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "10",
+                                "rearextension": "10",
+                                "value": "72"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "dashed": "1",
+                                "dashgap": "2",
+                                "dashlen": "2",
+                                "displayvalue": "Average",
+                                "markerradius": "8",
+                                "startvalue": "62",
+                                "usemarker": "1"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithtrendmarker.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithtrendmarker"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_angulargaugewithcustombackgroundandtrendzone": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "333333,555555,333333",
+                                        "radius": "10",
+                                        "tox": "$chartEndX",
+                                        "toy": "$chartEndY",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX",
+                                        "y": "$chartStartY"
+                                    },
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "777777,C3D0D8,777777",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-5",
+                                        "toy": "$chartEndY-5",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+5",
+                                        "y": "$chartStartY+5"
+                                    },
+                                    {
+                                        "fillangle": "180",
+                                        "fillcolor": "333333,ADB0B2,333333",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-10",
+                                        "toy": "$chartEndY-10",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+10",
+                                        "y": "$chartStartY+10"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "basefontcolor": "FFFFFF",
+                        "bgcolor": "FFFFFF",
+                        "chartleftmargin": "5",
+                        "charttopmargin": "10",
+                        "gaugeendangle": "-40",
+                        "gaugeinnerradius": "60",
+                        "gaugeoriginx": "125",
+                        "gaugeoriginy": "130",
+                        "gaugeouterradius": "80",
+                        "gaugestartangle": "220",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "origh": "250",
+                        "origw": "250",
+                        "palette": "4",
+                        "pivotradius": "6",
+                        "refreshinterval": "5",
+                        "showborder": "0",
+                        "tooltipbgcolor": "AEC0CA",
+                        "tooltipbordercolor": "FFFFFF",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "F6BD0F",
+                                "maxvalue": "99.99",
+                                "minvalue": "0"
+                            },
+                            {
+                                "alpha": "0",
+                                "code": "F6BD0F",
+                                "maxvalue": "100",
+                                "minvalue": "99.99"
+                            }
+                        ]
+                    },
+                    "dials": {
+                        "dial": [
+                            {
+                                "basewidth": "6",
+                                "rearextension": "10",
+                                "value": "62"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "alpha": "70",
+                                "color": "E10000",
+                                "endvalue": "100",
+                                "innerradius": "55",
+                                "radius": "60",
+                                "startvalue": "70"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "angulargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_angulargaugewithcustombackgroundandtrendzone.png",
+            "id": "fusionwidgetsxt_gauges_angulargaugewithcustombackgroundandtrendzone"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_lineargaugewith3colorranges": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "10",
+                        "gaugeroundradius": "5",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numberprefix": "$",
+                        "pointerontop": "1",
+                        "pointerradius": "9",
+                        "showborder": "0",
+                        "showgaugelabels": "1",
+                        "ticksbelowgauge": "0",
+                        "upperlimit": "100",
+                        "valueabovepointer": "0"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "label": "Low",
+                                "maxvalue": "35",
+                                "minvalue": "0"
+                            },
+                            {
+                                "label": "Moderate",
+                                "maxvalue": "70",
+                                "minvalue": "35"
+                            },
+                            {
+                                "label": "High",
+                                "maxvalue": "100",
+                                "minvalue": "70"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "27.5"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_lineargaugewith3colorranges.png",
+            "id": "fusionwidgetsxt_gauges_lineargaugewith3colorranges"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_lineargaugeasrichterscale": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "color": "004D69",
+                                        "radius": "8",
+                                        "tox": "$gaugeEndX+17",
+                                        "toy": "$chartEndY-8",
+                                        "type": "rectangle",
+                                        "x": "$gaugeStartX-17",
+                                        "y": "$gaugeStartY+2"
+                                    },
+                                    {
+                                        "color": "09DBFE,32A6CF,0177A7",
+                                        "fillangle": "90",
+                                        "fillratio": "20,40,40",
+                                        "radius": "8",
+                                        "tox": "$gaugeEndX+17",
+                                        "toy": "$gaugeEndY+3",
+                                        "type": "rectangle",
+                                        "x": "$gaugeStartX-17",
+                                        "y": "$gaugeStartY+2"
+                                    },
+                                    {
+                                        "color": "09DBFE,32A6CF,C1DFEA",
+                                        "fillangle": "90",
+                                        "fillratio": "20,40,40",
+                                        "radius": "8",
+                                        "tox": "$gaugeEndX+15",
+                                        "toy": "$gaugeEndY+1",
+                                        "type": "rectangle",
+                                        "x": "$gaugeStartX-15",
+                                        "y": "$gaugeStartY+4"
+                                    },
+                                    {
+                                        "color": "055472,1D89AF",
+                                        "fillangle": "90",
+                                        "radius": "8",
+                                        "tox": "$gaugeEndX+17",
+                                        "toy": "$chartEndY-8",
+                                        "type": "rectangle",
+                                        "x": "$gaugeStartX-17",
+                                        "y": "$gaugeEndY+5"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "0",
+                                "y": "0"
+                            },
+                            {
+                                "id": "Grp2",
+                                "items": [
+                                    {
+                                        "bold": "1",
+                                        "color": "004D69",
+                                        "label": "Richter Scale",
+                                        "type": "text",
+                                        "x": "0",
+                                        "y": "0"
+                                    }
+                                ],
+                                "showbelow": "1",
+                                "x": "190",
+                                "y": "$gaugeStartY+36"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "animation": "0",
+                        "basefontcolor": "FFFFFF",
+                        "bgalpha": "100",
+                        "bgcolor": "004D69",
+                        "chartbottommargin": "10",
+                        "chartleftmargin": "30",
+                        "chartrightmargin": "30",
+                        "charttopmargin": "5",
+                        "lowerlimit": "0",
+                        "majortmcolor": "0B0D0F",
+                        "majortmheight": "8",
+                        "majortmnumber": "10",
+                        "majortmthickness": ".5",
+                        "manageresize": "1",
+                        "minortmheight": "4",
+                        "minortmnumber": "4",
+                        "minortmthickness": ".5",
+                        "origh": "80",
+                        "origw": "380",
+                        "placeticksinside": "1",
+                        "placevaluesinside": "1",
+                        "pointerbgcolor": "E00000",
+                        "pointerbordercolor": "E00000",
+                        "pointerontop": "0",
+                        "pointerradius": "5",
+                        "showgaugeborder": "0",
+                        "showshadow": "0",
+                        "ticksbelowgauge": "0",
+                        "upperlimit": "9",
+                        "valuepadding": "0"
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "6.7"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_lineargaugeasrichterscale.png",
+            "id": "fusionwidgetsxt_gauges_lineargaugeasrichterscale"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_editablelineargauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "bordercolor": "868F9B",
+                                        "borderthickness": "2",
+                                        "fillangle": "90",
+                                        "fillcolor": "D6E0F6",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-5",
+                                        "toy": "$chartEndY-5",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+2",
+                                        "y": "$chartStartY+2"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "30",
+                        "chartleftmargin": "25",
+                        "chartrightmargin": "30",
+                        "decimals": "0",
+                        "editmode": "1",
+                        "gaugeroundradius": "5",
+                        "lowerlimit": "0",
+                        "majortmcolor": "868F9B",
+                        "majortmheight": "10",
+                        "majortmnumber": "0",
+                        "majortmthickness": "2",
+                        "manageresize": "1",
+                        "minortmnumber": "0",
+                        "numberprefix": "$",
+                        "origw": "450",
+                        "orih": "125",
+                        "placeticksinside": "0",
+                        "pointerborderthickness": "2",
+                        "pointergbalpha": "0",
+                        "pointerontop": "1",
+                        "pointerradius": "14",
+                        "showborder": "0",
+                        "showgaugelabels": "0",
+                        "showtooltip": "0",
+                        "ticksbelowgauge": "0",
+                        "upperlimit": "1000"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "F6BD0F",
+                                "maxvalue": "1000",
+                                "minvalue": "0"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "665"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "alpha": "100",
+                                "color": "FF654F",
+                                "dashed": "1",
+                                "dashgap": "3",
+                                "dashlen": "1",
+                                "fontcolor": "FF4400",
+                                "markerradius": "5",
+                                "startvalue": "350",
+                                "thickness": "2",
+                                "usemarker": "0"
+                            },
+                            {
+                                "alpha": "100",
+                                "color": "8BBA00",
+                                "dashed": "1",
+                                "dashgap": "3",
+                                "dashlen": "1",
+                                "fontcolor": "FF4400",
+                                "markerradius": "5",
+                                "startvalue": "800",
+                                "thickness": "2",
+                                "usemarker": "0"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_editablelineargauge.png",
+            "id": "fusionwidgetsxt_gauges_editablelineargauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_lineargaugewithtrendpoint": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "AEC0CA, 333333, AEC0CA",
+                                        "radius": "10",
+                                        "tox": "$chartEndX",
+                                        "toy": "$chartEndY",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX",
+                                        "y": "$chartStartY"
+                                    },
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "333333, C3D0D8, 333333",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-5",
+                                        "toy": "$chartEndY-5",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+5",
+                                        "y": "$chartStartY+5"
+                                    },
+                                    {
+                                        "fillangle": "180",
+                                        "fillcolor": "C4D5DC, A3A5A4",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-10",
+                                        "toy": "$chartEndY-10",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+10",
+                                        "y": "$chartStartY+10"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "15",
+                        "chartleftmargin": "25",
+                        "chartrightmargin": "30",
+                        "charttopmargin": "15",
+                        "gaugeroundradius": "5",
+                        "lowerlimit": "0",
+                        "majortmcolor": "666666",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "origw": "450",
+                        "orih": "120",
+                        "placevaluesinside": "0",
+                        "pointerontop": "1",
+                        "pointerradius": "6",
+                        "showborder": "0",
+                        "showgaugelabels": "0",
+                        "ticksbelowgauge": "1",
+                        "upperlimit": "100",
+                        "valueabovepointer": "1"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "F6BD0F",
+                                "maxvalue": "100",
+                                "minvalue": "0"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "65"
+                            }
+                        ]
+                    },
+                    "trendpoints": {
+                        "point": [
+                            {
+                                "color": "FFFFFF",
+                                "dashed": "1",
+                                "dashgap": "3",
+                                "dashlen": "1",
+                                "displayvalue": "Target",
+                                "startvalue": "75",
+                                "thickness": "2"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_lineargaugewithtrendpoint.png",
+            "id": "fusionwidgetsxt_gauges_lineargaugewithtrendpoint"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_lineargaugewithanarcshapedtrendzone": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "color": "FFFFFF",
+                                        "radius": "800",
+                                        "type": "circle"
+                                    }
+                                ],
+                                "showbelow": "0",
+                                "x": "$chartCenterX",
+                                "y": "-765"
+                            },
+                            {
+                                "id": "Grp2",
+                                "items": [
+                                    {
+                                        "fillcolor": "678000,FCEF27,E00000",
+                                        "tox": "$gaugeEndX",
+                                        "toy": "$gaugeEndY",
+                                        "type": "rectangle",
+                                        "x": "$gaugeStartX",
+                                        "y": "$gaugeStartY"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            },
+                            {
+                                "id": "Grp3",
+                                "items": [
+                                    {
+                                        "bold": "1",
+                                        "color": "FFFFFF",
+                                        "label": "Good",
+                                        "size": "10",
+                                        "type": "text",
+                                        "x": "$gaugeStartX+25",
+                                        "y": "40"
+                                    },
+                                    {
+                                        "bold": "1",
+                                        "color": "FFFFFF",
+                                        "label": "Bad",
+                                        "size": "10",
+                                        "type": "text",
+                                        "x": "$gaugeEndX-25",
+                                        "y": "40"
+                                    }
+                                ],
+                                "showbelow": "0"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "animation": "0",
+                        "annrenderdelay": "0",
+                        "basefontcolor": "000000",
+                        "bgcolor": "FFFFFF",
+                        "gaugefillmix": "",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "minortmnumber": "0",
+                        "numbersuffix": "%",
+                        "origh": "90",
+                        "origw": "420",
+                        "pointerbgcolor": "000000",
+                        "pointerbordercolor": "000000",
+                        "pointerontop": "0",
+                        "pointerradius": "5",
+                        "showborder": "0",
+                        "showgaugeborder": "0",
+                        "showshadow": "0",
+                        "ticksbelowgauge": "1",
+                        "upperlimit": "100",
+                        "valuepadding": "0"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "alpha": "0",
+                                "maxvalue": "100",
+                                "minvalue": "0"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "62"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_lineargaugewithanarcshapedtrendzone.png",
+            "id": "fusionwidgetsxt_gauges_lineargaugewithanarcshapedtrendzone"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_lineargaugewithcustomizedcolorranges": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "000000",
+                        "bgcolor": "FFFFFF",
+                        "bordercolor": "DCCEA1",
+                        "chartbottommargin": "0",
+                        "charttopmargin": "0",
+                        "gaugeborderthickness": "3",
+                        "gaugefillmix": "{color},{FFFFFF}",
+                        "gaugefillratio": "50,50",
+                        "lowerlimit": "0",
+                        "majortmcolor": "000000",
+                        "majortmheight": "8",
+                        "majortmnumber": "3",
+                        "manageresize": "1",
+                        "minortmheight": "4",
+                        "minortmnumber": "4",
+                        "pointerbgcolor": "FFFFFF",
+                        "pointerbordercolor": "000000",
+                        "pointerradius": "5",
+                        "showborder": "0",
+                        "showshadow": "0",
+                        "tickmarkdistance": "3",
+                        "ticksbelowgauge": "1",
+                        "upperlimit": "100",
+                        "valuepadding": "-2"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "bordercolor": "B40001",
+                                "code": "B40001",
+                                "label": "Existing",
+                                "maxvalue": "60",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "5C8F0E",
+                                "label": "Proposed",
+                                "maxvalue": "100",
+                                "minvalue": "60"
+                            }
+                        ]
+                    },
+                    "pointers": {
+                        "pointer": [
+                            {
+                                "value": "60"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "hlineargauge",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_lineargaugewithcustomizedcolorranges.png",
+            "id": "fusionwidgetsxt_gauges_lineargaugewithcustomizedcolorranges"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_cylindergauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "alpha": "100",
+                                        "bordercolor": "CC0000",
+                                        "borderthickness": "2",
+                                        "color": "FFFFFF",
+                                        "radius": "10",
+                                        "showborder": "0",
+                                        "tox": "$chartEndX-1",
+                                        "toy": "$chartEndY-1",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+1",
+                                        "y": "$chartStartY+1"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "basefontcolor": "CC0000",
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartleftmargin": "15",
+                        "chartrightmargin": "15",
+                        "charttopmargin": "15",
+                        "cylfillcolor": "CC0000",
+                        "decmials": "0",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "showborder": "0",
+                        "showlimits": "0",
+                        "showtickmarks": "0",
+                        "showtickvalues": "0",
+                        "upperlimit": "100"
+                    },
+                    "value": "44"
+                },
+                "height": "600",
+                "type": "cylinder",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_cylindergauge.png",
+            "id": "fusionwidgetsxt_gauges_cylindergauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_real-timecylindergauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "datastreamurl": "/DataProviders/Cylinder.php",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "refreshinterval": "3",
+                        "showborder": "0",
+                        "tickmarkgap": "5",
+                        "upperlimit": "100"
+                    },
+                    "value": "32"
+                },
+                "height": "600",
+                "type": "cylinder",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_real-timecylindergauge.png",
+            "id": "fusionwidgetsxt_gauges_real-timecylindergauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_cylindergaugewithannotation": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "fillalpha": "5",
+                                        "fillcolor": "333333",
+                                        "radius": "0",
+                                        "tox": "160",
+                                        "toy": "60",
+                                        "type": "rectangle",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "toy": "60",
+                                        "type": "line",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "toy": "60",
+                                        "type": "line",
+                                        "x": "160",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "tox": "5",
+                                        "type": "line",
+                                        "x": "0",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "tox": "5",
+                                        "type": "line",
+                                        "x": "0",
+                                        "y": "60"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "tox": "160",
+                                        "type": "line",
+                                        "x": "155",
+                                        "y": "0"
+                                    },
+                                    {
+                                        "color": "333333",
+                                        "thickness": "2",
+                                        "tox": "160",
+                                        "type": "line",
+                                        "x": "155",
+                                        "y": "60"
+                                    },
+                                    {
+                                        "align": "left",
+                                        "font": "Verdana",
+                                        "fontcolor": "333333",
+                                        "fontsize": "10",
+                                        "isbold": "1",
+                                        "label": "Fuel left in tanker",
+                                        "type": "text",
+                                        "valign": "bottom",
+                                        "x": "25",
+                                        "y": "5"
+                                    },
+                                    {
+                                        "align": "left",
+                                        "font": "Verdana",
+                                        "fontcolor": "333333",
+                                        "fontsize": "10",
+                                        "label": "(expressed in ltrs)",
+                                        "type": "text",
+                                        "valign": "bottom",
+                                        "x": "24",
+                                        "y": "20"
+                                    },
+                                    {
+                                        "align": "left",
+                                        "font": "Verdana",
+                                        "fontcolor": "333333",
+                                        "fontsize": "10",
+                                        "isbold": "1",
+                                        "label": "3650",
+                                        "type": "text",
+                                        "valign": "bottom",
+                                        "x": "25",
+                                        "y": "35"
+                                    }
+                                ],
+                                "scaletext": "1",
+                                "x": "120",
+                                "y": "60"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgcolor": "F1F1FD",
+                        "cylfillcolor": "996633",
+                        "cylradius": "45",
+                        "decmials": "0",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": " Ltrs",
+                        "showborder": "0",
+                        "showtickmarks": "0",
+                        "showvalue": "0",
+                        "tickmarkdecmials": "0",
+                        "tickvaluedistance": "20",
+                        "upperlimit": "5000"
+                    },
+                    "value": "3650"
+                },
+                "height": "600",
+                "type": "cylinder",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_cylindergaugewithannotation.png",
+            "id": "fusionwidgetsxt_gauges_cylindergaugewithannotation"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_ledgauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "borderthickness": "2",
+                        "chartbottommargin": "5",
+                        "chartrightmargin": "20",
+                        "decimals": "0",
+                        "ledbordercolor": "666666",
+                        "ledboxbgcolor": "333333",
+                        "ledgap": "1",
+                        "ledsize": "1",
+                        "lowerlimit": "0",
+                        "lowerlimitdisplay": "Low",
+                        "majortmheight": "4",
+                        "majortmnumber": "5",
+                        "manageresize": "1",
+                        "minortmnumber": "0",
+                        "numbersuffix": "%",
+                        "showborder": "0",
+                        "showtickmarks": "1",
+                        "showtickvalues": "1",
+                        "tickvaluedistance": "0",
+                        "upperlimit": "100",
+                        "upperlimitdisplay": "High"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "FF0000",
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "FFFF00",
+                                "maxvalue": "50",
+                                "minvalue": "30"
+                            },
+                            {
+                                "code": "00FF00",
+                                "maxvalue": "100",
+                                "minvalue": "50"
+                            }
+                        ]
+                    },
+                    "value": "70"
+                },
+                "height": "600",
+                "type": "hled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_ledgauge.png",
+            "id": "fusionwidgetsxt_gauges_ledgauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_ledgaugewithnogaps": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "333333",
+                        "borderthickness": "5",
+                        "chartleftmargin": "25",
+                        "chartrightmargin": "25",
+                        "decimals": "0",
+                        "ledbordercolor": "666666",
+                        "ledboxbgcolor": "333333",
+                        "ledgap": "0",
+                        "ledsize": "2",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "showborder": "0",
+                        "showtickmarks": "1",
+                        "ticksbelowgauge": "0",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "00cccc",
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "0066ff",
+                                "maxvalue": "100",
+                                "minvalue": "50"
+                            }
+                        ]
+                    },
+                    "value": "70"
+                },
+                "height": "600",
+                "type": "hled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_ledgaugewithnogaps.png",
+            "id": "fusionwidgetsxt_gauges_ledgaugewithnogaps"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_ledgaugewithcustomizedgaps": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "chartleftmargin": "20",
+                        "chartrightmargin": "20",
+                        "ledgap": "5",
+                        "ledsize": "5",
+                        "lowerlimit": "0",
+                        "lowerlimitdisplay": "Low",
+                        "manageresize": "1",
+                        "numbersuffix": "dB",
+                        "palette": "4",
+                        "showborder": "0",
+                        "ticksbelowgauge": "0",
+                        "upperlimit": "120",
+                        "upperlimitdisplay": "High"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "FF0000",
+                                "maxvalue": "60",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "FFFF00",
+                                "maxvalue": "90",
+                                "minvalue": "60"
+                            },
+                            {
+                                "code": "00FF00",
+                                "maxvalue": "120",
+                                "minvalue": "90"
+                            }
+                        ]
+                    },
+                    "value": "102"
+                },
+                "height": "600",
+                "type": "hled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_ledgaugewithcustomizedgaps.png",
+            "id": "fusionwidgetsxt_gauges_ledgaugewithcustomizedgaps"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_real-timeledgauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "datastreamurl": "/DataProviders/LED.php",
+                        "lowerlimit": "0",
+                        "majortmalpha": "100",
+                        "majortmcolor": "333333",
+                        "majortmheight": "10",
+                        "majortmthickness": "2",
+                        "manageresize": "1",
+                        "minortmalpha": "100",
+                        "minortmcolor": "666666",
+                        "minortmheight": "7",
+                        "palette": "3",
+                        "refreshinterval": "3",
+                        "showborder": "0",
+                        "upperlimit": "120",
+                        "usesamefillcolor": "1"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "FF0000",
+                                "maxvalue": "60",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "FFFF00",
+                                "maxvalue": "90",
+                                "minvalue": "60"
+                            },
+                            {
+                                "code": "00FF00",
+                                "maxvalue": "120",
+                                "minvalue": "90"
+                            }
+                        ]
+                    },
+                    "value": "52"
+                },
+                "height": "600",
+                "type": "hled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_real-timeledgauge.png",
+            "id": "fusionwidgetsxt_gauges_real-timeledgauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_verticalledgauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "constrainedscale": "0",
+                                "id": "GRP1",
+                                "items": [
+                                    {
+                                        "color": "000000",
+                                        "linethickness": "3",
+                                        "toy": "$gaugeEndY-1",
+                                        "type": "line",
+                                        "y": "$gaugeStartY+1"
+                                    }
+                                ],
+                                "showbelow": "0",
+                                "x": "$gaugeCenterX"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "annrenderdelay": "1.7",
+                        "decmials": "0",
+                        "ledgap": "2",
+                        "ledsize": "2",
+                        "lowerlimit": "0",
+                        "majortmcolor": "646F8F",
+                        "majortmheight": "9",
+                        "majortmnumber": "11",
+                        "majortmthickness": "1",
+                        "manageresize": "1",
+                        "minortmcolor": "646F8F",
+                        "minortmheight": "3",
+                        "minortmnumber": "2",
+                        "numbersuffix": "%",
+                        "origh": "250",
+                        "origw": "240",
+                        "showborder": "0",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "00dd00",
+                                "maxvalue": "20",
+                                "minvalue": "0"
+                            }
+                        ]
+                    },
+                    "value": "45"
+                },
+                "height": "600",
+                "type": "vled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_verticalledgauge.png",
+            "id": "fusionwidgetsxt_gauges_verticalledgauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_verticalledgaugewithnogaps": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "decimals": "0",
+                        "ledborderthickness": "4",
+                        "ledgap": "0",
+                        "ledsize": "1",
+                        "lowerlimit": "0",
+                        "majortmcolor": "646F8F",
+                        "majortmheight": "9",
+                        "majortmnumber": "11",
+                        "majortmthickness": "1",
+                        "manageresize": "1",
+                        "minortmcolor": "646F8F",
+                        "minortmheight": "3",
+                        "minortmnumber": "2",
+                        "numbersuffix": "%",
+                        "showborder": "0",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "cf0000",
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "ffcc33",
+                                "maxvalue": "60",
+                                "minvalue": "30"
+                            },
+                            {
+                                "code": "99cc00",
+                                "maxvalue": "100",
+                                "minvalue": "60"
+                            }
+                        ]
+                    },
+                    "value": "95"
+                },
+                "height": "600",
+                "type": "vled",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_verticalledgaugewithnogaps.png",
+            "id": "fusionwidgetsxt_gauges_verticalledgaugewithnogaps"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_real-timethermometergauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "id": "Grp1",
+                                "items": [
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "AEC0CA, 333333, AEC0CA",
+                                        "radius": "10",
+                                        "tox": "$chartEndX",
+                                        "toy": "$chartEndY",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+8",
+                                        "y": "$chartStartY"
+                                    },
+                                    {
+                                        "fillangle": "90",
+                                        "fillcolor": "333333, C3D0D8, 333333",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-5",
+                                        "toy": "$chartEndY-5",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+13",
+                                        "y": "$chartStartY+5"
+                                    },
+                                    {
+                                        "fillangle": "180",
+                                        "fillcolor": "C4D5DC, A3A5A4",
+                                        "radius": "10",
+                                        "tox": "$chartEndX-10",
+                                        "toy": "$chartEndY-10",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+18",
+                                        "y": "$chartStartY+10"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "chartbottommargin": "20",
+                        "chartleftmargin": "20",
+                        "charttopmargin": "25",
+                        "datastreamurl": "/DataProviders/Bulb.php",
+                        "decmials": "0",
+                        "gaugeoriginx": "40",
+                        "lowerlimit": "0",
+                        "lowerlimitdisplay": "Low",
+                        "majortmheight": "4",
+                        "manageresize": "1",
+                        "minortmnumber": "5",
+                        "numbersuffix": "%",
+                        "palette": "3",
+                        "refreshinterval": "4",
+                        "showborder": "0",
+                        "showtickvalues": "1",
+                        "thmbulbradius": "20",
+                        "upperlimit": "100",
+                        "upperlimitdisplay": "High",
+                        "usesamefillcolor": "0"
+                    },
+                    "value": "78.9"
+                },
+                "height": "600",
+                "type": "thermometer",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_real-timethermometergauge.png",
+            "id": "fusionwidgetsxt_gauges_real-timethermometergauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "borderthickness": "2",
+                                        "fillalpha": "100",
+                                        "fillangle": "45",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "914800,000000",
+                                        "fillpattern": "linear",
+                                        "radius": "15",
+                                        "showborder": "0",
+                                        "tox": "$chartEndX",
+                                        "toy": "$chartEndY",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX",
+                                        "y": "$chartStartY"
+                                    },
+                                    {
+                                        "borderthickness": "2",
+                                        "fillalpha": "50",
+                                        "fillangle": "45",
+                                        "fillcolor": "FFBC79,FFBA75",
+                                        "radius": "10",
+                                        "showborder": "1",
+                                        "tox": "$chartEndX-10",
+                                        "toy": "$chartEndY-10",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+10",
+                                        "y": "$chartStartY+10"
+                                    },
+                                    {
+                                        "bold": "1",
+                                        "fontcolor": "5D5D5D",
+                                        "fontsize": "12",
+                                        "label": "C",
+                                        "type": "text",
+                                        "x": "77",
+                                        "y": "433"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "borderthickness": "2",
+                        "chartbottommargin": "40",
+                        "chartleftmargin": "20",
+                        "chartrightmargin": "20",
+                        "charttopmargin": "40",
+                        "decmials": "0",
+                        "gaugeoriginx": "40",
+                        "lowerlimit": "0",
+                        "majortmheight": "2",
+                        "majortmnumber": "11",
+                        "manageresize": "1",
+                        "minortmnumber": "9",
+                        "numbersuffix": "°",
+                        "showborder": "0",
+                        "thmbulbradius": "30",
+                        "thmfillcolor": "FF5904",
+                        "upperlimit": "100"
+                    },
+                    "value": "32"
+                },
+                "height": "600",
+                "type": "thermometer",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks.png",
+            "id": "fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "annotations": {
+                        "groups": [
+                            {
+                                "items": [
+                                    {
+                                        "borderthickness": "2",
+                                        "fillalpha": "100",
+                                        "fillangle": "45",
+                                        "fillasgradient": "1",
+                                        "fillcolor": "914800,000000",
+                                        "fillpattern": "linear",
+                                        "radius": "15",
+                                        "showborder": "0",
+                                        "tox": "$chartEndX",
+                                        "toy": "$chartEndY",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX",
+                                        "y": "$chartStartY"
+                                    },
+                                    {
+                                        "borderthickness": "2",
+                                        "fillalpha": "50",
+                                        "fillangle": "45",
+                                        "fillcolor": "FFBC79,FFBA75",
+                                        "radius": "10",
+                                        "showborder": "1",
+                                        "tox": "$chartEndX-10",
+                                        "toy": "$chartEndY-10",
+                                        "type": "rectangle",
+                                        "x": "$chartStartX+10",
+                                        "y": "$chartStartY+10"
+                                    },
+                                    {
+                                        "bold": "1",
+                                        "fontcolor": "5D5D5D",
+                                        "fontsize": "12",
+                                        "label": "C",
+                                        "type": "text",
+                                        "x": "77",
+                                        "y": "433"
+                                    }
+                                ],
+                                "showbelow": "1"
+                            }
+                        ]
+                    },
+                    "chart": {
+                        "bgalpha": "0",
+                        "bgcolor": "FFFFFF",
+                        "borderthickness": "2",
+                        "chartbottommargin": "40",
+                        "chartleftmargin": "20",
+                        "chartrightmargin": "20",
+                        "charttopmargin": "40",
+                        "decmials": "0",
+                        "gaugeoriginx": "40",
+                        "lowerlimit": "0",
+                        "majortmheight": "2",
+                        "majortmnumber": "11",
+                        "manageresize": "1",
+                        "minortmnumber": "9",
+                        "numbersuffix": "°",
+                        "showborder": "0",
+                        "thmbulbradius": "30",
+                        "thmfillcolor": "FF5904",
+                        "upperlimit": "100"
+                    },
+                    "value": "32"
+                },
+                "height": "600",
+                "type": "thermometer",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks.png",
+            "id": "fusionwidgetsxt_gauges_thermometergaugewithcustomizedlooks"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_real-time3dbulbgauge": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "C4D283, FFFFFF",
+                        "datastreamurl": "/DataProviders/Bulb.php",
+                        "decimals": "0",
+                        "lowerlimit": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%",
+                        "refreshinterval": "4",
+                        "showborder": "0",
+                        "upperlimit": "100"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "8BBA00",
+                                "maxvalue": "50",
+                                "minvalue": "0",
+                                "name": "Normal"
+                            },
+                            {
+                                "code": "F6BD0F",
+                                "maxvalue": "75",
+                                "minvalue": "50",
+                                "name": "Warning"
+                            },
+                            {
+                                "code": "FF654F",
+                                "maxvalue": "100",
+                                "minvalue": "75",
+                                "name": "Danger"
+                            }
+                        ]
+                    },
+                    "value": "52"
+                },
+                "height": "600",
+                "type": "bulb",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_real-time3dbulbgauge.png",
+            "id": "fusionwidgetsxt_gauges_real-time3dbulbgauge"
+        }
+    },
+    {
+        "fusionwidgetsxt_gauges_2dbulbgaugeshowinglabelinsteadofvalue": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "FFFFFF",
+                        "bordercolor": "638400",
+                        "decimals": "0",
+                        "is3d": "0",
+                        "manageresize": "1",
+                        "numbersuffix": "%25",
+                        "placevaluesinside": "1",
+                        "showborder": "0",
+                        "usecolornameasvalue": "1"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "99CC00",
+                                "maxvalue": "50",
+                                "minvalue": "0",
+                                "name": "Normal"
+                            },
+                            {
+                                "code": "FFFF00",
+                                "maxvalue": "75",
+                                "minvalue": "50",
+                                "name": "Warning"
+                            },
+                            {
+                                "code": "FF0000",
+                                "maxvalue": "100",
+                                "minvalue": "75",
+                                "name": "Danger"
+                            }
+                        ]
+                    },
+                    "value": "32"
+                },
+                "height": "600",
+                "type": "bulb",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/FusionWidgets XT/Gauges/refimage/fusionwidgetsxt_gauges_2dbulbgaugeshowinglabelinsteadofvalue.png",
+            "id": "fusionwidgetsxt_gauges_2dbulbgaugeshowinglabelinsteadofvalue"
+        }
+    }

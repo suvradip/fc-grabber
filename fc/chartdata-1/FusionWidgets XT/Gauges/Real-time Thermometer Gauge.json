@@ -1,0 +1,73 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "AEC0CA, 333333, AEC0CA",
+                            "radius": "10",
+                            "tox": "$chartEndX",
+                            "toy": "$chartEndY",
+                            "type": "rectangle",
+                            "x": "$chartStartX+8",
+                            "y": "$chartStartY"
+                        },
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "333333, C3D0D8, 333333",
+                            "radius": "10",
+                            "tox": "$chartEndX-5",
+                            "toy": "$chartEndY-5",
+                            "type": "rectangle",
+                            "x": "$chartStartX+13",
+                            "y": "$chartStartY+5"
+                        },
+                        {
+                            "fillangle": "180",
+                            "fillcolor": "C4D5DC, A3A5A4",
+                            "radius": "10",
+                            "tox": "$chartEndX-10",
+                            "toy": "$chartEndY-10",
+                            "type": "rectangle",
+                            "x": "$chartStartX+18",
+                            "y": "$chartStartY+10"
+                        }
+                    ],
+                    "showbelow": "1"
+                }
+            ]
+        },
+        "chart": {
+            "bgalpha": "0",
+            "bgcolor": "FFFFFF",
+            "chartbottommargin": "20",
+            "chartleftmargin": "20",
+            "charttopmargin": "25",
+            "datastreamurl": "/DataProviders/Bulb.php",
+            "decmials": "0",
+            "gaugeoriginx": "40",
+            "lowerlimit": "0",
+            "lowerlimitdisplay": "Low",
+            "majortmheight": "4",
+            "manageresize": "1",
+            "minortmnumber": "5",
+            "numbersuffix": "%",
+            "palette": "3",
+            "refreshinterval": "4",
+            "showborder": "0",
+            "showtickvalues": "1",
+            "thmbulbradius": "20",
+            "upperlimit": "100",
+            "upperlimitdisplay": "High",
+            "usesamefillcolor": "0"
+        },
+        "value": "78.9"
+    },
+    "height": "600",
+    "type": "thermometer",
+    "width": "800"
+}

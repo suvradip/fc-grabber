@@ -1,0 +1,108 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "333333,555555,333333",
+                            "radius": "10",
+                            "tox": "$chartEndX",
+                            "toy": "$chartEndY",
+                            "type": "rectangle",
+                            "x": "$chartStartX",
+                            "y": "$chartStartY"
+                        },
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "777777,C3D0D8,777777",
+                            "radius": "10",
+                            "tox": "$chartEndX-5",
+                            "toy": "$chartEndY-5",
+                            "type": "rectangle",
+                            "x": "$chartStartX+5",
+                            "y": "$chartStartY+5"
+                        },
+                        {
+                            "fillangle": "180",
+                            "fillcolor": "333333,ADB0B2,333333",
+                            "radius": "10",
+                            "tox": "$chartEndX-10",
+                            "toy": "$chartEndY-10",
+                            "type": "rectangle",
+                            "x": "$chartStartX+10",
+                            "y": "$chartStartY+10"
+                        }
+                    ],
+                    "showbelow": "1"
+                }
+            ]
+        },
+        "chart": {
+            "basefontcolor": "FFFFFF",
+            "bgcolor": "FFFFFF",
+            "chartleftmargin": "5",
+            "charttopmargin": "10",
+            "gaugeendangle": "-40",
+            "gaugeinnerradius": "60",
+            "gaugeoriginx": "125",
+            "gaugeoriginy": "130",
+            "gaugeouterradius": "80",
+            "gaugestartangle": "220",
+            "lowerlimit": "0",
+            "manageresize": "1",
+            "numbersuffix": "%",
+            "origh": "250",
+            "origw": "250",
+            "palette": "4",
+            "pivotradius": "6",
+            "refreshinterval": "5",
+            "showborder": "0",
+            "tooltipbgcolor": "AEC0CA",
+            "tooltipbordercolor": "FFFFFF",
+            "upperlimit": "100"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "F6BD0F",
+                    "maxvalue": "99.99",
+                    "minvalue": "0"
+                },
+                {
+                    "alpha": "0",
+                    "code": "F6BD0F",
+                    "maxvalue": "100",
+                    "minvalue": "99.99"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "6",
+                    "rearextension": "10",
+                    "value": "62"
+                }
+            ]
+        },
+        "trendpoints": {
+            "point": [
+                {
+                    "alpha": "70",
+                    "color": "E10000",
+                    "endvalue": "100",
+                    "innerradius": "55",
+                    "radius": "60",
+                    "startvalue": "70"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

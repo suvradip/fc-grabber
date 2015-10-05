@@ -1,0 +1,61 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "2005"
+                    },
+                    {
+                        "label": "2006"
+                    },
+                    {
+                        "label": "2007"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Weekly Temperature",
+            "mdiconcolor": "7F00FF",
+            "plotspacepercent": "75",
+            "qdiconcolor": "FFFF00",
+            "sdiconcolor": "FF9F55",
+            "showborder": "0",
+            "showmd": "1",
+            "showqd": "1",
+            "showsd": "1",
+            "showvalues": "0",
+            "showzeroplanevalue": "0",
+            "subcaption": "In a month",
+            "useroundedges": "1"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "outliers": "30, -18",
+                        "value": "-6,-3,13,17,9,7.7,10.3"
+                    },
+                    {
+                        "value": "-13,0.6,21.9,15.4,19,17,41"
+                    },
+                    {
+                        "outliers": "43, -13",
+                        "value": "20,10,27,23,3,46,12"
+                    }
+                ],
+                "lowerboxcolor": "CCCCFF ",
+                "lowerwhiskercolor": "D41FAA",
+                "mediancolor": "FF0000",
+                "seriesname": "January",
+                "upperboxcolor": "7F9FFF",
+                "upperwhiskercolor": "000080"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "boxandwhisker2d",
+    "width": "800"
+}

@@ -1,0 +1,3402 @@
+[
+    {
+        "test_1": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "caption": "Monthly % conversion rates from different marketing mediums",
+                        "showBorder": "0",
+                        "subcaption": "(Visits to Downloads)"
+                    },
+                    "colorrange": {
+                        "code": "CC0000",
+                        "color": [
+                            {
+                                "code": "FBC860",
+                                "label": "Average",
+                                "maxvalue": "20"
+                            },
+                            {
+                                "code": "81A749",
+                                "label": "Good",
+                                "maxvalue": "50"
+                            },
+                            {
+                                "code": "278127",
+                                "maxvalue": "100"
+                            }
+                        ],
+                        "endlabel": "Excellent",
+                        "gradient": "1",
+                        "minvalue": "0",
+                        "startlabel": "Poor"
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "Jan"
+                            },
+                            {
+                                "id": "Feb"
+                            },
+                            {
+                                "id": "Mar"
+                            },
+                            {
+                                "id": "Apr"
+                            },
+                            {
+                                "id": "May"
+                            },
+                            {
+                                "id": "Jun"
+                            },
+                            {
+                                "id": "Jul"
+                            },
+                            {
+                                "id": "Aug"
+                            },
+                            {
+                                "id": "Sep"
+                            },
+                            {
+                                "id": "Oct"
+                            },
+                            {
+                                "id": "Nov"
+                            },
+                            {
+                                "id": "Dec"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Search",
+                                    "value": "21"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Search",
+                                    "value": "24"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Search",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Search",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Search",
+                                    "value": "32"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Search",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Search",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Search",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Search",
+                                    "value": "40"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Search",
+                                    "value": "38"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Search",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Search",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Directories",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Directories",
+                                    "value": "32"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Directories",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Directories",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Directories",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Directories",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Directories",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Directories",
+                                    "value": "38"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Directories",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Directories",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Directories",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Directories",
+                                    "value": "32"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Newsletter",
+                                    "value": "42"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Newsletter",
+                                    "value": "40"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Newsletter",
+                                    "value": "39"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Newsletter",
+                                    "value": "45"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Newsletter",
+                                    "value": "45"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Newsletter",
+                                    "value": "48"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Newsletter",
+                                    "value": "59"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Newsletter",
+                                    "value": "57"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Newsletter",
+                                    "value": "49"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Newsletter",
+                                    "value": "50"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Newsletter",
+                                    "value": "46"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Newsletter",
+                                    "value": "41"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Social Media",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Social Media",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Social Media",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Social Media",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Social Media",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Social Media",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Social Media",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Social Media",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Social Media",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Social Media",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Social Media",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Social Media",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "External Articles",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "External Articles",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "External Articles",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "External Articles",
+                                    "value": "37"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "External Articles",
+                                    "value": "37"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "External Articles",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "External Articles",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "External Articles",
+                                    "value": "40"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "External Articles",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "External Articles",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "External Articles",
+                                    "value": "33"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "External Articles",
+                                    "value": "28"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Paid Reviews",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Paid Reviews",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Paid Reviews",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Paid Reviews",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Paid Reviews",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Paid Reviews",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Paid Reviews",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Paid Reviews",
+                                    "value": "15"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Paid Reviews",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Paid Reviews",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Paid Reviews",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Paid Reviews",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "Search"
+                            },
+                            {
+                                "id": "Directories"
+                            },
+                            {
+                                "id": "Newsletter"
+                            },
+                            {
+                                "id": "External Articles"
+                            },
+                            {
+                                "id": "Paid Reviews"
+                            },
+                            {
+                                "id": "Social Media"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_1"
+        }
+    },
+    {
+        "test_2": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "FFFFFF",
+                        "bgcolor": "FFFFFF",
+                        "canvasborderalpha": "0",
+                        "canvasborderthickness": "0",
+                        "caption": "CPU Utilization % by time over the week",
+                        "captionpadding": "5",
+                        "labeldisplay": "WRAP",
+                        "legendborderalpha": "0",
+                        "legendpadding": "0",
+                        "legendshadow": "0",
+                        "outcnvbasefontcolor": "333333",
+                        "plotbordercolor": "FFFFFF",
+                        "showBorder": "0",
+                        "showvalues": "0",
+                        "tooltipcolor": "333333",
+                        "xaxisname": "Time of the day (hrs)"
+                    },
+                    "colorrange": {
+                        "code": "a4c93f",
+                        "color": [
+                            {
+                                "alpha": "40",
+                                "code": "a4c93f",
+                                "label": "Average",
+                                "maxvalue": "20",
+                                "minvalue": "0"
+                            },
+                            {
+                                "alpha": "40",
+                                "code": "e44a00",
+                                "maxvalue": "100",
+                                "minvalue": "20"
+                            }
+                        ],
+                        "endlabel": "Very High",
+                        "gradient": "1",
+                        "minvalue": "0",
+                        "startlabel": ""
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "0"
+                            },
+                            {
+                                "id": "1"
+                            },
+                            {
+                                "id": "2"
+                            },
+                            {
+                                "id": "3"
+                            },
+                            {
+                                "id": "4"
+                            },
+                            {
+                                "id": "5"
+                            },
+                            {
+                                "id": "6"
+                            },
+                            {
+                                "id": "7"
+                            },
+                            {
+                                "id": "8"
+                            },
+                            {
+                                "id": "9"
+                            },
+                            {
+                                "id": "10"
+                            },
+                            {
+                                "id": "11"
+                            },
+                            {
+                                "id": "12"
+                            },
+                            {
+                                "id": "13"
+                            },
+                            {
+                                "id": "14"
+                            },
+                            {
+                                "id": "15"
+                            },
+                            {
+                                "id": "16"
+                            },
+                            {
+                                "id": "17"
+                            },
+                            {
+                                "id": "18"
+                            },
+                            {
+                                "id": "19"
+                            },
+                            {
+                                "id": "20"
+                            },
+                            {
+                                "id": "21"
+                            },
+                            {
+                                "id": "22"
+                            },
+                            {
+                                "id": "23"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "0",
+                                    "rowid": "Mon",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "1",
+                                    "rowid": "Mon",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "2",
+                                    "rowid": "Mon",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "3",
+                                    "rowid": "Mon",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "4",
+                                    "rowid": "Mon",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "5",
+                                    "rowid": "Mon",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "6",
+                                    "rowid": "Mon",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "7",
+                                    "rowid": "Mon",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "8",
+                                    "rowid": "Mon",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "9",
+                                    "rowid": "Mon",
+                                    "value": "6"
+                                },
+                                {
+                                    "columnid": "10",
+                                    "rowid": "Mon",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "11",
+                                    "rowid": "Mon",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "12",
+                                    "rowid": "Mon",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "13",
+                                    "rowid": "Mon",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "14",
+                                    "rowid": "Mon",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "15",
+                                    "rowid": "Mon",
+                                    "value": "32"
+                                },
+                                {
+                                    "columnid": "16",
+                                    "rowid": "Mon",
+                                    "value": "46"
+                                },
+                                {
+                                    "columnid": "17",
+                                    "rowid": "Mon",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "18",
+                                    "rowid": "Mon",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "19",
+                                    "rowid": "Mon",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "20",
+                                    "rowid": "Mon",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "21",
+                                    "rowid": "Mon",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "22",
+                                    "rowid": "Mon",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "23",
+                                    "rowid": "Mon",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "0",
+                                    "rowid": "Tue",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "1",
+                                    "rowid": "Tue",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "2",
+                                    "rowid": "Tue",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "3",
+                                    "rowid": "Tue",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "4",
+                                    "rowid": "Tue",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "5",
+                                    "rowid": "Tue",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "6",
+                                    "rowid": "Tue",
+                                    "value": "1"
+                                },
+                                {
+                                    "columnid": "7",
+                                    "rowid": "Tue",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "8",
+                                    "rowid": "Tue",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "9",
+                                    "rowid": "Tue",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "10",
+                                    "rowid": "Tue",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "11",
+                                    "rowid": "Tue",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "12",
+                                    "rowid": "Tue",
+                                    "value": "45"
+                                },
+                                {
+                                    "columnid": "13",
+                                    "rowid": "Tue",
+                                    "value": "68"
+                                },
+                                {
+                                    "columnid": "14",
+                                    "rowid": "Tue",
+                                    "value": "47"
+                                },
+                                {
+                                    "columnid": "15",
+                                    "rowid": "Tue",
+                                    "value": "52"
+                                },
+                                {
+                                    "columnid": "16",
+                                    "rowid": "Tue",
+                                    "value": "26"
+                                },
+                                {
+                                    "columnid": "17",
+                                    "rowid": "Tue",
+                                    "value": "49"
+                                },
+                                {
+                                    "columnid": "18",
+                                    "rowid": "Tue",
+                                    "value": "33"
+                                },
+                                {
+                                    "columnid": "19",
+                                    "rowid": "Tue",
+                                    "value": "28"
+                                },
+                                {
+                                    "columnid": "20",
+                                    "rowid": "Tue",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "21",
+                                    "rowid": "Tue",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "22",
+                                    "rowid": "Tue",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "23",
+                                    "rowid": "Tue",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "0",
+                                    "rowid": "Wed",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "1",
+                                    "rowid": "Wed",
+                                    "value": "6"
+                                },
+                                {
+                                    "columnid": "2",
+                                    "rowid": "Wed",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "3",
+                                    "rowid": "Wed",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "4",
+                                    "rowid": "Wed",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "5",
+                                    "rowid": "Wed",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "6",
+                                    "rowid": "Wed",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "7",
+                                    "rowid": "Wed",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "8",
+                                    "rowid": "Wed",
+                                    "value": "18"
+                                },
+                                {
+                                    "columnid": "9",
+                                    "rowid": "Wed",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "10",
+                                    "rowid": "Wed",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "11",
+                                    "rowid": "Wed",
+                                    "value": "33"
+                                },
+                                {
+                                    "columnid": "12",
+                                    "rowid": "Wed",
+                                    "value": "37"
+                                },
+                                {
+                                    "columnid": "13",
+                                    "rowid": "Wed",
+                                    "value": "43"
+                                },
+                                {
+                                    "columnid": "14",
+                                    "rowid": "Wed",
+                                    "value": "49"
+                                },
+                                {
+                                    "columnid": "15",
+                                    "rowid": "Wed",
+                                    "value": "54"
+                                },
+                                {
+                                    "columnid": "16",
+                                    "rowid": "Wed",
+                                    "value": "67"
+                                },
+                                {
+                                    "columnid": "17",
+                                    "rowid": "Wed",
+                                    "value": "75"
+                                },
+                                {
+                                    "columnid": "18",
+                                    "rowid": "Wed",
+                                    "value": "87"
+                                },
+                                {
+                                    "columnid": "19",
+                                    "rowid": "Wed",
+                                    "value": "72"
+                                },
+                                {
+                                    "columnid": "20",
+                                    "rowid": "Wed",
+                                    "value": "52"
+                                },
+                                {
+                                    "columnid": "21",
+                                    "rowid": "Wed",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "22",
+                                    "rowid": "Wed",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "23",
+                                    "rowid": "Wed",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "0",
+                                    "rowid": "Thu",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "1",
+                                    "rowid": "Thu",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "2",
+                                    "rowid": "Thu",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "3",
+                                    "rowid": "Thu",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "4",
+                                    "rowid": "Thu",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "5",
+                                    "rowid": "Thu",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "6",
+                                    "rowid": "Thu",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "7",
+                                    "rowid": "Thu",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "8",
+                                    "rowid": "Thu",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "9",
+                                    "rowid": "Thu",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "10",
+                                    "rowid": "Thu",
+                                    "value": "15"
+                                },
+                                {
+                                    "columnid": "11",
+                                    "rowid": "Thu",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "12",
+                                    "rowid": "Thu",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "13",
+                                    "rowid": "Thu",
+                                    "value": "28"
+                                },
+                                {
+                                    "columnid": "14",
+                                    "rowid": "Thu",
+                                    "value": "17"
+                                },
+                                {
+                                    "columnid": "15",
+                                    "rowid": "Thu",
+                                    "value": "22"
+                                },
+                                {
+                                    "columnid": "16",
+                                    "rowid": "Thu",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "17",
+                                    "rowid": "Thu",
+                                    "value": "33"
+                                },
+                                {
+                                    "columnid": "18",
+                                    "rowid": "Thu",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "19",
+                                    "rowid": "Thu",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "20",
+                                    "rowid": "Thu",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "21",
+                                    "rowid": "Thu",
+                                    "value": "6"
+                                },
+                                {
+                                    "columnid": "22",
+                                    "rowid": "Thu",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "23",
+                                    "rowid": "Thu",
+                                    "value": "1"
+                                },
+                                {
+                                    "columnid": "0",
+                                    "rowid": "Fri",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "1",
+                                    "rowid": "Fri",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "2",
+                                    "rowid": "Fri",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "3",
+                                    "rowid": "Fri",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "4",
+                                    "rowid": "Fri",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "5",
+                                    "rowid": "Fri",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "6",
+                                    "rowid": "Fri",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "7",
+                                    "rowid": "Fri",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "8",
+                                    "rowid": "Fri",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "9",
+                                    "rowid": "Fri",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "10",
+                                    "rowid": "Fri",
+                                    "value": "18"
+                                },
+                                {
+                                    "columnid": "11",
+                                    "rowid": "Fri",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "12",
+                                    "rowid": "Fri",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "13",
+                                    "rowid": "Fri",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "14",
+                                    "rowid": "Fri",
+                                    "value": "17"
+                                },
+                                {
+                                    "columnid": "15",
+                                    "rowid": "Fri",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "16",
+                                    "rowid": "Fri",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "17",
+                                    "rowid": "Fri",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "18",
+                                    "rowid": "Fri",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "19",
+                                    "rowid": "Fri",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "20",
+                                    "rowid": "Fri",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "21",
+                                    "rowid": "Fri",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "22",
+                                    "rowid": "Fri",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "23",
+                                    "rowid": "Fri",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "Mon"
+                            },
+                            {
+                                "id": "Tue"
+                            },
+                            {
+                                "id": "Wed"
+                            },
+                            {
+                                "id": "Thu"
+                            },
+                            {
+                                "id": "Fri"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_2"
+        }
+    },
+    {
+        "test_3": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "animation": "1",
+                        "bgcolor": "A6CAF0",
+                        "canvasbgcolor": "EFEFEF",
+                        "caption": "Weekly Performance",
+                        "legendiconscale": "1",
+                        "legendposition": "bottom",
+                        "reverselegend": "0",
+                        "showBorder": "0",
+                        "showcolumnidintooltip": "1",
+                        "showrowidintooltip": "1",
+                        "subcaption": "In percentage",
+                        "tooltipsepchar": "",
+                        "xaxislabel": "Week Days",
+                        "xaxisname": "WeekDays",
+                        "yaxislabel": "Companies",
+                        "yaxisname": "Companies"
+                    },
+                    "colorrange": {
+                        "code": "2A7FAA",
+                        "endlabel": "Very Good",
+                        "gradient": "1",
+                        "mapbypercent": "1",
+                        "minvalue": "0",
+                        "startlabel": "Very Bad"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Google",
+                                    "value": "80.456"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Google",
+                                    "value": "95"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Google",
+                                    "value": "85"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Google",
+                                    "value": "65"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Google",
+                                    "value": "0"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Yahoo",
+                                    "value": "60"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Yahoo",
+                                    "value": "39"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Yahoo",
+                                    "value": "46"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Yahoo",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Yahoo",
+                                    "value": "78"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Microsoft",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Microsoft",
+                                    "value": "65"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Microsoft",
+                                    "value": "95"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Microsoft",
+                                    "value": "75"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Microsoft",
+                                    "value": "100"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "IBM",
+                                    "value": "98"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "IBM",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "IBM",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "IBM",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "IBM",
+                                    "value": "71"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Symantec",
+                                    "value": "68"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Symantec",
+                                    "value": "85"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Symantec",
+                                    "value": "45"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Symantec",
+                                    "value": "90"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Symantec",
+                                    "value": "99"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Accenture",
+                                    "value": "92"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Accenture",
+                                    "value": "53"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Accenture",
+                                    "value": "92"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Accenture",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Accenture",
+                                    "value": "33"
+                                },
+                                {
+                                    "columnid": "MON",
+                                    "rowid": "Aol",
+                                    "value": "1"
+                                },
+                                {
+                                    "columnid": "TUE",
+                                    "rowid": "Aol",
+                                    "value": "39"
+                                },
+                                {
+                                    "columnid": "WED",
+                                    "rowid": "Aol",
+                                    "value": "74"
+                                },
+                                {
+                                    "columnid": "THU",
+                                    "rowid": "Aol",
+                                    "value": "80"
+                                },
+                                {
+                                    "columnid": "FRI",
+                                    "rowid": "Aol",
+                                    "value": "18"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_3"
+        }
+    },
+    {
+        "test_4": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "C7E3EF, FFFFFF",
+                        "caption": "Monthly revenue from different product categories",
+                        "showBorder": "0",
+                        "subcaption": "(in million US$)"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "C7E3EF",
+                                "label": "Poor",
+                                "maxvalue": "10",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "87C8EE",
+                                "label": "Average",
+                                "maxvalue": "25",
+                                "minvalue": "10"
+                            },
+                            {
+                                "code": "4091C9",
+                                "label": "Excellent",
+                                "maxvalue": "50",
+                                "minvalue": "25"
+                            }
+                        ],
+                        "gradient": "0"
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "Jan"
+                            },
+                            {
+                                "id": "Feb"
+                            },
+                            {
+                                "id": "Mar"
+                            },
+                            {
+                                "id": "Apr"
+                            },
+                            {
+                                "id": "May"
+                            },
+                            {
+                                "id": "Jun"
+                            },
+                            {
+                                "id": "Jul"
+                            },
+                            {
+                                "id": "Aug"
+                            },
+                            {
+                                "id": "Sep"
+                            },
+                            {
+                                "id": "Oct"
+                            },
+                            {
+                                "id": "Nov"
+                            },
+                            {
+                                "id": "Dec"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Apparels",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Apparels",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Apparels",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Apparels",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Apparels",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Apparels",
+                                    "value": "21"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Apparels",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Apparels",
+                                    "value": "21"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Apparels",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Apparels",
+                                    "value": "24"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Apparels",
+                                    "value": "24"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Apparels",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Electronic Goods",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Electronic Goods",
+                                    "value": "32"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Electronic Goods",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Electronic Goods",
+                                    "value": "27"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Electronic Goods",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Electronic Goods",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Electronic Goods",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Electronic Goods",
+                                    "value": "38"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Electronic Goods",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Electronic Goods",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Electronic Goods",
+                                    "value": "36"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Electronic Goods",
+                                    "value": "42"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Household",
+                                    "value": "22"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Household",
+                                    "value": "20"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Household",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Household",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Household",
+                                    "value": "25"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Household",
+                                    "value": "28"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Household",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Household",
+                                    "value": "37"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Household",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Household",
+                                    "value": "30"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Household",
+                                    "value": "26"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Household",
+                                    "value": "21"
+                                },
+                                {
+                                    "columnid": "Jan",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Feb",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "Mar",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "Apr",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "May",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "10"
+                                },
+                                {
+                                    "columnid": "Jun",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "Jul",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "Aug",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Sep",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "Oct",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "Nov",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "Dec",
+                                    "rowid": "Sports and Fitness",
+                                    "value": "17"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "Apparels"
+                            },
+                            {
+                                "id": "Electronic Goods"
+                            },
+                            {
+                                "id": "Household"
+                            },
+                            {
+                                "id": "Sports and Fitness"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_4"
+        }
+    },
+    {
+        "test_5": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "ffffff",
+                        "borderalpha": "100",
+                        "canvasbgcolor": "FFF5CE",
+                        "caption": "Periodic Table",
+                        "mapbycategory": "1",
+                        "showBorder": "0",
+                        "showcolumnidintooltext": "1",
+                        "showrowidintooltext": "1",
+                        "xaxislabel": "Group",
+                        "yaxislabel": "Period"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "FF6666",
+                                "label": "Alkali metals"
+                            },
+                            {
+                                "code": "FFDEAD",
+                                "label": "Alkaline earth metals"
+                            },
+                            {
+                                "code": "FFC0C0",
+                                "label": "Transition elements"
+                            },
+                            {
+                                "code": "CCCCCC",
+                                "label": "Other metals"
+                            },
+                            {
+                                "code": "CCCC99",
+                                "label": "Metalloids"
+                            },
+                            {
+                                "code": "A0FFA0",
+                                "label": "Other nonmetals"
+                            },
+                            {
+                                "code": "FFFF99",
+                                "label": "Halogens"
+                            },
+                            {
+                                "code": "C0FFFF",
+                                "label": "Noble gases"
+                            },
+                            {
+                                "code": "FCFCFC",
+                                "label": "Unknown"
+                            }
+                        ],
+                        "gradient": "0",
+                        "mapbypercent": "0"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "1",
+                                    "displayvalue": "H",
+                                    "rowid": "1",
+                                    "value": "1"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "Li",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "Na",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "K",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "Rb",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "Cs",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Alkali metals",
+                                    "columnid": "1",
+                                    "displayvalue": "Fr",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "1",
+                                    "displayvalue": "Uue",
+                                    "rowid": "8"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Ca",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Mg",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "2",
+                                    "displayvalue": "Ubn",
+                                    "rowid": "8"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Sr",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Ba",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Ra",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Alkaline earth metals",
+                                    "columnid": "2",
+                                    "displayvalue": "Be",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "3",
+                                    "displayvalue": "Y",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "3",
+                                    "displayvalue": "Sc",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "4",
+                                    "displayvalue": "Rf",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "4",
+                                    "displayvalue": "Hf",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "4",
+                                    "displayvalue": "Zr",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "4",
+                                    "displayvalue": "Ti",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "5",
+                                    "displayvalue": "Nb",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "5",
+                                    "displayvalue": "V",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "5",
+                                    "displayvalue": "Db",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "5",
+                                    "displayvalue": "Ta",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "6",
+                                    "displayvalue": "Mo",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "6",
+                                    "displayvalue": "W",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "6",
+                                    "displayvalue": "Sg",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "6",
+                                    "displayvalue": "Cr",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "7",
+                                    "displayvalue": "Bh",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "7",
+                                    "displayvalue": "Re",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "7",
+                                    "displayvalue": "Mn",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "7",
+                                    "displayvalue": "Tc",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "8",
+                                    "displayvalue": "Ru",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "8",
+                                    "displayvalue": "Fe",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "8",
+                                    "displayvalue": "Hs",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "8",
+                                    "displayvalue": "Os",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "9",
+                                    "displayvalue": "Rh",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "9",
+                                    "displayvalue": "Co",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "9",
+                                    "displayvalue": "Mt",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "9",
+                                    "displayvalue": "Ir",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "10",
+                                    "displayvalue": "Ds",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "10",
+                                    "displayvalue": "Pt",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "10",
+                                    "displayvalue": "Ni",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "10",
+                                    "displayvalue": "Pd",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "11",
+                                    "displayvalue": "Cu",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "11",
+                                    "displayvalue": "Au",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "11",
+                                    "displayvalue": "Rg",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "11",
+                                    "displayvalue": "Ag",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "12",
+                                    "displayvalue": "Uub",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "12",
+                                    "displayvalue": "Hg",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "12",
+                                    "displayvalue": "Cd",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Transition elements",
+                                    "columnid": "12",
+                                    "displayvalue": "Zn",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "13",
+                                    "displayvalue": "B",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "13",
+                                    "displayvalue": "Uut",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "13",
+                                    "displayvalue": "In",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "13",
+                                    "displayvalue": "Al",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "13",
+                                    "displayvalue": "Tl",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "13",
+                                    "displayvalue": "Ga",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "14",
+                                    "displayvalue": "Ge",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "14",
+                                    "displayvalue": "Si",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "14",
+                                    "displayvalue": "Sn",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "14",
+                                    "displayvalue": "Pb",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "14",
+                                    "displayvalue": "Uuq",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "14",
+                                    "displayvalue": "C",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Other metals",
+                                    "columnid": "15",
+                                    "displayvalue": "Bi",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "15",
+                                    "displayvalue": "N",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "15",
+                                    "displayvalue": "Sb",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "15",
+                                    "displayvalue": "As",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "15",
+                                    "displayvalue": "P",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "15",
+                                    "displayvalue": "Uup",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "16",
+                                    "displayvalue": "Te",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "16",
+                                    "displayvalue": "Se",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Metalloids",
+                                    "columnid": "16",
+                                    "displayvalue": "Po",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "16",
+                                    "displayvalue": "O",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Other nonmetals",
+                                    "columnid": "16",
+                                    "displayvalue": "S",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "16",
+                                    "displayvalue": "Uuh",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Halogens",
+                                    "columnid": "17",
+                                    "displayvalue": "I",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Halogens",
+                                    "columnid": "17",
+                                    "displayvalue": "At",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Halogens",
+                                    "columnid": "17",
+                                    "displayvalue": "F",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Halogens",
+                                    "columnid": "17",
+                                    "displayvalue": "Cl",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Halogens",
+                                    "columnid": "17",
+                                    "displayvalue": "Br",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "17",
+                                    "displayvalue": "Uus",
+                                    "rowid": "7"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "Xe",
+                                    "rowid": "5"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "Rn",
+                                    "rowid": "6"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "Kr",
+                                    "rowid": "4"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "Ar",
+                                    "rowid": "3"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "Ne",
+                                    "rowid": "2"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "He",
+                                    "rowid": "1"
+                                },
+                                {
+                                    "categoryid": "Noble gases",
+                                    "columnid": "18",
+                                    "displayvalue": "He",
+                                    "rowid": "1"
+                                },
+                                {
+                                    "categoryid": "Unknown",
+                                    "columnid": "18",
+                                    "displayvalue": "Uuo",
+                                    "rowid": "7"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_5"
+        }
+    },
+    {
+        "test_6": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "caption": "Job Happiness Index By Roles",
+                        "showborder": "0",
+                        "showvalues": "1",
+                        "subcaption": "(The chart uses random data for demonstration purposes only)"
+                    },
+                    "colorrange": {
+                        "code": "000000",
+                        "color": [
+                            {
+                                "code": "FFFFFF",
+                                "maxvalue": "5",
+                                "showvalue": "0"
+                            }
+                        ],
+                        "endlabel": "Love it!",
+                        "gradient": "1",
+                        "minvalue": "0",
+                        "startlabel": "Quitting tomorrow "
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "Energy"
+                            },
+                            {
+                                "id": "Telecom"
+                            },
+                            {
+                                "id": "Retail"
+                            },
+                            {
+                                "id": "High-Tech"
+                            },
+                            {
+                                "id": "Transportation"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Admin",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Admin",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Admin",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Admin",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "displayvalue": ":(",
+                                    "rowid": "Admin",
+                                    "value": "1"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Accounting",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Accounting",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Accounting",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Accounting",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Accounting",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Operations",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Operations",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Operations",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Operations",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Operations",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Marketing",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Marketing",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Marketing",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Marketing",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Marketing",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Sales",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Sales",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Sales",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Sales",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Sales",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Engineering",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "rowid": "Engineering",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Engineering",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Engineering",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Engineering",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Energy",
+                                    "rowid": "Communications",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Telecom",
+                                    "displayvalue": ":)",
+                                    "rowid": "Communications",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "Retail",
+                                    "rowid": "Communications",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "High-Tech",
+                                    "rowid": "Communications",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Transportation",
+                                    "rowid": "Communications",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "Admin"
+                            },
+                            {
+                                "id": "Accounting"
+                            },
+                            {
+                                "id": "Operations"
+                            },
+                            {
+                                "id": "Marketing"
+                            },
+                            {
+                                "id": "Sales"
+                            },
+                            {
+                                "id": "Engineering"
+                            },
+                            {
+                                "id": "Communications"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_6"
+        }
+    },
+    {
+        "test_7": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgangle": "90",
+                        "bgcolor": "D0AC41, FFFFFF",
+                        "caption": "Continent-wise revenue in 2010",
+                        "numberprefix": "$",
+                        "numbersuffix": " M",
+                        "showborder": "0"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "BB1610",
+                                "label": "Low",
+                                "maxvalue": "10",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "EDC738",
+                                "label": "Average",
+                                "maxvalue": "25",
+                                "minvalue": "10"
+                            },
+                            {
+                                "code": "8EA715",
+                                "label": "High",
+                                "maxvalue": "50",
+                                "minvalue": "25"
+                            }
+                        ],
+                        "gradient": "0"
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "Q1"
+                            },
+                            {
+                                "id": "Q2"
+                            },
+                            {
+                                "id": "Q3"
+                            },
+                            {
+                                "id": "Q4"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Q1",
+                                    "rowid": "North America",
+                                    "value": "19"
+                                },
+                                {
+                                    "columnid": "Q2",
+                                    "rowid": "North America",
+                                    "value": "23"
+                                },
+                                {
+                                    "columnid": "Q3",
+                                    "rowid": "North America",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Q4",
+                                    "rowid": "North America",
+                                    "value": "34"
+                                },
+                                {
+                                    "columnid": "Q1",
+                                    "rowid": "Europe",
+                                    "value": "16"
+                                },
+                                {
+                                    "columnid": "Q2",
+                                    "rowid": "Europe",
+                                    "value": "17"
+                                },
+                                {
+                                    "columnid": "Q3",
+                                    "rowid": "Europe",
+                                    "value": "21"
+                                },
+                                {
+                                    "columnid": "Q4",
+                                    "rowid": "Europe",
+                                    "value": "18"
+                                },
+                                {
+                                    "columnid": "Q1",
+                                    "rowid": "Asia",
+                                    "value": "9"
+                                },
+                                {
+                                    "columnid": "Q2",
+                                    "rowid": "Asia",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "Q3",
+                                    "rowid": "Asia",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "Q4",
+                                    "rowid": "Asia",
+                                    "value": "14"
+                                },
+                                {
+                                    "columnid": "Q1",
+                                    "rowid": "South America",
+                                    "value": "7"
+                                },
+                                {
+                                    "columnid": "Q2",
+                                    "rowid": "South America",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "Q3",
+                                    "rowid": "South America",
+                                    "value": "8"
+                                },
+                                {
+                                    "columnid": "Q4",
+                                    "rowid": "South America",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "Q1",
+                                    "rowid": "Australia",
+                                    "value": "11"
+                                },
+                                {
+                                    "columnid": "Q2",
+                                    "rowid": "Australia",
+                                    "value": "13"
+                                },
+                                {
+                                    "columnid": "Q3",
+                                    "rowid": "Australia",
+                                    "value": "12"
+                                },
+                                {
+                                    "columnid": "Q4",
+                                    "rowid": "Australia",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "North America"
+                            },
+                            {
+                                "id": "Europe"
+                            },
+                            {
+                                "id": "Asia"
+                            },
+                            {
+                                "id": "South America"
+                            },
+                            {
+                                "id": "Australia"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_7"
+        }
+    },
+    {
+        "test_8": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "basefontcolor": "333333",
+                        "bgangle": "315",
+                        "bgcolor": "ED73AC, F7BFC8",
+                        "caption": "Rating of ice cream flavors by brands",
+                        "showborder": "0",
+                        "showvalues": "1"
+                    },
+                    "colorrange": {
+                        "color": [
+                            {
+                                "code": "C3D9EE",
+                                "label": "Nothing great",
+                                "maxvalue": "3",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "FBF59D",
+                                "label": "Ok, can try",
+                                "maxvalue": "4",
+                                "minvalue": "3"
+                            },
+                            {
+                                "code": "C8DC6B",
+                                "label": "Yummy, must have",
+                                "maxvalue": "5",
+                                "minvalue": "4"
+                            }
+                        ],
+                        "gradient": "0"
+                    },
+                    "columns": {
+                        "column": [
+                            {
+                                "id": "Baskin-Robbins"
+                            },
+                            {
+                                "id": "Blue Bunny"
+                            },
+                            {
+                                "id": "Turkey Hill"
+                            },
+                            {
+                                "id": "Carvel"
+                            },
+                            {
+                                "id": "Breyers"
+                            }
+                        ]
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Baskin-Robbins",
+                                    "rowid": "Chocolate",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Blue Bunny",
+                                    "rowid": "Chocolate",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Turkey Hill",
+                                    "displayvalue": "OUR PICK!!!",
+                                    "rowid": "Chocolate",
+                                    "value": "5"
+                                },
+                                {
+                                    "columnid": "Carvel",
+                                    "rowid": "Chocolate",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Breyers",
+                                    "rowid": "Chocolate",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Baskin-Robbins",
+                                    "rowid": "Vanilla",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Blue Bunny",
+                                    "rowid": "Vanilla",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Turkey Hill",
+                                    "rowid": "Vanilla",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Carvel",
+                                    "rowid": "Vanilla",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Breyers",
+                                    "rowid": "Vanilla",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Baskin-Robbins",
+                                    "rowid": "Strawberry",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Blue Bunny",
+                                    "rowid": "Strawberry",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Turkey Hill",
+                                    "rowid": "Strawberry",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Carvel",
+                                    "rowid": "Strawberry",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Breyers",
+                                    "rowid": "Strawberry",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Baskin-Robbins",
+                                    "rowid": "Butter Pecan",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                },
+                                {
+                                    "columnid": "Blue Bunny",
+                                    "rowid": "Butter Pecan",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Turkey Hill",
+                                    "rowid": "Butter Pecan",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Carvel",
+                                    "rowid": "Butter Pecan",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Breyers",
+                                    "rowid": "Butter Pecan",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Baskin-Robbins",
+                                    "rowid": "Pistachio",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Blue Bunny",
+                                    "rowid": "Pistachio",
+                                    "showvalue": "0",
+                                    "value": "4"
+                                },
+                                {
+                                    "columnid": "Turkey Hill",
+                                    "rowid": "Pistachio",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Carvel",
+                                    "rowid": "Pistachio",
+                                    "showvalue": "0",
+                                    "value": "3"
+                                },
+                                {
+                                    "columnid": "Breyers",
+                                    "rowid": "Pistachio",
+                                    "showvalue": "0",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "rows": {
+                        "row": [
+                            {
+                                "id": "Chocolate"
+                            },
+                            {
+                                "id": "Vanilla"
+                            },
+                            {
+                                "id": "Strawberry"
+                            },
+                            {
+                                "id": "Butter Pecan"
+                            },
+                            {
+                                "id": "Pistachio"
+                            }
+                        ]
+                    }
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_8"
+        }
+    },
+    {
+        "test_9": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "bgcolor": "CACBEE",
+                        "caption": "Weekly Performance",
+                        "showborder": "0",
+                        "subcaption": "In percentage",
+                        "xaxisname": "Week Days",
+                        "yaxisname": "Companies"
+                    },
+                    "colorrange": {
+                        "code": "F1C4EE",
+                        "color": [
+                            {
+                                "code": "FFEBE8",
+                                "label": "BAD",
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "C6C0FF",
+                                "label": "AVERAGE",
+                                "maxvalue": "70",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "C5A2EB",
+                                "label": "GOOD",
+                                "maxvalue": "100",
+                                "minvalue": "0"
+                            }
+                        ],
+                        "endlabel": "Very Good",
+                        "gradient": "0",
+                        "minvalue": "0",
+                        "startlabel": "Very Bad"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "Google",
+                                    "value": "68"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "Google",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "Google",
+                                    "value": "95"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "Google",
+                                    "value": "17"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "Google",
+                                    "value": "55.98"
+                                },
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "Yahoo",
+                                    "value": "0"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "Yahoo",
+                                    "value": "71"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "Yahoo",
+                                    "value": "40"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "Yahoo",
+                                    "value": "63"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "Yahoo",
+                                    "value": "29"
+                                },
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "Microsoft",
+                                    "value": "98"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "Microsoft",
+                                    "value": "48"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "Microsoft",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "Microsoft",
+                                    "value": "79"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "Microsoft",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_9"
+        }
+    },
+    {
+        "test_10": {
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "chart": {
+                        "caption": "Attendance Report",
+                        "showBorder": "0",
+                        "subcaption": "In percentage",
+                        "xaxisname": "Week Days",
+                        "yaxisname": "Companies"
+                    },
+                    "colorrange": {
+                        "code": "FF654F",
+                        "color": [
+                            {
+                                "code": "F6BD0F",
+                                "label": "BAD",
+                                "maxvalue": "30",
+                                "minvalue": "0"
+                            },
+                            {
+                                "code": "8BBA00",
+                                "label": "AVERAGE",
+                                "maxvalue": "70",
+                                "minvalue": "30"
+                            },
+                            {
+                                "code": "028FF6",
+                                "maxvalue": "100",
+                                "minvalue": "70"
+                            }
+                        ],
+                        "endlabel": "Good",
+                        "gradient": "1",
+                        "mapbypercent": "1",
+                        "minvalue": "0",
+                        "startlabel": "Very Bad"
+                    },
+                    "dataset": [
+                        {
+                            "data": [
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "C-1",
+                                    "value": "68"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "C-1",
+                                    "value": "35"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "C-1",
+                                    "value": "95"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "C-1",
+                                    "value": "17"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "C-1",
+                                    "value": "55.98"
+                                },
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "C-2",
+                                    "value": "0"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "C-2",
+                                    "value": "71"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "C-2",
+                                    "value": "70"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "C-2",
+                                    "value": "63"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "C-2",
+                                    "value": "79"
+                                },
+                                {
+                                    "columnid": "Mon",
+                                    "rowid": "C-3",
+                                    "value": "98"
+                                },
+                                {
+                                    "columnid": "Tue",
+                                    "rowid": "C-3",
+                                    "value": "48"
+                                },
+                                {
+                                    "columnid": "Wed",
+                                    "rowid": "C-3",
+                                    "value": "31"
+                                },
+                                {
+                                    "columnid": "Thu",
+                                    "rowid": "C-3",
+                                    "value": "79"
+                                },
+                                {
+                                    "columnid": "Fri",
+                                    "rowid": "C-3",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "heatmap",
+                "width": "800"
+            },
+            "description": "",
+            "refimage": "",
+            "id": "test_10"
+        }
+    }
+]

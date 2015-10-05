@@ -1,0 +1,1177 @@
+[
+    {
+        "name": "2D Column Chart",
+        "url": "http://www.fusioncharts.com/charts/column2d_6/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart.json"
+    },
+    {
+        "name": "2D Column Chart with custom transparency for columns",
+        "url": "http://www.fusioncharts.com/charts/column2d_10/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with custom transparency for columns.json"
+    },
+    {
+        "name": "2D Column Chart with drill-down",
+        "url": "http://www.fusioncharts.com/charts/column2d_9/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with drill-down.json"
+    },
+    {
+        "name": "2D Round-Edged Column Chart",
+        "url": "http://www.fusioncharts.com/charts/column2d_5/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Round-Edged Column Chart.json"
+    },
+    {
+        "name": "3D Column Chart",
+        "url": "http://www.fusioncharts.com/charts/column3d_7/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Column Chart.json"
+    },
+    {
+        "name": "3D Column Chart with zero plane",
+        "url": "http://www.fusioncharts.com/charts/column3d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Column Chart with zero plane.json"
+    },
+    {
+        "name": "2D Column Chart with trendlines",
+        "url": "http://www.fusioncharts.com/charts/column2d_3/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with trendlines.json"
+    },
+    {
+        "name": "2D Column Chart with slanted x-axis labels",
+        "url": "http://www.fusioncharts.com/charts/column2d_8/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with slanted x-axis labels.json"
+    },
+    {
+        "name": "2D Bar Chart with highlighted data points",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_5/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Bar Chart with highlighted data points.json"
+    },
+    {
+        "name": "2D Column Chart with custom number scale",
+        "url": "http://www.fusioncharts.com/charts/column2d_7/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with custom number scale.json"
+    },
+    {
+        "name": "2D Column Chart with trendzones",
+        "url": "http://www.fusioncharts.com/charts/column2d_4/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Column Chart with trendzones.json"
+    },
+    {
+        "name": "3D Column Chart with canvas hidden from view",
+        "url": "http://www.fusioncharts.com/charts/column3d_8/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Column Chart with canvas hidden from view.json"
+    },
+    {
+        "name": "3D Column Chart with zero plane",
+        "url": "http://www.fusioncharts.com/charts/column3d_4/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Column Chart with zero plane.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_7/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Column Chart.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart with hidden data series",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_6/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Column Chart with hidden data series.json"
+    },
+    {
+        "name": "3D Multi-Series Column Chart",
+        "url": "http://www.fusioncharts.com/charts/mscolumn3d_3/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Multi-Series Column Chart.json"
+    },
+    {
+        "name": "3D Multi-Series Column Chart",
+        "url": "http://www.fusioncharts.com/charts/mscolumn3d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Multi-Series Column Chart.json"
+    },
+    {
+        "name": "3D Column Chart with no spacing between columns",
+        "url": "http://www.fusioncharts.com/charts/column3d_6/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Column Chart with no spacing between columns.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart with trendzone",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_1/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Column Chart with trendzone.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart with data values inside columns",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Column Chart with data values inside columns.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart",
+        "url": "http://www.fusioncharts.com/charts/mscolumn2d_3/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Column Chart.json"
+    },
+    {
+        "name": "2D Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/bar2d_4/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Bar Chart.json"
+    },
+    {
+        "name": "2D Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/bar2d_5/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Bar Chart.json"
+    },
+    {
+        "name": "2D Bar Chart with a lot of data sets",
+        "url": "http://www.fusioncharts.com/charts/bar2d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Bar Chart with a lot of data sets.json"
+    },
+    {
+        "name": "2D Bar Chart with custom annotation",
+        "url": "http://www.fusioncharts.com/charts/column2d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Bar Chart with custom annotation.json"
+    },
+    {
+        "name": "3D Bar Chart with image as background",
+        "url": "http://www.fusioncharts.com/charts/msbar3d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Bar Chart with image as background.json"
+    },
+    {
+        "name": "2D Multi-Series Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/msbar2d_3/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Bar Chart.json"
+    },
+    {
+        "name": "2D Round-Edged Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/bar2d_3/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Round-Edged Bar Chart.json"
+    },
+    {
+        "name": "2D Multi-Series Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/msbar2d_2/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/2D Multi-Series Bar Chart.json"
+    },
+    {
+        "name": "3D Multi-Series Bar Chart",
+        "url": "http://www.fusioncharts.com/charts/msbar3d_1/",
+        "location": "chartdata/FusionCharts XT/Column & Bar Charts/3D Multi-Series Bar Chart.json"
+    },
+    {
+        "name": "Multi-Series Line Chart",
+        "url": "http://www.fusioncharts.com/charts/msline_6/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Multi-Series Line Chart.json"
+    },
+    {
+        "name": "Multi-Series Line Chart",
+        "url": "http://www.fusioncharts.com/charts/msline_7/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Multi-Series Line Chart.json"
+    },
+    {
+        "name": "Line Chart with trend-lines",
+        "url": "http://www.fusioncharts.com/charts/line_5/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with trend-lines.json"
+    },
+    {
+        "name": "Line Chart with a highlighted data point",
+        "url": "http://www.fusioncharts.com/charts/line_4/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with a highlighted data point.json"
+    },
+    {
+        "name": "Line Chart with rotated data values",
+        "url": "http://www.fusioncharts.com/charts/line_1/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with rotated data values.json"
+    },
+    {
+        "name": "Line Chart with custom background",
+        "url": "http://www.fusioncharts.com/charts/line_3/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with custom background.json"
+    },
+    {
+        "name": "Line Chart with missing data",
+        "url": "http://www.fusioncharts.com/charts/msline_4/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with missing data.json"
+    },
+    {
+        "name": "Line Chart with trendzones",
+        "url": "http://www.fusioncharts.com/charts/line_6/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Line Chart with trendzones.json"
+    },
+    {
+        "name": "Multi-Series Line Chart with slanted x-axis labels",
+        "url": "http://www.fusioncharts.com/charts/msline_1/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Multi-Series Line Chart with slanted x-axis labels.json"
+    },
+    {
+        "name": "Multi-Series Line Chart with chart legend on right",
+        "url": "http://www.fusioncharts.com/charts/msline_2/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Multi-Series Line Chart with chart legend on right.json"
+    },
+    {
+        "name": "Area Chart with a vertical line as annotation",
+        "url": "http://www.fusioncharts.com/charts/area_4/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Area Chart with a vertical line as annotation.json"
+    },
+    {
+        "name": "Area Chart with custom labels to indicate special events",
+        "url": "http://www.fusioncharts.com/charts/area2d_3/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Area Chart with custom labels to indicate special events.json"
+    },
+    {
+        "name": "Area Chart with no canvas behind it",
+        "url": "http://www.fusioncharts.com/charts/area2d_1/",
+        "location": "chartdata/FusionCharts XT/Line & Area Charts/Area Chart with no canvas behind it.json"
+    },
+    {
+        "name": "2D Pie Chart with slicing and rotation",
+        "url": "http://www.fusioncharts.com/charts/pie2d_5/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Pie Chart with slicing and rotation.json"
+    },
+    {
+        "name": "2D Pie Chart with one slice out",
+        "url": "http://www.fusioncharts.com/charts/pie2d_4/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Pie Chart with one slice out.json"
+    },
+    {
+        "name": "3D Pie Chart",
+        "url": "http://www.fusioncharts.com/charts/pie3d_5/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/3D Pie Chart.json"
+    },
+    {
+        "name": "3D Pie Chart with 2 slices out",
+        "url": "http://www.fusioncharts.com/charts/pie3d_1/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/3D Pie Chart with 2 slices out.json"
+    },
+    {
+        "name": "3D Pie Chart with smart labels",
+        "url": "http://www.fusioncharts.com/charts/pie3d_3/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/3D Pie Chart with smart labels.json"
+    },
+    {
+        "name": "2D Pie Chart",
+        "url": "http://www.fusioncharts.com/charts/pie2d_6/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Pie Chart.json"
+    },
+    {
+        "name": "3D Pie Chart",
+        "url": "http://www.fusioncharts.com/charts/pie3d_6/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/3D Pie Chart.json"
+    },
+    {
+        "name": "2D Pie Chart with bevel",
+        "url": "http://www.fusioncharts.com/charts/pie2d_1/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Pie Chart with bevel.json"
+    },
+    {
+        "name": "2D Doughnut Chart",
+        "url": "http://www.fusioncharts.com/charts/doughnut2d_1/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Doughnut Chart.json"
+    },
+    {
+        "name": "2D Doughnut Chart with smart labels",
+        "url": "http://www.fusioncharts.com/charts/doughnut2d_2/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/2D Doughnut Chart with smart labels.json"
+    },
+    {
+        "name": "3D Doughnut Chart with custom y-angle",
+        "url": "http://www.fusioncharts.com/charts/doughnut3d_2/",
+        "location": "chartdata/FusionCharts XT/2D & 3D Pie Charts/3D Doughnut Chart with custom y-angle.json"
+    },
+    {
+        "name": "Zoom Line Chart",
+        "url": "http://www.fusioncharts.com/charts/zoomline_5/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/Zoom Line Chart.json"
+    },
+    {
+        "name": "Multi-Series Zoom Line Chart",
+        "url": "http://www.fusioncharts.com/charts/zoomline_1/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/Multi-Series Zoom Line Chart.json"
+    },
+    {
+        "name": "2D Multi-Series Column Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollcolumn2d_4/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Multi-Series Column Chart with scroll.json"
+    },
+    {
+        "name": "2D Multi-Series Line Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollline2d_4/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Multi-Series Line Chart with scroll.json"
+    },
+    {
+        "name": "2D Stacked Column Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollstackedcolumn2d_5/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Stacked Column Chart with scroll.json"
+    },
+    {
+        "name": "2D Multi-Series Area Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollarea2d_3/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Multi-Series Area Chart with scroll.json"
+    },
+    {
+        "name": "2D Multi-Series Round-Edged Column Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollcolumn2d_1/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Multi-Series Round-Edged Column Chart with scroll.json"
+    },
+    {
+        "name": "2D Round-Edged Stacked Column Chart with scroll",
+        "url": "http://www.fusioncharts.com/charts/scrollstackedcolumn2d_1/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Round-Edged Stacked Column Chart with scroll.json"
+    },
+    {
+        "name": "2D Combination Chart with scroll (Multi-Series Column + Line + Area)",
+        "url": "http://www.fusioncharts.com/charts/scrollcombi2d_1/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Combination Chart with scroll (Multi-Series Column + Line + Area).json"
+    },
+    {
+        "name": "2D Combination Chart with scroll (Column + Line + Area)",
+        "url": "http://www.fusioncharts.com/charts/scrollcombidy2d_1/",
+        "location": "chartdata/FusionCharts XT/Zoom and Scroll Charts/2D Combination Chart with scroll (Column + Line + Area).json"
+    },
+    {
+        "name": "2D Column + Area Chart",
+        "url": "http://www.fusioncharts.com/charts/mscombi2d_5/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Column + Area Chart.json"
+    },
+    {
+        "name": "3D Multi-Series Column + Multi-Series Line",
+        "url": "http://www.fusioncharts.com/charts/mscolumnline3d_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/3D Multi-Series Column + Multi-Series Line.json"
+    },
+    {
+        "name": "2D Column + Area Chart",
+        "url": "http://www.fusioncharts.com/charts/mscombi2d_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Column + Area Chart.json"
+    },
+    {
+        "name": "2D Column + Line Chart",
+        "url": "http://www.fusioncharts.com/charts/mscombi2d_2/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Column + Line Chart.json"
+    },
+    {
+        "name": "2D Line + Area Chart",
+        "url": "http://www.fusioncharts.com/charts/mscombi2d_3/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Line + Area Chart.json"
+    },
+    {
+        "name": "3D Column + Line Chart",
+        "url": "http://www.fusioncharts.com/charts/mscolumnline3d_2/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/3D Column + Line Chart.json"
+    },
+    {
+        "name": "2D Column + Line + Area Chart",
+        "url": "http://www.fusioncharts.com/charts/mscombi2d_4/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Column + Line + Area Chart.json"
+    },
+    {
+        "name": "2D Round-Edged Stacked Column + Line Chart",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn2dline_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/2D Round-Edged Stacked Column + Line Chart.json"
+    },
+    {
+        "name": "3D Stacked Column + Line Chart",
+        "url": "http://www.fusioncharts.com/charts/stackedcolum3dline_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Single Y)/3D Stacked Column + Line Chart.json"
+    },
+    {
+        "name": "2D Column + Line Chart (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_7/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Column + Line Chart (Dual Y).json"
+    },
+    {
+        "name": "3D Column + Line (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/3D Column + Line (Dual Y).json"
+    },
+    {
+        "name": "3D Multi-Series Column + Line (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_2/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/3D Multi-Series Column + Line (Dual Y).json"
+    },
+    {
+        "name": "3D Column + Multi-Series Line (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscolumn3dlinedy_3/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/3D Column + Multi-Series Line (Dual Y).json"
+    },
+    {
+        "name": "2D Column + Multi-Series Line (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Column + Multi-Series Line (Dual Y).json"
+    },
+    {
+        "name": "2D Column + Line + Area (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_2/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Column + Line + Area (Dual Y).json"
+    },
+    {
+        "name": "2D Multi-Series Line + Area (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_3/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Multi-Series Line + Area (Dual Y).json"
+    },
+    {
+        "name": "2D Line Charts (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_4/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Line Charts (Dual Y).json"
+    },
+    {
+        "name": "2D Column Charts (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/mscombidy2d_5/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Column Charts (Dual Y).json"
+    },
+    {
+        "name": "3D Stacked Column + Line Chart (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn3dlinedy_2/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/3D Stacked Column + Line Chart (Dual Y).json"
+    },
+    {
+        "name": "2D Multi-Series Stacked Column + Line Chart (Dual Y)",
+        "url": "http://www.fusioncharts.com/charts/msstackedcolumn3dlinedy_1/",
+        "location": "chartdata/FusionCharts XT/Combination Charts (Dual Y)/2D Multi-Series Stacked Column + Line Chart (Dual Y).json"
+    },
+    {
+        "name": "3D Stacked Column Chart",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn3d_1/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/3D Stacked Column Chart.json"
+    },
+    {
+        "name": "2D Stacked Column Chart with sum on top",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_4/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Stacked Column Chart with sum on top.json"
+    },
+    {
+        "name": "2D Stacked Area Chart",
+        "url": "http://www.fusioncharts.com/charts/stackedarea2d_4/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Stacked Area Chart.json"
+    },
+    {
+        "name": "2D Stacked Column Chart (100% Stacked)",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_3/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Stacked Column Chart (100% Stacked).json"
+    },
+    {
+        "name": "3D Stacked Column Chart (100% Stacked)",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn3d_3/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/3D Stacked Column Chart (100% Stacked).json"
+    },
+    {
+        "name": "Stacked Area Chart with rotated x-axis labels",
+        "url": "http://www.fusioncharts.com/charts/stackedarea2d_2/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/Stacked Area Chart with rotated x-axis labels.json"
+    },
+    {
+        "name": "2D Round-Edged Stacked Column Chart",
+        "url": "http://www.fusioncharts.com/charts/stackedcolumn2d_1/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Round-Edged Stacked Column Chart.json"
+    },
+    {
+        "name": "2D Round-Edged Multi-Series Stacked Column Chart",
+        "url": "http://www.fusioncharts.com/charts/msstackedcolumn2d_1/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Round-Edged Multi-Series Stacked Column Chart.json"
+    },
+    {
+        "name": "2D Stacked Bar Chart with trendline",
+        "url": "http://www.fusioncharts.com/charts/stackedbar2d_1/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Stacked Bar Chart with trendline.json"
+    },
+    {
+        "name": "2D Stacked Bar Chart with negative values",
+        "url": "http://www.fusioncharts.com/charts/stackedbar2d_2/",
+        "location": "chartdata/FusionCharts XT/Stacked Charts/2D Stacked Bar Chart with negative values.json"
+    },
+    {
+        "name": "XY Plot Chart",
+        "url": "http://www.fusioncharts.com/charts/scatter_1/",
+        "location": "chartdata/FusionCharts XT/Bubble & XY Charts/XY Plot Chart.json"
+    },
+    {
+        "name": "XY Plot Chart",
+        "url": "http://www.fusioncharts.com/charts/scatter_2/",
+        "location": "chartdata/FusionCharts XT/Bubble & XY Charts/XY Plot Chart.json"
+    },
+    {
+        "name": "Bubble Chart",
+        "url": "http://www.fusioncharts.com/charts/bubble_2/",
+        "location": "chartdata/FusionCharts XT/Bubble & XY Charts/Bubble Chart.json"
+    },
+    {
+        "name": "Bubble Chart",
+        "url": "http://www.fusioncharts.com/charts/bubble_1/",
+        "location": "chartdata/FusionCharts XT/Bubble & XY Charts/Bubble Chart.json"
+    },
+    {
+        "name": "2D Pareto Chart",
+        "url": "http://www.fusioncharts.com/charts/pareto2d_2/",
+        "location": "chartdata/FusionCharts XT/Pareto Charts/2D Pareto Chart.json"
+    },
+    {
+        "name": "2D Pareto Chart",
+        "url": "http://www.fusioncharts.com/charts/pareto2d_1/",
+        "location": "chartdata/FusionCharts XT/Pareto Charts/2D Pareto Chart.json"
+    },
+    {
+        "name": "3D Pareto Chart",
+        "url": "http://www.fusioncharts.com/charts/pareto3d_1/",
+        "location": "chartdata/FusionCharts XT/Pareto Charts/3D Pareto Chart.json"
+    },
+    {
+        "name": "3D Pareto Chart with dotted line",
+        "url": "http://www.fusioncharts.com/charts/pareto3d_2/",
+        "location": "chartdata/FusionCharts XT/Pareto Charts/3D Pareto Chart with dotted line.json"
+    },
+    {
+        "name": "Marimekko Chart",
+        "url": "http://www.fusioncharts.com/charts/marimekko_1/",
+        "location": "chartdata/FusionCharts XT/Marimekko Charts/Marimekko Chart.json"
+    },
+    {
+        "name": "Marimekko Chart",
+        "url": "http://www.fusioncharts.com/charts/marimekko_2/",
+        "location": "chartdata/FusionCharts XT/Marimekko Charts/Marimekko Chart.json"
+    },
+    {
+        "name": "Marimekko Chart",
+        "url": "http://www.fusioncharts.com/charts/marimekko_4/",
+        "location": "chartdata/FusionCharts XT/Marimekko Charts/Marimekko Chart.json"
+    },
+    {
+        "name": "Angular Gauge (aka Speedometer Chart/Dial Gauge)",
+        "url": "http://www.fusioncharts.com/charts/angulargauge_17/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge (aka Speedometer Chart/Dial Gauge).json"
+    },
+    {
+        "name": "Real-Time Angular Gauge ",
+        "url": "http://www.fusioncharts.com/charts/angular_14/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Real-Time Angular Gauge .json"
+    },
+    {
+        "name": "Custom-designed angular gauge with trendzone",
+        "url": "http://www.fusioncharts.com/charts/angular_16/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Custom-designed angular gauge with trendzone.json"
+    },
+    {
+        "name": "Angular Gauge with steel casing",
+        "url": "http://www.fusioncharts.com/charts/angular_15/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with steel casing.json"
+    },
+    {
+        "name": "Angular Gauge as rating meter",
+        "url": "http://www.fusioncharts.com/charts/angular_9/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge as rating meter.json"
+    },
+    {
+        "name": "Angular Gauge with metallic frame effect",
+        "url": "http://www.fusioncharts.com/charts/angular_10/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with metallic frame effect.json"
+    },
+    {
+        "name": "Angular Gauge with customized border",
+        "url": "http://www.fusioncharts.com/charts/angulargauge_18/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with customized border.json"
+    },
+    {
+        "name": "Angular Gauge with 2 dials simulating a clock",
+        "url": "http://www.fusioncharts.com/charts/angular_1/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with 2 dials simulating a clock.json"
+    },
+    {
+        "name": "Angular Gauge",
+        "url": "http://www.fusioncharts.com/charts/angular_7/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge.json"
+    },
+    {
+        "name": "Angular Gauge as fuel indicator",
+        "url": "http://www.fusioncharts.com/charts/angular_13/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge as fuel indicator.json"
+    },
+    {
+        "name": "Angular Gauge as fuel indicator",
+        "url": "http://www.fusioncharts.com/charts/angular_12/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge as fuel indicator.json"
+    },
+    {
+        "name": "Angular Gauge with customized background and tick marks",
+        "url": "http://www.fusioncharts.com/charts/angular_17/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with customized background and tick marks.json"
+    },
+    {
+        "name": "Editable Angular Gauge",
+        "url": "http://www.fusioncharts.com/charts/angular_4/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Editable Angular Gauge.json"
+    },
+    {
+        "name": "Angular Gauge as speedometer",
+        "url": "http://www.fusioncharts.com/charts/angular_6/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge as speedometer.json"
+    },
+    {
+        "name": "Angular Gauge (360 degree)",
+        "url": "http://www.fusioncharts.com/charts/angular_8/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge (360 degree).json"
+    },
+    {
+        "name": "Angular Gauge with trend marker",
+        "url": "http://www.fusioncharts.com/charts/angular_5/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with trend marker.json"
+    },
+    {
+        "name": "Angular Gauge with custom background and trendzone",
+        "url": "http://www.fusioncharts.com/charts/angular_3/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Angular Gauge with custom background and trendzone.json"
+    },
+    {
+        "name": "Linear Gauge with 3 color ranges",
+        "url": "http://www.fusioncharts.com/charts/linear_1/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Linear Gauge with 3 color ranges.json"
+    },
+    {
+        "name": "Linear Gauge as Richter Scale",
+        "url": "http://www.fusioncharts.com/charts/linear_4/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Linear Gauge as Richter Scale.json"
+    },
+    {
+        "name": "Editable Linear Gauge",
+        "url": "http://www.fusioncharts.com/charts/linear_3/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Editable Linear Gauge.json"
+    },
+    {
+        "name": "Linear Gauge with trend point",
+        "url": "http://www.fusioncharts.com/charts/linear_2/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Linear Gauge with trend point.json"
+    },
+    {
+        "name": "Linear Gauge with an arc shaped trendzone",
+        "url": "http://www.fusioncharts.com/charts/linear_5/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Linear Gauge with an arc shaped trendzone.json"
+    },
+    {
+        "name": "Linear Gauge with customized color ranges",
+        "url": "http://www.fusioncharts.com/charts/linear_6/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Linear Gauge with customized color ranges.json"
+    },
+    {
+        "name": "Cylinder Gauge",
+        "url": "http://www.fusioncharts.com/charts/cylinder_9/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Cylinder Gauge.json"
+    },
+    {
+        "name": "Real-time Cylinder Gauge",
+        "url": "http://www.fusioncharts.com/charts/cylinder_7/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Real-time Cylinder Gauge.json"
+    },
+    {
+        "name": "Cylinder Gauge with annotation",
+        "url": "http://www.fusioncharts.com/charts/cylinder_8/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Cylinder Gauge with annotation.json"
+    },
+    {
+        "name": "LED Gauge",
+        "url": "http://www.fusioncharts.com/charts/led_10/",
+        "location": "chartdata/FusionWidgets XT/Gauges/LED Gauge.json"
+    },
+    {
+        "name": "LED Gauge with no gaps",
+        "url": "http://www.fusioncharts.com/charts/led_11/",
+        "location": "chartdata/FusionWidgets XT/Gauges/LED Gauge with no gaps.json"
+    },
+    {
+        "name": "LED Gauge with customized gaps",
+        "url": "http://www.fusioncharts.com/charts/led_13/",
+        "location": "chartdata/FusionWidgets XT/Gauges/LED Gauge with customized gaps.json"
+    },
+    {
+        "name": "Real-time LED Gauge",
+        "url": "http://www.fusioncharts.com/charts/led_14/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Real-time LED Gauge.json"
+    },
+    {
+        "name": "Vertical LED Gauge",
+        "url": "http://www.fusioncharts.com/charts/ved_15/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Vertical LED Gauge.json"
+    },
+    {
+        "name": "Vertical LED Gauge with no gaps",
+        "url": "http://www.fusioncharts.com/charts/ved_16/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Vertical LED Gauge with no gaps.json"
+    },
+    {
+        "name": "Real-time Thermometer Gauge",
+        "url": "http://www.fusioncharts.com/charts/tem_17/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Real-time Thermometer Gauge.json"
+    },
+    {
+        "name": "Thermometer Gauge with customized looks",
+        "url": "http://www.fusioncharts.com/charts/tem_18/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Thermometer Gauge with customized looks.json"
+    },
+    {
+        "name": "Thermometer Gauge with customized looks",
+        "url": "http://www.fusioncharts.com/charts/tem_19/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Thermometer Gauge with customized looks.json"
+    },
+    {
+        "name": "Real-time 3D Bulb Gauge",
+        "url": "http://www.fusioncharts.com/charts/bulb_20/",
+        "location": "chartdata/FusionWidgets XT/Gauges/Real-time 3D Bulb Gauge.json"
+    },
+    {
+        "name": "2D Bulb Gauge showing label instead of value",
+        "url": "http://www.fusioncharts.com/charts/bulb_21/",
+        "location": "chartdata/FusionWidgets XT/Gauges/2D Bulb Gauge showing label instead of value.json"
+    },
+    {
+        "name": "Gantt Chart with connectors, milestones and rounded task bars",
+        "url": "http://www.fusioncharts.com/charts/gantt_1/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with connectors, milestones and rounded task bars.json"
+    },
+    {
+        "name": "Gantt Chart with both date and time",
+        "url": "http://www.fusioncharts.com/charts/gantt_11/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with both date and time.json"
+    },
+    {
+        "name": "Gantt Chart with tasks under groups",
+        "url": "http://www.fusioncharts.com/charts/gantt_6/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with tasks under groups.json"
+    },
+    {
+        "name": "Gantt Chart with scrolling in both panes",
+        "url": "http://www.fusioncharts.com/charts/gantt_7/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with scrolling in both panes.json"
+    },
+    {
+        "name": "Gantt Chart with customized cosmetics",
+        "url": "http://www.fusioncharts.com/charts/gantt_2/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with customized cosmetics.json"
+    },
+    {
+        "name": "Gantt Chart with customized cosmetics",
+        "url": "http://www.fusioncharts.com/charts/gantt_3/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with customized cosmetics.json"
+    },
+    {
+        "name": "Gantt Chart with legend to explain color keys",
+        "url": "http://www.fusioncharts.com/charts/gantt_4/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with legend to explain color keys.json"
+    },
+    {
+        "name": "Gantt Chart with legend to explain color keys",
+        "url": "http://www.fusioncharts.com/charts/gantt_5/",
+        "location": "chartdata/FusionWidgets XT/Gantt Charts/Gantt Chart with legend to explain color keys.json"
+    },
+    {
+        "name": "Real-Time Line Chart/Strip Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_1/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-Time Line Chart/Strip Chart.json"
+    },
+    {
+        "name": "Real-Time Stacked Area Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_2/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-Time Stacked Area Chart.json"
+    },
+    {
+        "name": "Real-Time (Dual Y) Line Chart/Strip Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_3/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-Time (Dual Y) Line Chart/Strip Chart.json"
+    },
+    {
+        "name": "Real-Time Stacked Column Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_4/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-Time Stacked Column Chart.json"
+    },
+    {
+        "name": "Real-Time Column Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_5/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-Time Column Chart.json"
+    },
+    {
+        "name": "Real-time Area Chart",
+        "url": "http://www.fusioncharts.com/charts/realtime_6/",
+        "location": "chartdata/FusionWidgets XT/Real-time charts/Real-time Area Chart.json"
+    },
+    {
+        "name": "Funnel Chart",
+        "url": "http://www.fusioncharts.com/charts/funnel_5/",
+        "location": "chartdata/FusionWidgets XT/Funnel Charts/Funnel Chart.json"
+    },
+    {
+        "name": "Funnel Chart with all items sliced out",
+        "url": "http://www.fusioncharts.com/charts/funnel_1/",
+        "location": "chartdata/FusionWidgets XT/Funnel Charts/Funnel Chart with all items sliced out.json"
+    },
+    {
+        "name": "Funnel Chart filled from inside",
+        "url": "http://www.fusioncharts.com/charts/funnel_3/",
+        "location": "chartdata/FusionWidgets XT/Funnel Charts/Funnel Chart filled from inside.json"
+    },
+    {
+        "name": "Funnel Chart with same slant angle for all slices",
+        "url": "http://www.fusioncharts.com/charts/funnel_2/",
+        "location": "chartdata/FusionWidgets XT/Funnel Charts/Funnel Chart with same slant angle for all slices.json"
+    },
+    {
+        "name": "2D Funnel Chart",
+        "url": "http://www.fusioncharts.com/charts/funnel_4/",
+        "location": "chartdata/FusionWidgets XT/Funnel Charts/2D Funnel Chart.json"
+    },
+    {
+        "name": "Pyramid Chart",
+        "url": "http://www.fusioncharts.com/charts/pyramid_5/",
+        "location": "chartdata/FusionWidgets XT/Pyramid Charts/Pyramid Chart.json"
+    },
+    {
+        "name": "Pyramid Chart with one item sliced out",
+        "url": "http://www.fusioncharts.com/charts/pyramid_1/",
+        "location": "chartdata/FusionWidgets XT/Pyramid Charts/Pyramid Chart with one item sliced out.json"
+    },
+    {
+        "name": "2D Pyramid Chart",
+        "url": "http://www.fusioncharts.com/charts/pyramid_3/",
+        "location": "chartdata/FusionWidgets XT/Pyramid Charts/2D Pyramid Chart.json"
+    },
+    {
+        "name": "Pyramid Chart with all items sliced out",
+        "url": "http://www.fusioncharts.com/charts/pyramid_4/",
+        "location": "chartdata/FusionWidgets XT/Pyramid Charts/Pyramid Chart with all items sliced out.json"
+    },
+    {
+        "name": "Heat Map Chart: Conversion Rates",
+        "url": "http://www.fusioncharts.com/charts/heatmap_4/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Conversion Rates.json"
+    },
+    {
+        "name": "Heat Map Chart: CPU Utilization Rate",
+        "url": "http://www.fusioncharts.com/charts/heatmap_11/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: CPU Utilization Rate.json"
+    },
+    {
+        "name": "Heat Map Chart: Performance Comparison",
+        "url": "http://www.fusioncharts.com/charts/heatmap_9/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Performance Comparison.json"
+    },
+    {
+        "name": "Heat Map Chart: Category-wise Revenue",
+        "url": "http://www.fusioncharts.com/charts/heatmap_5/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Category-wise Revenue.json"
+    },
+    {
+        "name": "Heat Map Chart: Chemical Periodic table",
+        "url": "http://www.fusioncharts.com/charts/heatmap_2/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Chemical Periodic table.json"
+    },
+    {
+        "name": "Heat Map Chart: Job Happiness Index",
+        "url": "http://www.fusioncharts.com/charts/heatmap_7/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Job Happiness Index.json"
+    },
+    {
+        "name": "Heat Map Chart: Continent-wise Revenue",
+        "url": "http://www.fusioncharts.com/charts/heatmap_8/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Continent-wise Revenue.json"
+    },
+    {
+        "name": "Heat Map Chart: Rating of ice creams",
+        "url": "http://www.fusioncharts.com/charts/heatmap_10/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Rating of ice creams.json"
+    },
+    {
+        "name": "Heat Map Chart: Performance Analysis Tool",
+        "url": "http://www.fusioncharts.com/charts/heatmap_1/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Performance Analysis Tool.json"
+    },
+    {
+        "name": "Heat Map Chart: Attendance Report",
+        "url": "http://www.fusioncharts.com/charts/heatmap_3/",
+        "location": "chartdata/PowerCharts XT/Heat Map Charts/Heat Map Chart: Attendance Report.json"
+    },
+    {
+        "name": "Radar Chart: Comparison of 2 software vendors",
+        "url": "http://www.fusioncharts.com/charts/radar_4/",
+        "location": "chartdata/PowerCharts XT/Radar (Spider Charts)/Radar Chart: Comparison of 2 software vendors.json"
+    },
+    {
+        "name": "Radar Chart: Variance Analysis",
+        "url": "http://www.fusioncharts.com/charts/radar_3/",
+        "location": "chartdata/PowerCharts XT/Radar (Spider Charts)/Radar Chart: Variance Analysis.json"
+    },
+    {
+        "name": "Radar Chart: General Example",
+        "url": "http://www.fusioncharts.com/charts/radar_2/",
+        "location": "chartdata/PowerCharts XT/Radar (Spider Charts)/Radar Chart: General Example.json"
+    },
+    {
+        "name": "Interactive Candlestick Chart: Stock Price Plotting",
+        "url": "http://www.fusioncharts.com/charts/candlestick_1/",
+        "location": "chartdata/PowerCharts XT/Candlestick Charts/Interactive Candlestick Chart: Stock Price Plotting.json"
+    },
+    {
+        "name": "Interactive Candlestick Chart: Stock Price Plotting (using line plot)",
+        "url": "http://www.fusioncharts.com/charts/candlestick_2/",
+        "location": "chartdata/PowerCharts XT/Candlestick Charts/Interactive Candlestick Chart: Stock Price Plotting (using line plot).json"
+    },
+    {
+        "name": "Interactive Candlestick Chart: Stock Price Plotting (Highlighted Candlestick)",
+        "url": "http://www.fusioncharts.com/charts/candlestick_3/",
+        "location": "chartdata/PowerCharts XT/Candlestick Charts/Interactive Candlestick Chart: Stock Price Plotting (Highlighted Candlestick).json"
+    },
+    {
+        "name": "Waterfall Chart: Company Profit",
+        "url": "http://www.fusioncharts.com/charts/waterfall_6/",
+        "location": "chartdata/PowerCharts XT/Waterfall Charts/Waterfall Chart: Company Profit.json"
+    },
+    {
+        "name": "Waterfall Chart: Inventory Analysis",
+        "url": "http://www.fusioncharts.com/charts/waterfall_4/",
+        "location": "chartdata/PowerCharts XT/Waterfall Charts/Waterfall Chart: Inventory Analysis.json"
+    },
+    {
+        "name": "Waterfall Chart: Sales Analysis",
+        "url": "http://www.fusioncharts.com/charts/waterfall_2/",
+        "location": "chartdata/PowerCharts XT/Waterfall Charts/Waterfall Chart: Sales Analysis.json"
+    },
+    {
+        "name": "Waterfall Chart: Product Earnings",
+        "url": "http://www.fusioncharts.com/charts/waterfall_3/",
+        "location": "chartdata/PowerCharts XT/Waterfall Charts/Waterfall Chart: Product Earnings.json"
+    },
+    {
+        "name": "Waterfall Chart: Cost Sheet",
+        "url": "http://www.fusioncharts.com/charts/waterfall_5/",
+        "location": "chartdata/PowerCharts XT/Waterfall Charts/Waterfall Chart: Cost Sheet.json"
+    },
+    {
+        "name": "Drag-able Column Chart: Sales Planning",
+        "url": "http://www.fusioncharts.com/charts/dragcolumn2d_5/",
+        "location": "chartdata/PowerCharts XT/Visually Editable Charts/Drag-able Column Chart: Sales Planning.json"
+    },
+    {
+        "name": "Drag-able Column Chart: Network Re-designing Project",
+        "url": "http://www.fusioncharts.com/charts/editable_2/",
+        "location": "chartdata/PowerCharts XT/Visually Editable Charts/Drag-able Column Chart: Network Re-designing Project.json"
+    },
+    {
+        "name": "Drag-able Column Chart: Revenue/Profit Simulation Chart",
+        "url": "http://www.fusioncharts.com/charts/editable_3/",
+        "location": "chartdata/PowerCharts XT/Visually Editable Charts/Drag-able Column Chart: Revenue/Profit Simulation Chart.json"
+    },
+    {
+        "name": "Drag-able Line Chart: Sales Planning",
+        "url": "http://www.fusioncharts.com/charts/dragline_6/",
+        "location": "chartdata/PowerCharts XT/Visually Editable Charts/Drag-able Line Chart: Sales Planning.json"
+    },
+    {
+        "name": "Select Scatter Chart: Investment Analysis Tool",
+        "url": "http://www.fusioncharts.com/charts/selectable_1/",
+        "location": "chartdata/PowerCharts XT/Visually Selectable Charts/Select Scatter Chart: Investment Analysis Tool.json"
+    },
+    {
+        "name": "Select Scatter Chart: Relative Humidity v Temparature",
+        "url": "http://www.fusioncharts.com/charts/selectable_2/",
+        "location": "chartdata/PowerCharts XT/Visually Selectable Charts/Select Scatter Chart: Relative Humidity v Temparature.json"
+    },
+    {
+        "name": "Select Scatter Chart: General Example",
+        "url": "http://www.fusioncharts.com/charts/selectable_3/",
+        "location": "chartdata/PowerCharts XT/Visually Selectable Charts/Select Scatter Chart: General Example.json"
+    },
+    {
+        "name": "Multi-Level Pie Chart: PPC Campaign Analysis",
+        "url": "http://www.fusioncharts.com/charts/multilevelpie_5/",
+        "location": "chartdata/PowerCharts XT/Multi-level Pie Charts/Multi-Level Pie Chart: PPC Campaign Analysis.json"
+    },
+    {
+        "name": "Multi-Level Pie Chart: Organization Chart",
+        "url": "http://www.fusioncharts.com/charts/multilevelpie_6/",
+        "location": "chartdata/PowerCharts XT/Multi-level Pie Charts/Multi-Level Pie Chart: Organization Chart.json"
+    },
+    {
+        "name": "Multi-Level Pie Chart: Friend List",
+        "url": "http://www.fusioncharts.com/charts/mlpie_4/",
+        "location": "chartdata/PowerCharts XT/Multi-level Pie Charts/Multi-Level Pie Chart: Friend List.json"
+    },
+    {
+        "name": "Drag Node Chart: Network Administration Diagram",
+        "url": "http://www.fusioncharts.com/charts/dragnode_1/",
+        "location": "chartdata/PowerCharts XT/Drag Node Charts/Drag Node Chart: Network Administration Diagram.json"
+    },
+    {
+        "name": "Drag Node Chart: Project Planning Diagram",
+        "url": "http://www.fusioncharts.com/charts/dragnode_2/",
+        "location": "chartdata/PowerCharts XT/Drag Node Charts/Drag Node Chart: Project Planning Diagram.json"
+    },
+    {
+        "name": "Drag Node Chart: Organization Diagram",
+        "url": "http://www.fusioncharts.com/charts/dragnode_3/",
+        "location": "chartdata/PowerCharts XT/Drag Node Charts/Drag Node Chart: Organization Diagram.json"
+    },
+    {
+        "name": "Drag Node Chart: General Example",
+        "url": "http://www.fusioncharts.com/charts/dragnode_4/",
+        "location": "chartdata/PowerCharts XT/Drag Node Charts/Drag Node Chart: General Example.json"
+    },
+    {
+        "name": "Multi-Axis Line Chart: Engineering (Power Generator)",
+        "url": "http://www.fusioncharts.com/charts/multiaxisline_3/",
+        "location": "chartdata/PowerCharts XT/Multi-axis Line Chart/Multi-Axis Line Chart: Engineering (Power Generator).json"
+    },
+    {
+        "name": "Multi-Axis Line Chart: CPU Usage",
+        "url": "http://www.fusioncharts.com/charts/multi_2/",
+        "location": "chartdata/PowerCharts XT/Multi-axis Line Chart/Multi-Axis Line Chart: CPU Usage.json"
+    },
+    {
+        "name": "Error Bar Chart: Life Span Chart of Appliances",
+        "url": "http://www.fusioncharts.com/charts/error_1/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Bar Chart: Life Span Chart of Appliances.json"
+    },
+    {
+        "name": "Error Bar Chart: Life Span Chart of Appliances",
+        "url": "http://www.fusioncharts.com/charts/error_2/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Bar Chart: Life Span Chart of Appliances.json"
+    },
+    {
+        "name": "Error Bar Chart: Temperature Plotting",
+        "url": "http://www.fusioncharts.com/charts/error_3/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Bar Chart: Temperature Plotting.json"
+    },
+    {
+        "name": "Error Bar Chart: Employee Tenure",
+        "url": "http://www.fusioncharts.com/charts/error_4/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Bar Chart: Employee Tenure.json"
+    },
+    {
+        "name": "Error Line Chart: Temperature Plotting",
+        "url": "http://www.fusioncharts.com/charts/error_5/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Line Chart: Temperature Plotting.json"
+    },
+    {
+        "name": "Error Scatter Chart: Rainfall Analysis",
+        "url": "http://www.fusioncharts.com/charts/error_6/",
+        "location": "chartdata/PowerCharts XT/Error Charts/Error Scatter Chart: Rainfall Analysis.json"
+    },
+    {
+        "name": "Logarithmic Line Chart: Population Growth",
+        "url": "http://www.fusioncharts.com/charts/logmsline_10/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Logarithmic Line Chart: Population Growth.json"
+    },
+    {
+        "name": "Logarithmic Column Chart: Election Results",
+        "url": "http://www.fusioncharts.com/charts/logmscolumn2d_9/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Logarithmic Column Chart: Election Results.json"
+    },
+    {
+        "name": "Logarithmic Column Chart: Sales Comparison",
+        "url": "http://www.fusioncharts.com/charts/inverse_6/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Logarithmic Column Chart: Sales Comparison.json"
+    },
+    {
+        "name": "Logarithmic Line Chart on base of 3 with inverted axes",
+        "url": "http://www.fusioncharts.com/charts/inverse_7/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Logarithmic Line Chart on base of 3 with inverted axes.json"
+    },
+    {
+        "name": "Inverse Axis Column Chart: Race Timings",
+        "url": "http://www.fusioncharts.com/charts/inversemscolumn2d_9/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Inverse Axis Column Chart: Race Timings.json"
+    },
+    {
+        "name": "Inverse Axis Area Chart: Web Analytics (Daily Traffic Trend)",
+        "url": "http://www.fusioncharts.com/charts/inverse_1/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Inverse Axis Area Chart: Web Analytics (Daily Traffic Trend).json"
+    },
+    {
+        "name": "Inverse Axis Column Chart: Web Analytics (Daily Traffic Trend)",
+        "url": "http://www.fusioncharts.com/charts/inverse_3/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Inverse Axis Column Chart: Web Analytics (Daily Traffic Trend).json"
+    },
+    {
+        "name": "Inverse Axis Line Chart: Web Analytics (Daily Traffic Trend)",
+        "url": "http://www.fusioncharts.com/charts/inverse_4/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Inverse Axis Line Chart: Web Analytics (Daily Traffic Trend).json"
+    },
+    {
+        "name": "Logarithmic Column Chart: Business Analysis",
+        "url": "http://www.fusioncharts.com/charts/inverse_8/",
+        "location": "chartdata/PowerCharts XT/Log & Inverse Axis Charts/Logarithmic Column Chart: Business Analysis.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Website Visits (in 3 years)",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_1/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Website Visits (in 3 years).json"
+    },
+    {
+        "name": "Box and Whisker Chart: Test Scores",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_2/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Test Scores.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Weekly Temperature",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_3/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Weekly Temperature.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Employee Age",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_4/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Employee Age.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Clickthrough Rate Comparison",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_5/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Clickthrough Rate Comparison.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Fuel Efficiency Tests",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_6/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Fuel Efficiency Tests.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Outbound Bandwidth Usage",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_7/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Outbound Bandwidth Usage.json"
+    },
+    {
+        "name": "Box and Whisker Chart: IMDB Ratings (Comparison by director)",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_8/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: IMDB Ratings (Comparison by director).json"
+    },
+    {
+        "name": "Box and Whisker Chart: Yellow Cards in World Cup",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_9/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Yellow Cards in World Cup.json"
+    },
+    {
+        "name": "Box and Whisker Chart: Connecting mean visits",
+        "url": "http://www.fusioncharts.com/charts/boxwhisker_10/",
+        "location": "chartdata/PowerCharts XT/Box & Whisker Charts/Box and Whisker Chart: Connecting mean visits.json"
+    },
+    {
+        "name": "Spline Chart: Sales Comparison",
+        "url": "http://www.fusioncharts.com/charts/msspline_4/",
+        "location": "chartdata/PowerCharts XT/Spline & Spline Area/Spline Chart: Sales Comparison.json"
+    },
+    {
+        "name": "Spline Chart: Fruit Production",
+        "url": "http://www.fusioncharts.com/charts/spline_1/",
+        "location": "chartdata/PowerCharts XT/Spline & Spline Area/Spline Chart: Fruit Production.json"
+    },
+    {
+        "name": "Spline Chart: Monthly Sales Summary",
+        "url": "http://www.fusioncharts.com/charts/spline_2/",
+        "location": "chartdata/PowerCharts XT/Spline & Spline Area/Spline Chart: Monthly Sales Summary.json"
+    },
+    {
+        "name": "Step Line Chart: Temperature Monitoring System",
+        "url": "http://www.fusioncharts.com/charts/stepline_1/",
+        "location": "chartdata/PowerCharts XT/Step Line Charts/Step Line Chart: Temperature Monitoring System.json"
+    },
+    {
+        "name": "Step Line Chart: Interest Rate Evaluation",
+        "url": "http://www.fusioncharts.com/charts/stepline_2/",
+        "location": "chartdata/PowerCharts XT/Step Line Charts/Step Line Chart: Interest Rate Evaluation.json"
+    },
+    {
+        "name": "Step Line Chart: Sales Comparison",
+        "url": "http://www.fusioncharts.com/charts/stepline_3/",
+        "location": "chartdata/PowerCharts XT/Step Line Charts/Step Line Chart: Sales Comparison.json"
+    },
+    {
+        "name": "Kagi Chart: Equity Trading",
+        "url": "http://www.fusioncharts.com/charts/kagi_1/",
+        "location": "chartdata/PowerCharts XT/Kagi Charts/Kagi Chart: Equity Trading.json"
+    },
+    {
+        "name": "Kagi Chart: Equity Trading",
+        "url": "http://www.fusioncharts.com/charts/kagi_2/",
+        "location": "chartdata/PowerCharts XT/Kagi Charts/Kagi Chart: Equity Trading.json"
+    }
+]

@@ -1,0 +1,114 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "bordercolor": "2C6BB2",
+                            "fillcolor": "000000,2C6BB2, 135FAB",
+                            "fillratio": "80,15, 5",
+                            "radius": "200",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "bordercolor": "2C6BB2",
+                            "fillcolor": "FFFFFF, D4D4D4",
+                            "fillratio": "20,80",
+                            "radius": "180",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "bordercolor": "51884F",
+                            "endangle": "240",
+                            "fillalpha": "50",
+                            "fillcolor": "51884F",
+                            "innerradius": "170",
+                            "radius": "180",
+                            "startangle": "-60",
+                            "type": "arc",
+                            "x": "0",
+                            "y": "0"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "x": "210",
+                    "y": "210"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "0",
+            "autoaligntickvalues": "1",
+            "basefontcolor": "646F8F",
+            "bgcolor": "FFFFFF",
+            "datastreamurl": "/DataProviders/MPSMeter.php",
+            "gaugealpha": "50",
+            "gaugeendangle": "-50",
+            "gaugefillmix": "",
+            "gaugeinnerradius": "135",
+            "gaugeoriginx": "210",
+            "gaugeoriginy": "210",
+            "gaugeouterradius": "150",
+            "gaugestartangle": "230",
+            "lowerlimit": "0",
+            "majortmcolor": "646F8F",
+            "majortmheight": "9",
+            "majortmnumber": "11",
+            "manageresize": "1",
+            "managevalueoverlapping": "1",
+            "minortmcolor": "646F8F",
+            "minortmheight": "3",
+            "minortmnumber": "5",
+            "numbersuffix": "/s",
+            "origh": "415",
+            "origw": "415",
+            "pivotbordercolor": "bebcb0",
+            "pivotfillmix": "{A1A0FF},{6A6FA6}",
+            "pivotfillratio": "70,30",
+            "pivotradius": "14",
+            "placevaluesinside": "1",
+            "refreshinterval": "6",
+            "showborder": "0",
+            "showgaugeborder": "0",
+            "showshadow": "0",
+            "tickvaluedistance": "1",
+            "tooltipbgcolor": "F2F2FF",
+            "tooltipbordercolor": "6A6FA6",
+            "upperlimit": "5000"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "A1A0FF",
+                    "maxvalue": "4999",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "A1A0FF",
+                    "maxvalue": "5000",
+                    "minvalue": "4999"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "5",
+                    "bgcolor": "6A6FA6,A1A0FF",
+                    "borderalpha": "0",
+                    "topwidth": "4",
+                    "value": "2265"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

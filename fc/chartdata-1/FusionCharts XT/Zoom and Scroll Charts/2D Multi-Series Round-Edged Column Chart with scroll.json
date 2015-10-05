@@ -1,0 +1,144 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "caption": "Sales - 2013 v 2012",
+            "numberprefix": "$",
+            "showborder": "0",
+            "showvalues": "0",
+            "useroundedges": "1",
+            "xaxisname": "Month",
+            "yaxisname": "Sales"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "27400"
+                    },
+                    {
+                        "value": "29800"
+                    },
+                    {
+                        "value": "25800"
+                    },
+                    {
+                        "value": "26800"
+                    },
+                    {
+                        "value": "29600"
+                    },
+                    {
+                        "value": "32600"
+                    },
+                    {
+                        "value": "31800"
+                    },
+                    {
+                        "value": "36700"
+                    },
+                    {
+                        "value": "29700"
+                    },
+                    {
+                        "value": "31900"
+                    },
+                    {
+                        "value": "34800"
+                    },
+                    {
+                        "value": "24800"
+                    }
+                ],
+                "seriesname": "2013"
+            },
+            {
+                "data": [
+                    {
+                        "value": "10000"
+                    },
+                    {
+                        "value": "11500"
+                    },
+                    {
+                        "value": "12500"
+                    },
+                    {
+                        "value": "15000"
+                    },
+                    {
+                        "value": "11000"
+                    },
+                    {
+                        "value": "9800"
+                    },
+                    {
+                        "value": "11800"
+                    },
+                    {
+                        "value": "19700"
+                    },
+                    {
+                        "value": "21700"
+                    },
+                    {
+                        "value": "21900"
+                    },
+                    {
+                        "value": "22900"
+                    },
+                    {
+                        "value": "20800"
+                    }
+                ],
+                "seriesname": "2012"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "scrollcolumn2d",
+    "width": "800"
+}

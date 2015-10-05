@@ -1,0 +1,487 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "allowdrag": "0",
+            "is3d": "1",
+            "palette": "2",
+            "showformbtn": "0",
+            "viewmode": "1",
+            "xaxismaxvalue": "100",
+            "xaxisminvalue": "0",
+            "yaxismaxvalue": "100",
+            "yaxisminvalue": "-5"
+        },
+        "connectors": [
+            {
+                "color": "FF0000",
+                "connector": [
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "pc1",
+                        "label": "10/100Mbps",
+                        "strength": "1.5",
+                        "to": "internet"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "pc2",
+                        "label": "10/100Mbps",
+                        "strength": "1.5",
+                        "to": "internet"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "internet",
+                        "label": "T1 Line",
+                        "strength": "2",
+                        "to": "firewall"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "BO3",
+                        "label": "Secured",
+                        "strength": "1.8",
+                        "to": "firewall"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "BO3",
+                        "strength": "0.8",
+                        "to": "BO1"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "BO3",
+                        "strength": "0.8",
+                        "to": "BO2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "PHO",
+                        "label": "Secured",
+                        "strength": "1.8",
+                        "to": "firewall"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN1",
+                        "strength": "0.8",
+                        "to": "CN2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN5",
+                        "strength": "0.8",
+                        "to": "CN2"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN5",
+                        "strength": "0.8",
+                        "to": "CN3"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN4",
+                        "strength": "0.8",
+                        "to": "CN3"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN4",
+                        "strength": "0.8",
+                        "to": "CNS"
+                    },
+                    {
+                        "arrowatend": "0",
+                        "arrowatstart": "0",
+                        "color": "BBBB00",
+                        "from": "CN1",
+                        "strength": "0.8",
+                        "to": "CNS"
+                    }
+                ],
+                "stdthickness": "5"
+            }
+        ],
+        "dataset": [
+            {
+                "allowdrag": "0",
+                "data": [
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "FE3233",
+                        "height": "90",
+                        "id": "pc1",
+                        "imagealign": "middle",
+                        "imageheight": "67",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/desktop.png",
+                        "imagewidth": "107",
+                        "labelalign": "top",
+                        "name": "Desktop",
+                        "tooltext": "Name: PC1 <BR>IP: 202.11.32.123 <BR>Owner: Harry Mac",
+                        "width": "110",
+                        "x": "8",
+                        "y": "69"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "90",
+                        "id": "pc2",
+                        "imagealign": "middle",
+                        "imageheight": "67",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/laptop.png",
+                        "imagewidth": "98",
+                        "labelalign": "top",
+                        "name": "Laptop",
+                        "tooltext": "Name: PC2 <BR>IP: 202.11.32.124 <BR>Owner: Jim Terry",
+                        "width": "108",
+                        "x": "8",
+                        "y": "30"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "color": "33C1FE",
+                        "id": "internet",
+                        "name": "Internet",
+                        "radius": "40",
+                        "shape": "circle",
+                        "x": "19",
+                        "y": "50"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "64",
+                        "id": "firewall",
+                        "imageheight": "64",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/firewall.png",
+                        "imagewidth": "106",
+                        "labelalign": "middle",
+                        "name": "Firewall",
+                        "tooltext": "Name: Firewall <BR>IP: 202.110.00.00 <BR>Owner: Group Network",
+                        "width": "106",
+                        "x": "44",
+                        "y": "50"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "96",
+                        "id": "BO3",
+                        "imagealign": "bottom",
+                        "imageheight": "70",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/server.png",
+                        "imagewidth": "57",
+                        "labelalign": "top",
+                        "name": "Branch Head Office",
+                        "width": "60",
+                        "x": "44",
+                        "y": "70"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "BO1",
+                        "imagealign": "bottom",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/terminal.png",
+                        "imagewidth": "64",
+                        "labelalign": "top",
+                        "name": "Branch Office 1",
+                        "width": "70",
+                        "x": "34",
+                        "y": "90"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "BO2",
+                        "imagealign": "bottom",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/terminal.png",
+                        "imagewidth": "64",
+                        "labelalign": "top",
+                        "name": "Branch Office 2",
+                        "width": "70",
+                        "x": "54",
+                        "y": "90"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "40",
+                        "id": "null",
+                        "name": "Branch Network",
+                        "width": "50",
+                        "x": "44",
+                        "y": "85"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "PHO",
+                        "imagealign": "bottom",
+                        "imageheight": "70",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/server.png",
+                        "imagewidth": "57",
+                        "labelalign": "top",
+                        "name": "Head Office",
+                        "width": "60",
+                        "x": "44",
+                        "y": "30"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "PN1",
+                        "imagealign": "bottom",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/terminal.png",
+                        "imagewidth": "64",
+                        "labelalign": "top",
+                        "name": "Branch Office 1",
+                        "width": "70",
+                        "x": "34",
+                        "y": "20"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "94",
+                        "id": "PN2",
+                        "imagealign": "bottom",
+                        "imageheight": "80",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/exchange_server.png",
+                        "imagewidth": "79",
+                        "labelalign": "top",
+                        "name": "Branch Office 2",
+                        "width": "80",
+                        "x": "54",
+                        "y": "20"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "PN3",
+                        "imagealign": "top",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/server.png",
+                        "imagewidth": "64",
+                        "labelalign": "bottom",
+                        "name": "Head Office",
+                        "width": "60",
+                        "x": "44",
+                        "y": "8"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "46",
+                        "id": "null3",
+                        "name": "Perimeter Network",
+                        "width": "55",
+                        "x": "44",
+                        "y": "18"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "CNS",
+                        "imagealign": "bottom",
+                        "imageheight": "70",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/server.png",
+                        "imagewidth": "57",
+                        "labelalign": "top",
+                        "name": "Head Office",
+                        "width": "60",
+                        "x": "64",
+                        "y": "60"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "86",
+                        "id": "CN1",
+                        "imagealign": "bottom",
+                        "imageheight": "65",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/terminal.png",
+                        "imagewidth": "64",
+                        "labelalign": "top",
+                        "name": "Branch Office 1",
+                        "width": "70",
+                        "x": "78",
+                        "y": "70"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "96",
+                        "id": "CN2",
+                        "imagealign": "bottom",
+                        "imageheight": "80",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/exchange_server.png",
+                        "imagewidth": "79",
+                        "labelalign": "top",
+                        "name": "Exchange Server",
+                        "width": "80",
+                        "x": "88",
+                        "y": "60"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "94",
+                        "id": "CN3",
+                        "imagealign": "top",
+                        "imageheight": "69",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/server.png",
+                        "imagewidth": "57",
+                        "labelalign": "bottom",
+                        "name": "CRM Server",
+                        "width": "70",
+                        "x": "78",
+                        "y": "30"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "90",
+                        "id": "CN4",
+                        "imagealign": "top",
+                        "imageheight": "72",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/04.png",
+                        "imagewidth": "65",
+                        "labelalign": "bottom",
+                        "name": "Catalogue Server",
+                        "width": "70",
+                        "x": "64",
+                        "y": "40"
+                    },
+                    {
+                        "allowdrag": "1",
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "90",
+                        "id": "CN5",
+                        "imagealign": "top",
+                        "imageheight": "68",
+                        "imagenode": "1",
+                        "imageurl": "/explore/Resources/05.png",
+                        "imagewidth": "56",
+                        "labelalign": "bottom",
+                        "name": "2003 Server",
+                        "width": "60",
+                        "x": "88",
+                        "y": "40"
+                    },
+                    {
+                        "alpha": "0",
+                        "color": "33C1FE",
+                        "height": "46",
+                        "id": "null2",
+                        "name": "Corporate Network",
+                        "width": "55",
+                        "x": "77",
+                        "y": "50"
+                    }
+                ],
+                "plotborderalpha": "0",
+                "showformbtn": "0"
+            }
+        ],
+        "labels": {
+            "label": []
+        },
+        "vtrendlines": [
+            {
+                "line": [
+                    {
+                        "alpha": "5",
+                        "color": "FF0000",
+                        "displayvalue": "External Network",
+                        "endvalue": "30",
+                        "istrendzone": "1",
+                        "startvalue": "0"
+                    },
+                    {
+                        "alpha": "5",
+                        "color": "00FF00",
+                        "displayvalue": "Middleware",
+                        "endvalue": "60",
+                        "istrendzone": "1",
+                        "startvalue": "30"
+                    },
+                    {
+                        "alpha": "5",
+                        "color": "0000FF",
+                        "displayvalue": "Internal Network",
+                        "endvalue": "100",
+                        "istrendzone": "1",
+                        "startvalue": "60"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "dragnode",
+    "width": "800"
+}

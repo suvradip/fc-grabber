@@ -1,0 +1,52 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "alternatehgridcolor": "EBF0F3",
+            "bgcolor": "E0E5E9",
+            "bordercolor": "CCCCCC",
+            "borderthickness": "1",
+            "canvasbordercolor": "B4BBC1",
+            "canvasborderthickness": "1",
+            "caption": "Inventory audit of men's t-shirts",
+            "connectordashed": "1",
+            "placevaluesinside": "0",
+            "plotfillangle": "2,98",
+            "plotgradientcolor": "",
+            "showborder": "0",
+            "showplotborder": "0",
+            "showsumatend": "0",
+            "showvalues": "1",
+            "slabeldisplay": "ROTATE",
+            "snumberprefix": "$",
+            "srotatelabels": "1",
+            "sshowlabels": "1"
+        },
+        "data": [
+            {
+                "color": "739137",
+                "label": "Units in stock",
+                "value": "217"
+            },
+            {
+                "color": "CE3132",
+                "label": "Damaged",
+                "value": "-55"
+            },
+            {
+                "color": "739137",
+                "label": "Refurbished",
+                "value": "37"
+            },
+            {
+                "color": "5481B4",
+                "cumulative": "1",
+                "issum": "1",
+                "label": "Salable Units"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "waterfall2d",
+    "width": "800"
+}

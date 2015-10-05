@@ -1,0 +1,111 @@
+
+    {
+        "powerchartsxt_visuallyeditablecharts_drag-ablecolumnchart:revenue_profitsimulationchart": {
+            "description": "",
+            "options": {
+                "dataFormat": "json",
+                "datasource": {
+                    "categories": [
+                        {
+                            "category": [
+                                {
+                                    "name": "Quarter 1"
+                                },
+                                {
+                                    "name": "Quarter 2"
+                                },
+                                {
+                                    "name": "Quarter 3"
+                                },
+                                {
+                                    "name": "Quarter 4"
+                                }
+                            ]
+                        }
+                    ],
+                    "chart": {
+                        "caption": "Revenue / Profit Simulation Chart",
+                        "formaction": "/DataHandlerModified.php",
+                        "formatnumberscale": "1",
+                        "formtarget": "dragNodeXMLFrame",
+                        "numberprefix": "$",
+                        "palette": "1",
+                        "showborder": "0",
+                        "showvalues": "0",
+                        "subcaption": "Drag the top edge of columns to simulate revenue and profit.",
+                        "submitformusingajax": "0",
+                        "xaxisname": "Quarter",
+                        "yaxisname": "Dollars"
+                    },
+                    "dataset": [
+                        {
+                            "allownegativedrag": "0",
+                            "data": [
+                                {
+                                    "id": "R1",
+                                    "value": "3554800"
+                                },
+                                {
+                                    "id": "R2",
+                                    "value": "3014800"
+                                },
+                                {
+                                    "id": "R3",
+                                    "value": "2737200"
+                                },
+                                {
+                                    "id": "R4",
+                                    "value": "3540700"
+                                }
+                            ],
+                            "id": "R",
+                            "seriesname": "Revenue"
+                        },
+                        {
+                            "data": [
+                                {
+                                    "id": "P1",
+                                    "value": "870000"
+                                },
+                                {
+                                    "id": "P2",
+                                    "value": "-419400"
+                                },
+                                {
+                                    "id": "P3",
+                                    "value": "452600"
+                                },
+                                {
+                                    "allownegativedrag": "0",
+                                    "id": "P4",
+                                    "value": "717300"
+                                }
+                            ],
+                            "id": "P",
+                            "seriesname": "Profit"
+                        }
+                    ],
+                    "trendlines": [
+                        {
+                            "line": [
+                                {
+                                    "alpha": "10",
+                                    "color": "009900",
+                                    "displayvalue": "Target",
+                                    "endvalue": "3500000",
+                                    "istrendzone": "1",
+                                    "startvalue": "2800000",
+                                    "valueonright": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "height": "600",
+                "type": "dragcolumn2d",
+                "width": "800"
+            },
+            "refimage": "./test/regression-test/chart-gallery/PowerCharts XT/Visually Editable Charts/Drag-able Column Chart: Revenue/refimage/powerchartsxt_visuallyeditablecharts_drag-ablecolumnchart:revenue_profitsimulationchart.png",
+            "id": "powerchartsxt_visuallyeditablecharts_drag-ablecolumnchart:revenue_profitsimulationchart"
+        }
+    }

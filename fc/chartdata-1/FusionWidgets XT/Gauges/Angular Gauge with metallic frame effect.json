@@ -1,0 +1,87 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "color": "1C1C1C,AAAAAA,1C1C1C",
+                            "fillpattern": "linear",
+                            "radius": "127",
+                            "type": "circle"
+                        },
+                        {
+                            "color": "9E9E9E,ECECEC",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "radius": "117",
+                            "type": "circle"
+                        },
+                        {
+                            "color": "000000,6C6C6C",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "radius": "115",
+                            "type": "circle"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "x": "150",
+                    "y": "150"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "0",
+            "basefontcolor": "FFFFFF",
+            "bgalpha": "100",
+            "bgcolor": "FFFFFF",
+            "decimals": "0",
+            "gaugeendangle": "-45",
+            "gaugefillmix": "",
+            "gaugeinnerradius": "100",
+            "gaugeoriginx": "150",
+            "gaugeoriginy": "150",
+            "gaugeouterradius": "110",
+            "gaugestartangle": "225",
+            "lowerlimit": "0",
+            "majortmcolor": "FFFFFF",
+            "majortmheight": "7",
+            "majortmnumber": "8",
+            "majortmthickness": "3",
+            "manageresize": "1",
+            "minortmnumber": "0",
+            "origh": "300",
+            "origw": "300",
+            "pivotbordercolor": "999999",
+            "pivotborderthickness": "2",
+            "pivotfillangle": "240",
+            "pivotfillcolor": "000000,383836",
+            "pivotfillratio": "50,50",
+            "pivotfilltype": "linear",
+            "pivotradius": "20",
+            "placevaluesinside": "1",
+            "showpivotborder": "1",
+            "showshadow": "0",
+            "upperlimit": "180"
+        },
+        "dials": {
+            "dial": [
+                {
+                    "alpha": "100",
+                    "basewidth": "3",
+                    "color": "FFFFFF,999999",
+                    "radius": "100",
+                    "showborder": "0",
+                    "topwidth": "3",
+                    "value": "50"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

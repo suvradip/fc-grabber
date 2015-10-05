@@ -1,0 +1,107 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "fillalpha": "100,100",
+                            "fillasgradient": "1",
+                            "fillcolor": "4B4B4B,AAAAAA",
+                            "fillratio": "95,5",
+                            "radius": "150",
+                            "type": "circle"
+                        },
+                        {
+                            "bordercolor": "cccccc",
+                            "fillalpha": "50,100",
+                            "fillasgradient": "1",
+                            "fillcolor": "ffffff,000000",
+                            "fillratio": "1,99",
+                            "radius": "140",
+                            "showborder": "1",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        }
+                    ],
+                    "x": "160",
+                    "y": "160"
+                },
+                {
+                    "items": [
+                        {
+                            "bold": "1",
+                            "fontcolor": "FFFFFF",
+                            "fontsize": "14",
+                            "label": "KPH",
+                            "type": "text",
+                            "y": "120"
+                        }
+                    ],
+                    "scaletext": "1",
+                    "showbelow": "0",
+                    "x": "160",
+                    "y": "160"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "0",
+            "basefontcolor": "FFFFFF",
+            "bgcolor": "FFFFFF",
+            "datastreamurl": "/DataProviders/KPHMeter.php",
+            "decimals": "0",
+            "gaugealpha": "0",
+            "gaugeendangle": "-60",
+            "gaugeoriginx": "160",
+            "gaugeoriginy": "160",
+            "gaugeouterradius": "135",
+            "gaugestartangle": "240",
+            "lowerlimit": "0",
+            "majortmcolor": "FFFFFF",
+            "majortmheight": "8",
+            "majortmnumber": "9",
+            "majortmthickness": "5",
+            "manageresize": "1",
+            "minortmcolor": "FFFFFF",
+            "minortmheight": "3",
+            "minortmnumber": "5",
+            "minortmthickness": "2",
+            "origh": "320",
+            "origw": "320",
+            "pivotbgcolor": "000000",
+            "pivotbordercolor": "FFFFFF",
+            "pivotborderthickness": "2",
+            "pivotfillmix": "",
+            "pivotradius": "10",
+            "placevaluesinside": "1",
+            "refreshinterval": "5",
+            "showborder": "0",
+            "showcolorrange": "0",
+            "showpivotborder": "1",
+            "tickvaluedistance": "-10",
+            "tooltipbgcolor": "333333",
+            "tooltipbordercolor": "FFFFFF",
+            "upperlimit": "240"
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "4",
+                    "bgcolor": "000000",
+                    "borderalpha": "100",
+                    "bordercolor": "FFFFFF",
+                    "borderthickness": "2",
+                    "topwidth": "4",
+                    "value": "65",
+                    "valuey": "260"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

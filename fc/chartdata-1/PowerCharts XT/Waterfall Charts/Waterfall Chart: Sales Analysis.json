@@ -1,0 +1,48 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "caption": "Sales By Product",
+            "connectordashed": "1",
+            "numberprefix": "$",
+            "showvalues": "1",
+            "subcaption": "For the year 2006",
+            "xaxisname": "Product",
+            "yaxisname": "Sales"
+        },
+        "data": [
+            {
+                "label": "Bi v2",
+                "value": "420000"
+            },
+            {
+                "label": "Real v3.2",
+                "value": "810000"
+            },
+            {
+                "issum": "1",
+                "label": "Business Division Sales"
+            },
+            {
+                "label": "Fusion Charts",
+                "value": "910000"
+            },
+            {
+                "label": "IS v2",
+                "value": "720000"
+            },
+            {
+                "label": "PS v3",
+                "value": "550000"
+            },
+            {
+                "cumulative": "0",
+                "issum": "1",
+                "label": "Web Division Sales"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "waterfall2d",
+    "width": "800"
+}

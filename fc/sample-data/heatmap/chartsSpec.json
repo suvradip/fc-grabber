@@ -1,0 +1,1581 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, legend, axes, canvas related changes",
+        "options": {
+            "type": "heatmap",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "canvasBgColor": "#7E8EA1",
+                    "canvasBgAlpha": "70",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showVLineLabelBorder": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "25",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "staggerLines": "1",
+
+                    "showValues": "1",
+                    "showShadow": "1",
+                    "rotateYAxisName": "0",
+
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "xaxisname": "Days",
+                    "showXAxisLine": "1",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "20",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "1",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "5",
+                    "xAxisNameBorderDashGap": "2",
+
+                    "yaxisname": "Company",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "20",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "100",
+                    "yAxisNameFontAlpha": "70",
+                    "yAxisNameBgAlpha": "80",
+                    "yAxisNameBorderAlpha": "80",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "1",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "2",
+
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#ffffff",
+
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+
+                    "legendScaleLineColor": "#0000ff",
+                    "legendScaleLineAlpha": "60",
+                    "legendScaleLineThickness": "2",
+
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "rows": {
+                    "row": [{
+                        "id": "Google",
+                        "label": "Google US"
+                    }, {
+                        "id": "Yahoo",
+                        "label": "Yahoo US"
+                    }, {
+                        "id": "Microsoft",
+                        "label": "Microsoft US"
+                    }]
+                },
+                "columns": {
+                    "column": [{
+                        "id": "MON",
+                        "label": "Monday"
+                    }, {
+                        "id": "TUE",
+                        "label": "Tuesday"
+                    }, {
+                        "id": "WED",
+                        "label": "Wednesday"
+                    }, {
+                        "id": "THU",
+                        "label": "Thursday"
+                    }, {
+                        "id": "FRI",
+                        "label": "Friday"
+                    }]
+                },
+                "dataset": [{
+                    "data": [{
+                        "rowid": "Yahoo",
+                        "columnid": "Mon",
+                        "value": "0"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Tue",
+                        "value": "71"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Wed",
+                        "value": "70"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Thu",
+                        "value": "3"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Fri",
+                        "value": "79"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Mon",
+                        "value": "68"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Tue",
+                        "value": "5"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Wed",
+                        "value": "95"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Thu",
+                        "value": "-10"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Fri",
+                        "value": "55.98"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Mon",
+                        "value": "98"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Tue",
+                        "value": "8"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Wed",
+                        "value": "123"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Thu",
+                        "value": "79"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Fri",
+                        "value": "39"
+                    }]
+                }],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [{
+                        "code": "66ADD9",
+                        "maxvalue": "30",
+                        "label": "BAD"
+                    }, {
+                        "code": "F2CF63",
+                        "maxvalue": "70",
+                        "label": "AVERAGE"
+                    }, {
+                        "code": "D99036",
+                        "maxvalue": "100"
+                    }]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/heatmap/ref-images/test_1_heatmap-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label related tests.",
+        "options": {
+            "type": "heatmap",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                    "bgImage": "../../images/bg.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+
+                    "caption": "Weekly Percentage",
+                    "subcaption": "In percentage",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+
+                    "xaxisname": "Days",
+                    "yaxisname": "Company",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+
+                    "useRoundEdges": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotBorderDashed": "1",
+                    "plotBorderDashLen": "6",
+                    "plotBorderDashGap": "3",
+                    "plotFillAngle": "60",
+                    "plotFillRatio": "30:70",
+                    "plotFillAlpha": "90",
+                    "plotGradientColor": "#000033,#0000ff",
+
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "staggerLines": "1",
+
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": ""
+                },
+                "rows": {
+                    "row": [{
+                        "id": "Google",
+                        "label": "Google US"
+                    }, {
+                        "id": "Yahoo",
+                        "label": "Yahoo US"
+                    }, {
+                        "id": "Microsoft",
+                        "label": "Microsoft US"
+                    }]
+                },
+                "columns": {
+                    "column": [{
+                        "id": "MON",
+                        "label": "Monday"
+                    }, {
+                        "id": "TUE",
+                        "label": "Tuesday"
+                    }, {
+                        "id": "WED",
+                        "label": "Wednesday"
+                    }, {
+                        "id": "THU",
+                        "label": "Thursday"
+                    }, {
+                        "id": "FRI",
+                        "label": "Friday"
+                    }]
+                },
+                "dataset": [{
+                    "data": [{
+                        "rowid": "Yahoo",
+                        "columnid": "Mon",
+                        "value": "0",
+                        "tlLabel": ""
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Tue",
+                        "value": "71"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Wed",
+                        "value": "70",
+                        "tlLabel": "TOPLEFT"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Thu",
+                        "value": "3"
+                    }, {
+                        "rowid": "Yahoo",
+                        "columnid": "Fri",
+                        "value": "79",
+                        "trLabel": "TOPRIGHT"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Mon",
+                        "value": "68"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Tue",
+                        "value": "5",
+                        "blLabel": "BOTLEFT"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Wed",
+                        "value": "95"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Thu",
+                        "value": "-10",
+                        "brLabel": "BOTRIGHT"
+                    }, {
+                        "rowid": "Google",
+                        "columnid": "Fri",
+                        "value": "55.98"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Mon",
+                        "value": "98"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Tue",
+                        "value": "8"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Wed",
+                        "value": "123"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Thu",
+                        "value": "79"
+                    }, {
+                        "rowid": "Microsoft",
+                        "columnid": "Fri",
+                        "value": "39"
+                    }]
+                }],
+                "colorrange": {
+                    "mapbypercent": "1",
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "00CCFF",
+                    "startlabel": "Poor",
+                    "endlabel": "Good",
+                    "color": [{
+                        "code": "66ADD9",
+                        "maxvalue": "30",
+                        "label": "BAD"
+                    }, {
+                        "code": "F2CF63",
+                        "maxvalue": "70",
+                        "label": "AVERAGE"
+                    }, {
+                        "code": "D99036",
+                        "maxvalue": "100"
+                    }]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/heatmap/ref-images/test_2_heatmap-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "MapByCategory releated tests",
+        "options": {
+            "type": "heatmap",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Periodic Table",
+                    "xaxislabel": "Group",
+                    "yaxislabel": "Period",
+                    "canvasbgcolor": "FFF5CE",
+                    "mapbycategory": "1",
+                    "showcolumnidintooltext": "1",
+                    "showrowidintooltext": "1",
+                    "bgcolor": "ffffff",
+                    "borderalpha": "100",
+                    "showborder": "0"
+                },
+                "colorrange": {
+                    "mapbypercent": "0",
+                    "gradient": "0",
+                    "color": [{
+                        "code": "FF6666",
+                        "label": "Alkali metals"
+                    }, {
+                        "code": "FFDEAD",
+                        "label": "Alkaline earth metals"
+                    }, {
+                        "code": "FFC0C0",
+                        "label": "Transition elements"
+                    }, {
+                        "code": "CCCCCC",
+                        "label": "Other metals"
+                    }, {
+                        "code": "CCCC99",
+                        "label": "Metalloids"
+                    }, {
+                        "code": "A0FFA0",
+                        "label": "Other nonmetals"
+                    }, {
+                        "code": "FFFF99",
+                        "label": "Halogens"
+                    }, {
+                        "code": "C0FFFF",
+                        "label": "Noble gases"
+                    }, {
+                        "code": "FCFCFC",
+                        "label": "Unknown"
+                    }]
+                },
+                "dataset": [{
+                    "data": [{
+                        "columnid": "1",
+                        "rowid": "1",
+                        "value": "1",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "H"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "2",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "Li"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "3",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "Na"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "4",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "K"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "5",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "Rb"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "6",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "Cs"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "7",
+                        "categoryid": "Alkali metals",
+                        "displayvalue": "Fr"
+                    }, {
+                        "columnid": "1",
+                        "rowid": "8",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uue"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "4",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Ca"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "3",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Mg"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "8",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Ubn"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "5",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Sr"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "6",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Ba"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "7",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Ra"
+                    }, {
+                        "columnid": "2",
+                        "rowid": "2",
+                        "categoryid": "Alkaline earth metals",
+                        "displayvalue": "Be"
+                    }, {
+                        "columnid": "3",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Y"
+                    }, {
+                        "columnid": "3",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Sc"
+                    }, {
+                        "columnid": "4",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Rf"
+                    }, {
+                        "columnid": "4",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Hf"
+                    }, {
+                        "columnid": "4",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Zr"
+                    }, {
+                        "columnid": "4",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ti"
+                    }, {
+                        "columnid": "5",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Nb"
+                    }, {
+                        "columnid": "5",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "V"
+                    }, {
+                        "columnid": "5",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Db"
+                    }, {
+                        "columnid": "5",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ta"
+                    }, {
+                        "columnid": "6",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Mo"
+                    }, {
+                        "columnid": "6",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "W"
+                    }, {
+                        "columnid": "6",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Sg"
+                    }, {
+                        "columnid": "6",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Cr"
+                    }, {
+                        "columnid": "7",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Bh"
+                    }, {
+                        "columnid": "7",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Re"
+                    }, {
+                        "columnid": "7",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Mn"
+                    }, {
+                        "columnid": "7",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Tc"
+                    }, {
+                        "columnid": "8",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ru"
+                    }, {
+                        "columnid": "8",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Fe"
+                    }, {
+                        "columnid": "8",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Hs"
+                    }, {
+                        "columnid": "8",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Os"
+                    }, {
+                        "columnid": "9",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Rh"
+                    }, {
+                        "columnid": "9",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Co"
+                    }, {
+                        "columnid": "9",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Mt"
+                    }, {
+                        "columnid": "9",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ir"
+                    }, {
+                        "columnid": "10",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Ds"
+                    }, {
+                        "columnid": "10",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Pt"
+                    }, {
+                        "columnid": "10",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ni"
+                    }, {
+                        "columnid": "10",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Pd"
+                    }, {
+                        "columnid": "11",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Cu"
+                    }, {
+                        "columnid": "11",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Au"
+                    }, {
+                        "columnid": "11",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Rg"
+                    }, {
+                        "columnid": "11",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Ag"
+                    }, {
+                        "columnid": "12",
+                        "rowid": "7",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Uub"
+                    }, {
+                        "columnid": "12",
+                        "rowid": "6",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Hg"
+                    }, {
+                        "columnid": "12",
+                        "rowid": "5",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Cd"
+                    }, {
+                        "columnid": "12",
+                        "rowid": "4",
+                        "categoryid": "Transition elements",
+                        "displayvalue": "Zn"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "2",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "B"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uut"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "5",
+                        "categoryid": "Other metals",
+                        "displayvalue": "In"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "3",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Al"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "6",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Tl"
+                    }, {
+                        "columnid": "13",
+                        "rowid": "4",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Ga"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "4",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "Ge"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "3",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "Si"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "5",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Sn"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "6",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Pb"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uuq"
+                    }, {
+                        "columnid": "14",
+                        "rowid": "2",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "C"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "6",
+                        "categoryid": "Other metals",
+                        "displayvalue": "Bi"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "2",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "N"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "5",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "Sb"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "4",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "As"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "3",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "P"
+                    }, {
+                        "columnid": "15",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uup"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "5",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "Te"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "4",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "Se"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "6",
+                        "categoryid": "Metalloids",
+                        "displayvalue": "Po"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "2",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "O"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "3",
+                        "categoryid": "Other nonmetals",
+                        "displayvalue": "S"
+                    }, {
+                        "columnid": "16",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uuh"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "5",
+                        "categoryid": "Halogens",
+                        "displayvalue": "I"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "6",
+                        "categoryid": "Halogens",
+                        "displayvalue": "At"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "2",
+                        "categoryid": "Halogens",
+                        "displayvalue": "F"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "3",
+                        "categoryid": "Halogens",
+                        "displayvalue": "Cl"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "4",
+                        "categoryid": "Halogens",
+                        "displayvalue": "Br"
+                    }, {
+                        "columnid": "17",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uus"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "5",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "Xe"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "6",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "Rn"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "4",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "Kr"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "3",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "Ar"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "2",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "Ne"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "1",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "He"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "1",
+                        "categoryid": "Noble gases",
+                        "displayvalue": "He"
+                    }, {
+                        "columnid": "18",
+                        "rowid": "7",
+                        "categoryid": "Unknown",
+                        "displayvalue": "Uuo"
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/heatmap/ref-images/test_3_heatmap-snapshot.png",
+        "id": "test_3"
+    },
+    "test_4": {
+        "description": "Gradient legend releated tests",
+        "options": {
+            "type": "heatmap",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "CPU Utilization % by time over the week",
+                    "bgcolor": "FFFFFF",
+                    "canvasborderthickness": "0",
+                    "labeldisplay": "WRAP",
+                    "plotbordercolor": "FFFFFF",
+                    "basefontcolor": "FFFFFF",
+                    "outcnvbasefontcolor": "333333",
+                    "showvalues": "0",
+                    "captionpadding": "5",
+                    "legendpadding": "0",
+                    "tooltipcolor": "333333",
+                    "canvasborderalpha": "0",
+                    "legendshadow": "0",
+                    "legendborderalpha": "0",
+                    "xaxisname": "Time of the day (hrs)",
+                    "showBorder": "0"
+                },
+                "rows": {
+                    "row": [{
+                        "id": "Mon"
+                    }, {
+                        "id": "Tue"
+                    }, {
+                        "id": "Wed"
+                    }, {
+                        "id": "Thu"
+                    }, {
+                        "id": "Fri"
+                    }]
+                },
+                "columns": {
+                    "column": [{
+                        "id": "0"
+                    }, {
+                        "id": "1"
+                    }, {
+                        "id": "2"
+                    }, {
+                        "id": "3"
+                    }, {
+                        "id": "4"
+                    }, {
+                        "id": "5"
+                    }, {
+                        "id": "6"
+                    }, {
+                        "id": "7"
+                    }, {
+                        "id": "8"
+                    }, {
+                        "id": "9"
+                    }, {
+                        "id": "10"
+                    }, {
+                        "id": "11"
+                    }, {
+                        "id": "12"
+                    }, {
+                        "id": "13"
+                    }, {
+                        "id": "14"
+                    }, {
+                        "id": "15"
+                    }, {
+                        "id": "16"
+                    }, {
+                        "id": "17"
+                    }, {
+                        "id": "18"
+                    }, {
+                        "id": "19"
+                    }, {
+                        "id": "20"
+                    }, {
+                        "id": "21"
+                    }, {
+                        "id": "22"
+                    }, {
+                        "id": "23"
+                    }]
+                },
+                "dataset": [{
+                    "data": [{
+                        "rowid": "Mon",
+                        "columnid": "0",
+                        "value": "2"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "1",
+                        "value": "4"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "2",
+                        "value": "5"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "3",
+                        "value": "5"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "4",
+                        "value": "3"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "5",
+                        "value": "3"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "6",
+                        "value": "4"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "7",
+                        "value": "5"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "8",
+                        "value": "5"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "9",
+                        "value": "6"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "10",
+                        "value": "8"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "11",
+                        "value": "12"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "12",
+                        "value": "14"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "13",
+                        "value": "23"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "14",
+                        "value": "27"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "15",
+                        "value": "32"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "16",
+                        "value": "46"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "17",
+                        "value": "19"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "18",
+                        "value": "23"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "19",
+                        "value": "25"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "20",
+                        "value": "19"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "21",
+                        "value": "16"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "22",
+                        "value": "8"
+                    }, {
+                        "rowid": "Mon",
+                        "columnid": "23",
+                        "value": "7"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "0",
+                        "value": "5"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "1",
+                        "value": "7"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "2",
+                        "value": "11"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "3",
+                        "value": "3"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "4",
+                        "value": "4"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "5",
+                        "value": "2"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "6",
+                        "value": "1"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "7",
+                        "value": "9"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "8",
+                        "value": "11"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "9",
+                        "value": "16"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "10",
+                        "value": "23"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "11",
+                        "value": "34"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "12",
+                        "value": "45"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "13",
+                        "value": "68"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "14",
+                        "value": "47"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "15",
+                        "value": "52"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "16",
+                        "value": "26"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "17",
+                        "value": "49"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "18",
+                        "value": "33"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "19",
+                        "value": "28"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "20",
+                        "value": "12"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "21",
+                        "value": "10"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "22",
+                        "value": "3"
+                    }, {
+                        "rowid": "Tue",
+                        "columnid": "23",
+                        "value": "2"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "0",
+                        "value": "4"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "1",
+                        "value": "6"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "2",
+                        "value": "8"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "3",
+                        "value": "12"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "4",
+                        "value": "7"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "5",
+                        "value": "10"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "6",
+                        "value": "12"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "7",
+                        "value": "14"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "8",
+                        "value": "18"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "9",
+                        "value": "20"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "10",
+                        "value": "27"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "11",
+                        "value": "33"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "12",
+                        "value": "37"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "13",
+                        "value": "43"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "14",
+                        "value": "49"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "15",
+                        "value": "54"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "16",
+                        "value": "67"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "17",
+                        "value": "75"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "18",
+                        "value": "87"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "19",
+                        "value": "72"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "20",
+                        "value": "52"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "21",
+                        "value": "23"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "22",
+                        "value": "12"
+                    }, {
+                        "rowid": "Wed",
+                        "columnid": "23",
+                        "value": "4"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "0",
+                        "value": "2"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "1",
+                        "value": "3"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "2",
+                        "value": "3"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "3",
+                        "value": "5"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "4",
+                        "value": "5"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "5",
+                        "value": "7"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "6",
+                        "value": "10"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "7",
+                        "value": "9"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "8",
+                        "value": "11"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "9",
+                        "value": "12"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "10",
+                        "value": "15"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "11",
+                        "value": "23"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "12",
+                        "value": "25"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "13",
+                        "value": "28"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "14",
+                        "value": "17"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "15",
+                        "value": "22"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "16",
+                        "value": "20"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "17",
+                        "value": "33"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "18",
+                        "value": "35"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "19",
+                        "value": "20"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "20",
+                        "value": "14"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "21",
+                        "value": "6"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "22",
+                        "value": "3"
+                    }, {
+                        "rowid": "Thu",
+                        "columnid": "23",
+                        "value": "1"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "0",
+                        "value": "2"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "1",
+                        "value": "4"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "2",
+                        "value": "7"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "3",
+                        "value": "11"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "4",
+                        "value": "14"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "5",
+                        "value": "12"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "6",
+                        "value": "8"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "7",
+                        "value": "12"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "8",
+                        "value": "14"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "9",
+                        "value": "16"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "10",
+                        "value": "18"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "11",
+                        "value": "20"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "12",
+                        "value": "25"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "13",
+                        "value": "27"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "14",
+                        "value": "17"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "15",
+                        "value": "16"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "16",
+                        "value": "14"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "17",
+                        "value": "12"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "18",
+                        "value": "14"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "19",
+                        "value": "14"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "20",
+                        "value": "12"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "21",
+                        "value": "10"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "22",
+                        "value": "3"
+                    }, {
+                        "rowid": "Fri",
+                        "columnid": "23",
+                        "value": "2"
+                    }]
+                }],
+                "colorrange": {
+                    "gradient": "1",
+                    "minvalue": "0",
+                    "code": "a4c93f",
+                    "startlabel": "",
+                    "endlabel": "Very High",
+                    "color": [{
+                        "minvalue": "0",
+                        "maxvalue": "20",
+                        "code": "a4c93f",
+                        "label": "Average",
+                        "alpha": "40"
+                    }, {
+                        "code": "e44a00",
+                        "minvalue": "20",
+                        "maxvalue": "100",
+                        "alpha": "40"
+                    }]
+                }
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/heatmap/ref-images/test_4_heatmap-snapshot.png",
+        "id": "test_4"
+    }
+
+}

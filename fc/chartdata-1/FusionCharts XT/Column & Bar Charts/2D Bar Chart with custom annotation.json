@@ -1,0 +1,77 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "caption": "Monthly Sales",
+            "decimals": "0",
+            "formatnumberscale": "0",
+            "palette": "2",
+            "showBorder": "0",
+            "showvalues": "0",
+            "xaxisname": "Month",
+            "yaxisname": "Units"
+        },
+        "data": [
+            {
+                "label": "Jan",
+                "value": "462"
+            },
+            {
+                "label": "Feb",
+                "value": "857"
+            },
+            {
+                "label": "Mar",
+                "value": "671"
+            },
+            {
+                "label": "Apr",
+                "value": "494"
+            },
+            {
+                "label": "May",
+                "value": "761"
+            },
+            {
+                "label": "Jun",
+                "value": "860"
+            },
+            {
+                "color": "91AF64",
+                "dashed": "1",
+                "dashgap": "2",
+                "dashlen": "2",
+                "label": "Print ads stopped",
+                "thickness": "2",
+                "vline": "true"
+            },
+            {
+                "label": "Jul",
+                "value": "629"
+            },
+            {
+                "label": "Aug",
+                "value": "622"
+            },
+            {
+                "label": "Sep",
+                "value": "376"
+            },
+            {
+                "label": "Oct",
+                "value": "494"
+            },
+            {
+                "label": "Nov",
+                "value": "761"
+            },
+            {
+                "label": "Dec",
+                "value": "960"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column2d",
+    "width": "800"
+}

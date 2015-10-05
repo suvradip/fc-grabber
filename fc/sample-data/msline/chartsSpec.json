@@ -1,0 +1,701 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "msline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "canvasBgColor": "#7E8EA1",
+                    "canvasBgAlpha": "70",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showVLineLabelBorder": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "25",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "1",
+                    "yAxisValuesStep": "2",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "rotateYAxisName": "0",
+
+                    "yAxisMinValue": "500",
+                    "yAxisMaxValue": "40000",
+
+                    "setAdaptiveYMin": "",
+                    "useDataPlotColorForLabels": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "xAxisName": "Month",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#00ffff",
+                    "xAxisLineThickness": "3",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "20",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "1",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "5",
+                    "xAxisNameBorderDashGap": "2",
+
+                    "yAxisName": "Revenue",
+                    "showYAxisLine": "1",
+                    "yAxisLineColor": "#cc0000",
+                    "yAxisLineThickness": "3",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "20",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "100",
+                    "yAxisNameFontAlpha": "70",
+                    "yAxisNameBgAlpha": "80",
+                    "yAxisNameBorderAlpha": "80",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "1",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "2",
+
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#000000",
+                    "legendItemHiddenColor": "#ff0000",
+
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "minimiseWrappingInLegend": "",
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Jan"
+                    }, {
+                        "label": "Feb"
+                    }, {
+                        "label": "Mar"
+                    }, {
+                        "label": "Apr"
+                    }, {
+                        "label": "May"
+                    }, {
+                        "label": "Jun"
+                    }, {
+                        "label": "Jul"
+                    }, {
+                        "label": "Aug"
+                    }, {
+                        "label": "Sep"
+                    }, {
+                        "label": "Oct"
+                    }, {
+                        "label": "Nov"
+                    }, {
+                        "label": "Dec"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "2006",
+                    "data": [{
+                        "value": "27400"
+                    }, {
+                        "value": "29800"
+                    }, {
+                        "value": "25800"
+                    }, {
+                        "value": "26800"
+                    }, {
+                        "value": "29600"
+                    }, {
+                        "value": "32600"
+                    }, {
+                        "value": "31800"
+                    }, {
+                        "value": "36700"
+                    }, {
+                        "value": "29700"
+                    }, {
+                        "value": "31900"
+                    }, {
+                        "value": "34800"
+                    }, {
+                        "value": "24800"
+                    }]
+                }, {
+                    "seriesname": "2005",
+                    "data": [{
+                        "value": "10000"
+                    }, {
+                        "value": "11500"
+                    }, {
+                        "value": "12500"
+                    }, {
+                        "value": "15000"
+                    }, {
+                        "value": "11000"
+                    }, {
+                        "value": "9800"
+                    }, {
+                        "value": "11800"
+                    }, {
+                        "value": "19700"
+                    }, {
+                        "value": "21700"
+                    }, {
+                        "value": "21900"
+                    }, {
+                        "value": "22900"
+                    }, {
+                        "value": "20800"
+                    }]
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "startvalue": "26000",
+                        "color": "91C728",
+                        "displayvalue": "Target",
+                        "showontop": "1"
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/msline/ref-images/test_1_msline-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label, annotations related tests.",
+        "options": {
+            "type": "msline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                    "bgImage": "../../images/bg.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+
+                    "showVLineLabelBorder": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+
+                    "drawAnchors": "1",
+                    "anchorSides": "10",
+                    "anchorRadius": "10",
+                    "anchorBorderColor": "#ff0000",
+                    "anchorBorderThickness": "2",
+                    "anchorBgColor": "#ffa700",
+                    "anchorAlpha": "85",
+                    "anchorBgAlpha": "75",
+
+
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": ""
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Jan",
+                        "font": "verdana",
+                        "fontColor": "#0000ff",
+                        "fontSize": "18",
+                        "fontBold": "1",
+                        "fontItalic": "1",
+                        "bgColor": "#333333",
+                        "borderColor": "#00ff00"
+                    }, {
+                        "label": "Feb"
+                    }, {
+                        "label": "Mar"
+                    }, {
+                        "label": "Apr"
+                    }, {
+                        "label": "May"
+                    }, {
+                        "label": "Jun",
+                        "fontSize": "18",
+                        "fontColor": "#ffffff",
+                        "fontBold": "1",
+                        "fontItalic": "0",
+                        "bgColor": "#333333",
+                        "borderColor": "#ff0000",
+                        "borderPadding": "2",
+                        "borderRadius": "5",
+                        "borderThickness": "4",
+                        "borderDashed": "0",
+                        "borderDashLen": "6",
+                        "borderDashGap": "3"
+                    }, {
+                        "label": "Jul"
+                    }, {
+                        "label": "Aug"
+                    }, {
+                        "label": "Sep"
+                    }, {
+                        "label": "Oct"
+                    }, {
+                        "label": "Nov"
+                    }, {
+                        "label": "Dec"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "2006",
+                    "data": [{
+                        "value": "27400",
+                        "alpha": "70",
+                        "anchorAlpha": "100",
+                        "anchorBgAlpha": "40",
+                        "anchorBgColor": "#cc0000",
+                        "anchorBorderColor": "#333333",
+                        "anchorBorderThickness": "3",
+                        "anchorRadius": "10",
+                        "anchorSides": "5",
+                        "anchorAlpha": "85",
+
+                        "color": "#ff0000",
+                        "dashed": "0",
+                        "displayValue": "27400",
+                        "link": "",
+                        "showLabel": "1",
+                        "showValue": "0",
+                        "toolText": "NILADRI"
+                    }, {
+                        "value": "29800"
+                    }, {
+                        "value": "25800"
+                    }, {
+                        "value": "26800"
+                    }, {
+                        "value": "29600"
+                    }, {
+                        "value": "32600"
+                    }, {
+                        "value": "31800",
+                        "valuePosition": "ABOVE",
+                        "dashed": "1",
+                        "alpha": "70",
+                        "anchorAlpha": "100",
+                        "anchorBgAlpha": "40",
+                        "anchorBgColor": "#ee4400",
+                        "anchorBorderColor": "#000000",
+                        "anchorBorderThickness": "3",
+                        "anchorRadius": "10",
+                        "anchorSides": "15",
+                        "anchorAlpha": "85"
+                    }, {
+                        "value": "36700"
+                    }, {
+                        "value": "29700"
+                    }, {
+                        "value": "31900"
+                    }, {
+                        "value": "34800"
+                    }, {
+                        "value": "24800"
+                    }]
+                }, {
+                    "seriesname": "2005",
+                    "data": [{
+                        "value": "10000"
+                    }, {
+                        "value": "11500"
+                    }, {
+                        "value": "12500"
+                    }, {
+                        "value": "15000"
+                    }, {
+                        "value": "11000"
+                    }, {
+                        "value": "9800"
+                    }, {
+                        "value": "11800"
+                    }, {
+                        "value": "19700"
+                    }, {
+                        "value": "21700"
+                    }, {
+                        "value": "21900"
+                    }, {
+                        "value": "22900",
+                        "alpha": "70",
+                        "anchorAlpha": "100",
+                        "anchorBgAlpha": "40",
+                        "anchorBgColor": "#ff0000",
+                        "anchorBorderColor": "#ffffff",
+                        "anchorBorderThickness": "3",
+                        "anchorRadius": "10",
+                        "anchorSides": "4"
+                    }, {
+                        "value": "20800"
+                    }]
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "startvalue": "26000",
+                        "istrendzone": "1",
+                        "valueonright": "1",
+                        "tooltext": "NILADRI",
+                        "endvalue": "30000",
+                        "color": "009933",
+                        "displayvalue": "Target",
+                        "showontop": "1",
+                        "thickness": "5"
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/msline/ref-images/test_2_msline-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Divlines, VLines, Trendlines, Trendzones releated tests",
+        "options": {
+            "type": "msline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "3",
+
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineThickness": "4",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "5",
+                    "divLineDashGap": "3",
+
+                    "zeroPlaneColor": "#0000ff",
+                    "zeroPlaneThickness": "9",
+                    "zeroPlaneAlpha": "85",
+                    "showZeroPlaneValue": "1",
+
+                    "showAlternateHGridColor": "1",
+                    "alternateHGridColor": "#0000ff",
+                    "alternateHGridAlpha": "10"
+                },
+                "categories": [{
+                    "category": [{
+                        "label": "Jan"
+                    }, {
+                        "label": "Feb"
+                    }, {
+                        "label": "Mar"
+                    }, {
+                        "label": "Appraisal_1",
+                        "vline": "true",
+                        "color": "#ff0000",
+                        "thickness": "3",
+                        "dashed": "true",
+                        "dashLen": "5",
+                        "dashGap": "2",
+                        "showLabelBorder": "0",
+                        "linePosition": "1",
+                        "labelPosition": "0",
+                        "labelHAlign": "left",
+                        "labelVAlign": "top"
+                    }, {
+                        "label": "Apr"
+                    }, {
+                        "label": "May"
+                    }, {
+                        "label": "Jun"
+                    }, {
+                        "label": "Jul"
+                    }, {
+                        "label": "Aug"
+                    }, {
+                        "label": "Sep"
+                    }, {
+                        "label": "Appraisal_2",
+                        "vline": "true",
+                        "color": "#0000ff",
+                        "thickness": "2",
+                        "dashed": "1",
+                        "dashLen": "6",
+                        "dashGap": "3",
+                        "showLabelBorder": "1",
+                        "linePosition": "0.5",
+                        "labelPosition": "0.5",
+                        "labelHAlign": "right",
+                        "labelVAlign": "bottom"
+                    }, {
+                        "label": "Oct"
+                    }, {
+                        "label": "Nov"
+                    }, {
+                        "label": "Year End Bonus",
+                        "vline": "true",
+                        "color": "#0000ff",
+                        "thickness": "3",
+                        "dashed": "1",
+                        "dashLen": "6",
+                        "dashGap": "3",
+                        "showLabelBorder": "0",
+                        "linePosition": "1",
+                        "labelPosition": "1",
+                        "labelHAlign": "center",
+                        "labelVAlign": "middle"
+                    }, {
+                        "label": "Dec"
+                    }]
+                }],
+                "dataset": [{
+                    "seriesname": "2006",
+                    "data": [{
+                        "value": "27400"
+                    }, {
+                        "value": "29800"
+                    }, {
+                        "value": "25800"
+                    }, {
+                        "value": "26800"
+                    }, {
+                        "value": "-29600"
+                    }, {
+                        "value": "32600"
+                    }, {
+                        "value": "31800"
+                    }, {
+                        "value": "36700"
+                    }, {
+                        "value": "29700"
+                    }, {
+                        "value": "31900"
+                    }, {
+                        "value": "34800"
+                    }, {
+                        "value": "24800"
+                    }]
+                }, {
+                    "seriesname": "2005",
+                    "data": [{
+                        "value": "10000"
+                    }, {
+                        "value": "11500"
+                    }, {
+                        "value": "12500"
+                    }, {
+                        "value": "15000"
+                    }, {
+                        "value": "11000"
+                    }, {
+                        "value": "9800"
+                    }, {
+                        "value": "11800"
+                    }, {
+                        "value": "19700"
+                    }, {
+                        "value": "21700"
+                    }, {
+                        "value": "21900"
+                    }, {
+                        "value": "22900"
+                    }, {
+                        "value": "20800"
+                    }]
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "startvalue": "15000",
+                        "istrendzone": "1",
+                        "valueonright": "1",
+                        "tooltext": "NILADRI",
+                        "endvalue": "25000",
+                        "color": "#00a7ff",
+                        "displayvalue": "Last Year Trend",
+                        "showontop": "1",
+                        "thickness": "5"
+                    }, {
+                        "startvalue": "32000",
+                        "istrendzone": "0",
+                        "valueonright": "0",
+                        "tooltext": "NILADRI RAYCHAUDURI",
+                        "color": "009933",
+                        "displayvalue": "Target",
+                        "showontop": "0",
+                        "thickness": "3",
+                        "alpha": "75",
+                        "dashed": "1",
+                        "dashLen": "6",
+                        "dashGap": "3"
+
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/msline/ref-images/test_3_msline-snapshot.png",
+        "id": "test_3"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "datastreamurl": "/DataProviders/Cylinder.php",
+            "lowerlimit": "0",
+            "manageresize": "1",
+            "numbersuffix": "%",
+            "refreshinterval": "3",
+            "showborder": "0",
+            "tickmarkgap": "5",
+            "upperlimit": "100"
+        },
+        "value": "32"
+    },
+    "height": "600",
+    "type": "cylinder",
+    "width": "800"
+}

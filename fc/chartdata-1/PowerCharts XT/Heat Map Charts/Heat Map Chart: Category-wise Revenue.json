@@ -1,0 +1,339 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "bgcolor": "C7E3EF, FFFFFF",
+            "caption": "Monthly revenue from different product categories",
+            "showBorder": "0",
+            "subcaption": "(in million US$)"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "C7E3EF",
+                    "label": "Poor",
+                    "maxvalue": "10",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "87C8EE",
+                    "label": "Average",
+                    "maxvalue": "25",
+                    "minvalue": "10"
+                },
+                {
+                    "code": "4091C9",
+                    "label": "Excellent",
+                    "maxvalue": "50",
+                    "minvalue": "25"
+                }
+            ],
+            "gradient": "0"
+        },
+        "columns": {
+            "column": [
+                {
+                    "id": "Jan"
+                },
+                {
+                    "id": "Feb"
+                },
+                {
+                    "id": "Mar"
+                },
+                {
+                    "id": "Apr"
+                },
+                {
+                    "id": "May"
+                },
+                {
+                    "id": "Jun"
+                },
+                {
+                    "id": "Jul"
+                },
+                {
+                    "id": "Aug"
+                },
+                {
+                    "id": "Sep"
+                },
+                {
+                    "id": "Oct"
+                },
+                {
+                    "id": "Nov"
+                },
+                {
+                    "id": "Dec"
+                }
+            ]
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "columnid": "Jan",
+                        "rowid": "Apparels",
+                        "value": "31"
+                    },
+                    {
+                        "columnid": "Feb",
+                        "rowid": "Apparels",
+                        "value": "29"
+                    },
+                    {
+                        "columnid": "Mar",
+                        "rowid": "Apparels",
+                        "value": "27"
+                    },
+                    {
+                        "columnid": "Apr",
+                        "rowid": "Apparels",
+                        "value": "27"
+                    },
+                    {
+                        "columnid": "May",
+                        "rowid": "Apparels",
+                        "value": "25"
+                    },
+                    {
+                        "columnid": "Jun",
+                        "rowid": "Apparels",
+                        "value": "21"
+                    },
+                    {
+                        "columnid": "Jul",
+                        "rowid": "Apparels",
+                        "value": "19"
+                    },
+                    {
+                        "columnid": "Aug",
+                        "rowid": "Apparels",
+                        "value": "21"
+                    },
+                    {
+                        "columnid": "Sep",
+                        "rowid": "Apparels",
+                        "value": "23"
+                    },
+                    {
+                        "columnid": "Oct",
+                        "rowid": "Apparels",
+                        "value": "24"
+                    },
+                    {
+                        "columnid": "Nov",
+                        "rowid": "Apparels",
+                        "value": "24"
+                    },
+                    {
+                        "columnid": "Dec",
+                        "rowid": "Apparels",
+                        "value": "34"
+                    },
+                    {
+                        "columnid": "Jan",
+                        "rowid": "Electronic Goods",
+                        "value": "31"
+                    },
+                    {
+                        "columnid": "Feb",
+                        "rowid": "Electronic Goods",
+                        "value": "32"
+                    },
+                    {
+                        "columnid": "Mar",
+                        "rowid": "Electronic Goods",
+                        "value": "29"
+                    },
+                    {
+                        "columnid": "Apr",
+                        "rowid": "Electronic Goods",
+                        "value": "27"
+                    },
+                    {
+                        "columnid": "May",
+                        "rowid": "Electronic Goods",
+                        "value": "35"
+                    },
+                    {
+                        "columnid": "Jun",
+                        "rowid": "Electronic Goods",
+                        "value": "36"
+                    },
+                    {
+                        "columnid": "Jul",
+                        "rowid": "Electronic Goods",
+                        "value": "36"
+                    },
+                    {
+                        "columnid": "Aug",
+                        "rowid": "Electronic Goods",
+                        "value": "38"
+                    },
+                    {
+                        "columnid": "Sep",
+                        "rowid": "Electronic Goods",
+                        "value": "35"
+                    },
+                    {
+                        "columnid": "Oct",
+                        "rowid": "Electronic Goods",
+                        "value": "34"
+                    },
+                    {
+                        "columnid": "Nov",
+                        "rowid": "Electronic Goods",
+                        "value": "36"
+                    },
+                    {
+                        "columnid": "Dec",
+                        "rowid": "Electronic Goods",
+                        "value": "42"
+                    },
+                    {
+                        "columnid": "Jan",
+                        "rowid": "Household",
+                        "value": "22"
+                    },
+                    {
+                        "columnid": "Feb",
+                        "rowid": "Household",
+                        "value": "20"
+                    },
+                    {
+                        "columnid": "Mar",
+                        "rowid": "Household",
+                        "value": "29"
+                    },
+                    {
+                        "columnid": "Apr",
+                        "rowid": "Household",
+                        "value": "25"
+                    },
+                    {
+                        "columnid": "May",
+                        "rowid": "Household",
+                        "value": "25"
+                    },
+                    {
+                        "columnid": "Jun",
+                        "rowid": "Household",
+                        "value": "28"
+                    },
+                    {
+                        "columnid": "Jul",
+                        "rowid": "Household",
+                        "value": "29"
+                    },
+                    {
+                        "columnid": "Aug",
+                        "rowid": "Household",
+                        "value": "37"
+                    },
+                    {
+                        "columnid": "Sep",
+                        "rowid": "Household",
+                        "value": "29"
+                    },
+                    {
+                        "columnid": "Oct",
+                        "rowid": "Household",
+                        "value": "30"
+                    },
+                    {
+                        "columnid": "Nov",
+                        "rowid": "Household",
+                        "value": "26"
+                    },
+                    {
+                        "columnid": "Dec",
+                        "rowid": "Household",
+                        "value": "21"
+                    },
+                    {
+                        "columnid": "Jan",
+                        "rowid": "Sports and Fitness",
+                        "value": "13"
+                    },
+                    {
+                        "columnid": "Feb",
+                        "rowid": "Sports and Fitness",
+                        "value": "10"
+                    },
+                    {
+                        "columnid": "Mar",
+                        "rowid": "Sports and Fitness",
+                        "value": "12"
+                    },
+                    {
+                        "columnid": "Apr",
+                        "rowid": "Sports and Fitness",
+                        "value": "11"
+                    },
+                    {
+                        "columnid": "May",
+                        "rowid": "Sports and Fitness",
+                        "value": "10"
+                    },
+                    {
+                        "columnid": "Jun",
+                        "rowid": "Sports and Fitness",
+                        "value": "14"
+                    },
+                    {
+                        "columnid": "Jul",
+                        "rowid": "Sports and Fitness",
+                        "value": "19"
+                    },
+                    {
+                        "columnid": "Aug",
+                        "rowid": "Sports and Fitness",
+                        "value": "13"
+                    },
+                    {
+                        "columnid": "Sep",
+                        "rowid": "Sports and Fitness",
+                        "value": "9"
+                    },
+                    {
+                        "columnid": "Oct",
+                        "rowid": "Sports and Fitness",
+                        "value": "5"
+                    },
+                    {
+                        "columnid": "Nov",
+                        "rowid": "Sports and Fitness",
+                        "value": "9"
+                    },
+                    {
+                        "columnid": "Dec",
+                        "rowid": "Sports and Fitness",
+                        "value": "17"
+                    }
+                ]
+            }
+        ],
+        "rows": {
+            "row": [
+                {
+                    "id": "Apparels"
+                },
+                {
+                    "id": "Electronic Goods"
+                },
+                {
+                    "id": "Household"
+                },
+                {
+                    "id": "Sports and Fitness"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "heatmap",
+    "width": "800"
+}

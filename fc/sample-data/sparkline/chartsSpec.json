@@ -1,0 +1,427 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "sparkline",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showValues": "1",
+                    "showShadow": "1",
+
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "animation": "0"
+                },
+                "dataset": [{
+                    "data": [{
+                        "value": "38.42"
+                    }, {
+                        "value": "41.43"
+                    }, {
+                        "value": "34.78"
+                    }, {
+                        "value": "40.67"
+                    }, {
+                        "value": "44.12"
+                    }, {
+                        "value": "38.45"
+                    }, {
+                        "value": "40.71"
+                    }, {
+                        "value": "49.90"
+                    }, {
+                        "value": "40.12"
+                    }, {
+                        "value": "34.91"
+                    }, {
+                        "value": "42.02"
+                    }, {
+                        "value": "35.21"
+                    }, {
+                        "value": "43.31"
+                    }, {
+                        "value": "40.21"
+                    }, {
+                        "value": "40.54"
+                    }, {
+                        "value": "40.90"
+                    }, {
+                        "value": "54.21"
+                    }, {
+                        "value": "41.90"
+                    }, {
+                        "value": "33.43"
+                    }, {
+                        "value": "46.73"
+                    }, {
+                        "value": "50.42"
+                    }, {
+                        "value": "40.74"
+                    }, {
+                        "value": "42.31"
+                    }, {
+                        "value": "50.39"
+                    }, {
+                        "value": "51.10"
+                    }, {
+                        "value": "44.84"
+                    }, {
+                        "value": "51.64"
+                    }, {
+                        "value": "47.62"
+                    }, {
+                        "value": "39.61"
+                    }, {
+                        "value": "35.13"
+                    }]
+                }]
+            },
+            "refimage": "./tests/smoke/new-smoke-test/sparkline/ref-images/test_1_sparkline-snapshot.png",
+            "id": "test_1"
+        },
+        "test_2": {
+            "description": "Data plots, values, open, close, high, low, period block properties related tests.",
+            "options": {
+                "type": "sparkline",
+                "width": "800",
+                "height": "600",
+                "dataFormat": "json",
+                "dataSource": {
+                    "chart": {
+
+                        "bgImage": "../../images/bg.jpg",
+                        "bgImageAlpha": "50",
+                        "bgImageVAlign": "middle",
+                        "bgImageHAlign": "left",
+                        "bgImageScale": "22",
+
+                        "showVLineLabelBorder": "0",
+
+                        "caption": "Monthly Revenue",
+                        "subcaption": "Current Year",
+                        "captionAlignment": "right",
+                        "captionOnTop": "0",
+                        "captionFontSize": "20",
+                        "subCaptionFontSize": "15",
+                        "captionFont": "verdana",
+                        "subCaptionFont": "verdana",
+                        "captionFontColor": "#ff0000",
+                        "subCaptionFontColor": "#0000ff",
+                        "captionFontBold": "0",
+                        "subCaptionFontBold": "0",
+                        "alignCaptionWithCanvas": "0",
+                        "captionHorizontalPadding": "10",
+
+
+                        "numberprefix": "$",
+                        "showvalues": "1",
+                        "animation": "0",
+
+                        "showShadow": "0",
+
+                        "valueFont": "verdana",
+                        "rotateValues": "0",
+                        "valueFontColor": "#cc0000",
+                        "valueFontSize": "12",
+                        "valueFontBold": "1",
+                        "valueFontItalic": "1",
+                        "valueBgColor": "#ffffff",
+                        "valueBorderColor": "#000033",
+                        "valueAlpha": "70",
+                        "valueFontAlpha": "75",
+                        "valueBgAlpha": "55",
+                        "valueBorderAlpha": "90",
+                        "valueBorderThickness": "1",
+                        "valueBorderRadius": "3",
+                        "valueBorderDashed": "1",
+                        "valueBorderDashGap": "3",
+                        "valueBorderDashLen": "6",
+                        "valueHoverAlpha": "100",
+                        "valueFontHoverAlpha": "100",
+                        "valueBgHoverAlpha": "100",
+                        "valueBorderHoverAlpha": "100",
+                        "showValuesOnHover": "1",
+
+                        "lineColor": "#ff0000",
+                        "lineThickness": "3",
+                        "lineAlpha": "70",
+
+                        "drawAnchors": "1",
+                        "anchorSides": "5",
+                        "anchorRadius": "8",
+                        "anchorColor": "#00ff00",
+                        "anchorAlpha": "85",
+
+                        "openColor": "#008744",
+                        "closeColor": "#ffa700",
+                        "highColor": "#0057e7",
+                        "lowColor": "#d62d20",
+
+                        "showOpenAnchor": "0",
+                        "showCloseAnchor": "1",
+                        "showHighAnchor": "1",
+                        "showLowAnchor": "1",
+                        "showOpenValue": "1",
+                        "showCloseValue": "1",
+                        "showHighLowValue": "0",
+
+                        "periodLength": "4",
+                        "periodColor": "#0000ff",
+                        "periodAlpha": "20"
+                    },
+                    "dataset": [{
+                        "data": [{
+                            "value": "38.42"
+                        }, {
+                            "value": "41.43"
+                        }, {
+                            "value": "34.78",
+                            "alpha": "70",
+                            "anchorAlpha": "100",
+                            "anchorBgAlpha": "100",
+                            "anchorBgColor": "#00ff00",
+                            "anchorBorderColor": "#ff0000",
+                            "anchorBorderThickness": "3",
+                            "anchorRadius": "12",
+                            "anchorSides": "15",
+                            "anchorAlpha": "85",
+                            "color": "#00ff00",
+                            "dashed": "0",
+                            "displayValue": "$34.78",
+                            "link": "",
+                            "showValue": "1"
+                        }, {
+                            "value": "40.67"
+                        }, {
+                            "value": "44.12"
+                        }, {
+                            "value": "38.45"
+                        }, {
+                            "value": "40.71"
+                        }, {
+                            "value": "49.90"
+                        }, {
+                            "value": "40.12"
+                        }, {
+                            "value": "34.91"
+                        }, {
+                            "value": "42.02"
+                        }, {
+                            "value": "35.21"
+                        }, {
+                            "value": "43.31"
+                        }, {
+                            "value": "40.21"
+                        }, {
+                            "value": "40.54"
+                        }, {
+                            "value": "40.90"
+                        }, {
+                            "value": "54.21"
+                        }, {
+                            "value": "41.90"
+                        }, {
+                            "value": "33.43"
+                        }, {
+                            "value": "46.73"
+                        }, {
+                            "value": "50.42"
+                        }, {
+                            "value": "40.74",
+                            "anchorBorderColor": "#00ff00",
+                            "anchorBgColor": "#00ff00",
+                            "anchorBorderThickness": "3",
+                            "anchorRadius": "12"
+                        }, {
+                            "value": "42.31"
+                        }, {
+                            "value": "50.39"
+                        }, {
+                            "value": "51.10"
+                        }, {
+                            "value": "44.84"
+                        }, {
+                            "value": "51.64"
+                        }, {
+                            "value": "47.62"
+                        }, {
+                            "value": "39.61"
+                        }, {
+                            "value": "35.13"
+                        }]
+                    }]
+                }
+            },
+            "refimage": "./tests/smoke/new-smoke-test/sparkline/ref-images/test_2_sparkline-snapshot.png",
+            "id": "test_2"
+        },
+        "test_3": {
+            "description": "Palette, color range releated tests",
+            "options": {
+                "type": "sparkline",
+                "width": "800",
+                "height": "600",
+                "dataFormat": "json",
+                "dataSource": {
+                    "chart": {
+                        "caption": "Monthly Revenue",
+                        "subcaption": "Current Year",
+                        "captionAlignment": "center",
+                        "captionOnTop": "1",
+                        "captionFontSize": "20",
+                        "subCaptionFontSize": "15",
+                        "captionFont": "verdana",
+                        "subCaptionFont": "verdana",
+                        "captionFontColor": "#ff0000",
+                        "subCaptionFontColor": "#0000ff",
+                        "captionFontBold": "1",
+                        "subCaptionFontBold": "1",
+                        "alignCaptionWithCanvas": "1",
+                        "captionHorizontalPadding": "10",
+                        "xaxisname": "Month",
+                        "yaxisname": "Revenue",
+                        "numberprefix": "$",
+                        "showvalues": "1",
+                        "animation": "0",
+                        "palette": "3",
+
+                        "numDivLines": "3",
+                        "divLineColor": "#cc0000",
+                        "divLineThickness": "4",
+                        "divLineAlpha": "85",
+                        "divLineDashed": "1",
+                        "divLineDashLen": "5",
+                        "divLineDashGap": "3",
+
+                        "showAlternateHGridColor": "1",
+                        "alternateHGridColor": "#0000ff",
+                        "alternateHGridAlpha": "10"
+                    },
+                    "dataset": [{
+                        "data": [{
+                            "value": "38.42"
+                        }, {
+                            "value": "41.43"
+                        }, {
+                            "value": "34.78"
+                        }, {
+                            "value": "40.67"
+                        }, {
+                            "value": "44.12"
+                        }, {
+                            "value": "38.45"
+                        }, {
+                            "value": "40.71"
+                        }, {
+                            "value": "49.90"
+                        }, {
+                            "value": "40.12"
+                        }, {
+                            "value": "34.91"
+                        }, {
+                            "value": "42.02"
+                        }, {
+                            "value": "35.21"
+                        }, {
+                            "value": "43.31"
+                        }, {
+                            "value": "40.21"
+                        }, {
+                            "value": "40.54"
+                        }, {
+                            "value": "40.90"
+                        }, {
+                            "value": "54.21"
+                        }, {
+                            "value": "41.90"
+                        }, {
+                            "value": "33.43"
+                        }, {
+                            "value": "46.73"
+                        }, {
+                            "value": "50.42"
+                        }, {
+                            "value": "40.74"
+                        }, {
+                            "value": "42.31"
+                        }, {
+                            "value": "50.39"
+                        }, {
+                            "value": "51.10"
+                        }, {
+                            "value": "44.84"
+                        }, {
+                            "value": "51.64"
+                        }, {
+                            "value": "47.62"
+                        }, {
+                            "value": "39.61"
+                        }, {
+                            "value": "35.13"
+                        }]
+                    }],
+                    "trendlines": [{
+                        "line": [{
+                            "startvalue": "40",
+                            "istrendzone": "1",
+                            "valueonright": "1",
+                            "tooltext": "NILADRI",
+                            "endvalue": "45",
+                            "color": "#ffa700",
+                            "thickness": "2"
+                        }, {
+                            "startvalue": "50",
+                            "istrendzone": "0",
+                            "valueonright": "0",
+                            "tooltext": "NILADRI RAYCHAUDURI",
+                            "color": "009933",
+                            "thickness": "2",
+                            "alpha": "75",
+                            "dashed": "1",
+                            "dashLen": "6",
+                            "dashGap": "3"
+
+                        }]
+                    }]
+                }
+            },
+            "refimage": "./tests/smoke/new-smoke-test/sparkline/ref-images/test_3_sparkline-snapshot.png",
+            "id": "test_3"
+        }
+    }
+}

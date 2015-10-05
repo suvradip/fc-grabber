@@ -1,0 +1,169 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "A"
+                    },
+                    {
+                        "label": "B"
+                    },
+                    {
+                        "label": "C"
+                    },
+                    {
+                        "label": "D"
+                    },
+                    {
+                        "label": "E"
+                    },
+                    {
+                        "label": "F"
+                    },
+                    {
+                        "label": "G"
+                    },
+                    {
+                        "label": "H"
+                    },
+                    {
+                        "label": "I"
+                    },
+                    {
+                        "label": "J"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Sales by Product",
+            "divlinedecimalprecision": "1",
+            "formatnumberscale": "0",
+            "limitsdecimalprecision": "1",
+            "numberprefix": "$",
+            "numvisibleplot": "5",
+            "palette": "2",
+            "pyaxisname": "Amount",
+            "showborder": "0",
+            "showvalues": "0",
+            "subcaption": "March 2006",
+            "syaxisname": "Quantity"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "5854"
+                    },
+                    {
+                        "value": "4171"
+                    },
+                    {
+                        "value": "1375"
+                    },
+                    {
+                        "value": "1875"
+                    },
+                    {
+                        "value": "2246"
+                    },
+                    {
+                        "value": "2696"
+                    },
+                    {
+                        "value": "1287"
+                    },
+                    {
+                        "value": "2140"
+                    },
+                    {
+                        "value": "1603"
+                    },
+                    {
+                        "value": "1628"
+                    }
+                ],
+                "seriesname": "Revenue"
+            },
+            {
+                "data": [
+                    {
+                        "value": "3242"
+                    },
+                    {
+                        "value": "3171"
+                    },
+                    {
+                        "value": "700"
+                    },
+                    {
+                        "value": "1287"
+                    },
+                    {
+                        "value": "1856"
+                    },
+                    {
+                        "value": "1126"
+                    },
+                    {
+                        "value": "987"
+                    },
+                    {
+                        "value": "1610"
+                    },
+                    {
+                        "value": "903"
+                    },
+                    {
+                        "value": "928"
+                    }
+                ],
+                "parentyaxis": "P",
+                "renderas": "Area",
+                "seriesname": "Profit"
+            },
+            {
+                "data": [
+                    {
+                        "value": "174"
+                    },
+                    {
+                        "value": "197"
+                    },
+                    {
+                        "value": "155"
+                    },
+                    {
+                        "value": "15"
+                    },
+                    {
+                        "value": "66"
+                    },
+                    {
+                        "value": "85"
+                    },
+                    {
+                        "value": "37"
+                    },
+                    {
+                        "value": "10"
+                    },
+                    {
+                        "value": "44"
+                    },
+                    {
+                        "value": "322"
+                    }
+                ],
+                "linethickness": "3",
+                "parentyaxis": "S",
+                "seriesname": "Quantity"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "scrollcombidy2d",
+    "width": "800"
+}

@@ -1,0 +1,64 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Global IP Traffic, 2012-2017",
+            "defaultnumberscale": "PB",
+            "divlinecolor": "CCCCCC",
+            "formatnumberscale": "1",
+            "labeldisplay": "WRAP",
+            "numberscaleunit": "PB,EB",
+            "numberscalevalue": "1024,1024",
+            "palettecolors": "34495e",
+            "plotgradientcolor": "34495e",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showvalues": "0",
+            "subcaption": "",
+            "suseroundedges": "1",
+            "yaxisname": "Total IP traffic (PetaByte per Month)"
+        },
+        "data": [
+            {
+                "label": "2012",
+                "value": "43570"
+            },
+            {
+                "label": "2013",
+                "value": "55553"
+            },
+            {
+                "label": "2014",
+                "value": "68892"
+            },
+            {
+                "color": "#6E98AA",
+                "dashed": "1",
+                "label": "Predicted",
+                "labelhalign": "left",
+                "lineposition": "0",
+                "showlabelborder": "0",
+                "vline": "true"
+            },
+            {
+                "label": "2015",
+                "value": "83835"
+            },
+            {
+                "label": "2016",
+                "value": "101055"
+            },
+            {
+                "label": "2016",
+                "value": "120643"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "area2d",
+    "width": "800"
+}

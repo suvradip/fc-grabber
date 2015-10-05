@@ -1,0 +1,66 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "San Francisco"
+                    },
+                    {
+                        "label": "New York City"
+                    },
+                    {
+                        "label": "Detroit"
+                    },
+                    {
+                        "label": "Chicago"
+                    },
+                    {
+                        "label": "Houston"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Summer Temperatures in Major US Cities",
+            "halferrorbar": "0",
+            "numbersuffix": " C",
+            "rotatelabels": "1",
+            "showborder": "0",
+            "slantlabels": "1",
+            "subcaption": "(Average day-time temperatures)",
+            "xaxisname": "City",
+            "yaxisname": "Temperature"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "errorvalue": "1",
+                        "value": "28"
+                    },
+                    {
+                        "errorvalue": "2",
+                        "value": "27"
+                    },
+                    {
+                        "errorvalue": "1.5",
+                        "value": "26"
+                    },
+                    {
+                        "errorvalue": "1.5",
+                        "value": "22"
+                    },
+                    {
+                        "errorvalue": "1",
+                        "value": "35.5"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "errorbar2d",
+    "width": "800"
+}

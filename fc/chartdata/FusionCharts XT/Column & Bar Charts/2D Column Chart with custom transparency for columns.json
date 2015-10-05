@@ -1,0 +1,96 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "animation": "0",
+            "basefontcolor": "000000",
+            "bgcolor": "FFFFFF",
+            "canvasbordercolor": "#CCCCCC",
+            "canvasborderthickness": "1",
+            "caption": "Top 10 Most Popular Sports in the World",
+            "captionpadding": "30",
+            "divlinecolor": "#CCCCCC",
+            "labeldisplay": "AUTO",
+            "labelsepchar": ": ",
+            "linethickness": "3",
+            "numberscaleunit": "K,M,B",
+            "numberscalevalue": "1000,1000,1000",
+            "palettecolors": "e44a00",
+            "plotgradientcolor": "",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showshadow": "0",
+            "showvalues": "1",
+            "subcaption": "Based on number of viewers",
+            "yaxisname": "Number of Viewers",
+            "yaxisvaluespadding": "15"
+        },
+        "data": [
+            {
+                "alpha": "100",
+                "label": "Football",
+                "tooltext": "Popular in: {br}Europe{br}Africa{br}Asia{br}Americas",
+                "value": "3500000000"
+            },
+            {
+                "alpha": "90",
+                "label": "Cricket",
+                "tooltext": "Popular in: {br}India{br}UK{br}Pakistan{br}England{br}Australia",
+                "value": "3000000000"
+            },
+            {
+                "alpha": "80",
+                "label": "Field Hockey",
+                "tooltext": "Popular in: {br}Asia{br}Europe{br}Africa{br}Australia",
+                "value": "2200000000"
+            },
+            {
+                "alpha": "70",
+                "label": "Tennis",
+                "tooltext": "Popular in: {br}Europe{br}Americas{br}Asia",
+                "value": "1000000000"
+            },
+            {
+                "alpha": "55",
+                "label": "Volleyball",
+                "tooltext": "Popular in: {br}Asia{br}Europe{br}Americas{br}Australia",
+                "value": "900000000"
+            },
+            {
+                "alpha": "55",
+                "label": "Table Tennis",
+                "tooltext": "Popular in: {br}Asia{br}Europe{br}Africa{br}Americas",
+                "value": "900000000"
+            },
+            {
+                "alpha": "40",
+                "label": "Baseball",
+                "tooltext": "Popular in: {br}US{br}Japan{br}Cuba{br}Dominican Republic",
+                "value": "500000000"
+            },
+            {
+                "alpha": "30",
+                "label": "Golf",
+                "tooltext": "Popular in: {br}US{br}Canada{br}Europe",
+                "value": "400000000"
+            },
+            {
+                "alpha": "30",
+                "label": "Basketball",
+                "tooltext": "Popular in: {br}US{br}Canada",
+                "value": "400000000"
+            },
+            {
+                "alpha": "25",
+                "label": "American Football",
+                "tooltext": "Popular in: {br}US",
+                "value": "390000000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column2d",
+    "width": "800"
+}

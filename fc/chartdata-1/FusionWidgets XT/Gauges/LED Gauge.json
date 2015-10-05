@@ -1,0 +1,51 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "borderthickness": "2",
+            "chartbottommargin": "5",
+            "chartrightmargin": "20",
+            "decimals": "0",
+            "ledbordercolor": "666666",
+            "ledboxbgcolor": "333333",
+            "ledgap": "1",
+            "ledsize": "1",
+            "lowerlimit": "0",
+            "lowerlimitdisplay": "Low",
+            "majortmheight": "4",
+            "majortmnumber": "5",
+            "manageresize": "1",
+            "minortmnumber": "0",
+            "numbersuffix": "%",
+            "showborder": "0",
+            "showtickmarks": "1",
+            "showtickvalues": "1",
+            "tickvaluedistance": "0",
+            "upperlimit": "100",
+            "upperlimitdisplay": "High"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "FF0000",
+                    "maxvalue": "30",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "FFFF00",
+                    "maxvalue": "50",
+                    "minvalue": "30"
+                },
+                {
+                    "code": "00FF00",
+                    "maxvalue": "100",
+                    "minvalue": "50"
+                }
+            ]
+        },
+        "value": "70"
+    },
+    "height": "600",
+    "type": "hled",
+    "width": "800"
+}

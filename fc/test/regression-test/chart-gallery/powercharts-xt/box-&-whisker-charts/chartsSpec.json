@@ -1,0 +1,763 @@
+{
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-website-visits-(in-3-years)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Visits to a Website",
+                    "plotspacepercent": "70",
+                    "showborder": "0",
+                    "subcaption": "In three years",
+                    "useroundedges": "1"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "160,133,35,67,89,107,59"
+                            },
+                            {
+                                "value": "239,67,75,114,169,97,191"
+                            },
+                            {
+                                "value": "200,107,197,289,53,36,97"
+                            }
+                        ],
+                        "lowerboxcolor": "006ECB",
+                        "seriesname": "January",
+                        "upperboxcolor": "9071CD"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "160,303,125,137,169,107,89"
+                            },
+                            {
+                                "value": "139,167,255,124,99,187,151"
+                            },
+                            {
+                                "value": "60,137,117,219,153,126,277"
+                            }
+                        ],
+                        "lowerboxcolor": "0084A3",
+                        "seriesname": "Febuary",
+                        "upperboxcolor": "73D9F5"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-website-visits-(in-3-years).png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-website-visits-(in-3-years)"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-test-scores": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Maths"
+                            },
+                            {
+                                "label": "Physics"
+                            },
+                            {
+                                "label": "Chemistry"
+                            },
+                            {
+                                "label": "History"
+                            },
+                            {
+                                "label": "English"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Test scores of class in different subjects",
+                    "showborder": "0",
+                    "showmean": "1"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "35, 78, 91, 42, 56, 66, 71, 46"
+                            },
+                            {
+                                "value": "85, 68, 70, 30, 78, 83, 45, 54"
+                            },
+                            {
+                                "value": "70, 33, 56, 67, 60, 41, 60, 70"
+                            },
+                            {
+                                "value": "72, 31, 61, 65, 67, 45, 53, 51"
+                            },
+                            {
+                                "value": "31, 41, 34, 45, 67, 69, 78, 71"
+                            }
+                        ],
+                        "seriesname": "Scores"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-test-scores.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-test-scores"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-weekly-temperature": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2005"
+                            },
+                            {
+                                "label": "2006"
+                            },
+                            {
+                                "label": "2007"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Weekly Temperature",
+                    "mdiconcolor": "7F00FF",
+                    "plotspacepercent": "75",
+                    "qdiconcolor": "FFFF00",
+                    "sdiconcolor": "FF9F55",
+                    "showborder": "0",
+                    "showmd": "1",
+                    "showqd": "1",
+                    "showsd": "1",
+                    "showvalues": "0",
+                    "showzeroplanevalue": "0",
+                    "subcaption": "In a month",
+                    "useroundedges": "1"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "outliers": "30, -18",
+                                "value": "-6,-3,13,17,9,7.7,10.3"
+                            },
+                            {
+                                "value": "-13,0.6,21.9,15.4,19,17,41"
+                            },
+                            {
+                                "outliers": "43, -13",
+                                "value": "20,10,27,23,3,46,12"
+                            }
+                        ],
+                        "lowerboxcolor": "CCCCFF ",
+                        "lowerwhiskercolor": "D41FAA",
+                        "mediancolor": "FF0000",
+                        "seriesname": "January",
+                        "upperboxcolor": "7F9FFF",
+                        "upperwhiskercolor": "000080"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-weekly-temperature.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-weekly-temperature"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-employee-age": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Development"
+                            },
+                            {
+                                "label": "Marketing"
+                            },
+                            {
+                                "label": "Sales"
+                            },
+                            {
+                                "label": "QA"
+                            },
+                            {
+                                "label": "Finance"
+                            },
+                            {
+                                "label": "Admin"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Employee age across different departments in the company",
+                    "outliericonshape": "spoke",
+                    "outliericonsides": "8",
+                    "rotatelabels": "1",
+                    "showborder": "0",
+                    "showmean": "1",
+                    "showmedianvalues": "0",
+                    "slantlabels": "1",
+                    "sshowvalues": "0",
+                    "yaxismaxvalue": "80"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "outliers": "2",
+                                "value": "23, 25, 19, 32, 36, 29, 31, 29"
+                            },
+                            {
+                                "value": "21, 23, 24, 35, 47"
+                            },
+                            {
+                                "outliers": "67, 72",
+                                "value": "33, 37, 39, 29, 52, 47, 32, 35, 32, 34, 35, 31, 29, 38, 42"
+                            },
+                            {
+                                "value": "24, 27, 29, 21, 25"
+                            },
+                            {
+                                "value": "31, 36, 37, 31, 29, 32, 34"
+                            },
+                            {
+                                "value": "21, 20, 26, 27, 30"
+                            }
+                        ],
+                        "seriesname": "Age"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-employee-age.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-employee-age"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-clickthrough-rate-comparison": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Brand"
+                            },
+                            {
+                                "label": "Primary"
+                            },
+                            {
+                                "label": "Secondary"
+                            },
+                            {
+                                "label": "Long Tail"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Cost per conversion for keywords on Adwords - Q3 v Q4 2010",
+                    "numberprefix": "$",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "useroundedges": "1",
+                    "yaxismaxvalue": "8"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "2.4, 2.4, 3.6, 1.8, 2.1, 3.3, 2.4"
+                            },
+                            {
+                                "value": "2.7, 3.5, 2.9, 1.3, 4.7, 5.4, 6.5, 3.9, 4.4"
+                            },
+                            {
+                                "value": "2.4, 3.3, 2.5, 3.6, 2.2"
+                            },
+                            {
+                                "value": "1.2, 2.4, 1.6, 0.8"
+                            }
+                        ],
+                        "seriesname": "Q3 2010"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "2.3, 2.2, 3.8, 2.0, 2.4, 3.0, 2.2"
+                            },
+                            {
+                                "value": "2.2, 3.0, 2.5, 1.2, 5.4"
+                            },
+                            {
+                                "value": "2.5, 3.2, 2.6, 3.2"
+                            },
+                            {
+                                "value": "1.4, 2.5, 1.6, 1.0"
+                            }
+                        ],
+                        "seriesname": "Q4 2010"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-clickthrough-rate-comparison.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-clickthrough-rate-comparison"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-fuel-efficiency-tests": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Honda"
+                            },
+                            {
+                                "label": "Toyota"
+                            },
+                            {
+                                "label": "Volkswagen"
+                            },
+                            {
+                                "label": "Ford"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Fuel efficiency test results of cars by manufacturer (in mpg)",
+                    "numbersuffix": " mpg",
+                    "showborder": "0",
+                    "showmean": "1",
+                    "showvalues": "0"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "17.4, 27.6, 25.6, 23.5, 28.2, 20.4, 25.8"
+                            },
+                            {
+                                "value": "22.3, 22.6, 24.3, 32.3, 22, 16.3, 26.6, 23.5, 13.8, 16.5"
+                            },
+                            {
+                                "value": "22.3, 20.7, 30, 16.1, 30.4"
+                            },
+                            {
+                                "value": "19.1, 32.7, 32.7, 31.6, 31.1"
+                            }
+                        ],
+                        "seriesname": "City"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "27.6, 31.6, 30, 29, 29.9, 24.8, 29.9"
+                            },
+                            {
+                                "value": "31.1, 28.2, 28.9, 39.1, 29.2, 18.4, 29.9, 29.2, 20.7, 24.2"
+                            },
+                            {
+                                "value": "29.9, 24.2, 37.5, 18.4, 35"
+                            },
+                            {
+                                "value": "25.1, 40, 40.8, 37.5, 39.4"
+                            }
+                        ],
+                        "seriesname": "Highway"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-fuel-efficiency-tests.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-fuel-efficiency-tests"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-outbound-bandwidth-usage": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Jan"
+                            },
+                            {
+                                "label": "Feb"
+                            },
+                            {
+                                "label": "Mar"
+                            },
+                            {
+                                "label": "Apr"
+                            },
+                            {
+                                "label": "May"
+                            },
+                            {
+                                "label": "Jun"
+                            },
+                            {
+                                "label": "Jul"
+                            },
+                            {
+                                "label": "Aug"
+                            },
+                            {
+                                "label": "Sep"
+                            },
+                            {
+                                "label": "Oct"
+                            },
+                            {
+                                "label": "Nov"
+                            },
+                            {
+                                "label": "Dec"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Outbound bandwidth usage per day (in GB)",
+                    "numbersuffix": " GB",
+                    "rotatelabels": "1",
+                    "showborder": "0",
+                    "showmedianvalues": "0",
+                    "slantlabels": "1"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "4, 5, 4, 4, 7, 4, 5, 4, 11, 4, 4, 5, 4, 4, 4, 4, 5, 4, 13, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4, 4, 5"
+                            },
+                            {
+                                "value": "4, 5, 4, 2, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4, 4, 4, 7, 4, 4, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4"
+                            },
+                            {
+                                "value": "4, 5, 4, 4, 2, 4, 5, 3, 2, 3, 2, 5, 4, 4, 11, 4, 5, 15, 4, 4, 4, 5, 4, 12, 4, 4, 5, 4, 4, 4, 5"
+                            },
+                            {
+                                "value": "4, 5, 4, 2, 4, 4, 5, 4, 2, 2, 4, 5, 3, 4, 3, 4, 5, 2, 3, 4, 4, 5, 4, 9, 4, 4, 5, 4, 4, 4"
+                            },
+                            {
+                                "value": "2, 2, 3, 2, 3, 4, 9, 7, 4, 11, 4, 11, 4, 4, 4, 11, 5, 4, 4, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4, 4, 5"
+                            },
+                            {
+                                "value": "2, 3, 4, 4, 4, 5, 5, 4, 7, 4, 3, 5, 4, 2, 4, 4, 7, 9, 4, 11, 13, 13, 4, 4, 4, 4, 5, 4, 4, 4"
+                            },
+                            {
+                                "value": "4, 5, 4, 4, 4, 4, 5, 4, 4, 6, 6, 5, 8, 4, 6, 4, 5, 4, 7, 11, 4, 5, 4, 4, 4, 4, 5, 4, 4, 4, 5"
+                            },
+                            {
+                                "value": "4, 5, 6, 6, 4, 4, 5, 7, 4, 9, 4, 5, 4, 9, 4, 4, 5, 6, 4, 4, 9, 5, 4, 11, 4, 4, 5, 11, 4, 4"
+                            },
+                            {
+                                "value": "4, 5, 4, 6, 4, 6, 5, 4, 3, 4, 4, 5, 4, 7, 4, 8, 5, 4, 8, 4, 4, 5, 9, 4, 8, 4, 5, 9, 4, 4, 5"
+                            },
+                            {
+                                "value": "4, 5, 4, 11, 4, 4, 5, 4, 4, 9, 4, 5, 4, 4, 11, 4, 5, 4, 4, 4, 4, 5, 12, 4, 4, 4, 5, 14, 4, 4"
+                            },
+                            {
+                                "value": "4, 5, 4, 7, 10, 4, 5, 12, 4, 4, 12, 5, 4, 4, 4, 4, 5, 12, 4, 4, 4, 5, 4, 2, 2, 4, 5, 4, 4, 4, 5"
+                            },
+                            {
+                                "value": "4, 7, 4, 3, 4, 8, 5, 4, 4, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4, 4, 4, 5, 3, 2, 3, 2, 2, 2, 2, 2, 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-outbound-bandwidth-usage.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-outbound-bandwidth-usage"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-imdb-ratings-(comparison-by-director)": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Quentin Tarantino"
+                            },
+                            {
+                                "label": "Christopher Nolan"
+                            },
+                            {
+                                "label": "John Hughes"
+                            },
+                            {
+                                "label": "Martin Scorsese"
+                            },
+                            {
+                                "label": "Peter Jackson"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "IMDB rating of all movies by director",
+                    "rotatelabels": "1",
+                    "showborder": "0",
+                    "showmean": "1",
+                    "showvalues": "0",
+                    "slantlabels": "1"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "8.4, 8.2, 8.4, 7.1, 9.0, 7.9, 7.2, 7.9"
+                            },
+                            {
+                                "value": "9.0, 8.9, 8.7, 8.3"
+                            },
+                            {
+                                "value": "7.9, 7.9, 7.0, 6.4, 7.5, 7.0, 5.5"
+                            },
+                            {
+                                "value": "8.8, 8.0, 8.5, 8.6, 8.1, 7.4, 7.2, 8.4"
+                            },
+                            {
+                                "value": "7.6, 6.6, 8.7, 8.8, 8.8, 7.6, 7.1"
+                            }
+                        ],
+                        "seriesname": "Ratings"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-imdb-ratings-(comparison-by-director).png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-imdb-ratings-(comparison-by-director)"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-yellow-cards-in-world-cup": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "Brazil"
+                            },
+                            {
+                                "label": "Spain"
+                            },
+                            {
+                                "label": "Holland"
+                            },
+                            {
+                                "label": "Germany"
+                            },
+                            {
+                                "label": "England"
+                            },
+                            {
+                                "label": "Italy"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Number of yellow cards per match in World Cup - 2010 v 2006",
+                    "numdivlines": "3",
+                    "showborder": "0",
+                    "showvalues": "0",
+                    "subcaption": "(The chart uses random data for demonstration purposes only)"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "1, 3, 4, 1, 5, 6"
+                            },
+                            {
+                                "value": "1, 2, 3, 1, 5, 1, 1, 3"
+                            },
+                            {
+                                "value": "5, 4, 2, 2, 1, 3, 2, 5"
+                            },
+                            {
+                                "value": "1, 1, 3, 2, 1, 4, 2, 1"
+                            },
+                            {
+                                "value": "4, 3, 4, 5, 2, 1"
+                            },
+                            {
+                                "value": "4, 3, 4, 5, 2, 1"
+                            }
+                        ],
+                        "lowerboxcolor": "3874B0",
+                        "seriesname": "2010",
+                        "upperboxcolor": "1D3D64"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "2, 2, 3, 4, 1, 5, 6"
+                            },
+                            {
+                                "value": "1, 2, 3, 1, 4"
+                            },
+                            {
+                                "value": "1, 3, 4, 1, 2, 4"
+                            },
+                            {
+                                "value": "2, 1, 2, 4, 1, 4, 2, 1"
+                            },
+                            {
+                                "value": "1, 2, 4, 3, 2"
+                            },
+                            {
+                                "value": "1, 3, 3, 4, 2, 1, 1"
+                            }
+                        ],
+                        "lowerboxcolor": "BEDAE8",
+                        "seriesname": "2006",
+                        "upperboxcolor": "159CDC"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-yellow-cards-in-world-cup.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-yellow-cards-in-world-cup"
+    },
+    "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-connecting-mean-visits": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "dataSource": {
+                "categories": [
+                    {
+                        "category": [
+                            {
+                                "label": "2008"
+                            },
+                            {
+                                "label": "2009"
+                            },
+                            {
+                                "label": "2010"
+                            }
+                        ]
+                    }
+                ],
+                "chart": {
+                    "caption": "Yearly Mean Visits",
+                    "drawmeanconnector": "1",
+                    "meaniconcolor": "F66B27",
+                    "meaniconradius": "10",
+                    "meaniconsides": "16",
+                    "numdivlines": "0",
+                    "plotspacepercent": "70",
+                    "showborder": "0",
+                    "showmean": "1",
+                    "showvalues": "0",
+                    "subcaption": "(showing rise and fall through connecting line)"
+                },
+                "dataset": [
+                    {
+                        "data": [
+                            {
+                                "value": "60,133,35,67,89,137,259"
+                            },
+                            {
+                                "value": "139,197,175,114,39,67,191"
+                            },
+                            {
+                                "value": "200,107,197,239,53,26,97"
+                            }
+                        ],
+                        "lowerboxcolor": "F6F3EB",
+                        "seriesname": "January",
+                        "upperboxcolor": "ECF2F7"
+                    },
+                    {
+                        "data": [
+                            {
+                                "value": "160,203,125,137,69,107,39"
+                            },
+                            {
+                                "value": "139,167,255,74,59,187,151"
+                            },
+                            {
+                                "value": "160,137,57,209,153,126,177"
+                            }
+                        ],
+                        "lowerboxcolor": "FFF7F2",
+                        "seriesname": "Febuary",
+                        "upperboxcolor": "EBEFDF"
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "boxandwhisker2d",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/powercharts-xt/box-&-whisker-charts/ref-images/powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-connecting-mean-visits.png",
+        "id": "powercharts-xt_box-&-whisker-charts_box-and-whisker-chart:-connecting-mean-visits"
+    }
+}

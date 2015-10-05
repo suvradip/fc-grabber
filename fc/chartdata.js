@@ -38,14 +38,14 @@ var readContents = (function(fcobj){
             chartData.width = "800";
             chartData.height = "600";
             chartData.dataFormat = "json"; 
-            chartData.datasource =  data.getChartData("json");  
+            chartData.dataSource =  data.getChartData("json");  
 
             return  chartData;
 
        });
             } //end of IF
 
-            if( (data && data !== null ) &&( data.datasource && data.datasource !== null) )
+            if( (data && data !== null ) &&( data.dataSource && data.dataSource !== null) )
             {
 
                console.log("Data Format --- > " + data);

@@ -1,0 +1,123 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "caption": "Attendance Report",
+            "showBorder": "0",
+            "subcaption": "In percentage",
+            "xaxisname": "Week Days",
+            "yaxisname": "Companies"
+        },
+        "colorrange": {
+            "code": "FF654F",
+            "color": [
+                {
+                    "code": "F6BD0F",
+                    "label": "BAD",
+                    "maxvalue": "30",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "8BBA00",
+                    "label": "AVERAGE",
+                    "maxvalue": "70",
+                    "minvalue": "30"
+                },
+                {
+                    "code": "028FF6",
+                    "maxvalue": "100",
+                    "minvalue": "70"
+                }
+            ],
+            "endlabel": "Good",
+            "gradient": "1",
+            "mapbypercent": "1",
+            "minvalue": "0",
+            "startlabel": "Very Bad"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "columnid": "Mon",
+                        "rowid": "C-1",
+                        "value": "68"
+                    },
+                    {
+                        "columnid": "Tue",
+                        "rowid": "C-1",
+                        "value": "35"
+                    },
+                    {
+                        "columnid": "Wed",
+                        "rowid": "C-1",
+                        "value": "95"
+                    },
+                    {
+                        "columnid": "Thu",
+                        "rowid": "C-1",
+                        "value": "17"
+                    },
+                    {
+                        "columnid": "Fri",
+                        "rowid": "C-1",
+                        "value": "55.98"
+                    },
+                    {
+                        "columnid": "Mon",
+                        "rowid": "C-2",
+                        "value": "0"
+                    },
+                    {
+                        "columnid": "Tue",
+                        "rowid": "C-2",
+                        "value": "71"
+                    },
+                    {
+                        "columnid": "Wed",
+                        "rowid": "C-2",
+                        "value": "70"
+                    },
+                    {
+                        "columnid": "Thu",
+                        "rowid": "C-2",
+                        "value": "63"
+                    },
+                    {
+                        "columnid": "Fri",
+                        "rowid": "C-2",
+                        "value": "79"
+                    },
+                    {
+                        "columnid": "Mon",
+                        "rowid": "C-3",
+                        "value": "98"
+                    },
+                    {
+                        "columnid": "Tue",
+                        "rowid": "C-3",
+                        "value": "48"
+                    },
+                    {
+                        "columnid": "Wed",
+                        "rowid": "C-3",
+                        "value": "31"
+                    },
+                    {
+                        "columnid": "Thu",
+                        "rowid": "C-3",
+                        "value": "79"
+                    },
+                    {
+                        "columnid": "Fri",
+                        "rowid": "C-3",
+                        "value": "39"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "heatmap",
+    "width": "800"
+}

@@ -1,0 +1,69 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "animation": "1",
+            "basefontcolor": "37444A",
+            "basefontsize": "8",
+            "bgcolor": "ABCAD3,B3CCE1",
+            "borderalpha": "100",
+            "bordercolor": "9DBCCC",
+            "canvasbgalpha": "0",
+            "canvasbgratio": "0",
+            "canvasborderalpha": "0",
+            "drawanchors": "1",
+            "numbersuffix": "%",
+            "numdivlines": "0",
+            "numvdivlines": "5",
+            "outcnvbasefontsize": "11",
+            "palettecolors": "0080C0",
+            "plotfillalpha": "63",
+            "plotfillangle": "90",
+            "plotgradientcolor": "0000FF",
+            "showborder": "0",
+            "showplotborder": "0",
+            "showtooltip": "1",
+            "showvalues": "1",
+            "showyaxisvalues": "0",
+            "tooltipbgcolor": "37444A",
+            "tooltipbordercolor": "37444A",
+            "tooltipcolor": "FFFFFF",
+            "vdivlinealpha": "22",
+            "vdivlinecolor": "6281B5",
+            "yaxisname": "Rise in sea level (cm)"
+        },
+        "data": [
+            {
+                "label": "1880",
+                "value": "0"
+            },
+            {
+                "label": "1900",
+                "value": "2"
+            },
+            {
+                "label": "1920",
+                "value": "4"
+            },
+            {
+                "label": "1940",
+                "value": "6"
+            },
+            {
+                "label": "1960",
+                "value": "10"
+            },
+            {
+                "label": "1980",
+                "value": "13"
+            },
+            {
+                "label": "2000",
+                "value": "20"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "area2d",
+    "width": "800"
+}

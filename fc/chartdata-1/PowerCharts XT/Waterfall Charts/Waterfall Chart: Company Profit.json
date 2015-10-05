@@ -1,0 +1,70 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "basefontcolor": "FFFFFF",
+            "bgcolor": "FFFFFF",
+            "borderthickness": "1",
+            "canvasborderalpha": "0",
+            "canvasbordercolor": "B4BBC1",
+            "canvasborderthickness": "1",
+            "caption": "Company Profit (in USD) - 2013",
+            "connectordashed": "1",
+            "divlinecolor": "CCCCCC",
+            "labeldisplay": "WRAP",
+            "numberprefix": "$",
+            "outcnvbasefontcolor": "333333",
+            "placevaluesinside": "1",
+            "plotgradientcolor": " ",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showsumatend": "0",
+            "showvalues": "1",
+            "tooltipcolor": "333333 "
+        },
+        "data": [
+            {
+                "color": "6baa01",
+                "label": "Product Revenue",
+                "value": "420000"
+            },
+            {
+                "color": "6baa01",
+                "label": "Services Revenue",
+                "value": "210000"
+            },
+            {
+                "color": "6baa01",
+                "issum": "1",
+                "label": "Total Revenue"
+            },
+            {
+                "color": "e44a00",
+                "label": "Fixed Costs",
+                "value": "-170000"
+            },
+            {
+                "color": "e44a00",
+                "label": "Variable Costs",
+                "value": "-140000"
+            },
+            {
+                "color": "e44a00",
+                "cumulative": "0",
+                "issum": "1",
+                "label": "Total Costs"
+            },
+            {
+                "color": "008ee4",
+                "cumulative": "1",
+                "issum": "1",
+                "label": "Total Profit"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "waterfall2d",
+    "width": "800"
+}

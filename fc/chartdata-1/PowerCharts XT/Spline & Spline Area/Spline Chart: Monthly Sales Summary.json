@@ -1,0 +1,69 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "caption": "Monthly Sales Summary",
+            "numberprefix": "$",
+            "palette": "3",
+            "showBorder": "0",
+            "showvalues": "0",
+            "subcaption": "For the year 2006",
+            "xaxisname": "Month",
+            "yaxisminvalue": "15000",
+            "yaxisname": "Sales"
+        },
+        "data": [
+            {
+                "label": "Jan",
+                "value": "17400"
+            },
+            {
+                "label": "Feb",
+                "value": "19800"
+            },
+            {
+                "label": "Mar",
+                "value": "21800"
+            },
+            {
+                "label": "Apr",
+                "value": "23800"
+            },
+            {
+                "label": "May",
+                "value": "29600"
+            },
+            {
+                "label": "Jun",
+                "value": "27600"
+            },
+            {
+                "label": "Jul",
+                "value": "31800"
+            },
+            {
+                "label": "Aug",
+                "value": "39700"
+            },
+            {
+                "label": "Sep",
+                "value": "32800"
+            },
+            {
+                "label": "Oct",
+                "value": "21900"
+            },
+            {
+                "label": "Nov",
+                "value": "32900"
+            },
+            {
+                "label": "Dec",
+                "value": "39800"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "spline",
+    "width": "800"
+}

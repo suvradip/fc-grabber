@@ -1,0 +1,267 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "hbullet",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showValues": "1",
+                    "showShadow": "1",
+
+                    "caption": "Revenue",
+                    "subcaption": "US $ (1,000s)",
+
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "numberprefix": "$",
+                    "numbersuffix": "K",
+                    "animation": "0"
+                },
+                "colorrange": {
+                    "color": [{
+                        "minvalue": "0",
+                        "maxvalue": "50",
+                        "color": "A6A6A6"
+                    }, {
+                        "minvalue": "50",
+                        "maxvalue": "75",
+                        "color": "CCCCCC"
+                    }, {
+                        "minvalue": "75",
+                        "maxvalue": "100",
+                        "color": "E1E1E1"
+                    }]
+                },
+                "value": "78.9",
+                "target": "80"
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/hbullet/ref-images/test_1_hbullet-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and TickMarks related tests.",
+        "options": {
+            "type": "hbullet",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                    "bgImage": "../../images/bg.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+
+                    "showVLineLabelBorder": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+
+
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotBorderDashed": "1",
+                    "plotBorderDashLen": "6",
+                    "plotBorderDashGap": "3",
+                    "plotFillAngle": "60",
+                    "plotFillRatio": "30:70",
+                    "plotFillAlpha": "60",
+                    "plotGradientColor": "#000033,#0000ff",
+                    "showShadow": "0",
+                    "plotFillColor": "#0075c2",
+                    "targetColor": "#8e0000",
+                    "plotAsDot": "1",
+                    "targetColor": "#0000ff",
+                    "targetThickness": "5",
+
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "18",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+
+                    "showLimits": "1",
+                    "upperLimit": "0",
+                    "lowerLimit": "100",
+                    "upperLimitDisplay": "Max",
+                    "lowerLimitDisplay": "Min",
+                    "showTickMarks": "1",
+                    "showTickValues": "1",
+                    "ticksBelowGraph": "0",
+                    "tickValueStep": "1",
+                    "majorTMNumber": "10",
+                    "majorTMColor": "#333333",
+                    "majorTMAlpha": "90",
+                    "majorTMHeight": "10",
+                    "majorTMThickness": "3",
+                    "minorTMNumber": "4",
+                    "minorTMColor": "#999999",
+                    "minorTMAlpha": "70",
+                    "minorTMHeight": "6",
+                    "minorTMThickness": "2",
+                    "tickMarkDistance": "5",
+                    "tickValueDistance": "6",
+                    "adjustTM": ""
+                },
+                "colorrange": {
+                    "color": [{
+                        "minvalue": "0",
+                        "maxvalue": "50",
+                        "color": "A6A6A6"
+                    }, {
+                        "minvalue": "50",
+                        "maxvalue": "75",
+                        "color": "CCCCCC"
+                    }, {
+                        "minvalue": "75",
+                        "maxvalue": "100",
+                        "color": "E1E1E1"
+                    }]
+                },
+                "value": "78.9",
+                "target": "80"
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/hbullet/ref-images/test_2_hbullet-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Palette, color range releated tests",
+        "options": {
+            "type": "hbullet",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Actual vs Target<br>Bakersfield Central",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "lowerLimit": "0",
+                    "upperLimit": "100",
+                    "numberPrefix": "$",
+                    "numberSuffix": "K",
+              
+                    "showHoverEffect": "1",
+                    "showBorder": "0",
+                    "bgColor": "#ffffff",
+
+                    "showShadow": "0",
+                    "colorRangeFillMix": "{light+0}",
+                    "valuePadding": "7",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "4",
+
+                    "showColorRangeBorder": "1",
+                    "colorRangeBorderColor": "#ff0000",
+                    "colorRangeBorderThickness": "3",
+                    "colorRangeBorderAlpha": "60",
+                    "showShadow": "1"
+                },
+                "colorRange": {
+                    "color": [{
+                        "minValue": "0",
+                        "maxValue": "50",
+                        "code": "#e44a00",
+                        "alpha": "70"
+                    }, {
+                        "minValue": "50",
+                        "maxValue": "75",
+                        "code": "#f2c500",
+                        "alpha": "70"
+                    }, {
+                        "minValue": "75",
+                        "maxValue": "120",
+                        "code": "#1aaf5d",
+                        "alpha": "70"
+                    }]
+                },
+                "value": "82",
+                "target": "90"
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/hbullet/ref-images/test_3_hbullet-snapshot.png",
+        "id": "test_3"
+    }
+}

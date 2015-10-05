@@ -1,0 +1,99 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "anchorradius": "2",
+            "caption": "Sales Comparison",
+            "decimals": "2",
+            "formatnumberscale": "1",
+            "numberprefix": "$",
+            "numminordivlines": "2",
+            "palette": "2",
+            "showborder": "0",
+            "showminordivlinevalues": "1",
+            "showvalues": "0",
+            "yaxisvaluesstep": "3"
+        },
+        "dataset": [
+            {
+                "anchorbordercolor": "A66EDD",
+                "anchorradius": "4",
+                "color": "A66EDD",
+                "data": [
+                    {
+                        "value": "1127654"
+                    },
+                    {
+                        "value": "1226234"
+                    },
+                    {
+                        "value": "1299456"
+                    },
+                    {
+                        "value": "1311565"
+                    },
+                    {
+                        "value": "1324454"
+                    },
+                    {
+                        "value": "1357654"
+                    }
+                ],
+                "seriesname": "Current Year"
+            },
+            {
+                "anchorbordercolor": "F6BD0F",
+                "anchorradius": "4",
+                "color": "F6BD0F",
+                "data": [
+                    {
+                        "value": "907654"
+                    },
+                    {
+                        "value": "1126234"
+                    },
+                    {
+                        "value": "1299456"
+                    },
+                    {
+                        "value": "1511565"
+                    },
+                    {
+                        "value": "1724454"
+                    },
+                    {
+                        "value": "1157654"
+                    }
+                ],
+                "seriesname": "Previous Year"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "logmscolumn2d",
+    "width": "800"
+}

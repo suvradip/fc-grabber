@@ -1,0 +1,100 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "AEC0CA, 333333, AEC0CA",
+                            "radius": "10",
+                            "tox": "$chartEndX",
+                            "toy": "$chartEndY",
+                            "type": "rectangle",
+                            "x": "$chartStartX",
+                            "y": "$chartStartY"
+                        },
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "333333, C3D0D8, 333333",
+                            "radius": "10",
+                            "tox": "$chartEndX-5",
+                            "toy": "$chartEndY-5",
+                            "type": "rectangle",
+                            "x": "$chartStartX+5",
+                            "y": "$chartStartY+5"
+                        },
+                        {
+                            "fillangle": "180",
+                            "fillcolor": "C4D5DC, A3A5A4",
+                            "radius": "10",
+                            "tox": "$chartEndX-10",
+                            "toy": "$chartEndY-10",
+                            "type": "rectangle",
+                            "x": "$chartStartX+10",
+                            "y": "$chartStartY+10"
+                        }
+                    ],
+                    "showbelow": "1"
+                }
+            ]
+        },
+        "chart": {
+            "bgalpha": "0",
+            "bgcolor": "FFFFFF",
+            "chartbottommargin": "15",
+            "chartleftmargin": "25",
+            "chartrightmargin": "30",
+            "charttopmargin": "15",
+            "gaugeroundradius": "5",
+            "lowerlimit": "0",
+            "majortmcolor": "666666",
+            "manageresize": "1",
+            "numbersuffix": "%",
+            "origw": "450",
+            "orih": "120",
+            "placevaluesinside": "0",
+            "pointerontop": "1",
+            "pointerradius": "6",
+            "showborder": "0",
+            "showgaugelabels": "0",
+            "ticksbelowgauge": "1",
+            "upperlimit": "100",
+            "valueabovepointer": "1"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "F6BD0F",
+                    "maxvalue": "100",
+                    "minvalue": "0"
+                }
+            ]
+        },
+        "pointers": {
+            "pointer": [
+                {
+                    "value": "65"
+                }
+            ]
+        },
+        "trendpoints": {
+            "point": [
+                {
+                    "color": "FFFFFF",
+                    "dashed": "1",
+                    "dashgap": "3",
+                    "dashlen": "1",
+                    "displayvalue": "Target",
+                    "startvalue": "75",
+                    "thickness": "2"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "hlineargauge",
+    "width": "800"
+}

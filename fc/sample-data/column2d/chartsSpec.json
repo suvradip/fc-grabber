@@ -1,0 +1,490 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "column2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "canvasBgColor": "#7E8EA1",
+                    "canvasBgAlpha": "70",
+                    "canvasBgRatio": "70:30",
+                    "canvasBgAngle": "180",
+                    "canvasBorderColor": "#0000ff",
+                    "canvasBorderThickness": "3",
+                    "canvasBorderAlpha": "75",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showVLineLabelBorder": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "25",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "1",
+                    "yAxisValuesStep": "2",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+                    "rotateYAxisName": "0",
+
+                    "yAxisMinValue": "100",
+                    "yAxisMaxValue": "950000",
+
+                    "setAdaptiveYMin": "",
+                    "useDataPlotColorForLabels": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "xAxisName": "Month",
+                    "showXAxisLine": "1",
+                    "xAxisLineColor": "#00ffff",
+                    "xAxisLineThickness": "3",
+                    "xAxisNameFontColor": "#770000",
+                    "xAxisNameFontSize": "20",
+                    "xAxisNameFontBold": "1",
+                    "xAxisNameFontItalic": "1",
+                    "xAxisNameBgColor": "#37f8f9",
+                    "xAxisNameBorderColor": "#ff0000",
+                    "xAxisNameAlpha": "100",
+                    "xAxisNameFontAlpha": "70",
+                    "xAxisNameBgAlpha": "80",
+                    "xAxisNameBorderAlpha": "80",
+                    "xAxisNameBorderPadding": "3",
+                    "xAxisNameBorderRadius": "3",
+                    "xAxisNameBorderThickness": "3",
+                    "xAxisNameBorderDashed": "1",
+                    "xAxisNameBorderDashLen": "5",
+                    "xAxisNameBorderDashGap": "2",
+
+                    "yAxisName": "Revenue",
+                    "showYAxisLine": "1",
+                    "yAxisLineColor": "#cc0000",
+                    "yAxisLineThickness": "3",
+                    "yAxisNameFontColor": "#770000",
+                    "yAxisNameFontSize": "20",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1",
+                    "yAxisNameBgColor": "#37f8f9",
+                    "yAxisNameBorderColor": "#ff0000",
+                    "yAxisNameAlpha": "100",
+                    "yAxisNameFontAlpha": "70",
+                    "yAxisNameBgAlpha": "80",
+                    "yAxisNameBorderAlpha": "80",
+                    "yAxisNameBorderPadding": "3",
+                    "yAxisNameBorderRadius": "3",
+                    "yAxisNameBorderThickness": "3",
+                    "yAxisNameBorderDashed": "1",
+                    "yAxisNameBorderDashLen": "5",
+                    "yAxisNameBorderDashGap": "2",
+
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "910000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }, {
+                    "label": "Apr",
+                    "value": "550000"
+                }, {
+                    "label": "May",
+                    "value": "810000"
+                }, {
+                    "label": "Jun",
+                    "value": "510000"
+                }, {
+                    "label": "Jul",
+                    "value": "680000"
+                }, {
+                    "label": "Aug",
+                    "value": "620000"
+                }, {
+                    "label": "Sep",
+                    "value": "610000"
+                }, {
+                    "label": "Oct",
+                    "value": "490000"
+                }, {
+                    "label": "Nov",
+                    "value": "530000"
+                }, {
+                    "label": "Dec",
+                    "value": "330000"
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/column2d/ref-images/test_1_column2d-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label related tests.",
+        "options": {
+            "type": "column2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                    "bgImage": "../../images/bg.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+
+                    "showVLineLabelBorder": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+
+                    "useRoundEdges": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotBorderDashed": "1",
+                    "plotBorderDashLen": "6",
+                    "plotBorderDashGap": "3",
+                    "plotFillAngle": "60",
+                    "plotFillRatio": "30:70",
+                    "plotFillAlpha": "60",
+                    "plotGradientColor": "#000033,#0000ff",
+
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": ""
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000",
+                    "alpha": "70",
+                    "color": "#ff0000",
+                    "dashed": "0",
+                    "displayValue": "420000",
+                    "link": "",
+                    "showLabel": "1",
+                    "showValue": "0",
+                    "toolText": "NILADRI",
+                    "labelFont": "verdana",
+                    "labelFontColor": "#0000ff",
+                    "labelFontSize": "18",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1"
+                }, {
+                    "label": "Feb",
+                    "value": "910000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }, {
+                    "label": "Apr",
+                    "value": "550000"
+                }, {
+                    "label": "May",
+                    "value": "810000"
+                }, {
+                    "label": "Jun",
+                    "value": "510000"
+                }, {
+                    "label": "Jul",
+                    "value": "680000"
+                }, {
+                    "label": "Aug",
+                    "value": "620000"
+                }, {
+                    "label": "Sep",
+                    "value": "610000"
+                }, {
+                    "label": "Oct",
+                    "value": "490000"
+                }, {
+                    "label": "Nov",
+                    "value": "530000"
+                }, {
+                    "label": "Dec",
+                    "value": "330000"
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "startvalue": "700000",
+                        "istrendzone": "1",
+                        "valueonright": "1",
+                        "tooltext": "NILADRI",
+                        "endvalue": "900000",
+                        "color": "009933",
+                        "displayvalue": "Target",
+                        "showontop": "1",
+                        "thickness": "5"
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/column2d/ref-images/test_2_column2d-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "Divlines, VLines, Trendlines, Trendzones releated tests",
+        "options": {
+            "type": "column2d",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                    "xaxisname": "Month",
+                    "yaxisname": "Revenue",
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "4",
+
+                    "numDivLines": "3",
+                    "divLineColor": "#cc0000",
+                    "divLineThickness": "4",
+                    "divLineAlpha": "85",
+                    "divLineDashed": "1",
+                    "divLineDashLen": "5",
+                    "divLineDashGap": "3",
+
+                    "zeroPlaneColor": "#0000ff",
+                    "zeroPlaneThickness": "9",
+                    "zeroPlaneAlpha": "85",
+                    "showZeroPlaneValue": "1",
+
+                    "showAlternateHGridColor": "1",
+                    "alternateHGridColor": "#0000ff",
+                    "alternateHGridAlpha": "10"
+                },
+                "data": [{
+                    "label": "Jan",
+                    "value": "420000"
+                }, {
+                    "label": "Feb",
+                    "value": "910000"
+                }, {
+                    "label": "Mar",
+                    "value": "720000"
+                }, {
+                    "label": "Appraisal_1",
+                    "vline": "true",
+                    "color": "#ff0000",
+                    "thickness": "3",
+                    "dashed": "true",
+                    "dashLen": "5",
+                    "dashGap": "2",
+                    "showLabelBorder": "0",
+                    "linePosition": "1",
+                    "labelPosition": "0",
+                    "labelHAlign": "left",
+                    "labelVAlign": "top"
+                }, {
+                    "label": "Apr",
+                    "value": "550000"
+                }, {
+                    "label": "May",
+                    "value": "810000"
+                }, {
+                    "label": "Jun",
+                    "value": "-510000"
+                }, {
+                    "label": "Jul",
+                    "value": "680000"
+                }, {
+                    "label": "Aug",
+                    "value": "620000"
+                }, {
+                    "label": "Sep",
+                    "value": "610000"
+                }, {
+                    "label": "Appraisal_2",
+                    "vline": "true",
+                    "color": "#0000ff",
+                    "thickness": "2",
+                    "dashed": "1",
+                    "dashLen": "6",
+                    "dashGap": "3",
+                    "showLabelBorder": "1",
+                    "linePosition": "0.5",
+                    "labelPosition": "0.5",
+                    "labelHAlign": "right",
+                    "labelVAlign": "bottom"
+                }, {
+                    "label": "Oct",
+                    "value": "490000"
+                }, {
+                    "label": "Nov",
+                    "value": "530000"
+                }, {
+                    "label": "Year End Bonus",
+                    "vline": "true",
+                    "color": "#0000ff",
+                    "thickness": "3",
+                    "dashed": "1",
+                    "dashLen": "6",
+                    "dashGap": "3",
+                    "showLabelBorder": "0",
+                    "linePosition": "1",
+                    "labelPosition": "1",
+                    "labelHAlign": "center",
+                    "labelVAlign": "middle"
+                }, {
+                    "label": "Dec",
+                    "value": "330000"
+                }],
+                "trendlines": [{
+                    "line": [{
+                        "startvalue": "550000",
+                        "istrendzone": "1",
+                        "valueonright": "1",
+                        "tooltext": "NILADRI",
+                        "endvalue": "650000",
+                        "color": "009933",
+                        "displayvalue": "Last Year Trend",
+                        "showontop": "1",
+                        "thickness": "5"
+                    }, {
+                        "startvalue": "700000",
+                        "istrendzone": "0",
+                        "valueonright": "0",
+                        "tooltext": "NILADRI RAYCHAUDURI",
+                        "color": "009933",
+                        "displayvalue": "Target",
+                        "showontop": "0",
+                        "thickness": "3",
+                        "alpha": "75",
+                        "dashed": "1",
+                        "dashLen": "6",
+                        "dashGap": "3"
+
+                    }]
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/column2d/ref-images/test_3_column2d-snapshot.png",
+        "id": "test_3"
+    }
+}

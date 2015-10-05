@@ -1,0 +1,317 @@
+{
+    "test_1": {
+        "description": "Border, logo, bg, caption, subcaption, canvas, axes, canvas related changes",
+        "options": {
+            "type": "funnel",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+                    "showBorder": "1",
+                    "borderColor": "#330000",
+                    "borderThickness": "3",
+                    "borderAlpha": "85",
+
+                    "bgColor": "#999999,#ffffff",
+                    "bgAlpha": "100",
+                    "bgRatio": "10:90",
+                    "bgAngle": "90",
+
+                    "logoURL": "../../images/logo.png",
+                    "logoPosition": "TR",
+                    "logoAlpha": "50",
+                    "logoScale": "70",
+                    "logoLink": "http://fusioncharts.com",
+
+                    "showLabels": "1",
+
+                    "showValues": "1",
+                    "rotateValues": "1",
+                    "placeValuesInside": "1",
+                    "showYAxisValues": "1",
+                    "showLimits": "1",
+                    "showDivLineValues": "0",
+                    "showShadow": "1",
+                    "adjustDiv": "0",
+
+                    "useDataPlotColorForLabels": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "left",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+
+                    "showLegend": "1",
+                    "legendItemFontBold": "1",
+                    "legendItemFont": "verdana",
+                    "legendItemFontSize": "16",
+                    "legendItemFontColor": "#cc0000",
+                    "legendItemHoverFontColor": "#ffffff",
+
+                    "legendCaption": "Interactive Legend",
+                    "legendCaptionAlignment": "left",
+                    "legendCaptionFontBold": "1",
+                    "legendCaptionFont": "verdana",
+                    "legendCaptionFontSize": "20",
+                    "legendCaptionFontColor": "#ffffff",
+                    "legendItemHiddenColor": "#ff0000",
+
+                    "legendIconScale": "110",
+                    "legendBgColor": "#333333",
+                    "legendBgAlpha": "60",
+
+                    "legendBorderColor": "#0000ff",
+                    "legendBorderThickness": "3",
+                    "legendBorderAlpha": "80",
+                    "legendAllowDrag": "1",
+                    "legendScrollBgColor": "0",
+
+                    "reverseLegend": "1",
+                    "interactiveLegend": "1",
+                    "legendNumColumns": "2",
+                    "minimiseWrappingInLegend": "",
+
+                    "numberprefix": "$",
+                    "animation": "0"
+                },
+                "data": [{
+                    "label": "Unique Website Visits",
+                    "value": "1460000"
+                }, {
+                    "label": "Programme Details Section Visits",
+                    "value": "930000"
+                }, {
+                    "label": "Attempts to Register",
+                    "value": "540000"
+                }, {
+                    "label": "Successful Registrations",
+                    "value": "210000"
+                }, {
+                    "label": "Logged In",
+                    "value": "190000"
+                }, {
+                    "label": "Purchased on Introductory Offers",
+                    "value": "120000"
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/funnel/ref-images/test_1_funnel-snapshot.png",
+        "id": "test_1"
+    },
+    "test_2": {
+        "description": "Data plots, values and Label, annotations related tests.",
+        "options": {
+            "type": "funnel",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                    "bgImage": "../../images/bg.jpg",
+                    "bgImageAlpha": "50",
+                    "bgImageVAlign": "middle",
+                    "bgImageHAlign": "left",
+                    "bgImageScale": "22",
+
+                    "showVLineLabelBorder": "0",
+
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "right",
+                    "captionOnTop": "0",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "0",
+                    "subCaptionFontBold": "0",
+                    "alignCaptionWithCanvas": "0",
+                    "captionHorizontalPadding": "10",
+
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+
+                    "useRoundEdges": "0",
+                    "showPlotBorder": "1",
+                    "plotBorderColor": "#0000ff",
+                    "plotBorderThickness": "2",
+                    "plotBorderAlpha": "60",
+                    "plotBorderDashed": "1",
+                    "plotBorderDashLen": "6",
+                    "plotBorderDashGap": "3",
+                    "plotFillAngle": "60",
+                    "plotFillRatio": "30:70",
+                    "plotFillAlpha": "90",
+                    "plotGradientColor": "#000033,#0000ff",
+
+                    "drawAnchors": "1",
+                    "anchorSides": "10",
+                    "anchorRadius": "5",
+                    "anchorBorderColor": "#ff0000",
+                    "anchorBorderThickness": "2",
+                    "anchorBgColor": "#ffa700",
+                    "anchorAlpha": "85",
+                    "anchorBgAlpha": "75",
+
+
+                    "valueFont": "verdana",
+                    "rotateValues": "1",
+                    "valueFontColor": "#cc0000",
+                    "valueFontSize": "12",
+                    "valueFontBold": "1",
+                    "valueFontItalic": "1",
+                    "valueBgColor": "#ffffff",
+                    "valueBorderColor": "#000033",
+                    "valueAlpha": "70",
+                    "valueFontAlpha": "75",
+                    "valueBgAlpha": "85",
+                    "valueBorderAlpha": "90",
+                    "valueBorderThickness": "2",
+                    "valueBorderRadius": "5",
+                    "valueBorderDashed": "1",
+                    "valueBorderDashGap": "3",
+                    "valueBorderDashLen": "6",
+                    "valueHoverAlpha": "100",
+                    "valueFontHoverAlpha": "100",
+                    "valueBgHoverAlpha": "100",
+                    "valueBorderHoverAlpha": "100",
+                    "showValuesOnHover": "1",
+
+                    "showLabels": "1",
+                    "maxLabelHeight": "45",
+                    "labelDisplay": "ROTATE",
+                    "useEllipsesWhenOverflow": "0",
+                    "rotateLabels": "1",
+                    "slantLabels": "1",
+                    "labelStep": "1",
+                    "staggerLines": "1",
+
+                    "labelFont": "verdana",
+                    "labelFontColor": "#cc0000",
+                    "labelFontSize": "10",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1",
+                    "labelBgColor": "#00ff00",
+                    "labelBorderColor": "#cc0000",
+                    "labelAlpha": "85",
+                    "labelBgAlpha": "60",
+                    "labelBorderAlpha": "90",
+                    "labelBorderPadding": "2",
+                    "labelBorderRadius": "5",
+                    "labelBorderThickness": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashLen": "6",
+                    "labelBorderDashGap": "3",
+                    "labelLink": ""
+                },
+                "data": [{
+                    "label": "Unique Website Visits",
+                    "value": "1460000",
+                    "alpha": "70",
+                    "color": "#ff0000",
+                    "dashed": "0",
+                    "displayValue": "420000",
+                    "link": "",
+                    "showLabel": "1",
+                    "showValue": "0",
+                    "toolText": "NILADRI",
+                    "labelFont": "verdana",
+                    "labelFontColor": "#0000ff",
+                    "labelFontSize": "18",
+                    "labelFontBold": "1",
+                    "labelFontItalic": "1"
+                }, {
+                    "label": "Programme Details Section Visits",
+                    "value": "930000"
+                }, {
+                    "label": "Attempts to Register",
+                    "value": "540000"
+                }, {
+                    "label": "Successful Registrations",
+                    "value": "210000"
+                }, {
+                    "label": "Logged In",
+                    "value": "190000"
+                }, {
+                    "label": "Purchased on Introductory Offers",
+                    "value": "120000"
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/funnel/ref-images/test_2_funnel-snapshot.png",
+        "id": "test_2"
+    },
+    "test_3": {
+        "description": "2d, hollow, loghting releated tests",
+        "options": {
+            "type": "funnel",
+            "width": "800",
+            "height": "600",
+            "dataFormat": "json",
+            "dataSource": {
+                "chart": {
+
+                   "isHollow": "1",
+                    "labelDistance": "35",
+                    "is2D": "1",
+                    "showPercentValues": "1",
+                    "caption": "Monthly Revenue",
+                    "subcaption": "Current Year",
+                    "captionAlignment": "center",
+                    "captionOnTop": "1",
+                    "captionFontSize": "20",
+                    "subCaptionFontSize": "15",
+                    "captionFont": "verdana",
+                    "subCaptionFont": "verdana",
+                    "captionFontColor": "#ff0000",
+                    "subCaptionFontColor": "#0000ff",
+                    "captionFontBold": "1",
+                    "subCaptionFontBold": "1",
+                    "alignCaptionWithCanvas": "1",
+                    "captionHorizontalPadding": "10",
+                  
+                    "numberprefix": "$",
+                    "showvalues": "1",
+                    "animation": "0",
+                    "palette": "4"
+                },
+                "data": [{
+                    "label": "Unique Website Visits",
+                    "value": "1460000"
+                }, {
+                    "label": "Programme Details Section Visits",
+                    "value": "930000"
+                }, {
+                    "label": "Attempts to Register",
+                    "value": "540000"
+                }, {
+                    "label": "Successful Registrations",
+                    "value": "210000"
+                }, {
+                    "label": "Logged In",
+                    "value": "190000"
+                }, {
+                    "label": "Purchased on Introductory Offers",
+                    "value": "120000"
+                }]
+            }
+        },
+        "refimage": "./tests/smoke/new-smoke-test/funnel/ref-images/test_3_funnel-snapshot.png",
+        "id": "test_3"
+    }
+}

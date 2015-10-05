@@ -1,0 +1,135 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "color": "EBF0F4,85898C,484C4F,C5C6C8",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "fillratio": "30,30,30,10",
+                            "radius": "120",
+                            "type": "circle"
+                        },
+                        {
+                            "color": "8E8E8E,83878A,E7E7E7",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "radius": "105",
+                            "type": "circle"
+                        },
+                        {
+                            "color": "07476D,19669E,186AA6,D2EAF6",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "fillratio": "5,45,40,10",
+                            "radius": "103",
+                            "type": "circle"
+                        },
+                        {
+                            "color": "07476D,19669E,07476D",
+                            "fillangle": "270",
+                            "fillpattern": "linear",
+                            "fillratio": "5,90,5",
+                            "radius": "100",
+                            "type": "circle"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "x": "135",
+                    "y": "135"
+                },
+                {
+                    "id": "Grp2",
+                    "items": [
+                        {
+                            "color": "012A46",
+                            "radius": "12",
+                            "type": "circle"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "x": "135",
+                    "y": "135"
+                }
+            ]
+        },
+        "chart": {
+            "animation": "0",
+            "annrenderdelay": "0",
+            "autoaligntickvalues": "1",
+            "basefont": "Times New Roman",
+            "basefontcolor": "FFFFFF",
+            "basefontsize": "18",
+            "bgalpha": "100",
+            "bgcolor": "333333",
+            "gaugeendangle": "-270",
+            "gaugeinnerradius": "95",
+            "gaugeoriginx": "135",
+            "gaugeoriginy": "135",
+            "gaugeouterradius": "95",
+            "gaugestartangle": "90",
+            "lowerlimit": "0",
+            "lowerlimitdisplay": " ",
+            "majortmcolor": "FFFFFF",
+            "majortmheight": "7",
+            "majortmnumber": "12",
+            "majortmthickness": "3",
+            "manageresize": "1",
+            "managevalueoverlapping": "1",
+            "minortmcolor": "FFFFFF",
+            "minortmheight": "4",
+            "minortmnumber": "4",
+            "origh": "270",
+            "origw": "270",
+            "pivotfillcolor": "FFFFFF",
+            "pivotradius": "6",
+            "placevaluesinside": "1",
+            "showshadow": "0",
+            "showtooltip": "0",
+            "tickvaluedistance": "10",
+            "tickvaluestep": "3",
+            "upperlimit": "12",
+            "upperlimitdisplay": ""
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "3",
+                    "color": "FFFFFF",
+                    "id": "hrs",
+                    "radius": "50",
+                    "rearextension": "12",
+                    "topwidth": "1",
+                    "value": "7.5"
+                },
+                {
+                    "basewidth": "3",
+                    "color": "FFFFFF",
+                    "id": "min",
+                    "radius": "70",
+                    "rearextension": "12",
+                    "topwidth": "1",
+                    "value": "4.3"
+                },
+                {
+                    "alpha": "100",
+                    "basewidth": "1",
+                    "borderalpha": "0",
+                    "color": "FF0000",
+                    "id": "sec",
+                    "radius": "86",
+                    "rearextension": "20",
+                    "topwidth": "1",
+                    "value": "3"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

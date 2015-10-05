@@ -1,0 +1,72 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "categories": [
+            {}
+        ],
+        "chart": {
+            "basefontcolor": "00dd00",
+            "basefontsize": "11",
+            "bgalpha": "100",
+            "bgcolor": "000000",
+            "canvasbgcolor": "000000",
+            "canvasbordercolor": "008040",
+            "canvasborderthickness": "1",
+            "caption": "Server Load",
+            "chartleftmargin": "10",
+            "datastreamurl": "/DataProviders/RealTimeStArea1.php",
+            "decimals": "0",
+            "divlinealpha": "100",
+            "divlinecolor": "008040",
+            "labeldisplay": "rotate",
+            "legendbgcolor": "000000",
+            "legendbordercolor": "008040",
+            "legendpadding": "55",
+            "manageresize": "1",
+            "numbersuffix": "%",
+            "numdisplaysets": "30",
+            "numdivlines": "9",
+            "numvdivlines": "28",
+            "plotgradientcolor": "",
+            "refreshinterval": "2",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showlabels": "1",
+            "showrealtimevalue": "0",
+            "slantlabels": "1",
+            "tooltipbgcolor": "000000",
+            "tooltipbordercolor": "008040",
+            "vdivlinecolor": "008040",
+            "yaxismaxvalue": "100"
+        },
+        "dataset": [
+            {
+                "alpha": "100",
+                "anchoralpha": "0",
+                "color": "009900",
+                "linethickness": "2",
+                "seriesname": "Client A",
+                "showvalues": "0"
+            },
+            {
+                "alpha": "100",
+                "anchoralpha": "0",
+                "color": "ffff00",
+                "linethickness": "2",
+                "seriesname": "Client B",
+                "showvalues": "0"
+            },
+            {
+                "alpha": "100",
+                "anchoralpha": "0",
+                "color": "0099cc",
+                "linethickness": "2",
+                "seriesname": "Client C",
+                "showvalues": "0"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "realtimestackedarea",
+    "width": "800"
+}

@@ -1,0 +1,75 @@
+{
+    "fusionwidgets-xt_real-time-charts_real-time-(dual-y)-line-chart_strip-chart": {
+        "description": "",
+        "options": {
+            "dataFormat": "json",
+            "datasource": {
+                "categories": [
+                    {}
+                ],
+                "chart": {
+                    "canvasbottommargin": "150",
+                    "caption": "Stock Price Monitor",
+                    "datastreamurl": "/DataProviders/RealTimeDYLine1.php",
+                    "labeldisplay": "Rotate",
+                    "labelstep": "2",
+                    "manageresize": "1",
+                    "numberprefix": "$",
+                    "numdisplaysets": "40",
+                    "palette": "3",
+                    "pyaxismaxvalue": "36",
+                    "pyaxisminvalue": "29",
+                    "refreshinterval": "3",
+                    "setadaptivesymin": "1",
+                    "setadaptiveymin": "1",
+                    "showborder": "0",
+                    "showrealtimevalue": "1",
+                    "slantlabels": "1",
+                    "snumberprefix": "$",
+                    "subcaption": "(Updates every 3 seconds) - Random data",
+                    "syaxismaxvalue": "26",
+                    "syaxisminvalue": "21",
+                    "xaxisname": "Time"
+                },
+                "dataset": [
+                    {
+                        "seriesname": "Google",
+                        "showvalues": "0"
+                    },
+                    {
+                        "parentyaxis": "S",
+                        "seriesname": "Dell",
+                        "showvalues": "0"
+                    }
+                ],
+                "trendlines": [
+                    {
+                        "line": [
+                            {
+                                "color": "0372AB",
+                                "dashed": "1",
+                                "displayvalue": "Open",
+                                "parentyaxis": "P",
+                                "startvalue": "32.7",
+                                "thickness": "1"
+                            },
+                            {
+                                "color": "DF8600",
+                                "dashed": "1",
+                                "displayvalue": "Open",
+                                "parentyaxis": "S",
+                                "startvalue": "22.5",
+                                "thickness": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "height": "600",
+            "type": "realtimelinedy",
+            "width": "800"
+        },
+        "refimage": "./test/regression-test/chart-gallery/fusionwidgets-xt/real-time-charts/real-time-(dual-y)-line-chart/ref-images/fusionwidgets-xt_real-time-charts_real-time-(dual-y)-line-chart_strip-chart.png",
+        "id": "fusionwidgets-xt_real-time-charts_real-time-(dual-y)-line-chart_strip-chart"
+    }
+}

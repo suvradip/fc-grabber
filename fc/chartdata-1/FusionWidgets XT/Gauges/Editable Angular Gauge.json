@@ -1,0 +1,75 @@
+{
+    "dataFormat": "json",
+    "datasource": {
+        "chart": {
+            "basefontcolor": "FFFFFF",
+            "bgalpha": "100",
+            "bgcolor": "333333, 453269",
+            "decimals": "1",
+            "gaugeendangle": "-60",
+            "gaugefillmix": "{light-10},{light-30},{light-20},{dark-5},{color},{light-30},{light-20},{dark-10}",
+            "gaugefillratio": "",
+            "gaugeinnerradius": "60%",
+            "gaugeoriginx": "150",
+            "gaugeoriginy": "150",
+            "gaugeouterradius": "120",
+            "gaugestartangle": "240",
+            "lowerlimit": "0",
+            "manageresize": "1",
+            "origh": "300",
+            "origw": "300",
+            "palette": "3",
+            "showborder": "0",
+            "tooltipbgcolor": "333333",
+            "tooltipbordercolor": "333333",
+            "upperlimit": "100"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "maxvalue": "30",
+                    "minvalue": "0"
+                },
+                {
+                    "maxvalue": "50",
+                    "minvalue": "30"
+                },
+                {
+                    "maxvalue": "80",
+                    "minvalue": "50"
+                },
+                {
+                    "maxvalue": "100",
+                    "minvalue": "80"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "6",
+                    "editmode": "1",
+                    "id": "Dial1",
+                    "rearextension": "10",
+                    "showvalue": "1",
+                    "topwidth": "1",
+                    "value": "60.2",
+                    "valuey": "270"
+                },
+                {
+                    "basewidth": "6",
+                    "editmode": "1",
+                    "id": "Dial2",
+                    "rearextension": "10",
+                    "showvalue": "1",
+                    "topwidth": "1",
+                    "value": "50.3",
+                    "valuey": "250"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}
