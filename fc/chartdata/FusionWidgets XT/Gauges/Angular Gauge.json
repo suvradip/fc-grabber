@@ -1,0 +1,109 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "bordercolor": "444444",
+                            "borderthickness": "2",
+                            "endangle": "180",
+                            "fillalpha": "100,100",
+                            "fillangle": "0",
+                            "fillasgradient": "1",
+                            "fillcolor": "dddddd,666666",
+                            "fillpattern": "linear",
+                            "fillratio": "50,50",
+                            "radius": "150",
+                            "showborder": "1",
+                            "startangle": "0",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "2.5"
+                        },
+                        {
+                            "endangle": "180",
+                            "fillalpha": "100,100",
+                            "fillangle": "0",
+                            "fillasgradient": "1",
+                            "fillcolor": "666666,ffffff",
+                            "fillpattern": "linear",
+                            "fillratio": "50,50",
+                            "radius": "145",
+                            "startangle": "0",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        }
+                    ],
+                    "x": "205",
+                    "y": "207.5"
+                }
+            ]
+        },
+        "chart": {
+            "autoaligntickvalues": "1",
+            "bgcolor": "AEC0CA,FFFFFF",
+            "decmials": "2",
+            "fillangle": "45",
+            "formatnumberscale": "1",
+            "gaugeinnerradius": "2",
+            "gaugeoriginx": "205",
+            "gaugeoriginy": "206",
+            "gaugeouterradius": "140",
+            "lowerlimit": "1600000",
+            "majortmheight": "8",
+            "majortmnumber": "10",
+            "manageresize": "1",
+            "managevalueoverlapping": "1",
+            "numberprefix": "$",
+            "origh": "250",
+            "origw": "400",
+            "pivotbordercolor": "000000",
+            "pivotborderthickness": "5",
+            "pivotfillmix": "FFFFFF,000000",
+            "pivotradius": "17",
+            "showborder": "0",
+            "showgaugeborder": "0",
+            "showpivotborder": "1",
+            "tickmarkdecimals": "1",
+            "tickvaluedistance": "10",
+            "upperlimit": "2500000"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "399E38",
+                    "maxvalue": "1930000",
+                    "minvalue": "1600000"
+                },
+                {
+                    "code": "E48739",
+                    "maxvalue": "2170000",
+                    "minvalue": "1930000"
+                },
+                {
+                    "code": "B41527",
+                    "maxvalue": "2500000",
+                    "minvalue": "2170000"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "28",
+                    "bgcolor": "000000",
+                    "borderalpha": "0",
+                    "radius": "130",
+                    "topwidth": "1",
+                    "value": "2100000"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

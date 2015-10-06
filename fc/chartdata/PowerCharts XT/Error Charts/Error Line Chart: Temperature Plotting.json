@@ -1,0 +1,104 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Houston"
+                    },
+                    {
+                        "label": "San Francisco"
+                    },
+                    {
+                        "label": "New York"
+                    },
+                    {
+                        "label": "Chicago"
+                    },
+                    {
+                        "label": "Detroit"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatevgridalpha": "30",
+            "alternatevgridcolor": "E2C7CB",
+            "anchorbgcolor": "6A6A6A",
+            "anchorbordercolor": "FFFFFF",
+            "anchorborderthickness": "3",
+            "anchorgbalpha": "100",
+            "anchorradius": "5",
+            "anchorsides": "12",
+            "bgalpha": "100",
+            "bgcolor": "FFFFFF",
+            "bgratio": "0",
+            "borderalpha": "20",
+            "bordercolor": "3F3F3F",
+            "borderthickness": "1",
+            "canvasbgangle": "90",
+            "canvasbgcolor": "FFD0D0,A6CAF0",
+            "canvasborderalpha": "50",
+            "canvasbordercolor": "000000",
+            "canvasborderthickness": "1",
+            "canvaspadding": "10",
+            "caption": "Temperature Monitoring",
+            "chartbottommargin": "25",
+            "divlinealpha": "0",
+            "divlineisdashed": "0",
+            "errorbaralpha": "80",
+            "errorbarcolor": "4E4E4E",
+            "errorbarthickness": "2",
+            "errorbarwidthpercent": "40",
+            "halferrorbar": "0",
+            "labelpadding": "5",
+            "linecolor": "FFFFFF",
+            "linethickness": "5",
+            "numdivlines": "20",
+            "outcnvbasefont": "Verdana",
+            "outcnvbasefontcolor": "666666",
+            "outcnvbasefontsize": "13",
+            "showalternatehgridcolor": "0",
+            "showalternatevgridcolor": "1",
+            "showborder": "0",
+            "showlegend": "0",
+            "showshadow": "1",
+            "showvalues": "0",
+            "vdivlinealpha": "20",
+            "vdivlineisdashed": "False",
+            "yaxismaxvalue": "40",
+            "yaxisname": "Temperature"
+        },
+        "dataset": [
+            {
+                "color": "FFFFFF",
+                "data": [
+                    {
+                        "errorvalue": "3.8",
+                        "value": "32"
+                    },
+                    {
+                        "errorvalue": "2.5",
+                        "value": "26"
+                    },
+                    {
+                        "errorvalue": "5.5",
+                        "value": "33.5"
+                    },
+                    {
+                        "errorvalue": "3.5",
+                        "value": "18.5"
+                    },
+                    {
+                        "errorvalue": "5.2",
+                        "value": "37.5"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "errorline",
+    "width": "800"
+}

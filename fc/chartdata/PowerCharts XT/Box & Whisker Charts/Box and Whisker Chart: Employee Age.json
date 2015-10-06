@@ -1,0 +1,71 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Development"
+                    },
+                    {
+                        "label": "Marketing"
+                    },
+                    {
+                        "label": "Sales"
+                    },
+                    {
+                        "label": "QA"
+                    },
+                    {
+                        "label": "Finance"
+                    },
+                    {
+                        "label": "Admin"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Employee age across different departments in the company",
+            "outliericonshape": "spoke",
+            "outliericonsides": "8",
+            "rotatelabels": "1",
+            "showborder": "0",
+            "showmean": "1",
+            "showmedianvalues": "0",
+            "slantlabels": "1",
+            "sshowvalues": "0",
+            "yaxismaxvalue": "80"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "outliers": "2",
+                        "value": "23, 25, 19, 32, 36, 29, 31, 29"
+                    },
+                    {
+                        "value": "21, 23, 24, 35, 47"
+                    },
+                    {
+                        "outliers": "67, 72",
+                        "value": "33, 37, 39, 29, 52, 47, 32, 35, 32, 34, 35, 31, 29, 38, 42"
+                    },
+                    {
+                        "value": "24, 27, 29, 21, 25"
+                    },
+                    {
+                        "value": "31, 36, 37, 31, 29, 32, 34"
+                    },
+                    {
+                        "value": "21, 20, 26, 27, 30"
+                    }
+                ],
+                "seriesname": "Age"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "boxandwhisker2d",
+    "width": "800"
+}

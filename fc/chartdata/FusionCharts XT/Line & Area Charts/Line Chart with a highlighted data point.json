@@ -1,0 +1,60 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "anchorbgcolor": "008ee4",
+            "anchorborderthickness": "0",
+            "anchorradius": "4",
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Total Revenues from 2008-2013",
+            "chartrightmargin": "25",
+            "divlinecolor": "CCCCCC",
+            "numberprefix": "$",
+            "numdivlines": "2",
+            "plotbordercolor": "008ee4",
+            "plotborderthickness": "3",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showshadow": "0",
+            "showvalues": "0",
+            "tooltipbgcolor": "00396d",
+            "tooltipbordercolor": "00396d",
+            "tooltipcolor": "FFFFFF",
+            "yaxisvaluespadding": "20"
+        },
+        "data": [
+            {
+                "color": "008ee4",
+                "label": "2009",
+                "value": "4400000"
+            },
+            {
+                "color": "008ee4",
+                "label": "2010",
+                "value": "4800000"
+            },
+            {
+                "color": "008ee4",
+                "label": "2011",
+                "value": "5500000"
+            },
+            {
+                "anchorradius": "7",
+                "color": "008ee4",
+                "label": "2012",
+                "tooltext": "Historical high",
+                "value": "6700000"
+            },
+            {
+                "color": "008ee4",
+                "label": "2013",
+                "value": "4200000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "line",
+    "width": "800"
+}

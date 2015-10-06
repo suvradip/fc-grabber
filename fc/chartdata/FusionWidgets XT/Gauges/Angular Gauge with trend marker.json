@@ -1,0 +1,97 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "fillcolor": "009999,333333",
+                            "radius": "10",
+                            "showborder": "0",
+                            "tox": "$chartEndX-5",
+                            "toy": "$chartEndY-5",
+                            "type": "rectangle",
+                            "x": "$chartStartX+5",
+                            "y": "$chartStartY+5"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "showshadow": "1"
+                }
+            ]
+        },
+        "chart": {
+            "autoaligntickvalues": "1",
+            "basefontcolor": "FFFFDD",
+            "bgalpha": "0",
+            "bgcolor": "FFFFFF",
+            "chartbottommargin": "5",
+            "charttopmargin": "5",
+            "gaugefillmix": "{dark-10},{light-70},{dark-10}",
+            "gaugefillratio": "3",
+            "gaugeinnerradius": "70%",
+            "gaugeoriginx": "175",
+            "gaugeoriginy": "170",
+            "gaugeouterradius": "120",
+            "lowerlimit": "0",
+            "manageresize": "1",
+            "managevalueoverlapping": "1",
+            "numbersuffix": "%",
+            "origh": "200",
+            "origw": "350",
+            "palette": "2",
+            "pivotradius": "8",
+            "showborder": "0",
+            "tickvaluedistance": "3",
+            "tooltipbgcolor": "009999",
+            "trendvaluedistance": "5",
+            "upperlimit": "100"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "FF654F",
+                    "maxvalue": "45",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "F6BD0F",
+                    "maxvalue": "80",
+                    "minvalue": "45"
+                },
+                {
+                    "code": "8BBA00",
+                    "maxvalue": "100",
+                    "minvalue": "80"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "10",
+                    "rearextension": "10",
+                    "value": "72"
+                }
+            ]
+        },
+        "trendpoints": {
+            "point": [
+                {
+                    "dashed": "1",
+                    "dashgap": "2",
+                    "dashlen": "2",
+                    "displayvalue": "Average",
+                    "markerradius": "8",
+                    "startvalue": "62",
+                    "usemarker": "1"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

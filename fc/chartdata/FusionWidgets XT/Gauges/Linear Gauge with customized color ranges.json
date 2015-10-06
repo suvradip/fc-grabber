@@ -1,0 +1,58 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "basefontcolor": "000000",
+            "bgcolor": "FFFFFF",
+            "bordercolor": "DCCEA1",
+            "chartbottommargin": "0",
+            "charttopmargin": "0",
+            "gaugeborderthickness": "3",
+            "gaugefillmix": "{color},{FFFFFF}",
+            "gaugefillratio": "50,50",
+            "lowerlimit": "0",
+            "majortmcolor": "000000",
+            "majortmheight": "8",
+            "majortmnumber": "3",
+            "manageresize": "1",
+            "minortmheight": "4",
+            "minortmnumber": "4",
+            "pointerbgcolor": "FFFFFF",
+            "pointerbordercolor": "000000",
+            "pointerradius": "5",
+            "showborder": "0",
+            "showshadow": "0",
+            "tickmarkdistance": "3",
+            "ticksbelowgauge": "1",
+            "upperlimit": "100",
+            "valuepadding": "-2"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "bordercolor": "B40001",
+                    "code": "B40001",
+                    "label": "Existing",
+                    "maxvalue": "60",
+                    "minvalue": "0"
+                },
+                {
+                    "code": "5C8F0E",
+                    "label": "Proposed",
+                    "maxvalue": "100",
+                    "minvalue": "60"
+                }
+            ]
+        },
+        "pointers": {
+            "pointer": [
+                {
+                    "value": "60"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "hlineargauge",
+    "width": "800"
+}

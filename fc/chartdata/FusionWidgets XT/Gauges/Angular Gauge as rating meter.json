@@ -1,0 +1,89 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "alpha": "15",
+                            "color": "FFFFFF",
+                            "radius": "7",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "8"
+                        }
+                    ],
+                    "showbelow": "0",
+                    "x": "$chartCenterX",
+                    "xscale": "200",
+                    "y": "$chartCenterY",
+                    "yscale": "120"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "0",
+            "basefont": "Impact",
+            "basefontcolor": "F48900",
+            "basefontsize": "30",
+            "bgalpha": "100",
+            "bgcolor": "000000",
+            "gaugeendangle": "-55",
+            "gaugeinnerradius": "85%",
+            "gaugeouterradius": "140",
+            "gaugestartangle": "235",
+            "lowerlimit": "0",
+            "majortmcolor": "F48900",
+            "majortmheight": "15",
+            "majortmnumber": "11",
+            "majortmthickness": "5",
+            "manageresize": "1",
+            "minortmcolor": "FFFFFF",
+            "minortmheight": "13",
+            "minortmnumber": "4",
+            "minortmthickness": "2",
+            "origh": "300",
+            "origw": "330",
+            "pivotfillangle": "240",
+            "pivotfillcolor": "000000,383836",
+            "pivotfillratio": "50,50",
+            "pivotfilltype": "linear",
+            "pivotradius": "20",
+            "placevaluesinside": "1",
+            "showborder": "0",
+            "showshadow": "0",
+            "upperlimit": "10"
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "25",
+                    "bordercolor": "E70E00",
+                    "color": "E70E00",
+                    "radius": "85",
+                    "topwidth": "1",
+                    "value": "5"
+                }
+            ]
+        },
+        "trendpoints": {
+            "point": [
+                {
+                    "alpha": "35",
+                    "color": "F48900",
+                    "displayvalue": " ",
+                    "endvalue": "10",
+                    "innerradius": "0",
+                    "radius": "140",
+                    "showborder": "0",
+                    "startvalue": "8"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

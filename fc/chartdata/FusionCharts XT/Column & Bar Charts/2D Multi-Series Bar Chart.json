@@ -1,0 +1,72 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Hardware"
+                    },
+                    {
+                        "label": "Software"
+                    },
+                    {
+                        "label": "Service"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "canvasbasecolor": "FEFEFE",
+            "canvasbgcolor": "FEFEFE",
+            "caption": "Business Results: 2005",
+            "chartrightmargin": "30",
+            "divlinecolor": "999999",
+            "divlinedashgap": "2",
+            "divlinedashlen": "1",
+            "divlineisdashed": "1",
+            "numberprefix": "$",
+            "numbersuffix": "M",
+            "showborder": "0",
+            "showcolumnshadow": "0",
+            "tooltipbgcolor": "DEDEBE",
+            "tooltipborder": "889E6D",
+            "yaxisname": "Revenue (Millions)"
+        },
+        "dataset": [
+            {
+                "color": "8EAC41",
+                "data": [
+                    {
+                        "value": "84"
+                    },
+                    {
+                        "value": "207"
+                    },
+                    {
+                        "value": "116"
+                    }
+                ],
+                "seriesname": "Domestic"
+            },
+            {
+                "color": "607142",
+                "data": [
+                    {
+                        "value": "116"
+                    },
+                    {
+                        "value": "237"
+                    },
+                    {
+                        "value": "83"
+                    }
+                ],
+                "seriesname": "International"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msbar2d",
+    "width": "800"
+}

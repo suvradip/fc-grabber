@@ -1,0 +1,55 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "caption": "Expenditures Incurred in Publishing a Book",
+            "enablesmartlabels": "1",
+            "legendbgalpha": "20",
+            "legendbgcolor": "#CCCCCC",
+            "legendborder": "0",
+            "legendborderalpha": "0",
+            "legendnumcolumns": "3",
+            "legendposition": "bottom",
+            "legendshadow": "0",
+            "palettecolors": "#f8bd19,#e44a00,#008ee4,#33bdda,#6baa01,#583e78",
+            "showBorder": "0",
+            "showborder": "0",
+            "showlegend": "1",
+            "showpercentvalues": "1",
+            "showplotborder": "0",
+            "showshadow": "0",
+            "showvalues": "1",
+            "use3dlighting": "0"
+        },
+        "data": [
+            {
+                "label": "Paper Cost",
+                "value": "25"
+            },
+            {
+                "label": "Binding",
+                "value": "20"
+            },
+            {
+                "label": "Printing Cost",
+                "value": "20"
+            },
+            {
+                "label": "Royality",
+                "value": "15"
+            },
+            {
+                "label": "Transportation Cost",
+                "value": "10"
+            },
+            {
+                "label": "Promotion Cost",
+                "value": "10"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "pie2d",
+    "width": "800"
+}

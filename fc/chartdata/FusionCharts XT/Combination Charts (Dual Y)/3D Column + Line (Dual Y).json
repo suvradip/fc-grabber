@@ -1,0 +1,66 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "1994"
+                    },
+                    {
+                        "label": "1995"
+                    },
+                    {
+                        "label": "1996"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "animation": "1",
+            "caption": "Yearly Sales Comparison",
+            "formatnumberscale": "0",
+            "numberprefix": "$",
+            "palette": "1",
+            "seriesnameintooltip": "0",
+            "showborder": "0",
+            "showvalues": "0",
+            "xaxisname": "Year"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "219702"
+                    },
+                    {
+                        "value": "682796"
+                    },
+                    {
+                        "value": "547248"
+                    }
+                ],
+                "seriesname": "Revenue"
+            },
+            {
+                "data": [
+                    {
+                        "value": "7381"
+                    },
+                    {
+                        "value": "25007"
+                    },
+                    {
+                        "value": "18929"
+                    }
+                ],
+                "parentyaxis": "S",
+                "renderas": "Line",
+                "seriesname": "Units Sold"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscolumn3dlinedy",
+    "width": "800"
+}

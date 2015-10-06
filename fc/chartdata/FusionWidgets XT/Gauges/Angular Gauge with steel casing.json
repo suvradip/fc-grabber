@@ -1,0 +1,113 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "fillalpha": "100,100",
+                            "fillangle": "-45",
+                            "fillcolor": "CCCCCC,111111",
+                            "fillpattern": "linear",
+                            "fillratio": "50,50",
+                            "radius": "145",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "fillalpha": "100,100",
+                            "fillangle": "-45",
+                            "fillcolor": "111111,cccccc",
+                            "fillpattern": "linear",
+                            "fillratio": "50,50",
+                            "radius": "120",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "color": "666666",
+                            "radius": "110",
+                            "type": "circle",
+                            "x": "0",
+                            "y": "0"
+                        }
+                    ],
+                    "showbelow": "1",
+                    "x": "150",
+                    "y": "150"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "0",
+            "basefontcolor": "FFFFFF",
+            "bgcolor": "FFFFFF",
+            "gaugeendangle": "-45",
+            "gaugefillmix": "",
+            "gaugeinnerradius": "80%",
+            "gaugeoriginx": "150",
+            "gaugeoriginy": "150",
+            "gaugeouterradius": "100",
+            "gaugestartangle": "225",
+            "lowerlimit": "0",
+            "majortmcolor": "FFFFFF",
+            "majortmheight": "8",
+            "majortmnumber": "11",
+            "manageresize": "1",
+            "minortmcolor": "FFFFFF",
+            "minortmheight": "3",
+            "minortmnumber": "5",
+            "origh": "300",
+            "origw": "300",
+            "pivotfillmix": "{CCCCCC},{333333}",
+            "pivotfillratio": "50,50",
+            "pivotradius": "10",
+            "placevaluesinside": "1",
+            "showborder": "0",
+            "showpivotborder": "0",
+            "showshadow": "0",
+            "tooltipbgcolor": "333333",
+            "tooltipbordercolor": "FFFFFF",
+            "upperlimit": "100"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "alpha": "40",
+                    "code": "C1E1C1",
+                    "maxvalue": "50",
+                    "minvalue": "0"
+                },
+                {
+                    "alpha": "40",
+                    "code": "F6F164",
+                    "maxvalue": "85",
+                    "minvalue": "50"
+                },
+                {
+                    "alpha": "40",
+                    "code": "F70118",
+                    "maxvalue": "120",
+                    "minvalue": "85"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "basewidth": "10",
+                    "bgcolor": "000000,CCCCCC,000000",
+                    "borderalpha": "0",
+                    "bordercolor": "FFFFFF",
+                    "value": "65"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}

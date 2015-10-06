@@ -1,0 +1,52 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasbordercolor": "CCCCCC",
+            "canvasborderthickness": "1",
+            "caption": "Marketing Expenses for 2013",
+            "captionpadding": "30",
+            "divlinecolor": "CCCCCC",
+            "legendborderalpha": "0",
+            "legendshadow": "0",
+            "linethickness": "3",
+            "numberprefix": "$",
+            "palettecolors": "#EED17F,#97CBE7,#074868,#B0D67A,#2C560A,#DD9D82",
+            "plotgradientcolor": "",
+            "showBorder": "0",
+            "showalternatehgridcolor": "0",
+            "showcanvasborder": "0",
+            "showlegend": "1",
+            "showplotborder": "0",
+            "showshadow": "0",
+            "showvalues": "1",
+            "sshowanchors": "0",
+            "use3dlighting": "0",
+            "yaxismaxvalue": "30000",
+            "yaxisvaluespadding": "15"
+        },
+        "data": [
+            {
+                "issliced": "1",
+                "label": "Online Ads",
+                "value": "125000"
+            },
+            {
+                "label": "Print Ads",
+                "value": "110000"
+            },
+            {
+                "label": "Content Marketing",
+                "value": "95000"
+            },
+            {
+                "label": "Tradeshows",
+                "value": "60000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "pie2d",
+    "width": "800"
+}

@@ -1,0 +1,107 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "AEC0CA, 333333, AEC0CA",
+                            "radius": "10",
+                            "tox": "500",
+                            "toy": "400",
+                            "type": "rectangle",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "fillangle": "90",
+                            "fillcolor": "333333, C3D0D8, 333333",
+                            "radius": "10",
+                            "tox": "495",
+                            "toy": "395",
+                            "type": "rectangle",
+                            "x": "5",
+                            "y": "5"
+                        },
+                        {
+                            "fillangle": "180",
+                            "fillcolor": "C4D5DC, A3A5A4",
+                            "radius": "10",
+                            "tox": "490",
+                            "toy": "390",
+                            "type": "rectangle",
+                            "x": "10",
+                            "y": "10"
+                        }
+                    ],
+                    "showbelow": "1"
+                }
+            ]
+        },
+        "chart": {
+            "bgalpha": "0",
+            "bgcolor": "FFFFFF",
+            "caption": "Sales distribution by Employee",
+            "chartrightmargin": "",
+            "ishollow": "0",
+            "issliced": "1",
+            "numberprefix": "$",
+            "showborder": "0",
+            "streamlineddata": "0",
+            "subcaption": "Jan 07 - Jul 07"
+        },
+        "data": [
+            {
+                "color": "333333",
+                "label": "Buchanan",
+                "value": "20000"
+            },
+            {
+                "color": "AEC0CA",
+                "label": "Callahan",
+                "value": "49000"
+            },
+            {
+                "color": "333333",
+                "label": "Davolio",
+                "value": "63000"
+            },
+            {
+                "color": "AEC0CA",
+                "label": "Dodsworth",
+                "value": "41000"
+            },
+            {
+                "color": "333333",
+                "label": "Fuller",
+                "value": "74000"
+            },
+            {
+                "color": "AEC0CA",
+                "label": "King",
+                "value": "49000"
+            },
+            {
+                "color": "333333",
+                "label": "Leverling",
+                "value": "77000"
+            },
+            {
+                "color": "AEC0CA",
+                "label": "Peacock",
+                "value": "54000"
+            },
+            {
+                "color": "333333",
+                "label": "Suyama",
+                "value": "14000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "funnel",
+    "width": "800"
+}

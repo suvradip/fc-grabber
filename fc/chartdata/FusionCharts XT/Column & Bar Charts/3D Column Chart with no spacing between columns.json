@@ -1,0 +1,54 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "animation": "1",
+            "caption": "Number of participants",
+            "formatnumberscale": "0",
+            "palette": "2",
+            "plotspacepercent": "0",
+            "showBorder": "0",
+            "showvalues": "0",
+            "subcaption": "By age",
+            "xaxisname": "Age group",
+            "yaxisname": "# Participants"
+        },
+        "data": [
+            {
+                "label": "25-30",
+                "value": "45"
+            },
+            {
+                "label": "30-35",
+                "value": "34"
+            },
+            {
+                "label": "35-40",
+                "value": "39"
+            },
+            {
+                "label": "40-45",
+                "value": "21"
+            },
+            {
+                "label": "45-50",
+                "value": "17"
+            },
+            {
+                "label": "50-55",
+                "value": "14"
+            },
+            {
+                "label": "55-60",
+                "value": "11"
+            },
+            {
+                "label": "60+",
+                "value": "9"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column3d",
+    "width": "800"
+}

@@ -1,0 +1,87 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgalpha": "0",
+            "canvasbgalpha": "0",
+            "canvasborderalpha": "0",
+            "caption": "Top Goal Scorers for FC Barcelona",
+            "palettecolors": "5167c7",
+            "plotborderalpha": "0",
+            "plotgradientcolor": "",
+            "rotatelabels": "1",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showtooltipshadow": "0",
+            "showvalues": "0",
+            "slantlabels": "1",
+            "subcaption": "2013",
+            "tooltipbgcolor": "138dd7",
+            "tooltipbordercolor": "138dd7",
+            "yaxisname": "No. of Goals"
+        },
+        "data": [
+            {
+                "color": "1AB7D9",
+                "label": "Lionel Messi",
+                "tooltext": "",
+                "value": "14"
+            },
+            {
+                "color": "1AB7D9",
+                "label": "Pedro",
+                "value": "14"
+            },
+            {
+                "label": "Neymar Jr.",
+                "value": "11"
+            },
+            {
+                "label": "Fabregas",
+                "value": "9"
+            },
+            {
+                "label": "Alexis",
+                "value": "8"
+            },
+            {
+                "label": "Xavi",
+                "value": "3"
+            },
+            {
+                "label": "Dani Alves",
+                "value": "2"
+            },
+            {
+                "label": "Adriano",
+                "value": "2"
+            },
+            {
+                "label": "Sergio",
+                "value": "2"
+            },
+            {
+                "label": "Piqué",
+                "value": "2"
+            }
+        ],
+        "styles": {
+            "application": [
+                {
+                    "styles": "MyFirstFontStyle",
+                    "toobject": "Tooltip"
+                }
+            ],
+            "definition": [
+                {
+                    "color": "FFFFFF",
+                    "name": "MyFirstFontStyle",
+                    "type": "font"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "column2d",
+    "width": "800"
+}

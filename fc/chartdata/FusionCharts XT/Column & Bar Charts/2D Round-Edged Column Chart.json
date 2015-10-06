@@ -1,0 +1,39 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "caption": "Sales by salesperson",
+            "numberprefix": "$",
+            "showborder": "0",
+            "subcaption": "",
+            "useroundedges": "1",
+            "yaxisname": "Sales"
+        },
+        "data": [
+            {
+                "label": "Rita",
+                "value": "82000"
+            },
+            {
+                "label": "James",
+                "value": "72000"
+            },
+            {
+                "label": "Jenny",
+                "value": "60000"
+            },
+            {
+                "label": "Harry",
+                "value": "55000"
+            },
+            {
+                "label": "Jerry",
+                "value": "50000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "column2d",
+    "width": "800"
+}

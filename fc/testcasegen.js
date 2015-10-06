@@ -16,11 +16,11 @@ var prevFilename = "";
 
 	var files = JSON.parse(fs.read("demo.json"));
 
-    for(var i=0; i<files.length; i++)
+    for(var i=0; i<files.length; i++) //files.length
 	{
 		
 
-		var file= {}, temp = {};
+		var file= {};
 		
 		file.flocation = files[i].location;	
 		console.log("Test ---> " +  file.flocation);
@@ -45,6 +45,13 @@ var prevFilename = "";
 		file.test_id = file.test_id.toLowerCase();
 		file.test_id = file.test_id.replace(/ /g,'-');
 
+		
+		if(file.fcontent.dataSource.chart.hasOwnProperty("animation"))
+		file.fcontent.dataSource.chart.animation = "0";
+		else
+		file.fcontent.dataSource.chart.animation = "0";	
+
+
 		if(file.name === prevFilename)
 		{
 			
@@ -53,24 +60,18 @@ var prevFilename = "";
 			chart.options = file.fcontent;
 			chart.refimage = "./test/regression-test/chart-gallery/" + file.name.replace('chartdata/','').split(' ').join('-').toLowerCase() + "/ref-images/" + file.test_id + ".png";
 			chart.id = file.test_id;
-			//temp[file.test_id] = chart;
-			//chartdata.push(temp);
 			chartdata[file.test_id]=chart;
 
 		}else
 		{
 			prevFilename = file.name;
-			c=1;
 			var chart = {};
-			temp = {}; 
-			//chartdata = [];
+		
 			chartdata = {};
 			chart.description = "";
 			chart.options = file.fcontent;
 			chart.refimage = "./test/regression-test/chart-gallery/" + file.name.replace('chartdata/','').split(' ').join('-').toLowerCase() + "/ref-images/" + file.test_id + ".png";
 			chart.id = file.test_id;
-			//temp[file.test_id] = chart;
-			//chartdata.push(temp);
 			chartdata[file.test_id]=chart;
 		}	
 

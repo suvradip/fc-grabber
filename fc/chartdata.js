@@ -2,7 +2,7 @@
 var page, fcResource ={};
 
 fcResource.url = [];
-fcResource.counter = -1; //initial -1, 
+fcResource.counter = 1; //initial -1, 
 fcResource.hopC = 1;
 
 

@@ -1,0 +1,93 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "name": "2000"
+                    },
+                    {
+                        "name": "2001"
+                    },
+                    {
+                        "name": "2002"
+                    },
+                    {
+                        "name": "2003"
+                    },
+                    {
+                        "name": "2004"
+                    },
+                    {
+                        "name": "2005"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Population Chart",
+            "decimals": "3",
+            "linethickness": "5",
+            "setadaptivesymin": "1",
+            "setadaptiveymin": "1",
+            "showborder": "0",
+            "showvalues": "0",
+            "snumbersuffix": "%"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "1.42"
+                    },
+                    {
+                        "value": "1.42"
+                    },
+                    {
+                        "value": "1.41"
+                    },
+                    {
+                        "value": "1.414"
+                    },
+                    {
+                        "value": "1.413"
+                    },
+                    {
+                        "value": "1.414"
+                    }
+                ],
+                "parentyaxis": "P",
+                "seriesname": "Birth Rate"
+            },
+            {
+                "data": [
+                    {
+                        "value": "0.87"
+                    },
+                    {
+                        "value": "0.87"
+                    },
+                    {
+                        "value": "0.87"
+                    },
+                    {
+                        "value": "0.844"
+                    },
+                    {
+                        "value": "0.834"
+                    },
+                    {
+                        "value": "0.825"
+                    }
+                ],
+                "parentyaxis": "S",
+                "renderas": "Column",
+                "seriesname": "Death Rate"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscombidy2d",
+    "width": "800"
+}

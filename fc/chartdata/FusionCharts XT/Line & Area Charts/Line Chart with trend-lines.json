@@ -1,0 +1,87 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "basefontcolor": "#074868",
+            "bgalpha": "0",
+            "canvasbgalpha": "0",
+            "canvasbordercolor": "#EED17F",
+            "canvasborderthickness": "1",
+            "caption": "Air Pollution in New York",
+            "divlinealpha": "30",
+            "divlinecolor": "#EED17F",
+            "numdivlines": "5",
+            "palettecolors": "#97CBE7 ",
+            "plotborderalpha": "0",
+            "plotgradientcolor": "",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showplotborder": "0",
+            "showvalues": "1",
+            "showyaxisvalues": "0",
+            "subcaption": "23/12/2013 - 29/12/2013",
+            "tooltipborderalpha": "0",
+            "yaxismaxvalue": "8",
+            "yaxisname": "Air Quality Index {br}(AQI)"
+        },
+        "data": [
+            {
+                "label": "Mon",
+                "value": "2"
+            },
+            {
+                "label": "Tue",
+                "value": "4"
+            },
+            {
+                "label": "Wed",
+                "value": "6"
+            },
+            {
+                "label": "Thu",
+                "value": "7"
+            },
+            {
+                "label": "Fri",
+                "value": "6"
+            },
+            {
+                "label": "Sat",
+                "value": "4"
+            },
+            {
+                "label": "Sun",
+                "value": "3"
+            }
+        ],
+        "trendlines": [
+            {
+                "line": [
+                    {
+                        "color": "fda813",
+                        "displayvalue": "High",
+                        "endvalue": "",
+                        "istrendzone": "",
+                        "showontop": "1",
+                        "startvalue": "7",
+                        "thickness": "2",
+                        "valueonright": "1"
+                    },
+                    {
+                        "color": "f77027",
+                        "displayvalue": "Very High",
+                        "endvalue": "",
+                        "istrendzone": "",
+                        "showontop": "1",
+                        "startvalue": "8",
+                        "thickness": "2",
+                        "valueonright": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "line",
+    "width": "800"
+}

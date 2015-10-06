@@ -1,0 +1,79 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "category": [
+            {
+                "category": [
+                    {
+                        "category": [
+                            {
+                                "hovertext": "Lorraine Allen Hughes{br}Glenda Mason{br}Peter Charles{br}Akhil Dhanuka",
+                                "label": "Best Friends"
+                            },
+                            {
+                                "hovertext": "Patrick Xavier{br}Claire Taylor{br}Rebecca Coggins{br}Kate Finning",
+                                "label": "Good Friends"
+                            },
+                            {
+                                "hovertext": "Candy Ashbury{br}Marlene Greenwood-Streeter{br}Ruth Bahnuik{br}Cathy Daly ",
+                                "label": "friends"
+                            },
+                            {
+                                "hovertext": "Lucille Grading{br}Garry Brookes{br}Joan Borrowscale{br}Ann Kavanagh ",
+                                "label": "Acquaintances"
+                            },
+                            {
+                                "hovertext": "Blanche Charles{br}Alan Hamer{br}Rosalind Dunning{br}Edna Ellis ",
+                                "label": "haven't met"
+                            }
+                        ],
+                        "label": "His Friends",
+                        "value": "10"
+                    },
+                    {
+                        "category": [
+                            {
+                                "hovertext": "John Beddows{br}Susan Mills{br}Mike Parker{br}Claire Taylor",
+                                "label": "Best Friends"
+                            },
+                            {
+                                "hovertext": "Sue Weighell{br}Ruth Bahnuik{br}Janice Deverick{br}Gwen Walker",
+                                "label": "Good Friends"
+                            },
+                            {
+                                "hovertext": "Barbara Barker{br}Janet Sorfleet{br}Joan Jones{br}Carol Patricia Nichols",
+                                "label": "friends"
+                            },
+                            {
+                                "hovertext": "William Marner{br}Lindsay Harwood{br}Milton Gray{br}Tony Houghton ",
+                                "label": "Acquaintances"
+                            },
+                            {
+                                "hovertext": "Susan Curtis{br}Ian Holland{br}Margaret Mckeown{br}Vivian Simmonds",
+                                "label": "haven't met"
+                            }
+                        ],
+                        "label": "Our Mutual Friends",
+                        "value": "5"
+                    }
+                ],
+                "label": "Friends"
+            }
+        ],
+        "chart": {
+            "basefontsize": "9",
+            "caption": "Tom's Friend List",
+            "hoverfillcolor": "EEEEEE",
+            "palette": "1",
+            "piefillalpha": "24",
+            "plotbordercolor": "CCCCCC",
+            "showborder": "0",
+            "showlabels": "1",
+            "showplotborder": "1",
+            "usehovercolor": "1"
+        }
+    },
+    "height": "600",
+    "type": "multilevelpie",
+    "width": "800"
+}

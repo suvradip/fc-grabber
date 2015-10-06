@@ -1,0 +1,42 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "bordercolor": "638400",
+            "decimals": "0",
+            "is3d": "0",
+            "manageresize": "1",
+            "numbersuffix": "%25",
+            "placevaluesinside": "1",
+            "showborder": "0",
+            "usecolornameasvalue": "1"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "99CC00",
+                    "maxvalue": "50",
+                    "minvalue": "0",
+                    "name": "Normal"
+                },
+                {
+                    "code": "FFFF00",
+                    "maxvalue": "75",
+                    "minvalue": "50",
+                    "name": "Warning"
+                },
+                {
+                    "code": "FF0000",
+                    "maxvalue": "100",
+                    "minvalue": "75",
+                    "name": "Danger"
+                }
+            ]
+        },
+        "value": "32"
+    },
+    "height": "600",
+    "type": "bulb",
+    "width": "800"
+}

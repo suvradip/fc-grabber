@@ -1,0 +1,95 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "2004"
+                    },
+                    {
+                        "label": "2003"
+                    },
+                    {
+                        "label": "2002"
+                    },
+                    {
+                        "label": "2001"
+                    },
+                    {
+                        "label": "2000"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "areabordercolor": "FFFFFF",
+            "caption": "Breakdown of Revenue",
+            "numbersuffix": "%",
+            "numvdivlines": "3",
+            "palette": "2",
+            "showborder": "0",
+            "showvalues": "0",
+            "subcaption": "(into Products and Services)",
+            "xaxisname": "Year",
+            "yaxismaxvalue": "100"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "65"
+                    },
+                    {
+                        "value": "70"
+                    },
+                    {
+                        "value": "60"
+                    },
+                    {
+                        "value": "62"
+                    },
+                    {
+                        "value": "48"
+                    },
+                    {
+                        "value": "54"
+                    },
+                    {
+                        "value": "46"
+                    }
+                ],
+                "seriesname": "Products"
+            },
+            {
+                "data": [
+                    {
+                        "value": "35"
+                    },
+                    {
+                        "value": "30"
+                    },
+                    {
+                        "value": "40"
+                    },
+                    {
+                        "value": "38"
+                    },
+                    {
+                        "value": "52"
+                    },
+                    {
+                        "value": "46"
+                    },
+                    {
+                        "value": "54"
+                    }
+                ],
+                "seriesname": "Services"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "stackedcolumn3d",
+    "width": "800"
+}

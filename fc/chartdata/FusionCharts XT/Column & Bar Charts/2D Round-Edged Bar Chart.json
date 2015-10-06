@@ -1,0 +1,45 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "alternatevgridcolor": "AFD8F8",
+            "basefontcolor": "114B78",
+            "bgcolor": "FFFFFF",
+            "caption": "Fruit Production for March",
+            "numbersuffix": "M",
+            "palettecolors": "#AFD8F8,#F6BD0F,#8BBA00,#A66EDD,#F984A1",
+            "showborder": "0",
+            "subcaption": "(in Millions)",
+            "tooltipbgcolor": "E7EFF6",
+            "tooltipbordercolor": "114B78",
+            "useroundedges": "1",
+            "xaxisname": "Fruit",
+            "yaxisname": "Quantity"
+        },
+        "data": [
+            {
+                "label": "Orange",
+                "value": "23"
+            },
+            {
+                "label": "Apple",
+                "value": "12"
+            },
+            {
+                "label": "Banana",
+                "value": "17"
+            },
+            {
+                "label": "Mango",
+                "value": "14"
+            },
+            {
+                "label": "Litchi",
+                "value": "12"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "bar2d",
+    "width": "800"
+}

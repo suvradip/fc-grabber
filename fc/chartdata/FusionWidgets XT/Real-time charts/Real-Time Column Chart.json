@@ -1,0 +1,58 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {}
+        ],
+        "chart": {
+            "alternatehgridalpha": "30",
+            "alternatehgridcolor": "DAE1E8",
+            "basefontcolor": "899FB6",
+            "bgcolor": "EEF2FB",
+            "bordercolor": "899FB6",
+            "canvasbgcolor": "FFFFFF",
+            "canvasbordercolor": "DAE1E8",
+            "canvasleftmargin": "50",
+            "caption": "Concurrent Users",
+            "datastreamurl": "/DataProviders/RealTimeColumn1.php",
+            "decimals": "0",
+            "divlinealpha": "75",
+            "divlinecolor": "DAE1E8",
+            "labeldisplay": "none",
+            "labelstep": "2",
+            "manageresize": "1",
+            "numdisplaysets": "15",
+            "numdivlines": "6",
+            "outcnvbasefontcolor": "444C60",
+            "plotbordercolor": "FFFFFF",
+            "plotgradientcolor": "",
+            "refreshinterval": "3",
+            "showalternatehgridcolor": "1",
+            "showborder": "0",
+            "showlabels": "1",
+            "showlegend": "1",
+            "showplotborder": "0",
+            "showrealtimevalue": "1",
+            "showshadow": "1",
+            "subcaption": "(Refreshes every 3 seconds)",
+            "tooltipbgcolor": "FFFFFF",
+            "tooltipbordercolor": "DAE1E8",
+            "tooltipsepchar": " "
+        },
+        "dataset": [
+            {
+                "color": "B3C1D0",
+                "seriesname": "Internal",
+                "showvalues": "0"
+            },
+            {
+                "color": "6582A0",
+                "seriesname": "External",
+                "showvalues": "0"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "realtimecolumn",
+    "width": "800"
+}

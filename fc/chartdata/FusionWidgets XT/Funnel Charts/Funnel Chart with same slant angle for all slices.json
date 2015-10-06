@@ -1,0 +1,41 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "basefontsize": "11",
+            "caption": "Conversion Ratio",
+            "decimals": "1",
+            "ishollow": "0",
+            "issliced": "0",
+            "labeldistance": "5",
+            "showBorder": "0",
+            "subcaption": "May 2007",
+            "usesameslantangle": "1"
+        },
+        "data": [
+            {
+                "label": "Website Visits",
+                "value": "385634"
+            },
+            {
+                "label": "Downloads",
+                "value": "175631"
+            },
+            {
+                "label": "Interested to buy",
+                "value": "84564"
+            },
+            {
+                "label": "Contract finalized",
+                "value": "35654"
+            },
+            {
+                "label": "Purchased",
+                "value": "18342"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "funnel",
+    "width": "800"
+}

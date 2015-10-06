@@ -1,0 +1,191 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "2001"
+                    },
+                    {
+                        "label": "2002"
+                    },
+                    {
+                        "label": "2003"
+                    },
+                    {
+                        "label": "2004"
+                    },
+                    {
+                        "label": "2005"
+                    }
+                ],
+                "font": "Arial",
+                "fontcolor": "000000",
+                "fontsize": "12"
+            }
+        ],
+        "chart": {
+            "caption": "Annual Revenue",
+            "decimals": "0",
+            "numberprefix": "$",
+            "numbersuffix": "M",
+            "palette": "2",
+            "pyaxisname": "Sales in M$",
+            "setadaptivesymin": "1",
+            "showborder": "0",
+            "showplotborder": "1",
+            "snumbersuffix": "%",
+            "subcaption": "In Million $",
+            "syaxisname": "Cost as % of Revenue",
+            "xaxisname": "Year"
+        },
+        "dataset": [
+            {
+                "dataset": [
+                    {
+                        "color": "AFD8F8",
+                        "data": [
+                            {
+                                "value": "30"
+                            },
+                            {
+                                "value": "26"
+                            },
+                            {
+                                "value": "29"
+                            },
+                            {
+                                "value": "31"
+                            },
+                            {
+                                "value": "34"
+                            }
+                        ],
+                        "seriesname": "Product A",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "F6BD0F",
+                        "data": [
+                            {
+                                "value": "21"
+                            },
+                            {
+                                "value": "28"
+                            },
+                            {
+                                "value": "39"
+                            },
+                            {
+                                "value": "41"
+                            },
+                            {
+                                "value": "24"
+                            }
+                        ],
+                        "seriesname": "Product B",
+                        "showvalues": "0"
+                    }
+                ]
+            },
+            {
+                "dataset": [
+                    {
+                        "color": "8BBA00",
+                        "data": [
+                            {
+                                "value": "27"
+                            },
+                            {
+                                "value": "25"
+                            },
+                            {
+                                "value": "28"
+                            },
+                            {
+                                "value": "26"
+                            },
+                            {
+                                "value": "10"
+                            }
+                        ],
+                        "seriesname": "Service A",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "A66EDD",
+                        "data": [
+                            {
+                                "value": "17"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "18"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "10"
+                            }
+                        ],
+                        "seriesname": "Service B",
+                        "showvalues": "0"
+                    },
+                    {
+                        "color": "F984A1",
+                        "data": [
+                            {
+                                "value": "12"
+                            },
+                            {
+                                "value": "17"
+                            },
+                            {
+                                "value": "16"
+                            },
+                            {
+                                "value": "15"
+                            },
+                            {
+                                "value": "12"
+                            }
+                        ],
+                        "seriesname": "Service C",
+                        "showvalues": "0"
+                    }
+                ]
+            }
+        ],
+        "lineset": [
+            {
+                "data": [
+                    {
+                        "value": "57"
+                    },
+                    {
+                        "value": "68"
+                    },
+                    {
+                        "value": "79"
+                    },
+                    {
+                        "value": "73"
+                    },
+                    {
+                        "value": "80"
+                    }
+                ],
+                "linethickness": "4",
+                "seriesname": "Cost as % of Revenue",
+                "showvalues": "0"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msstackedcolumn2dlinedy",
+    "width": "800"
+}

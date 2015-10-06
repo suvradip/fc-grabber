@@ -1,0 +1,107 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Centralized Deployability"
+                    },
+                    {
+                        "label": "Centralized Signature Updating"
+                    },
+                    {
+                        "label": "Active Firewall"
+                    },
+                    {
+                        "label": "Centralized Access & Firewall"
+                    },
+                    {
+                        "label": "Centralized Network Health Monitoring"
+                    },
+                    {
+                        "label": "Cost"
+                    },
+                    {
+                        "label": "Technical Support"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Comparison of Enterprise Level Antivirus Software",
+            "drawanchors": "0",
+            "legendborderalpha": "0",
+            "radarborderalpha": "50",
+            "radarborderthickness": "1",
+            "radarfillcolor": "FFFFFF",
+            "showborder": "0",
+            "showlabels": "1",
+            "showlimits": "0",
+            "ymaxvalue": "10"
+        },
+        "dataset": [
+            {
+                "alpha": "40",
+                "color": "008ee4",
+                "data": [
+                    {
+                        "value": "8"
+                    },
+                    {
+                        "value": "9"
+                    },
+                    {
+                        "value": "9"
+                    },
+                    {
+                        "value": "8"
+                    },
+                    {
+                        "value": "7"
+                    },
+                    {
+                        "value": "9"
+                    },
+                    {
+                        "value": "8"
+                    }
+                ],
+                "seriesname": "Kaspersky"
+            },
+            {
+                "alpha": "40",
+                "color": "6baa01",
+                "data": [
+                    {
+                        "value": "7"
+                    },
+                    {
+                        "value": "6"
+                    },
+                    {
+                        "value": "6"
+                    },
+                    {
+                        "value": "4"
+                    },
+                    {
+                        "value": "7"
+                    },
+                    {
+                        "value": "6"
+                    },
+                    {
+                        "value": "5"
+                    }
+                ],
+                "seriesname": "Norton"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "radar",
+    "width": "800"
+}

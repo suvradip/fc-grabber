@@ -1,0 +1,113 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "2000"
+                    },
+                    {
+                        "label": "2001"
+                    },
+                    {
+                        "label": "2002"
+                    },
+                    {
+                        "label": "2003"
+                    },
+                    {
+                        "label": "2004"
+                    },
+                    {
+                        "label": "2005"
+                    },
+                    {
+                        "label": "2006"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "alternatehgridalpha": "30",
+            "alternatehgridcolor": "60A5F0",
+            "alternatevgridalpha": "50",
+            "alternatevgridcolor": "CDDEF0",
+            "anchorbgcolor": "B91D1D",
+            "anchorbordercolor": "8C8CFF",
+            "anchorborderthickness": "1",
+            "anchorradius": "5",
+            "anchorsides": "12",
+            "bgalpha": "30",
+            "bgcolor": "A6CAF0",
+            "borderalpha": "10",
+            "bordercolor": "3F3F3F",
+            "borderthickness": "2",
+            "canvasborderalpha": "40",
+            "canvasbordercolor": "73A8E1",
+            "canvasborderthickness": "2",
+            "caption": "Interest Rate Evaluation",
+            "chartbottommargin": "20",
+            "divlinealpha": "15",
+            "divlinecolor": "6595C9",
+            "divlinedashgap": "5",
+            "divlinedashlen": "3",
+            "divlineisdashed": "1",
+            "divlinethickness": "2",
+            "drawverticaljoins": "0",
+            "drawverticaljoints": "1",
+            "linedashed": "1",
+            "linedashgap": "7",
+            "linedashlen": "1",
+            "linethickness": "4",
+            "numdivlines": "7",
+            "numvdivlines": "10",
+            "outcnvbasefont": "Verdana",
+            "outcnvbasefontcolor": "1D1D1D",
+            "outcnvbasefontsize": "13",
+            "showalternatehgridcolor": "1",
+            "showalternatevgridcolor": "1",
+            "showborder": "0",
+            "showlegend": "0",
+            "showvalues": "0",
+            "vdivlinealpha": "15",
+            "vdivlinecolor": "6595C9",
+            "vdivlinethickness": "2",
+            "xaxisname": "",
+            "yaxismaxvalue": "8",
+            "yaxisname": "Rate of Interest (%)"
+        },
+        "dataset": [
+            {
+                "color": "000000",
+                "data": [
+                    {
+                        "value": "5.5"
+                    },
+                    {
+                        "value": "6"
+                    },
+                    {
+                        "value": "3.75"
+                    },
+                    {
+                        "value": "2.25"
+                    },
+                    {
+                        "value": "3.25"
+                    },
+                    {
+                        "value": "3.5"
+                    },
+                    {
+                        "value": "4.5"
+                    }
+                ],
+                "seriesname": "2008"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msstepline",
+    "width": "800"
+}

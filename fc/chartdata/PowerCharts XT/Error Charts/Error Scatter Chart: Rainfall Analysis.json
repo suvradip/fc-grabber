@@ -1,0 +1,168 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan",
+                        "x": "0"
+                    },
+                    {
+                        "label": "Mar",
+                        "x": "20"
+                    },
+                    {
+                        "label": "May",
+                        "x": "40"
+                    },
+                    {
+                        "label": "Jul",
+                        "x": "60"
+                    },
+                    {
+                        "label": "Sep",
+                        "x": "80"
+                    },
+                    {
+                        "label": "Nov",
+                        "x": "100"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgalpha": "0",
+            "bgcolor": "62B0FF",
+            "borderalpha": "20",
+            "bordercolor": "3F3F3F",
+            "borderthickness": "1",
+            "canvasbgangle": "90",
+            "canvasbgcolor": "62B0FF,FFFFFF",
+            "canvasbgratio": "1,99",
+            "canvasborderalpha": "20",
+            "canvasbordercolor": "ffffff,",
+            "canvasborderthickness": "1",
+            "caption": "Rainfall Analysis",
+            "divlinealpha": "0",
+            "halfverticalerrorbar": "0",
+            "legendbordercolor": "DAECFF",
+            "legendborderthickness": "2",
+            "outcnvbasefont": "Verdana",
+            "outcnvbasefontcolor": "3F3F3F",
+            "outcnvbasefontsize": "13",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showvalues": "0",
+            "verticalerrorbarcolor": "5397D9",
+            "verticalerrorbarthickness": "1",
+            "xaxisname": "Month",
+            "yaxisname": "Rainfall Rate"
+        },
+        "dataset": [
+            {
+                "anchorbgcolor": "6BF9E9",
+                "anchorborderthickness": "2",
+                "anchorradius": "5",
+                "anchorsides": "13",
+                "color": "5397D9",
+                "data": [
+                    {
+                        "errorvalue": "0.78",
+                        "x": "10",
+                        "y": "11"
+                    },
+                    {
+                        "errorvalue": "0.81",
+                        "x": "35",
+                        "y": "9"
+                    },
+                    {
+                        "errorvalue": "0.68",
+                        "x": "50",
+                        "y": "4"
+                    },
+                    {
+                        "errorvalue": "0.86",
+                        "x": "70",
+                        "y": "14"
+                    },
+                    {
+                        "errorvalue": "0.79",
+                        "x": "50",
+                        "y": "14"
+                    },
+                    {
+                        "errorvalue": "0.87",
+                        "x": "65",
+                        "y": "3"
+                    },
+                    {
+                        "errorvalue": "0.7",
+                        "x": "85",
+                        "y": "17"
+                    },
+                    {
+                        "errorvalue": "0.82",
+                        "x": "15",
+                        "y": "15"
+                    }
+                ],
+                "seriesname": "2006"
+            },
+            {
+                "anchorbgcolor": "ffffff",
+                "anchorborderthickness": "2",
+                "anchorradius": "5",
+                "anchorsides": "13",
+                "color": "5397D9",
+                "data": [
+                    {
+                        "errorvalue": "0.72",
+                        "x": "23",
+                        "y": "14"
+                    },
+                    {
+                        "errorvalue": "0.9",
+                        "x": "33",
+                        "y": "15"
+                    },
+                    {
+                        "errorvalue": "0.83",
+                        "x": "77",
+                        "y": "11"
+                    },
+                    {
+                        "errorvalue": "0.9",
+                        "x": "89",
+                        "y": "13"
+                    },
+                    {
+                        "errorvalue": "0.86",
+                        "x": "95",
+                        "y": "11"
+                    },
+                    {
+                        "errorvalue": "0.7",
+                        "x": "4",
+                        "y": "2"
+                    },
+                    {
+                        "errorvalue": "0.8",
+                        "x": "30",
+                        "y": "7"
+                    },
+                    {
+                        "errorvalue": "0.83",
+                        "x": "55",
+                        "y": "11"
+                    }
+                ],
+                "seriesname": "2007"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "errorscatter",
+    "width": "800"
+}

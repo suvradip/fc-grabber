@@ -1,0 +1,85 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "alternatehgridalpha": "5",
+            "anchorbgcolor": "BBDA00",
+            "anchorbordercolor": "FFFFFF",
+            "anchorborderthickness": "2",
+            "anchorradius": "4",
+            "basefontcolor": "FFFFFF",
+            "bgalpha": "100",
+            "bgcolor": "406181, 6DA5DB",
+            "canvasbgalpha": "0",
+            "canvasbordercolor": "FFFFFF",
+            "canvaspadding": "10",
+            "caption": "% of visitors who added as Favorite",
+            "divlinealpha": "100",
+            "divlinecolor": "FFFFFF",
+            "labeldisplay": "ROTATE",
+            "linecolor": "BBDA00",
+            "numbersuffix": "%",
+            "numvdivlines": "10",
+            "showalternatevgridcolor": "1",
+            "showborder": "0",
+            "showvalues": "0",
+            "tooltipbgcolor": "406181",
+            "tooltipbordercolor": "406181",
+            "vdivlineisdashed": "1",
+            "yaxismaxvalue": "100"
+        },
+        "data": [
+            {
+                "label": "Jan",
+                "value": "34"
+            },
+            {
+                "label": "Feb",
+                "value": "44"
+            },
+            {
+                "label": "Mar",
+                "value": "48"
+            },
+            {
+                "label": "Apr",
+                "value": "54"
+            },
+            {
+                "label": "May",
+                "value": "60"
+            },
+            {
+                "label": "Jun",
+                "value": "70"
+            },
+            {
+                "label": "Jul",
+                "value": "58"
+            },
+            {
+                "label": "Aug",
+                "value": "62"
+            },
+            {
+                "label": "Sep",
+                "value": "54"
+            },
+            {
+                "label": "Oct",
+                "value": "45"
+            },
+            {
+                "label": "Nov",
+                "value": "39"
+            },
+            {
+                "label": "Dec",
+                "value": "23"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "line",
+    "width": "800"
+}

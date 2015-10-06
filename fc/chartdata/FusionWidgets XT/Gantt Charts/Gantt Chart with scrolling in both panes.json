@@ -1,0 +1,206 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "end": "04/01/2007",
+                        "label": "Q1",
+                        "start": "02/01/2007"
+                    },
+                    {
+                        "end": "07/01/2007",
+                        "label": "Q2",
+                        "start": "04/01/2007"
+                    },
+                    {
+                        "end": "09/01/2007",
+                        "label": "Q3",
+                        "start": "07/01/2007"
+                    }
+                ]
+            },
+            {
+                "category": [
+                    {
+                        "end": "03/01/2007",
+                        "label": "Feb",
+                        "start": "02/01/2007"
+                    },
+                    {
+                        "end": "04/01/2007",
+                        "label": "Mar",
+                        "start": "03/01/2007"
+                    },
+                    {
+                        "end": "05/01/2007",
+                        "label": "Apr",
+                        "start": "04/01/2007"
+                    },
+                    {
+                        "end": "06/01/2007",
+                        "label": "May",
+                        "start": "05/01/2007"
+                    },
+                    {
+                        "end": "07/01/2007",
+                        "label": "Jun",
+                        "start": "06/01/2007"
+                    },
+                    {
+                        "end": "08/01/2007",
+                        "label": "Jul",
+                        "start": "07/01/2007"
+                    },
+                    {
+                        "end": "09/01/2007",
+                        "label": "Aug",
+                        "start": "08/01/2007"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Project Gantt",
+            "dateformat": "mm/dd/yyyy",
+            "ganttpaneduration": "3",
+            "ganttpanedurationunit": "m",
+            "showborder": "0",
+            "subcaption": "From 1st Feb 2007 - 31st Aug 2007"
+        },
+        "datatable": {
+            "datacolumn": [
+                {
+                    "align": "left",
+                    "fontsize": "12",
+                    "headeralign": "right",
+                    "headerfontsize": "18",
+                    "headertext": "Who does?",
+                    "headervalign": "bottom",
+                    "text": [
+                        {
+                            "label": "John"
+                        },
+                        {
+                            "label": "David"
+                        },
+                        {
+                            "label": "Mary"
+                        },
+                        {
+                            "label": "Andrew"
+                        },
+                        {
+                            "label": "Tiger"
+                        },
+                        {
+                            "label": "Sharon"
+                        },
+                        {
+                            "label": "Neil"
+                        },
+                        {
+                            "label": "Harry"
+                        },
+                        {
+                            "label": "Chris"
+                        },
+                        {
+                            "label": "Richard"
+                        }
+                    ]
+                }
+            ],
+            "headervalign": "bottom"
+        },
+        "processes": {
+            "align": "right",
+            "fontsize": "12",
+            "headeralign": "right",
+            "headerfontsize": "18",
+            "headertext": "What to do?",
+            "headervalign": "bottom",
+            "isbold": "1",
+            "process": [
+                {
+                    "label": "Identify Customers"
+                },
+                {
+                    "label": "Survey 50 Customers"
+                },
+                {
+                    "label": "Interpret Requirements"
+                },
+                {
+                    "label": "Study Competition"
+                },
+                {
+                    "label": "Documentation of features"
+                },
+                {
+                    "label": "Brainstorm concepts"
+                },
+                {
+                    "label": "Design & Code"
+                },
+                {
+                    "label": "Testing / QA"
+                },
+                {
+                    "label": "Documentation of product"
+                },
+                {
+                    "label": "Global Release"
+                }
+            ]
+        },
+        "tasks": {
+            "task": [
+                {
+                    "end": "02/10/2007",
+                    "start": "02/04/2007"
+                },
+                {
+                    "end": "02/19/2007",
+                    "start": "02/08/2007"
+                },
+                {
+                    "end": "03/02/2007",
+                    "start": "02/19/2007"
+                },
+                {
+                    "end": "03/02/2007",
+                    "start": "02/24/2007"
+                },
+                {
+                    "end": "03/21/2007",
+                    "start": "03/02/2007"
+                },
+                {
+                    "end": "04/06/2007",
+                    "start": "03/21/2007"
+                },
+                {
+                    "end": "07/21/2007",
+                    "start": "04/06/2007"
+                },
+                {
+                    "end": "08/19/2007",
+                    "start": "07/21/2007"
+                },
+                {
+                    "end": "08/24/2007",
+                    "start": "07/28/2007"
+                },
+                {
+                    "end": "08/27/2007",
+                    "start": "08/24/2007"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "gantt",
+    "width": "800"
+}

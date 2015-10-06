@@ -1,0 +1,615 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgcolor": "ffffff",
+            "borderalpha": "100",
+            "canvasbgcolor": "FFF5CE",
+            "caption": "Periodic Table",
+            "mapbycategory": "1",
+            "showBorder": "0",
+            "showcolumnidintooltext": "1",
+            "showrowidintooltext": "1",
+            "xaxislabel": "Group",
+            "yaxislabel": "Period"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "FF6666",
+                    "label": "Alkali metals"
+                },
+                {
+                    "code": "FFDEAD",
+                    "label": "Alkaline earth metals"
+                },
+                {
+                    "code": "FFC0C0",
+                    "label": "Transition elements"
+                },
+                {
+                    "code": "CCCCCC",
+                    "label": "Other metals"
+                },
+                {
+                    "code": "CCCC99",
+                    "label": "Metalloids"
+                },
+                {
+                    "code": "A0FFA0",
+                    "label": "Other nonmetals"
+                },
+                {
+                    "code": "FFFF99",
+                    "label": "Halogens"
+                },
+                {
+                    "code": "C0FFFF",
+                    "label": "Noble gases"
+                },
+                {
+                    "code": "FCFCFC",
+                    "label": "Unknown"
+                }
+            ],
+            "gradient": "0",
+            "mapbypercent": "0"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "1",
+                        "displayvalue": "H",
+                        "rowid": "1",
+                        "value": "1"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "Li",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "Na",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "K",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "Rb",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "Cs",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Alkali metals",
+                        "columnid": "1",
+                        "displayvalue": "Fr",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "1",
+                        "displayvalue": "Uue",
+                        "rowid": "8"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Ca",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Mg",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "2",
+                        "displayvalue": "Ubn",
+                        "rowid": "8"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Sr",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Ba",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Ra",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Alkaline earth metals",
+                        "columnid": "2",
+                        "displayvalue": "Be",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "3",
+                        "displayvalue": "Y",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "3",
+                        "displayvalue": "Sc",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "4",
+                        "displayvalue": "Rf",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "4",
+                        "displayvalue": "Hf",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "4",
+                        "displayvalue": "Zr",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "4",
+                        "displayvalue": "Ti",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "5",
+                        "displayvalue": "Nb",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "5",
+                        "displayvalue": "V",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "5",
+                        "displayvalue": "Db",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "5",
+                        "displayvalue": "Ta",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "6",
+                        "displayvalue": "Mo",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "6",
+                        "displayvalue": "W",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "6",
+                        "displayvalue": "Sg",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "6",
+                        "displayvalue": "Cr",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "7",
+                        "displayvalue": "Bh",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "7",
+                        "displayvalue": "Re",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "7",
+                        "displayvalue": "Mn",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "7",
+                        "displayvalue": "Tc",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "8",
+                        "displayvalue": "Ru",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "8",
+                        "displayvalue": "Fe",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "8",
+                        "displayvalue": "Hs",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "8",
+                        "displayvalue": "Os",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "9",
+                        "displayvalue": "Rh",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "9",
+                        "displayvalue": "Co",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "9",
+                        "displayvalue": "Mt",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "9",
+                        "displayvalue": "Ir",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "10",
+                        "displayvalue": "Ds",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "10",
+                        "displayvalue": "Pt",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "10",
+                        "displayvalue": "Ni",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "10",
+                        "displayvalue": "Pd",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "11",
+                        "displayvalue": "Cu",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "11",
+                        "displayvalue": "Au",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "11",
+                        "displayvalue": "Rg",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "11",
+                        "displayvalue": "Ag",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "12",
+                        "displayvalue": "Uub",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "12",
+                        "displayvalue": "Hg",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "12",
+                        "displayvalue": "Cd",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Transition elements",
+                        "columnid": "12",
+                        "displayvalue": "Zn",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "13",
+                        "displayvalue": "B",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "13",
+                        "displayvalue": "Uut",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "13",
+                        "displayvalue": "In",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "13",
+                        "displayvalue": "Al",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "13",
+                        "displayvalue": "Tl",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "13",
+                        "displayvalue": "Ga",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "14",
+                        "displayvalue": "Ge",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "14",
+                        "displayvalue": "Si",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "14",
+                        "displayvalue": "Sn",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "14",
+                        "displayvalue": "Pb",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "14",
+                        "displayvalue": "Uuq",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "14",
+                        "displayvalue": "C",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Other metals",
+                        "columnid": "15",
+                        "displayvalue": "Bi",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "15",
+                        "displayvalue": "N",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "15",
+                        "displayvalue": "Sb",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "15",
+                        "displayvalue": "As",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "15",
+                        "displayvalue": "P",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "15",
+                        "displayvalue": "Uup",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "16",
+                        "displayvalue": "Te",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "16",
+                        "displayvalue": "Se",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Metalloids",
+                        "columnid": "16",
+                        "displayvalue": "Po",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "16",
+                        "displayvalue": "O",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Other nonmetals",
+                        "columnid": "16",
+                        "displayvalue": "S",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "16",
+                        "displayvalue": "Uuh",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Halogens",
+                        "columnid": "17",
+                        "displayvalue": "I",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Halogens",
+                        "columnid": "17",
+                        "displayvalue": "At",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Halogens",
+                        "columnid": "17",
+                        "displayvalue": "F",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Halogens",
+                        "columnid": "17",
+                        "displayvalue": "Cl",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Halogens",
+                        "columnid": "17",
+                        "displayvalue": "Br",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "17",
+                        "displayvalue": "Uus",
+                        "rowid": "7"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "Xe",
+                        "rowid": "5"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "Rn",
+                        "rowid": "6"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "Kr",
+                        "rowid": "4"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "Ar",
+                        "rowid": "3"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "Ne",
+                        "rowid": "2"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "He",
+                        "rowid": "1"
+                    },
+                    {
+                        "categoryid": "Noble gases",
+                        "columnid": "18",
+                        "displayvalue": "He",
+                        "rowid": "1"
+                    },
+                    {
+                        "categoryid": "Unknown",
+                        "columnid": "18",
+                        "displayvalue": "Uuo",
+                        "rowid": "7"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "heatmap",
+    "width": "800"
+}

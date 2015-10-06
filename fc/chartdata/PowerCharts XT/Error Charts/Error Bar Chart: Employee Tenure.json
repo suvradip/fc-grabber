@@ -1,0 +1,69 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Pilots"
+                    },
+                    {
+                        "label": "Flight Attendants"
+                    },
+                    {
+                        "label": "Maintenance Personnel"
+                    },
+                    {
+                        "label": "Sales Personnel"
+                    },
+                    {
+                        "label": "Reservation and Ticketing Personnel"
+                    },
+                    {
+                        "label": "Others"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "caption": "Employee Tenure",
+            "halferrorbar": "1",
+            "showborder": "0",
+            "xaxisname": "Position",
+            "yaxisname": "Years"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "errorvalue": "1.5",
+                        "value": "15"
+                    },
+                    {
+                        "errorvalue": "1",
+                        "value": "9"
+                    },
+                    {
+                        "errorvalue": "1.5",
+                        "value": "15"
+                    },
+                    {
+                        "errorvalue": "2",
+                        "value": "20"
+                    },
+                    {
+                        "errorvalue": "1",
+                        "value": "17"
+                    },
+                    {
+                        "errorvalue": "1",
+                        "value": "13"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "errorbar2d",
+    "width": "800"
+}

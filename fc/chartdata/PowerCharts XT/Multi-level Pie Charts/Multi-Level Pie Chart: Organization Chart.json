@@ -1,0 +1,199 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "category": [
+            {
+                "category": [
+                    {
+                        "category": [
+                            {
+                                "category": [
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "Design Team{br}Akhil Dhanuka{br}Atrayee{br}Samit Basak",
+                                        "label": "Design"
+                                    },
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "Coding Team{br}Sanket Kumar{br}Folko{br}George Baker{br}Andrew Hall{br}Chris Schofield ",
+                                        "label": "Coding"
+                                    },
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "Validation Team{br} Raju Sharma {br}Ravi Srivastav ",
+                                        "label": "Validate"
+                                    }
+                                ],
+                                "color": "#69a8ff",
+                                "hovertext": "Project Manager{br}Mr. Daniel Edwards",
+                                "label": "Proj. Manager"
+                            },
+                            {
+                                "category": [
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "Testing Team{br} Nik Arora {br}Jee Chou",
+                                        "label": "Testing Team"
+                                    }
+                                ],
+                                "color": "#69a8ff",
+                                "hovertext": "Q & A Manager{br}Mr. Lee Chong",
+                                "label": "Q & A Manager"
+                            },
+                            {
+                                "category": [
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "System Requirement Study Team{br} Raju Sharma {br}Ravi Srivastav",
+                                        "label": "Study"
+                                    },
+                                    {
+                                        "color": "#69a8ff",
+                                        "hovertext": "Design Team{br} Raju Sharma {br}Ravi Srivastav {br}Robin Smith {br}Harry Tofel",
+                                        "label": "Design"
+                                    }
+                                ],
+                                "color": "#69a8ff",
+                                "hovertext": "System Architecture Manager{br}Mr. Rajiv Kumar",
+                                "label": "Architect"
+                            }
+                        ],
+                        "color": "#69a8ff",
+                        "hovertext": "Chief Technology Officer{br}Mr. Ed Harley{br}Joined: 1988",
+                        "label": "CTO",
+                        "link": "n-http://www.fusioncharts.com/company/team/"
+                    },
+                    {
+                        "category": [
+                            {
+                                "category": [
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Team for salary accounts maintenance and upkeep",
+                                        "label": "Salary"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Team for accounting of  purchase of S/w and goods",
+                                        "label": "Purchase"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Other Payments",
+                                        "label": "Other"
+                                    }
+                                ],
+                                "color": "#6fc9ff",
+                                "hovertext": "Accounts Payable Team",
+                                "label": "Payables"
+                            },
+                            {
+                                "category": [
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Online Software Receipts Accounts",
+                                        "label": "SW1"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Physical Software Receipts Accounts",
+                                        "label": "SW2"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Services Collection",
+                                        "label": "SER1"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Services Collection (Physical)",
+                                        "label": "SER2"
+                                    },
+                                    {
+                                        "color": "#6fc9ff",
+                                        "hovertext": "Subscription and Other Collections",
+                                        "label": "OTR"
+                                    }
+                                ],
+                                "color": "#6fc9ff",
+                                "hovertext": "Accounts Receivables Team",
+                                "label": "Receivables"
+                            }
+                        ],
+                        "color": "#6fc9ff",
+                        "hovertext": "Chief Financial Officer{br}Mr. John Smith{br}Joined: 1987",
+                        "label": "CFO",
+                        "link": "n-http://www.fusioncharts.com/company/team/"
+                    },
+                    {
+                        "category": [
+                            {
+                                "category": [
+                                    {
+                                        "color": "#6b8dee",
+                                        "hovertext": "Packaging Staff",
+                                        "label": "Packaging"
+                                    },
+                                    {
+                                        "color": "#6b8dee",
+                                        "hovertext": "Investor Relations Upkeep",
+                                        "label": "Inv Rel."
+                                    },
+                                    {
+                                        "color": "#6b8dee",
+                                        "hovertext": "Marketing & Sales",
+                                        "label": "Marketing"
+                                    }
+                                ],
+                                "color": "#6b8dee",
+                                "hovertext": "PR Team",
+                                "label": "PR"
+                            },
+                            {
+                                "category": [
+                                    {
+                                        "color": "#6b8dee",
+                                        "hovertext": "Selection of Candidates",
+                                        "label": "Selection"
+                                    },
+                                    {
+                                        "color": "#6b8dee",
+                                        "hovertext": "Deploying at required site",
+                                        "label": "Deploying"
+                                    }
+                                ],
+                                "color": "#6b8dee",
+                                "hovertext": "HR Team",
+                                "label": "HR"
+                            }
+                        ],
+                        "color": "#6b8dee",
+                        "hovertext": "Chief Information Officer{br}Mr. David Brown{br}Joined: 1992",
+                        "label": "CIO",
+                        "link": "n-http://www.fusioncharts.com/company/team/"
+                    }
+                ],
+                "color": "#FFFFFF",
+                "hovertext": "Chief Technology Officer{br}Mr. Lucas Smith{br}Joined: 1988{br}More details can come here...",
+                "label": "CEO",
+                "link": "n-http://www.fusioncharts.com/company/team/"
+            }
+        ],
+        "chart": {
+            "basefontsize": "9",
+            "bgcolor": "FFFFFF",
+            "caption": "Organization Chart",
+            "hoverfillcolor": "CCCCCC",
+            "piebordercolor": "FFFFFF",
+            "pieborderthickness": "2",
+            "showborder": "0",
+            "showlabels": "1",
+            "showvalue": "1",
+            "showvalueintooltip": "1",
+            "usehovercolor": "1"
+        }
+    },
+    "height": "600",
+    "type": "multilevelpie",
+    "width": "800"
+}

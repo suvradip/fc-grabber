@@ -1,0 +1,163 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "name": "2012 (Actuals)"
+                    },
+                    {
+                        "name": "2013 (Actuals)"
+                    },
+                    {
+                        "name": "2014 (Predicted)"
+                    },
+                    {
+                        "name": "2015 (Predicted)"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "btntextcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Estimate product sales for 2014 and 2015",
+            "captionpadding": "20",
+            "divlinecolor": "CCCCCC",
+            "formaction": "/DataHandlerModified.php",
+            "formbtnbgcolor": "666666",
+            "formtarget": "dragNodeXMLFrame",
+            "legendborderalpha": "0",
+            "legendpadding": "10",
+            "legendshadow": "0",
+            "linethickness": "3",
+            "plotbordercolor": "2f69bf",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "1",
+            "showrestorebtn": "0",
+            "showvalues": "0",
+            "subcaption": "Drag the anchor points to adjust data",
+            "submitformusingajax": "0",
+            "yaxisname": "Units"
+        },
+        "dataset": [
+            {
+                "color": "328de4",
+                "data": [
+                    {
+                        "allowdrag": "0",
+                        "id": "IJ2005",
+                        "value": "25601"
+                    },
+                    {
+                        "allowdrag": "0",
+                        "id": "IJ2006",
+                        "value": "20148"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "IJ2007",
+                        "value": "17372"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "IJ2008",
+                        "value": "35407"
+                    }
+                ],
+                "id": "IJ",
+                "seriesname": "Inkjet Printers"
+            },
+            {
+                "color": "45a4f5",
+                "data": [
+                    {
+                        "allowdrag": "0",
+                        "id": "LJ2005",
+                        "value": "57401"
+                    },
+                    {
+                        "allowdrag": "0",
+                        "id": "LJ2006",
+                        "value": "41941"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "LJ2007",
+                        "value": "45263"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "LJ2008",
+                        "value": "87320"
+                    }
+                ],
+                "id": "LJ",
+                "seriesname": "Laser Printers"
+            },
+            {
+                "color": "46c4f9",
+                "data": [
+                    {
+                        "allowdrag": "0",
+                        "id": "CR2005",
+                        "value": "45000"
+                    },
+                    {
+                        "allowdrag": "0",
+                        "id": "CR2006",
+                        "value": "44835"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "CR2007",
+                        "value": "18722"
+                    },
+                    {
+                        "dashed": "1",
+                        "id": "CR2008",
+                        "value": "77557"
+                    }
+                ],
+                "id": "CR",
+                "seriesname": "Cartridges",
+                "showvalues": "0"
+            }
+        ],
+        "styles": {
+            "application": [
+                {
+                    "styles": "myCaptionFont",
+                    "toobject": "Caption"
+                },
+                {
+                    "styles": "mySubCaptionFont",
+                    "toobject": "SubCaption"
+                }
+            ],
+            "definition": [
+                {
+                    "bold": "1",
+                    "font": "Arial",
+                    "name": "myCaptionFont",
+                    "size": "14",
+                    "type": "font"
+                },
+                {
+                    "bold": "0",
+                    "font": "Arial",
+                    "name": "mySubCaptionFont",
+                    "size": "10",
+                    "type": "font"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "dragline",
+    "width": "800"
+}

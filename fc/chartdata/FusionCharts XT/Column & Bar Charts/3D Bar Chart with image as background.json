@@ -1,0 +1,107 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "BMW 3 Series Coupe"
+                    },
+                    {
+                        "label": "BMW 3 Series Tourer"
+                    },
+                    {
+                        "label": "BMW 5 Series GT"
+                    },
+                    {
+                        "label": "BMW 5 Series Tourer"
+                    },
+                    {
+                        "label": "BMW 6 Series Coupe"
+                    },
+                    {
+                        "label": "BMW 6 Series Gran Coupe"
+                    },
+                    {
+                        "label": "BMW 7 Series Saloon"
+                    },
+                    {
+                        "label": "BMW X3"
+                    },
+                    {
+                        "label": "BMW X5"
+                    },
+                    {
+                        "label": "BMW X6"
+                    },
+                    {
+                        "label": "BMW Z4 Roadster"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgalpha": "0",
+            "bgimage": "/images/BMW_logo.png",
+            "bgimagealpha": "10",
+            "bgimagedisplaymode": "stretch",
+            "bgimagescale": "45",
+            "canvasbasecolor": "#C8C8C8",
+            "canvasbgalpha": "0",
+            "caption": "BMW Global Sales - By Model",
+            "divlinealpha": "15",
+            "logoposition": "TL",
+            "numberprefix": "",
+            "palettecolors": "#1559CF",
+            "showalternatevgridcolor": "0",
+            "showborder": "0",
+            "showlegend": "0",
+            "showvalues": "0",
+            "subcaption": "For the year 2012",
+            "xaxisname": "Model",
+            "yaxisname": "Units Sold"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "29525"
+                    },
+                    {
+                        "value": "59144"
+                    },
+                    {
+                        "value": "21087"
+                    },
+                    {
+                        "value": "57425"
+                    },
+                    {
+                        "value": "8480"
+                    },
+                    {
+                        "value": "6833"
+                    },
+                    {
+                        "value": "59184"
+                    },
+                    {
+                        "value": "149853"
+                    },
+                    {
+                        "value": "147776"
+                    },
+                    {
+                        "value": "43689"
+                    },
+                    {
+                        "value": "15249"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msbar3d",
+    "width": "800"
+}

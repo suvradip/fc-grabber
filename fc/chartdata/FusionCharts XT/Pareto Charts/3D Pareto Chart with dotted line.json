@@ -1,0 +1,54 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "anchoralpha": "0",
+            "anchorradius": "3",
+            "anchorsides": "10",
+            "animation": "0",
+            "bgcolor": "FFFFFF",
+            "canvasbasedepth": "5",
+            "caption": "Hardware Defects",
+            "linecolor": "6DA81E",
+            "linedashed": "1",
+            "linedashlen": "10",
+            "linethickness": "10",
+            "outcnvbasefontcolor": "2D4230",
+            "showBorder": "0",
+            "showcanvasbase": "0",
+            "showcanvasbg": "0",
+            "showshadow": "0",
+            "showvalues": "0"
+        },
+        "data": [
+            {
+                "color": "#F6BC33",
+                "label": "Hard Disk",
+                "value": "87"
+            },
+            {
+                "color": "#F6BC33",
+                "label": "PCB",
+                "value": "79"
+            },
+            {
+                "color": "#F6BC33",
+                "label": "Printer",
+                "value": "37"
+            },
+            {
+                "color": "#F6BC33",
+                "label": "Keyboard",
+                "value": "62"
+            },
+            {
+                "color": "#F6BC33",
+                "label": "CDROM",
+                "value": "43"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "pareto3d",
+    "width": "800"
+}

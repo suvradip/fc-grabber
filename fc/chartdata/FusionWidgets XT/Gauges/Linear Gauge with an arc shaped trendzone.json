@@ -1,0 +1,102 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "id": "Grp1",
+                    "items": [
+                        {
+                            "color": "FFFFFF",
+                            "radius": "800",
+                            "type": "circle"
+                        }
+                    ],
+                    "showbelow": "0",
+                    "x": "$chartCenterX",
+                    "y": "-765"
+                },
+                {
+                    "id": "Grp2",
+                    "items": [
+                        {
+                            "fillcolor": "678000,FCEF27,E00000",
+                            "tox": "$gaugeEndX",
+                            "toy": "$gaugeEndY",
+                            "type": "rectangle",
+                            "x": "$gaugeStartX",
+                            "y": "$gaugeStartY"
+                        }
+                    ],
+                    "showbelow": "1"
+                },
+                {
+                    "id": "Grp3",
+                    "items": [
+                        {
+                            "bold": "1",
+                            "color": "FFFFFF",
+                            "label": "Good",
+                            "size": "10",
+                            "type": "text",
+                            "x": "$gaugeStartX+25",
+                            "y": "40"
+                        },
+                        {
+                            "bold": "1",
+                            "color": "FFFFFF",
+                            "label": "Bad",
+                            "size": "10",
+                            "type": "text",
+                            "x": "$gaugeEndX-25",
+                            "y": "40"
+                        }
+                    ],
+                    "showbelow": "0"
+                }
+            ]
+        },
+        "chart": {
+            "animation": "0",
+            "annrenderdelay": "0",
+            "basefontcolor": "000000",
+            "bgcolor": "FFFFFF",
+            "gaugefillmix": "",
+            "lowerlimit": "0",
+            "manageresize": "1",
+            "minortmnumber": "0",
+            "numbersuffix": "%",
+            "origh": "90",
+            "origw": "420",
+            "pointerbgcolor": "000000",
+            "pointerbordercolor": "000000",
+            "pointerontop": "0",
+            "pointerradius": "5",
+            "showborder": "0",
+            "showgaugeborder": "0",
+            "showshadow": "0",
+            "ticksbelowgauge": "1",
+            "upperlimit": "100",
+            "valuepadding": "0"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "alpha": "0",
+                    "maxvalue": "100",
+                    "minvalue": "0"
+                }
+            ]
+        },
+        "pointers": {
+            "pointer": [
+                {
+                    "value": "62"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "hlineargauge",
+    "width": "800"
+}

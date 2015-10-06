@@ -1,0 +1,111 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "N. America",
+                        "tooltext": "North America"
+                    },
+                    {
+                        "label": "Asia"
+                    },
+                    {
+                        "label": "Europe"
+                    },
+                    {
+                        "label": "Australia"
+                    },
+                    {
+                        "label": "Africa"
+                    }
+                ],
+                "font": "Arial",
+                "fontsize": "12"
+            }
+        ],
+        "chart": {
+            "animation": "1",
+            "basefont": "Arial",
+            "basefontsize": "12",
+            "caption": "Number of reported incidences",
+            "legendborderalpha": "0",
+            "palette": "2",
+            "rotatenames": "0",
+            "showBorder": "0",
+            "showvalues": "0",
+            "subcaption": "By continent",
+            "useroundedges": "1",
+            "yaxisname": "# of reported incidences"
+        },
+        "dataset": [
+            {
+                "alpha": "90",
+                "color": "9ACCF6",
+                "dashed": "0",
+                "data": [
+                    {
+                        "value": "30"
+                    },
+                    {
+                        "value": "26"
+                    },
+                    {
+                        "value": "29"
+                    },
+                    {
+                        "value": "31"
+                    },
+                    {
+                        "value": "34"
+                    }
+                ],
+                "seriesname": "2013",
+                "showvalues": "0"
+            },
+            {
+                "alpha": "90",
+                "color": "82CF27",
+                "data": [
+                    {
+                        "value": "27"
+                    },
+                    {
+                        "value": "25"
+                    },
+                    {
+                        "value": "28"
+                    },
+                    {
+                        "value": "26"
+                    },
+                    {
+                        "value": "10"
+                    }
+                ],
+                "seriesname": "2012",
+                "showvalues": "0"
+            }
+        ],
+        "trendlines": [
+            {
+                "line": [
+                    {
+                        "alpha": "20",
+                        "color": "8BBA00",
+                        "displayvalue": "Acceptable",
+                        "endvalue": "35",
+                        "istrendzone": "1",
+                        "showontop": "0",
+                        "startvalue": "20",
+                        "thickness": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscolumn2d",
+    "width": "800"
+}

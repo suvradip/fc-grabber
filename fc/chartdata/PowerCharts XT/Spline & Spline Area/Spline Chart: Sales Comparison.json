@@ -1,0 +1,155 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Jan"
+                    },
+                    {
+                        "label": "Feb"
+                    },
+                    {
+                        "label": "Mar"
+                    },
+                    {
+                        "label": "Apr"
+                    },
+                    {
+                        "label": "May"
+                    },
+                    {
+                        "label": "Jun"
+                    },
+                    {
+                        "label": "Jul"
+                    },
+                    {
+                        "label": "Aug"
+                    },
+                    {
+                        "label": "Sep"
+                    },
+                    {
+                        "label": "Oct"
+                    },
+                    {
+                        "label": "Nov"
+                    },
+                    {
+                        "label": "Dec"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "canvasbordercolor": "CCCCCC",
+            "canvasborderthickness": "1",
+            "caption": "Sales - 2012 v 2013",
+            "captionpadding": "30",
+            "divlinecolor": "CCCCCC",
+            "legendborderalpha": "0",
+            "legendshadow": "0",
+            "linethickness": "3",
+            "numberprefix": "$",
+            "palettecolors": "#f8bd19,#008ee4,#33bdda,#e44a00,#6baa01,#583e78",
+            "plotgradientcolor": "",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showvalues": "0",
+            "yaxismaxvalue": "30000",
+            "yaxisvaluespadding": "15"
+        },
+        "dataset": [
+            {
+                "data": [
+                    {
+                        "value": "22400"
+                    },
+                    {
+                        "value": "24800"
+                    },
+                    {
+                        "value": "21800"
+                    },
+                    {
+                        "value": "21800"
+                    },
+                    {
+                        "value": "24600"
+                    },
+                    {
+                        "value": "27600"
+                    },
+                    {
+                        "value": "26800"
+                    },
+                    {
+                        "value": "27700"
+                    },
+                    {
+                        "value": "23700"
+                    },
+                    {
+                        "value": "25900"
+                    },
+                    {
+                        "value": "26800"
+                    },
+                    {
+                        "value": "24800"
+                    }
+                ],
+                "seriesname": "2013"
+            },
+            {
+                "data": [
+                    {
+                        "value": "10000"
+                    },
+                    {
+                        "value": "11500"
+                    },
+                    {
+                        "value": "12500"
+                    },
+                    {
+                        "value": "15000"
+                    },
+                    {
+                        "value": "16000"
+                    },
+                    {
+                        "value": "17600"
+                    },
+                    {
+                        "value": "18800"
+                    },
+                    {
+                        "value": "19700"
+                    },
+                    {
+                        "value": "21700"
+                    },
+                    {
+                        "value": "21900"
+                    },
+                    {
+                        "value": "22900"
+                    },
+                    {
+                        "value": "20800"
+                    }
+                ],
+                "seriesname": "2012"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msspline",
+    "width": "800"
+}

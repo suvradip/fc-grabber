@@ -1,0 +1,61 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "chart": {
+            "bgalpha": "100",
+            "bgcolor": "FFFFFF",
+            "caption": "Sales distribution by Employee",
+            "enablesmartlabels": "1",
+            "is2d": "1",
+            "issliced": "1",
+            "numberprefix": "$",
+            "plotborderalpha": "100",
+            "plotbordercolor": "FFFFFF",
+            "plotborderthickness": "1",
+            "showborder": "0",
+            "showplotborder": "1",
+            "subcaption": "Jan 07 - Jul 07"
+        },
+        "data": [
+            {
+                "label": "Buchanan",
+                "value": "50000"
+            },
+            {
+                "label": "Callahan",
+                "value": "49000"
+            },
+            {
+                "label": "Davolio",
+                "value": "63000"
+            },
+            {
+                "label": "Dodsworth",
+                "value": "41000"
+            },
+            {
+                "label": "Fuller",
+                "value": "74000"
+            },
+            {
+                "label": "King",
+                "value": "49000"
+            },
+            {
+                "label": "Leverling",
+                "value": "77000"
+            },
+            {
+                "label": "Peacock",
+                "value": "54000"
+            },
+            {
+                "label": "Suyama",
+                "value": "14000"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "pyramid",
+    "width": "800"
+}

@@ -1,0 +1,57 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "constrainedscale": "0",
+                    "id": "GRP1",
+                    "items": [
+                        {
+                            "color": "000000",
+                            "linethickness": "3",
+                            "toy": "$gaugeEndY-1",
+                            "type": "line",
+                            "y": "$gaugeStartY+1"
+                        }
+                    ],
+                    "showbelow": "0",
+                    "x": "$gaugeCenterX"
+                }
+            ]
+        },
+        "chart": {
+            "annrenderdelay": "1.7",
+            "decmials": "0",
+            "ledgap": "2",
+            "ledsize": "2",
+            "lowerlimit": "0",
+            "majortmcolor": "646F8F",
+            "majortmheight": "9",
+            "majortmnumber": "11",
+            "majortmthickness": "1",
+            "manageresize": "1",
+            "minortmcolor": "646F8F",
+            "minortmheight": "3",
+            "minortmnumber": "2",
+            "numbersuffix": "%",
+            "origh": "250",
+            "origw": "240",
+            "showborder": "0",
+            "upperlimit": "100"
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "code": "00dd00",
+                    "maxvalue": "20",
+                    "minvalue": "0"
+                }
+            ]
+        },
+        "value": "45"
+    },
+    "height": "600",
+    "type": "vled",
+    "width": "800"
+}

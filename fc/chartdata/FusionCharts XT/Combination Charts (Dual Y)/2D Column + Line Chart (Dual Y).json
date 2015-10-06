@@ -1,0 +1,121 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Seafood"
+                    },
+                    {
+                        "label": "Beverages"
+                    },
+                    {
+                        "label": "Condiments"
+                    },
+                    {
+                        "label": "Dairy Products"
+                    },
+                    {
+                        "label": "Confections"
+                    },
+                    {
+                        "label": "Meat/Poultry"
+                    },
+                    {
+                        "label": "Grains/Cereals"
+                    },
+                    {
+                        "label": "Produce"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "0",
+            "caption": "Inventory by Product Categories",
+            "divlinecolor": "CCCCCC",
+            "labeldisplay": "STAGGER",
+            "legendborderalpha": "0",
+            "legendshadow": "0",
+            "numberprefix": "$",
+            "plotgradientcolor": "",
+            "pyaxisname": "Cost of Inventory",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showcanvasborder": "0",
+            "showplotborder": "0",
+            "showvalues": "0",
+            "slantlabels": "1",
+            "syaxisname": "Units in Inventory"
+        },
+        "dataset": [
+            {
+                "color": "008ee4",
+                "data": [
+                    {
+                        "value": "13510"
+                    },
+                    {
+                        "value": "12480"
+                    },
+                    {
+                        "value": "12024"
+                    },
+                    {
+                        "value": "11271"
+                    },
+                    {
+                        "value": "10392"
+                    },
+                    {
+                        "value": "5729"
+                    },
+                    {
+                        "value": "5594"
+                    },
+                    {
+                        "value": "3549"
+                    }
+                ],
+                "seriesname": "Cost of Inventory"
+            },
+            {
+                "color": "f8bd19",
+                "data": [
+                    {
+                        "value": "701"
+                    },
+                    {
+                        "value": "559"
+                    },
+                    {
+                        "value": "507"
+                    },
+                    {
+                        "value": "393"
+                    },
+                    {
+                        "value": "386"
+                    },
+                    {
+                        "value": "165"
+                    },
+                    {
+                        "value": "258"
+                    },
+                    {
+                        "value": "100"
+                    }
+                ],
+                "parentyaxis": "S",
+                "renderas": "Line",
+                "seriesname": "Quantity"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "mscombidy2d",
+    "width": "800"
+}

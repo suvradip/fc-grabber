@@ -1,0 +1,179 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "8/6/2006"
+                    },
+                    {
+                        "label": "8/7/2006"
+                    },
+                    {
+                        "label": "8/8/2006"
+                    },
+                    {
+                        "label": "8/9/2006"
+                    },
+                    {
+                        "label": "8/10/2006"
+                    },
+                    {
+                        "label": "8/11/2006"
+                    },
+                    {
+                        "label": "8/12/2006"
+                    }
+                ]
+            }
+        ],
+        "chart": {
+            "anchorradius": "2",
+            "bgcolor": "FFFFFF",
+            "canvasborderalpha": "50",
+            "canvasborderthickness": "1",
+            "caption": "Daily Visits",
+            "divlinealpha": "30",
+            "divlinecolor": "666666",
+            "divlineisdashed": "1",
+            "formatnumberscale": "0",
+            "labelpadding": "10",
+            "labelstep": "2",
+            "legendborderalpha": "0",
+            "legendiconscale": "1.5",
+            "legendposition": "right",
+            "legendshadow": "0",
+            "linethickness": "1",
+            "numvdivlines": "5",
+            "showalternatehgridcolor": "0",
+            "showborder": "0",
+            "showvalues": "0",
+            "subcaption": "(from 8/6/2013 to 8/12/2013)",
+            "vdivlinealpha": "20"
+        },
+        "dataset": [
+            {
+                "anchorbgcolor": "1D8BD1",
+                "anchorbordercolor": "1D8BD1",
+                "color": "1D8BD1",
+                "data": [
+                    {
+                        "value": "1327"
+                    },
+                    {
+                        "value": "1826"
+                    },
+                    {
+                        "value": "1699"
+                    },
+                    {
+                        "value": "1511"
+                    },
+                    {
+                        "value": "1904"
+                    },
+                    {
+                        "value": "1957"
+                    },
+                    {
+                        "value": "1296"
+                    }
+                ],
+                "seriesname": "Offline Marketing"
+            },
+            {
+                "anchorbgcolor": "F1683C",
+                "anchorbordercolor": "F1683C",
+                "color": "F1683C",
+                "data": [
+                    {
+                        "value": "2042"
+                    },
+                    {
+                        "value": "3210"
+                    },
+                    {
+                        "value": "2994"
+                    },
+                    {
+                        "value": "3115"
+                    },
+                    {
+                        "value": "2844"
+                    },
+                    {
+                        "displayvalue": "New listing in Yahoo & Bing",
+                        "showvalue": "1",
+                        "value": "3576"
+                    },
+                    {
+                        "value": "1862"
+                    }
+                ],
+                "seriesname": "Search"
+            },
+            {
+                "anchorbgcolor": "2AD62A",
+                "anchorbordercolor": "2AD62A",
+                "color": "2AD62A",
+                "data": [
+                    {
+                        "value": "850"
+                    },
+                    {
+                        "value": "1010"
+                    },
+                    {
+                        "value": "1116"
+                    },
+                    {
+                        "value": "1234"
+                    },
+                    {
+                        "value": "1210"
+                    },
+                    {
+                        "value": "1054"
+                    },
+                    {
+                        "value": "802"
+                    }
+                ],
+                "seriesname": "Paid Search"
+            },
+            {
+                "anchorbgcolor": "DBDC25",
+                "anchorbordercolor": "DBDC25",
+                "color": "DBDC25",
+                "data": [
+                    {
+                        "value": "541"
+                    },
+                    {
+                        "value": "781"
+                    },
+                    {
+                        "value": "920"
+                    },
+                    {
+                        "value": "754"
+                    },
+                    {
+                        "value": "840"
+                    },
+                    {
+                        "value": "893"
+                    },
+                    {
+                        "value": "451"
+                    }
+                ],
+                "seriesname": "From Mail"
+            }
+        ]
+    },
+    "height": "600",
+    "type": "msline",
+    "width": "800"
+}

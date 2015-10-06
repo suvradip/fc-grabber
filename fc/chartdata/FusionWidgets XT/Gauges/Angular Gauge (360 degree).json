@@ -1,0 +1,104 @@
+{
+    "dataFormat": "json",
+    "dataSource": {
+        "annotations": {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "bordercolor": "333333",
+                            "borderthickness": "2",
+                            "fillcolor": "333333",
+                            "radius": "15",
+                            "showborder": "1",
+                            "tox": "$chartEndX-1",
+                            "toy": "$chartEndY-1",
+                            "type": "rectangle",
+                            "x": "$chartStartX+1",
+                            "y": "$chartStartY+1"
+                        },
+                        {
+                            "bordercolor": "333333",
+                            "fillalpha": "100,100,100",
+                            "fillangle": "45",
+                            "fillcolor": "FFFFFF,009999,FFFFFF",
+                            "radius": "15",
+                            "showborder": "1",
+                            "tox": "$chartEndX-8",
+                            "toy": "$chartEndY-8",
+                            "type": "rectangle",
+                            "x": "$chartStartX+8",
+                            "y": "$chartStartY+8"
+                        }
+                    ]
+                }
+            ]
+        },
+        "chart": {
+            "autoaligntickvalues": "1",
+            "basefontcolor": "333333",
+            "bgalpha": "0",
+            "bgcolor": "FFFFFF",
+            "chartbottommargin": "0",
+            "chartleftmargin": "0",
+            "chartrightmargin": "0",
+            "charttopmargin": "0",
+            "decimals": "0",
+            "gaugeendangle": "-180",
+            "gaugeinnerradius": "0",
+            "gaugeoriginx": "135",
+            "gaugeoriginy": "135",
+            "gaugeouterradius": "85",
+            "gaugestartangle": "180",
+            "lowerlimit": "0",
+            "lowerlimitdisplay": "Start",
+            "majortmheight": "9",
+            "majortmnumber": "12",
+            "majortmthickness": "2",
+            "manageresize": "1",
+            "managevalueoverlapping": "1",
+            "minortmcolor": "000000",
+            "minortmheight": "3",
+            "minortmnumber": "5",
+            "origh": "270",
+            "origw": "270",
+            "showborder": "0",
+            "tickvaluedistance": "5",
+            "upperlimit": "360",
+            "upperlimitdisplay": " "
+        },
+        "colorrange": {
+            "color": [
+                {
+                    "bordercolor": "00B900",
+                    "code": "00B900",
+                    "maxvalue": "120",
+                    "minvalue": "0"
+                },
+                {
+                    "bordercolor": "FDC12E",
+                    "code": "FDC12E",
+                    "maxvalue": "240",
+                    "minvalue": "120"
+                },
+                {
+                    "bordercolor": "E95D0F",
+                    "code": "E95D0F",
+                    "maxvalue": "360",
+                    "minvalue": "240"
+                }
+            ]
+        },
+        "dials": {
+            "dial": [
+                {
+                    "radius": "85",
+                    "value": "160"
+                }
+            ]
+        }
+    },
+    "height": "600",
+    "type": "angulargauge",
+    "width": "800"
+}
